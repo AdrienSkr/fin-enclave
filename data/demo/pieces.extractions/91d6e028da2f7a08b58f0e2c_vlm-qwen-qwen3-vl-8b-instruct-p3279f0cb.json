@@ -1,0 +1,21 @@
+{
+  "doc_type": "invoice",
+  "entities": [
+    {
+      "name": "Crescent Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Peter Hughes",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

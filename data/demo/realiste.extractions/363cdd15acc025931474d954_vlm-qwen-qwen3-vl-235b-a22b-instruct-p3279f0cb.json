@@ -1,0 +1,94 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Amberfield Partners Ltd.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Redwood4900,00Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ironwood Ventures S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Telecom6.250,00",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Catering Ltd 5.175,00",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Courier5.125,00",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Telecom250,00",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Amberfield Partners Ltd.",
+  "statement_lines": [
+    {
+      "date": "2022-09-04",
+      "counterparty": "Redwood4900,00Ltd",
+      "amount": -4900.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Ironwood Ventures S.A.",
+      "amount": 15037.1,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Seaglass Group Limited",
+      "amount": 7348.32,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Seaglass Holdings Inc.",
+      "amount": 1577.86,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-13",
+      "counterparty": "Summit Telecom6.250,00",
+      "amount": -6250.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Bluefin Catering Ltd 5.175,00",
+      "amount": -5175.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-31",
+      "counterparty": "Crescent Courier5.125,00",
+      "amount": -5125.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Pinewood Telecom250,00",
+      "amount": -250.0,
+      "currency": "EUR"
+    }
+  ]
+}

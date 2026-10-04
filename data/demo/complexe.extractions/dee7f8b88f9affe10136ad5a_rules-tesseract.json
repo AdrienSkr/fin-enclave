@@ -1,0 +1,23 @@
+{
+  "doc_type": "other",
+  "entities": [
+    {
+      "name": "\\ronwood Holdings Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Registered agent Coral Fiduciary services Ltd",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Registered agent Coral Fiduciary services Ltd",
+      "target": "\\ronwood Holdings Ltd",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

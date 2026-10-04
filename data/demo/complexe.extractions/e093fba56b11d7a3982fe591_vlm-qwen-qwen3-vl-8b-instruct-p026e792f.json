@@ -1,0 +1,32 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Stonehaven Trading Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Dimitri Lindholm",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Oakridge Enterprises Limited",
+      "target": "Stonehaven Trading Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Dimitri Lindholm",
+      "target": "Stonehaven Trading Inc.",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

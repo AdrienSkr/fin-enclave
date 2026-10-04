@@ -1,0 +1,32 @@
+{
+  "doc_type": "invoice",
+  "entities": [
+    {
+      "name": "Redwood Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Peter Hughes",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Redwood Printing Ltd",
+      "target": "Summit Telecom Inc",
+      "role": "other"
+    },
+    {
+      "source": "Summit Telecom Inc",
+      "target": "Peter Hughes",
+      "role": "other"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

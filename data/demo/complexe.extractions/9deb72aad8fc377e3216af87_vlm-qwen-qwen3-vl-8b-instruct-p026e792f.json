@@ -1,0 +1,122 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Fairhaven Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Catering Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-10-21",
+      "counterparty": "Redwood Catering Inc",
+      "amount": -25750.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-26",
+      "counterparty": "Summit Cleaning Inc",
+      "amount": -25950.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-28",
+      "counterparty": "Monthly staff payroll REF 30208",
+      "amount": -8850.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-30",
+      "counterparty": "Commercial premises lease REF 70500",
+      "amount": -9450.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-03",
+      "counterparty": "Bluefin Supplies Inc",
+      "amount": -9300.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-03",
+      "counterparty": "Redwood Supplies Ltd",
+      "amount": -5250.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-03",
+      "counterparty": "Redwood Telecom Ltd",
+      "amount": -5125.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-04",
+      "counterparty": "Harbour Printing Inc",
+      "amount": -3700.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-07",
+      "counterparty": "Summit Catering Ltd",
+      "amount": -9550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-07",
+      "counterparty": "Bluefin Telecom Inc",
+      "amount": -10750.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-07",
+      "counterparty": "Pinewood Catering Ltd",
+      "amount": -3900.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-08",
+      "counterparty": "Harbour Printing Inc",
+      "amount": -17300.0,
+      "currency": "GBP"
+    }
+  ]
+}

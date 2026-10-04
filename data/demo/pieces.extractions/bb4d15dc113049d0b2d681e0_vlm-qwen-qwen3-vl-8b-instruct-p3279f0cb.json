@@ -1,0 +1,25 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Thornfield Capital Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Oskar Lindqvist",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Thornfield Capital Limited",
+      "payee": "Oskar Lindqvist",
+      "amount": 336300.45,
+      "currency": "USD",
+      "date": "2014-04-28"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

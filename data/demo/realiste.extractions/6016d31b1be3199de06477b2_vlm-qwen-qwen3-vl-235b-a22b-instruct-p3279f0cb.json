@@ -1,0 +1,140 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Mistvale Enterprises Ltd.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Bluefin Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood County Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Fairhaven Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Inc",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Mistvale Enterprises Ltd.",
+  "statement_lines": [
+    {
+      "date": "2022-08-27",
+      "counterparty": "Bluefin Supplies Inc",
+      "amount": 17300.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-02",
+      "counterparty": "Crescent Supplies Inc",
+      "amount": 11650.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-04",
+      "counterparty": "Redwood County Ltd",
+      "amount": 1000.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-08",
+      "counterparty": "Fairhaven Holdings Inc.",
+      "amount": 13690.05,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Summit Printing Ltd",
+      "amount": 2350.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-15",
+      "counterparty": "Harbour Printing Ltd",
+      "amount": -6925.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Crescent Catering Ltd",
+      "amount": 1075.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-30",
+      "counterparty": "Harbour Cleaning Ltd",
+      "amount": -8325.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-06",
+      "counterparty": "Summit Supplies Inc",
+      "amount": 22750.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-19",
+      "counterparty": "Paper Catering Inc",
+      "amount": 14900.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-26",
+      "counterparty": "Paper Cleaning Ltd",
+      "amount": -8850.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-02",
+      "counterparty": "Harbour Printing Inc",
+      "amount": 3700.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-06",
+      "counterparty": "Harbour Printing Inc",
+      "amount": 17300.0,
+      "currency": "USD"
+    }
+  ]
+}

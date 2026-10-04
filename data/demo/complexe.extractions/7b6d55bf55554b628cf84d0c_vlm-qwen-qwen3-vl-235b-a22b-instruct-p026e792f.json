@@ -1,0 +1,23 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Seaglass Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Atlas Nominees Bureau Ltd.",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Atlas Nominees Bureau Ltd.",
+      "target": "Seaglass Holdings Inc.",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

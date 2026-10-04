@@ -1,0 +1,32 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Mistvale Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Sigrid Castille",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Oakridge Enterprises Limited",
+      "target": "Mistvale Enterprises Limited",
+      "role": "shareholder"
+    },
+    {
+      "source": "Sigrid Castille",
+      "target": "Mistvale Enterprises Limited",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

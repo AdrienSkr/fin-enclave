@@ -1,0 +1,32 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Thornfield Capital Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Trading S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Vincent Holmgren",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Willowmere Trading S.A.",
+      "target": "Thornfield Capital Limited",
+      "role": "shareholder"
+    },
+    {
+      "source": "Vincent Holmgren",
+      "target": "Thornfield Capital Limited",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

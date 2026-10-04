@@ -1,0 +1,32 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Willowmere Management Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Enterprises Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Sigrid Castille",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Oakridge Enterprises Limited",
+      "target": "Willowmere Management Limited",
+      "role": "shareholder"
+    },
+    {
+      "source": "Sigrid Castille",
+      "target": "Willowmere Management Limited",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

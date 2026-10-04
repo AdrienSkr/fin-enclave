@@ -1,0 +1,44 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Brightwater Investments Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Supplies Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Cleaning Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Cleaning Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-10-25",
+      "counterparty": "Pinewood Supplies Inc",
+      "amount": -14200.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-25",
+      "counterparty": "Redwood Cleaning Inc",
+      "amount": 16600.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-28",
+      "counterparty": "Crescent Cleaning Ltd",
+      "amount": -8325.0,
+      "currency": "USD"
+    }
+  ]
+}

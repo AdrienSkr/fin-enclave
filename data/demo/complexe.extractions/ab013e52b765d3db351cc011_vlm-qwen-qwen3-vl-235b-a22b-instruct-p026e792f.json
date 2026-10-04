@@ -1,0 +1,171 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Ironwood Ventures S.A.",
+  "statement_lines": [
+    {
+      "date": "2022-08-20",
+      "counterparty": "Saldo inicial",
+      "amount": 740324.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-22",
+      "counterparty": "Abono de factura cliente - Paper Printing Inc",
+      "amount": 7600.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-25",
+      "counterparty": "Material de oficina y fungibles - Crescent Supplies Ltd",
+      "amount": -8225.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-29",
+      "counterparty": "Servicios de transporte y distribución - Redwood Telecom Ltd",
+      "amount": -10850.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-04",
+      "counterparty": "Pago arrendamiento comercial REF 99185",
+      "amount": -9575.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-06",
+      "counterparty": "TRANSF SEPA REF 50039 Mistvale Partners Limited",
+      "amount": -19194.69,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-07",
+      "counterparty": "TRANSF SEPA REF 24261 Seaglass Group Limited",
+      "amount": -15377.24,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-07",
+      "counterparty": "Gastos legales y auditoría externa - Summit Cleaning Ltd",
+      "amount": -3150.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Servicios de transporte y distribución - Summit Supplies Ltd",
+      "amount": -1275.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Suscripción servicios nube y software - Crescent Catering Ltd",
+      "amount": -1600.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-15",
+      "counterparty": "Gastos legales y auditoría externa - Paper Couriers Ltd",
+      "amount": -4450.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-16",
+      "counterparty": "Pago arrendamiento comercial REF 98375",
+      "amount": -2625.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-17",
+      "counterparty": "Servicios de telecomunicaciones - Paper Supplies Ltd",
+      "amount": -5925.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-19",
+      "counterparty": "Suscripción servicios nube y software - Paper Cleaning Ltd",
+      "amount": -3625.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-21",
+      "counterparty": "Pago arrendamiento comercial REF 73612",
+      "amount": -3125.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-21",
+      "counterparty": "Abono de factura cliente - Paper Printing Inc",
+      "amount": 8950.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Transferencia recibida servicios - Crescent Printing Inc",
+      "amount": 8950.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-27",
+      "counterparty": "Abono de factura cliente - Pinewood Cleaning Inc",
+      "amount": 27350.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-07",
+      "counterparty": "Transferencia recibida servicios - Pinewood Printing Inc",
+      "amount": 11600.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-09",
+      "counterparty": "Pago arrendamiento comercial REF 16536",
+      "amount": -25900.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-13",
+      "counterparty": "Servicios de telecomunicaciones - Paper Telecom Ltd",
+      "amount": -6575.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Abono de factura cliente - Crescent Catering Inc",
+      "amount": 5025.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Material de oficina y fungibles - Paper Printing Ltd",
+      "amount": -24550.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Gastos legales y auditoría externa - Redwood Telecom Ltd",
+      "amount": -3600.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-29",
+      "counterparty": "Material de oficina y fungibles - Crescent Catering Ltd",
+      "amount": -7975.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-31",
+      "counterparty": "Material de oficina y fungibles - Paper Catering Ltd",
+      "amount": -4150.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-31",
+      "counterparty": "Saldo final",
+      "amount": 767541.45,
+      "currency": "EUR"
+    }
+  ]
+}

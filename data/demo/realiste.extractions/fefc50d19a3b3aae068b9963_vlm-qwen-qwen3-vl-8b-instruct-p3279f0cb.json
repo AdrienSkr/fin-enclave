@@ -1,0 +1,135 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Stonehaven Trading Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Fairhaven Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Supplies Inc",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Stonehaven Trading Inc.",
+      "payee": "Pinewood Couriers Ltd",
+      "amount": 9050.0,
+      "currency": "EUR",
+      "date": "2022-08-31"
+    },
+    {
+      "payer": "Stonehaven Trading Inc.",
+      "payee": "Paper Catering Ltd",
+      "amount": 4700.0,
+      "currency": "EUR",
+      "date": "2022-09-08"
+    },
+    {
+      "payer": "Stonehaven Trading Inc.",
+      "payee": "Paper Cleaning Ltd",
+      "amount": 3750.0,
+      "currency": "EUR",
+      "date": "2022-09-09"
+    },
+    {
+      "payer": "Stonehaven Trading Inc.",
+      "payee": "Fairhaven Holdings Inc.",
+      "amount": 7425.99,
+      "currency": "EUR",
+      "date": "2022-09-10"
+    },
+    {
+      "payer": "Stonehaven Trading Inc.",
+      "payee": "Harbour Printing Ltd",
+      "amount": 3000.0,
+      "currency": "EUR",
+      "date": "2022-09-16"
+    },
+    {
+      "payer": "Stonehaven Trading Inc.",
+      "payee": "Pinewood Catering Ltd",
+      "amount": 450.0,
+      "currency": "EUR",
+      "date": "2022-09-25"
+    },
+    {
+      "payer": "Stonehaven Trading Inc.",
+      "payee": "Pinewood Supplies Ltd",
+      "amount": 8025.0,
+      "currency": "EUR",
+      "date": "2022-10-05"
+    },
+    {
+      "payer": "Stonehaven Trading Inc.",
+      "payee": "Bluefin Supplies Inc",
+      "amount": 5250.0,
+      "currency": "EUR",
+      "date": "2022-10-11"
+    },
+    {
+      "payer": "Stonehaven Trading Inc.",
+      "payee": "Summit Couriers Ltd",
+      "amount": 7400.0,
+      "currency": "EUR",
+      "date": "2022-10-12"
+    },
+    {
+      "payer": "Stonehaven Trading Inc.",
+      "payee": "Crescent Printing Ltd",
+      "amount": 4125.0,
+      "currency": "EUR",
+      "date": "2022-10-26"
+    },
+    {
+      "payer": "Stonehaven Trading Inc.",
+      "payee": "Harbour Supplies Inc",
+      "amount": 5900.0,
+      "currency": "EUR",
+      "date": "2022-10-27"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

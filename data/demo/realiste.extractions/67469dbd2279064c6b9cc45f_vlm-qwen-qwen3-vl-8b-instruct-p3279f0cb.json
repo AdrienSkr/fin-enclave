@@ -1,0 +1,120 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Ironwood Holdings Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Bluefin Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Assets Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Partners Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Catering Inc",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-20",
+      "counterparty": "Bluefin Telecom Ltd",
+      "amount": -7300.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-20",
+      "counterparty": "Summit Printing Ltd",
+      "amount": -5300.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-25",
+      "counterparty": "Paper Couriers Ltd",
+      "amount": -8550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-04",
+      "counterparty": "Northwind Assets Corp.",
+      "amount": -19194.69,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-06",
+      "counterparty": "Mistvale Partners Limited",
+      "amount": -15377.24,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Redwood Couriers Inc",
+      "amount": -26800.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-15",
+      "counterparty": "Redwood Couriers Ltd",
+      "amount": -5775.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-17",
+      "counterparty": "Summit Couriers Inc",
+      "amount": -27950.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-25",
+      "counterparty": "Bluefin Printing Ltd",
+      "amount": -6825.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-31",
+      "counterparty": "Pinewood Printing Ltd",
+      "amount": -1500.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Bluefin Catering Inc",
+      "amount": -26200.0,
+      "currency": "GBP"
+    }
+  ]
+}

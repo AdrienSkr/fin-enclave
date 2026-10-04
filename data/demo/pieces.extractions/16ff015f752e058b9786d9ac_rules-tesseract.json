@@ -1,0 +1,80 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Copperfield Investments Corp",
+      "kind": "Societe"
+    },
+    {
+      "name": "Nadia Petrova",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Copperfield Investments Corp",
+      "payee": "Nadia Petrova",
+      "amount": 9600.0,
+      "currency": "USD",
+      "date": "2014-04-23"
+    },
+    {
+      "payer": "Copperfield Investments Corp",
+      "payee": "Marco Fiore",
+      "amount": 9350.0,
+      "currency": "USD",
+      "date": "2014-04-23"
+    },
+    {
+      "payer": "Copperfield Investments Corp",
+      "payee": "Lena Hartmann",
+      "amount": 9525.0,
+      "currency": "USD",
+      "date": "2014-04-23"
+    },
+    {
+      "payer": "Copperfield Investments Corp",
+      "payee": "Daniel Moreau",
+      "amount": 9650.0,
+      "currency": "USD",
+      "date": "2014-04-24"
+    },
+    {
+      "payer": "Copperfield Investments Corp",
+      "payee": "Irene Kowalski",
+      "amount": 9725.0,
+      "currency": "USD",
+      "date": "2014-04-24"
+    },
+    {
+      "payer": "Copperfield Investments Corp",
+      "payee": "Pablo Serrano",
+      "amount": 9275.0,
+      "currency": "USD",
+      "date": "2014-04-24"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

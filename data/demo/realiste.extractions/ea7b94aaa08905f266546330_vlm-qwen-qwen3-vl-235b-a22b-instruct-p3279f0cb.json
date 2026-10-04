@@ -1,0 +1,31 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "BRITISH VIRGIN ISLANDS",
+      "kind": "Societe"
+    },
+    {
+      "name": "REGISTRAR OF CORPORATE AFFAIRS",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Assets Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Coral Fiduciary Services Ltd.",
+      "target": "Northwind Assets Corp.",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

@@ -1,0 +1,168 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Willowmere Management Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Catering",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ironwood Ventures S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Pinewood Catering",
+      "amount": 9400.0,
+      "currency": "GBP",
+      "date": "2022-08-31"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Harbour Supplies Inc",
+      "amount": 24300.0,
+      "currency": "GBP",
+      "date": "2022-09-02"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Ironwood Ventures S.A.",
+      "amount": 17620.22,
+      "currency": "GBP",
+      "date": "2022-09-07"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Seaglass Group Limited",
+      "amount": 8610.64,
+      "currency": "GBP",
+      "date": "2022-09-07"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Seaglass Holdings Inc.",
+      "amount": 2284.16,
+      "currency": "GBP",
+      "date": "2022-09-09"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Paper Cleaning Ltd",
+      "amount": 6575.0,
+      "currency": "GBP",
+      "date": "2022-09-14"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Harbour Catering Ltd",
+      "amount": 7325.0,
+      "currency": "GBP",
+      "date": "2022-09-20"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Crescent Printing Inc",
+      "amount": 22900.0,
+      "currency": "GBP",
+      "date": "2022-09-24"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Summit Supplies Ltd",
+      "amount": 3125.0,
+      "currency": "GBP",
+      "date": "2022-09-26"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Bluefin Catering Ltd",
+      "amount": 8975.0,
+      "currency": "GBP",
+      "date": "2022-09-28"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Harbour Cleaning Ltd",
+      "amount": 8675.0,
+      "currency": "GBP",
+      "date": "2022-10-03"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Bluefin Printing Ltd",
+      "amount": 3550.0,
+      "currency": "GBP",
+      "date": "2022-10-09"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Harbour Printing Ltd",
+      "amount": 7675.0,
+      "currency": "GBP",
+      "date": "2022-10-26"
+    },
+    {
+      "payer": "Willowmere Management Limited",
+      "payee": "Summit Printing Ltd",
+      "amount": 7000.0,
+      "currency": "GBP",
+      "date": "2022-10-30"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

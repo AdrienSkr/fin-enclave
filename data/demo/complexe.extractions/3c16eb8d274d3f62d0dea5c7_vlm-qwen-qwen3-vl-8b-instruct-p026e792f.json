@@ -1,0 +1,340 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Cobalt Group Inc.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pinewood Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Capital S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Pinewood Supplies Ltd",
+      "amount": 6750.0,
+      "currency": "EUR",
+      "date": "2022-08-24"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Bluefin Couriers Ltd",
+      "amount": 2100.0,
+      "currency": "EUR",
+      "date": "2022-09-01"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Seaglass Capital S.A.",
+      "amount": 7025.0,
+      "currency": "EUR",
+      "date": "2022-09-02"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Seaglass Capital S.A.",
+      "amount": 9957.07,
+      "currency": "EUR",
+      "date": "2022-09-05"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Summit Cleaning Ltd",
+      "amount": 600.0,
+      "currency": "EUR",
+      "date": "2022-09-06"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Harbour Couriers Ltd",
+      "amount": 8175.0,
+      "currency": "EUR",
+      "date": "2022-09-12"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Harbour Couriers Ltd",
+      "amount": 7025.0,
+      "currency": "EUR",
+      "date": "2022-09-14"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Bluefin Couriers Ltd",
+      "amount": 6050.0,
+      "currency": "EUR",
+      "date": "2022-09-14"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Paper Printing Inc",
+      "amount": 10900.0,
+      "currency": "EUR",
+      "date": "2022-09-15"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Crescent Supplies Ltd",
+      "amount": 8975.0,
+      "currency": "EUR",
+      "date": "2022-09-15"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Harbour Couriers Ltd",
+      "amount": 5375.0,
+      "currency": "EUR",
+      "date": "2022-09-16"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Harbour Supplies Inc",
+      "amount": 3800.0,
+      "currency": "EUR",
+      "date": "2022-09-17"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Paper Catering Inc",
+      "amount": 14300.0,
+      "currency": "EUR",
+      "date": "2022-09-25"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Harbour Supplies Inc",
+      "amount": 6400.0,
+      "currency": "EUR",
+      "date": "2022-09-30"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Paper Catering Ltd",
+      "amount": 1525.0,
+      "currency": "EUR",
+      "date": "2022-09-30"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Pinewood Catering Inc",
+      "amount": 26100.0,
+      "currency": "EUR",
+      "date": "2022-10-04"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Harbour Telecom Inc",
+      "amount": 3350.0,
+      "currency": "EUR",
+      "date": "2022-10-05"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Bluefin Telecom Inc",
+      "amount": 5800.0,
+      "currency": "EUR",
+      "date": "2022-10-07"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Redwood Telecom Ltd",
+      "amount": 4000.0,
+      "currency": "EUR",
+      "date": "2022-10-08"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Pinewood Supplies Ltd",
+      "amount": 8150.0,
+      "currency": "EUR",
+      "date": "2022-10-08"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Bluefin Telecom Inc",
+      "amount": 5250.0,
+      "currency": "EUR",
+      "date": "2022-10-12"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Bluefin Telecom Inc",
+      "amount": 6150.0,
+      "currency": "EUR",
+      "date": "2022-10-12"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Summit Printing Inc",
+      "amount": 19400.0,
+      "currency": "EUR",
+      "date": "2022-10-13"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Summit Couriers Inc",
+      "amount": 14550.0,
+      "currency": "EUR",
+      "date": "2022-10-15"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Bluefin Printing Ltd",
+      "amount": 5300.0,
+      "currency": "EUR",
+      "date": "2022-10-18"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Bluefin Printing Ltd",
+      "amount": 6675.0,
+      "currency": "EUR",
+      "date": "2022-10-18"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Bluefin Supplies Inc",
+      "amount": 23500.0,
+      "currency": "EUR",
+      "date": "2022-10-18"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Redwood Cleaning Ltd",
+      "amount": 7200.0,
+      "currency": "EUR",
+      "date": "2022-10-19"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Harbour Printing Ltd",
+      "amount": 3225.0,
+      "currency": "EUR",
+      "date": "2022-10-21"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Crescent Telecom Ltd",
+      "amount": 5300.0,
+      "currency": "EUR",
+      "date": "2022-10-22"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Summit Supplies Ltd",
+      "amount": 1925.0,
+      "currency": "EUR",
+      "date": "2022-10-26"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Summit Supplies Ltd",
+      "amount": 3350.0,
+      "currency": "EUR",
+      "date": "2022-10-27"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Crescent Cleaning Inc",
+      "amount": 22950.0,
+      "currency": "EUR",
+      "date": "2022-10-31"
+    },
+    {
+      "payer": "Cobalt Group Inc.",
+      "payee": "Pinewood Telecom Ltd",
+      "amount": 1100.0,
+      "currency": "EUR",
+      "date": "2022-11-02"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

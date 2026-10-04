@@ -1,0 +1,25 @@
+{
+  "doc_type": "wire_transfer",
+  "entities": [
+    {
+      "name": "Stonehaven Investments S.A.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Harbour Printing Ltd",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Stonehaven Investments S.A.",
+      "payee": "Harbour Printing Ltd",
+      "amount": 1710.0,
+      "currency": "USD",
+      "date": "2014-05-19"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

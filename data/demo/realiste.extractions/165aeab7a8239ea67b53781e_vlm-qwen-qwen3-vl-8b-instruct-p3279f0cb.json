@@ -1,0 +1,91 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Ashcroft Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Fairhaven Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Catering Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Ashcroft Enterprises Limited",
+      "payee": "Bluefin Couriers Ltd",
+      "amount": 9350.0,
+      "currency": "GBP",
+      "date": "2022-08-28"
+    },
+    {
+      "payer": "Ashcroft Enterprises Limited",
+      "payee": "Harbour Supplies Inc",
+      "amount": 4450.0,
+      "currency": "GBP",
+      "date": "2022-09-03"
+    },
+    {
+      "payer": "Ashcroft Enterprises Limited",
+      "payee": "Fairhaven Holdings Inc.",
+      "amount": 9340.72,
+      "currency": "GBP",
+      "date": "2022-09-11"
+    },
+    {
+      "payer": "Ashcroft Enterprises Limited",
+      "payee": "Crescent Couriers Inc",
+      "amount": 5800.0,
+      "currency": "GBP",
+      "date": "2022-10-05"
+    },
+    {
+      "payer": "Ashcroft Enterprises Limited",
+      "payee": "Summit Supplies Ltd",
+      "amount": 5875.0,
+      "currency": "GBP",
+      "date": "2022-10-31"
+    },
+    {
+      "payer": "Ashcroft Enterprises Limited",
+      "payee": "Crescent Cleaning Ltd",
+      "amount": 5800.0,
+      "currency": "GBP",
+      "date": "2022-11-02"
+    },
+    {
+      "payer": "Ashcroft Enterprises Limited",
+      "payee": "Crescent Catering Ltd",
+      "amount": 550.0,
+      "currency": "GBP",
+      "date": "2022-11-10"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

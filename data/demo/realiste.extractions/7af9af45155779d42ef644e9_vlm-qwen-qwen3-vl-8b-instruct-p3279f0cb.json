@@ -1,0 +1,110 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Ironwood Ventures S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Management Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Partners Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Ironwood Ventures S.A.",
+      "payee": "Bluefin Couriers Ltd",
+      "amount": 1850.0,
+      "currency": "GBP",
+      "date": "2022-08-24"
+    },
+    {
+      "payer": "Ironwood Ventures S.A.",
+      "payee": "Harbour Supplies Ltd",
+      "amount": 4225.0,
+      "currency": "GBP",
+      "date": "2022-08-30"
+    },
+    {
+      "payer": "Ironwood Ventures S.A.",
+      "payee": "Amberfield Partners Ltd.",
+      "amount": 15037.1,
+      "currency": "GBP",
+      "date": "2022-09-10"
+    },
+    {
+      "payer": "Ironwood Ventures S.A.",
+      "payee": "Summit Telecom Ltd",
+      "amount": 8550.0,
+      "currency": "GBP",
+      "date": "2022-09-16"
+    },
+    {
+      "payer": "Ironwood Ventures S.A.",
+      "payee": "Redwood Cleaning Ltd",
+      "amount": 10075.0,
+      "currency": "GBP",
+      "date": "2022-09-23"
+    },
+    {
+      "payer": "Ironwood Ventures S.A.",
+      "payee": "Harbour Catering Inc",
+      "amount": 21900.0,
+      "currency": "GBP",
+      "date": "2022-10-11"
+    },
+    {
+      "payer": "Ironwood Ventures S.A.",
+      "payee": "Pinewood Telecom Ltd",
+      "amount": 1125.0,
+      "currency": "GBP",
+      "date": "2022-10-17"
+    },
+    {
+      "payer": "Ironwood Ventures S.A.",
+      "payee": "Summit Cleaning Ltd",
+      "amount": 500.0,
+      "currency": "GBP",
+      "date": "2022-11-02"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

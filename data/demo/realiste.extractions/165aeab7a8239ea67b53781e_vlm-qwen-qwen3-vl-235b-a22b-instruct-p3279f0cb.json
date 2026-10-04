@@ -1,0 +1,84 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Ashcroft Enterprises Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Bluefin Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Fairhaven Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Catering Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Ashcroft Enterprises Limited",
+  "statement_lines": [
+    {
+      "date": "2022-08-28",
+      "counterparty": "Bluefin Couriers Ltd",
+      "amount": -9350.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-03",
+      "counterparty": "Harbour Supplies Inc",
+      "amount": 4450.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Fairhaven Holdings Inc.",
+      "amount": 9340.72,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-05",
+      "counterparty": "Crescent Couriers Inc",
+      "amount": 5800.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-31",
+      "counterparty": "Summit Supplies Ltd",
+      "amount": -5875.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-02",
+      "counterparty": "Crescent Cleaning Ltd",
+      "amount": -6800.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-10",
+      "counterparty": "Crescent Catering Ltd",
+      "amount": -550.0,
+      "currency": "GBP"
+    }
+  ]
+}

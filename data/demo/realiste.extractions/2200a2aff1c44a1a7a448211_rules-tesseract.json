@@ -1,0 +1,13 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Seaglass Holdings Inc",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

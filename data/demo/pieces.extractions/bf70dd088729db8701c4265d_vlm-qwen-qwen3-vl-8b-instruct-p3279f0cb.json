@@ -1,0 +1,25 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Redwood Printing Inc",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pinewood Couriers Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Redwood Printing Inc",
+      "payee": "Pinewood Couriers Ltd",
+      "amount": 4515.0,
+      "currency": "USD",
+      "date": "2014-04-04"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

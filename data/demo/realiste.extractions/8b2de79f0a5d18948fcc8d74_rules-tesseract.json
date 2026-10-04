@@ -1,0 +1,23 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Ironwood Holdings Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Coral Fiduciary Services Ltd",
+      "target": "Ironwood Holdings Limited",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

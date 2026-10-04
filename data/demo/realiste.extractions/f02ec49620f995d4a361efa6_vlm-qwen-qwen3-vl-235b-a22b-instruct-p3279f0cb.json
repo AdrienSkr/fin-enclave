@@ -1,0 +1,69 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Willowmere Management Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pinewood Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ironwood Ventures S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

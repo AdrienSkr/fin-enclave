@@ -1,0 +1,41 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Ironwood Ventures S.A",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Enterprises Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Quentin Reynaud",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Priya Castille",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Oakridge Enterprises Limited",
+      "target": "Ironwood Ventures S.A",
+      "role": "shareholder"
+    },
+    {
+      "source": "Quentin Reynaud",
+      "target": "Ironwood Ventures S.A",
+      "role": "shareholder"
+    },
+    {
+      "source": "Priya Castille",
+      "target": "Ironwood Ventures S.A",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

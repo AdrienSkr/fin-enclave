@@ -1,0 +1,225 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Ironwood Holdings Limited",
+  "statement_lines": [
+    {
+      "date": "2022-08-26",
+      "counterparty": "Opening balance",
+      "amount": 521863.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-26",
+      "counterparty": "Telecom and network services - Pinewood Couriers Ltd",
+      "amount": -3400.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-30",
+      "counterparty": "Consulting fees - Redwood Supplies Ltd",
+      "amount": -7125.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-04",
+      "counterparty": "Settlement payment REF 83119 - Harbour Couriers Inc",
+      "amount": 15600.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-09",
+      "counterparty": "Office supplies - Pinewood Printing Ltd",
+      "amount": -3800.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-09",
+      "counterparty": "Commercial trade receivable - Bluefin Telecom Inc",
+      "amount": 11200.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "SEPA CR REF 42875 Seaglass Holdings Inc.",
+      "amount": 15037.1,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "SEPA CR REF 99286 Mistvale Enterprises Limited",
+      "amount": 7348.32,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "SEPA CR REF 20141 Stonehaven Trading Inc.",
+      "amount": 1577.86,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Settlement payment REF 12839 - Pinewood Couriers Inc",
+      "amount": 26850.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Software license subscription - Harbour Telecom Ltd",
+      "amount": -4625.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Office supplies - Paper Catering Ltd",
+      "amount": -8000.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Office supplies - Crescent Telecom Ltd",
+      "amount": -450.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-14",
+      "counterparty": "Consulting fees - Paper Supplies Ltd",
+      "amount": -6200.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-15",
+      "counterparty": "Commercial premises lease REF 15318",
+      "amount": -4775.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-17",
+      "counterparty": "Monthly staff payroll REF 39858",
+      "amount": -4550.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-19",
+      "counterparty": "Logistics & transport services - Bluefin Supplies Ltd",
+      "amount": -1950.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-22",
+      "counterparty": "Software license subscription - Bluefin Telecom Ltd",
+      "amount": -9175.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-25",
+      "counterparty": "Monthly staff payroll REF 53099",
+      "amount": -1775.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Commercial trade receivable - Harbour Supplies Inc",
+      "amount": 24800.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Settlement payment REF 70464 - Crescent Catering Inc",
+      "amount": 22250.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-27",
+      "counterparty": "Commercial premises lease REF 17296",
+      "amount": -4100.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-08",
+      "counterparty": "Telecom and network services - Crescent Cleaning Ltd",
+      "amount": -8950.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-10",
+      "counterparty": "Commercial trade receivable - Crescent Couriers Inc",
+      "amount": 9400.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-11",
+      "counterparty": "Settlement payment REF 30941 - Harbour Catering Inc",
+      "amount": 27500.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-13",
+      "counterparty": "Consulting fees - Harbour Couriers Ltd",
+      "amount": -575.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-14",
+      "counterparty": "Office supplies - Crescent Catering Ltd",
+      "amount": -3400.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-15",
+      "counterparty": "Telecom and network services - Crescent Printing Ltd",
+      "amount": -6850.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Logistics & transport services - Bluefin Telecom Ltd",
+      "amount": -7200.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-19",
+      "counterparty": "Logistics & transport services - Pinewood Catering Ltd",
+      "amount": -6375.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-24",
+      "counterparty": "Software license subscription - Crescent Telecom Ltd",
+      "amount": -5350.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-30",
+      "counterparty": "Commercial trade receivable - Summit Cleaning Inc",
+      "amount": 14600.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Consulting fees - Pinewood Telecom Ltd",
+      "amount": -1225.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-02",
+      "counterparty": "Consulting fees - Redwood Catering Ltd",
+      "amount": -950.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-03",
+      "counterparty": "Office supplies - Redwood Telecom Ltd",
+      "amount": -6050.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-03",
+      "counterparty": "Closing balance",
+      "amount": 591176.28,
+      "currency": "USD"
+    }
+  ]
+}

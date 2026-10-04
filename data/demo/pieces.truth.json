@@ -1,0 +1,1317 @@
+[
+  {
+    "piece_id": "PIECE-0001",
+    "file": "PIECE-0001.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Willowmere Capital Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maple Register Agents Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Maple Register Agents Ltd.",
+        "target": "Willowmere Capital Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0002",
+    "file": "PIECE-0002.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Thornfield Capital Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Thornfield Capital Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0003",
+    "file": "PIECE-0003.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ironwood Trading S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Ironwood Trading S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0004",
+    "file": "PIECE-0004.pdf",
+    "doc_type": "power_of_attorney",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Thornfield Capital Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Thornfield Capital Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oskar Lindqvist",
+        "target": "Thornfield Capital Limited",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0005",
+    "file": "PIECE-0005.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ironwood Trading S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Ironwood Trading S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0006",
+    "file": "PIECE-0006.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Brightwater Group Corp.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Stonehaven Investments S.A.",
+        "payee": "Brightwater Group Corp.",
+        "amount": 1949046.64,
+        "currency": "USD",
+        "date": "2014-04-03"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0007",
+    "file": "PIECE-0007.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Stonehaven Investments S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0008",
+    "file": "PIECE-0008.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Stonehaven Investments S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0009",
+    "file": "PIECE-0009.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Thornfield Capital Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Vincent Holmgren",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Thornfield Capital Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Vincent Holmgren",
+        "target": "Thornfield Capital Limited",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0010",
+    "file": "PIECE-0010.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Silverpine Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Silverpine Assets Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0011",
+    "file": "PIECE-0011.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Group Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Brightwater Group Corp.",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 5650,
+        "currency": "USD",
+        "date": "2014-05-20"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0012",
+    "file": "PIECE-0012.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Copperfield Investments Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Mateo Pavlov",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Copperfield Investments Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Mateo Pavlov",
+        "target": "Copperfield Investments Corp.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0013",
+    "file": "PIECE-0013.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0014",
+    "file": "PIECE-0014.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Summit Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0015",
+    "file": "PIECE-0015.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Northwind Group S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Northwind Group S.A.",
+        "amount": 9317,
+        "currency": "USD",
+        "date": "2014-04-25"
+      },
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Northwind Group S.A.",
+        "amount": 9386,
+        "currency": "USD",
+        "date": "2014-04-26"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Northwind Group S.A.",
+        "amount": 9154,
+        "currency": "USD",
+        "date": "2014-04-27"
+      },
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Northwind Group S.A.",
+        "amount": 9465,
+        "currency": "USD",
+        "date": "2014-04-25"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Northwind Group S.A.",
+        "amount": 9424,
+        "currency": "USD",
+        "date": "2014-04-26"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Northwind Group S.A.",
+        "amount": 9060,
+        "currency": "USD",
+        "date": "2014-04-27"
+      },
+      {
+        "payer": "Northwind Group S.A.",
+        "payee": "Oskar Lindqvist",
+        "amount": 50225,
+        "currency": "USD",
+        "date": "2014-04-29"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0016",
+    "file": "PIECE-0016.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Redwood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0017",
+    "file": "PIECE-0017.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Amberfield Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Amberfield Management Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0018",
+    "file": "PIECE-0018.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Capital Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Thornfield Capital Limited",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Willowmere Capital Corp.",
+        "payee": "Thornfield Capital Limited",
+        "amount": 1868335.81,
+        "currency": "USD",
+        "date": "2014-04-21"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0019",
+    "file": "PIECE-0019.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Copperfield Investments Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Nadia Petrova",
+        "amount": 9600,
+        "currency": "USD",
+        "date": "2014-04-23"
+      },
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Daniel Moreau",
+        "amount": 9650,
+        "currency": "USD",
+        "date": "2014-04-24"
+      },
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Marco Fiore",
+        "amount": 9350,
+        "currency": "USD",
+        "date": "2014-04-23"
+      },
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Irene Kowalski",
+        "amount": 9725,
+        "currency": "USD",
+        "date": "2014-04-24"
+      },
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Lena Hartmann",
+        "amount": 9525,
+        "currency": "USD",
+        "date": "2014-04-23"
+      },
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Pablo Serrano",
+        "amount": 9275,
+        "currency": "USD",
+        "date": "2014-04-24"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0020",
+    "file": "PIECE-0020.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Brightwater Group Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Capital Corp.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Brightwater Group Corp.",
+        "payee": "Willowmere Capital Corp.",
+        "amount": 1899955.15,
+        "currency": "USD",
+        "date": "2014-04-12"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0021",
+    "file": "PIECE-0021.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Summit Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Summit Printing Inc",
+        "payee": "Pinewood Telecom Ltd",
+        "amount": 3480,
+        "currency": "USD",
+        "date": "2014-04-04"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0022",
+    "file": "PIECE-0022.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Stonehaven Investments S.A.",
+        "payee": "Harbour Printing Ltd",
+        "amount": 1710,
+        "currency": "USD",
+        "date": "2014-05-19"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0023",
+    "file": "PIECE-0023.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Oakridge Ventures Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Oakridge Ventures Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0024",
+    "file": "PIECE-0024.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Thornfield Capital Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Thornfield Capital Limited",
+        "payee": "Oskar Lindqvist",
+        "amount": 336300.45,
+        "currency": "USD",
+        "date": "2014-04-28"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0025",
+    "file": "PIECE-0025.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Ventures Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Oakridge Ventures Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0026",
+    "file": "PIECE-0026.pdf",
+    "doc_type": "power_of_attorney",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Northwind Group S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Northwind Group S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oskar Lindqvist",
+        "target": "Northwind Group S.A.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0027",
+    "file": "PIECE-0027.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0028",
+    "file": "PIECE-0028.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Amberfield Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Mistvale Enterprises Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Helena Morales",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Amberfield Management Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Mistvale Enterprises Ltd.",
+        "target": "Amberfield Management Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Helena Morales",
+        "target": "Amberfield Management Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0029",
+    "file": "PIECE-0029.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Group Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Brightwater Group Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0030",
+    "file": "PIECE-0030.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0031",
+    "file": "PIECE-0031.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Northwind Group S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Priya Ibarra",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Northwind Group S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Priya Ibarra",
+        "target": "Northwind Group S.A.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0032",
+    "file": "PIECE-0032.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Silverpine Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Silverpine Assets Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0033",
+    "file": "PIECE-0033.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ironwood Trading S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Ironwood Trading S.A.",
+        "payee": "Summit Supplies Ltd",
+        "amount": 3570,
+        "currency": "EUR",
+        "date": "2014-04-17"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0034",
+    "file": "PIECE-0034.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Partners Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Mistvale Enterprises Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Ashcroft Assets S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nora Morales",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Oakridge Partners Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Mistvale Enterprises Ltd.",
+        "target": "Oakridge Partners Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Ashcroft Assets S.A.",
+        "target": "Oakridge Partners Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Nora Morales",
+        "target": "Oakridge Partners Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0035",
+    "file": "PIECE-0035.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Brightwater Group Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Mistvale Enterprises Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oakridge Management Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Thornfield Assets Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Brightwater Group Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Mistvale Enterprises Ltd.",
+        "target": "Brightwater Group Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oakridge Management Limited",
+        "target": "Brightwater Group Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Thornfield Assets Ltd.",
+        "target": "Brightwater Group Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0036",
+    "file": "PIECE-0036.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Partners Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Oakridge Partners Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0037",
+    "file": "PIECE-0037.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Thornfield Capital Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Thornfield Capital Limited",
+        "payee": "Stonehaven Investments S.A.",
+        "amount": 2002500.0,
+        "currency": "USD",
+        "date": "2014-03-26"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0038",
+    "file": "PIECE-0038.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Redwood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Couriers Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Redwood Printing Inc",
+        "payee": "Pinewood Couriers Ltd",
+        "amount": 4515,
+        "currency": "USD",
+        "date": "2014-04-04"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0039",
+    "file": "PIECE-0039.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Copperfield Investments Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Copperfield Investments Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0040",
+    "file": "PIECE-0040.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Northwind Group S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Northwind Group S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0041",
+    "file": "PIECE-0041.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Willowmere Capital Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Quentin Ibarra",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Willowmere Capital Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Quentin Ibarra",
+        "target": "Willowmere Capital Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0042",
+    "file": "PIECE-0042.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Mistvale Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading S.A.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Willowmere Trading S.A.",
+        "target": "Mistvale Assets S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0043",
+    "file": "PIECE-0043.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Mistvale Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Mistvale Assets S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0044",
+    "file": "PIECE-0044.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Pinewood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  }
+]

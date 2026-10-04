@@ -1,0 +1,27 @@
+{
+  "doc_type": "invoice",
+  "entities": [
+    {
+      "name": "Pinewood Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "John Carter",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Harbour Cleaning Inc",
+      "target": "Pinewood Printing Ltd",
+      "role": "other"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

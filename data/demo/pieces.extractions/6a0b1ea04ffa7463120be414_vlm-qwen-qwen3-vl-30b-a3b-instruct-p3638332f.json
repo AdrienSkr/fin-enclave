@@ -1,0 +1,32 @@
+{
+  "doc_type": "invoice",
+  "entities": [
+    {
+      "name": "Paper Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Maria Lopez",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Paper Couriers Ltd",
+      "target": "Redwood Printing Inc",
+      "role": "other"
+    },
+    {
+      "source": "Redwood Printing Inc",
+      "target": "Paper Couriers Ltd",
+      "role": "other"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

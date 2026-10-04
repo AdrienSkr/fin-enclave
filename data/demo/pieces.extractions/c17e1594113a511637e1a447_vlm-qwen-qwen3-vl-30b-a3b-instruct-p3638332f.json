@@ -1,0 +1,50 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Brightwater Group Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Trading S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Enterprises Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Management Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Thornfield Assets Ltd.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Willowmere Trading S.A.",
+      "target": "Brightwater Group Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Mistvale Enterprises Ltd.",
+      "target": "Brightwater Group Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Oakridge Management Ltd.",
+      "target": "Brightwater Group Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Thornfield Assets Ltd.",
+      "target": "Brightwater Group Corp.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

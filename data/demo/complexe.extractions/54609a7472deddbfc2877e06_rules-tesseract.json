@@ -1,0 +1,23 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Mistvale Partners Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Coral Fiduciary Services Ltd",
+      "target": "Mistvale Partners Limited",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

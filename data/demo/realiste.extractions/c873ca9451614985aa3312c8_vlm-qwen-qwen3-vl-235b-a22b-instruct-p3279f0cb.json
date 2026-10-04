@@ -1,0 +1,74 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Seaglass Group Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Redwood Telecom",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Paper Cleaning Inc",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Willowmere Management Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Paper Court",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Amberfield Partners Ltd.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Paper Supplies",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Seaglass Group Limited",
+  "statement_lines": [
+    {
+      "date": "2022-08-27",
+      "counterparty": "Redwood Telecom",
+      "amount": -4800.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-04",
+      "counterparty": "Paper Cleaning Inc",
+      "amount": 8000.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-07",
+      "counterparty": "Willowmere Management Limited",
+      "amount": 8610.64,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-07",
+      "counterparty": "Paper Court",
+      "amount": -5500.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Amberfield Partners Ltd.",
+      "amount": 7348.32,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-18",
+      "counterparty": "Paper Supplies",
+      "amount": -6150.0,
+      "currency": "EUR"
+    }
+  ]
+}

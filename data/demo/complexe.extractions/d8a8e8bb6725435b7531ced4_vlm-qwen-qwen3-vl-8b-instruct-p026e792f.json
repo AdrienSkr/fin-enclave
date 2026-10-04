@@ -1,0 +1,34 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Mistvale Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Telecom Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-10-31",
+      "counterparty": "Paper Cleaning Inc",
+      "amount": -24250.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-11-02",
+      "counterparty": "Crescent Telecom Ltd",
+      "amount": 9725.0,
+      "currency": "EUR"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "doc_type": "invoice",
+  "entities": [
+    {
+      "name": "Bluefin Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Peter Hughes",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Bluefin Catering Ltd",
+      "target": "Paper Supplies Inc",
+      "role": "other"
+    },
+    {
+      "source": "Bluefin Catering Ltd",
+      "target": "Peter Hughes",
+      "role": "other"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

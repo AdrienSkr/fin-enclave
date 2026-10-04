@@ -1,0 +1,31 @@
+{
+  "doc_type": "wire_transfer",
+  "entities": [
+    {
+      "name": "Brightwater Group Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Capital Corp.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Brightwater Group Corp.",
+      "target": "Willowmere Capital Corp.",
+      "role": "other"
+    }
+  ],
+  "transfers": [
+    {
+      "payer": "Brightwater Group Corp.",
+      "payee": "Willowmere Capital Corp.",
+      "amount": 1899955.15,
+      "currency": "USD",
+      "date": "2014-04-12"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

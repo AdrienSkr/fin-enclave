@@ -1,0 +1,168 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Seaglass Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Couriers Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-22",
+      "counterparty": "Harbour Printing Ltd",
+      "amount": 9450.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-27",
+      "counterparty": "Summit Catering Ltd",
+      "amount": 975.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-31",
+      "counterparty": "Summit Cleaning Ltd",
+      "amount": 8075.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-01",
+      "counterparty": "Crescent Couriers Ltd",
+      "amount": 2250.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-03",
+      "counterparty": "Summit Cleaning Ltd",
+      "amount": 4625.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-08",
+      "counterparty": "Crescent Couriers Ltd",
+      "amount": 8175.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-12",
+      "counterparty": "Paper Telecom Ltd",
+      "amount": 3150.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-12",
+      "counterparty": "Summit Cleaning Inc",
+      "amount": 7850.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Summit Supplies Ltd",
+      "amount": 1875.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-18",
+      "counterparty": "Paper Couriers Inc",
+      "amount": 3250.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-18",
+      "counterparty": "Paper Printing Inc",
+      "amount": 8200.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-19",
+      "counterparty": "Summit Couriers Ltd",
+      "amount": 2900.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-21",
+      "counterparty": "Pinewood Couriers Ltd",
+      "amount": 4300.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-25",
+      "counterparty": "Pinewood Cleaning Ltd",
+      "amount": 2825.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-29",
+      "counterparty": "Pinewood Cleaning Ltd",
+      "amount": 9625.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-06",
+      "counterparty": "Harbour Couriers Ltd",
+      "amount": 6875.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-24",
+      "counterparty": "Paper Couriers Ltd",
+      "amount": 5950.0,
+      "currency": "GBP"
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Mistvale Partners Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ironwood Ventures S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Cleaning Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-21",
+      "counterparty": "Paper Couriers Ltd",
+      "amount": 3475.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-21",
+      "counterparty": "Commercial premises lease REF 29635",
+      "amount": 8925.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-23",
+      "counterparty": "Monthly staff payroll REF 44921",
+      "amount": 2100.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-30",
+      "counterparty": "Commercial trade receivable - Summit Telecom Inc",
+      "amount": -20900.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-01",
+      "counterparty": "Office supplies - Summit Cleaning Ltd",
+      "amount": 8950.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-03",
+      "counterparty": "Logistics & transport services - Paper Couriers Ltd",
+      "amount": 3500.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-03",
+      "counterparty": "Settlement payment REF 68684 - Crescent Telecom Inc",
+      "amount": -23500.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-04",
+      "counterparty": "SEPA CT REF 82905 Ironwood Ventures S.A.",
+      "amount": 19194.69,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-07",
+      "counterparty": "SEPA CR REF 83420 Seaglass Group Limited",
+      "amount": -13989.7,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-07",
+      "counterparty": "Customer invoice settlement - Crescent Couriers Inc",
+      "amount": 833363.01,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Legal & statutory audit fees - Redwood Couriers Ltd",
+      "amount": 3775.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Commercial premises lease REF 41145",
+      "amount": 2450.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-16",
+      "counterparty": "Settlement payment REF 45422 - Harbour Telecom Inc",
+      "amount": -14600.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-17",
+      "counterparty": "Customer invoice settlement - Crescent Telecom Inc",
+      "amount": 849638.01,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-18",
+      "counterparty": "Telecom and network services - Harbour Couriers Ltd",
+      "amount": 3525.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-19",
+      "counterparty": "Telecom and network services - Bluefin Supplies Ltd",
+      "amount": 1500.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-23",
+      "counterparty": "Settlement payment REF 91713 - Pinewood Printing Inc",
+      "amount": -4150.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Commercial trade receivable - Harbour Telecom Inc",
+      "amount": 12600.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-27",
+      "counterparty": "Telecom and network services - Paper Telecom Ltd",
+      "amount": 2450.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-28",
+      "counterparty": "Customer invoice settlement - Summit Telecom Inc",
+      "amount": -20050.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-03",
+      "counterparty": "Consulting fees - Summit Telecom Ltd",
+      "amount": 450.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-07",
+      "counterparty": "Settlement payment REF 70690 - Harbour Couriers Inc",
+      "amount": -9350.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-08",
+      "counterparty": "Commercial premises lease REF 18085",
+      "amount": 7075.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-11",
+      "counterparty": "Customer invoice settlement - Pinewood Catering Inc",
+      "amount": -4650.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Monthly staff payroll REF 97641",
+      "amount": 5000.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-17",
+      "counterparty": "Legal & statutory audit fees - Summit Printing Ltd",
+      "amount": 5325.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-18",
+      "counterparty": "Legal & statutory audit fees - Pinewood Printing Ltd",
+      "amount": 1475.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-18",
+      "counterparty": "Software license subscription - Crescent Cleaning Ltd",
+      "amount": 5150.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-19",
+      "counterparty": "Settlement payment REF 37876 - Summit Couriers Inc",
+      "amount": -14400.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-19",
+      "counterparty": "Consulting fees - Redwood Supplies Ltd",
+      "amount": 6050.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-23",
+      "counterparty": "Legal & statutory audit fees - Crescent Printing Ltd",
+      "amount": 600.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-24",
+      "counterparty": "Legal & statutory audit fees - Crescent Cleaning Ltd",
+      "amount": 8800.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-25",
+      "counterparty": "Monthly staff payroll REF 66761",
+      "amount": 4275.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-31",
+      "counterparty": "Software license subscription - Crescent Cleaning Ltd",
+      "amount": 1150.0,
+      "currency": "GBP"
+    }
+  ]
+}

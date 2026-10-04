@@ -1,0 +1,13 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Northwind Assets Corp",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

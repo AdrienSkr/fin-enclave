@@ -1,0 +1,80 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Mistvale Partners Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Ironwood Holdings Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Assets Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Mistvale Partners Limited",
+      "payee": "Ironwood Holdings Limited",
+      "amount": 15377.24,
+      "currency": "EUR",
+      "date": "2022-09-06"
+    },
+    {
+      "payer": "Mistvale Partners Limited",
+      "payee": "Northwind Assets Corp.",
+      "amount": 13989.7,
+      "currency": "EUR",
+      "date": "2022-09-07"
+    },
+    {
+      "payer": "Mistvale Partners Limited",
+      "payee": "Redwood Telecom Inc",
+      "amount": 24000.0,
+      "currency": "EUR",
+      "date": "2022-09-24"
+    },
+    {
+      "payer": "Mistvale Partners Limited",
+      "payee": "Paper Telecom Ltd",
+      "amount": 2000.0,
+      "currency": "EUR",
+      "date": "2022-09-29"
+    },
+    {
+      "payer": "Mistvale Partners Limited",
+      "payee": "Paper Catering Ltd",
+      "amount": 9400.0,
+      "currency": "EUR",
+      "date": "2022-10-01"
+    },
+    {
+      "payer": "Mistvale Partners Limited",
+      "payee": "Summit Supplies Ltd",
+      "amount": 1425.0,
+      "currency": "EUR",
+      "date": "2022-10-18"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

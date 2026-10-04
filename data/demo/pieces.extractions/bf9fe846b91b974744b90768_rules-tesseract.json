@@ -1,0 +1,17 @@
+{
+  "doc_type": "invoice",
+  "entities": [
+    {
+      "name": "Paper Supplies inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Peter Hughes",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

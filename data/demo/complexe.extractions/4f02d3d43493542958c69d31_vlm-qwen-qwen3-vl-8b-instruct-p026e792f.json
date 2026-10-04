@@ -1,0 +1,49 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Amberfield Partners Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Supplies Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

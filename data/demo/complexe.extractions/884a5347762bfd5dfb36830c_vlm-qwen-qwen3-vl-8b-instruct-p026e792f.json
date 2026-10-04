@@ -1,0 +1,32 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Seaglass Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Clara Holmgren",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Oakridge Enterprises Limited",
+      "target": "Seaglass Group Limited",
+      "role": "shareholder"
+    },
+    {
+      "source": "Clara Holmgren",
+      "target": "Seaglass Group Limited",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

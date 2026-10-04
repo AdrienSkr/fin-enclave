@@ -1,0 +1,28 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Fairhaven Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd.",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "BRITISH VIRGIN ISLANDS",
+      "target": "Fairhaven Holdings Inc.",
+      "role": "registered_address"
+    },
+    {
+      "source": "Coral Fiduciary Services Ltd.",
+      "target": "Fairhaven Holdings Inc.",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

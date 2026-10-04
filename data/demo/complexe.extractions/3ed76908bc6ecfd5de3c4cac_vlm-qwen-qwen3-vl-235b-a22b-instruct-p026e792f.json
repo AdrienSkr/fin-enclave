@@ -1,0 +1,24 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Mistvale Partners Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Cleaning Inc",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Mistvale Partners Limited",
+  "statement_lines": [
+    {
+      "date": "2022-11-03",
+      "counterparty": "Bluefin Cleaning Inc",
+      "amount": 7700.0,
+      "currency": "GBP"
+    }
+  ]
+}

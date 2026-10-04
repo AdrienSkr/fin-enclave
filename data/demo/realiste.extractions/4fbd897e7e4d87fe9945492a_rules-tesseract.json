@@ -1,0 +1,23 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Ashcroft Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Enterprises Limited",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Oakridge Enterprises Limited",
+      "target": "Ashcroft Enterprises Limited",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

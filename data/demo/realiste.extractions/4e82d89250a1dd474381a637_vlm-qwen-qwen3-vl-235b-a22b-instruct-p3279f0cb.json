@@ -1,0 +1,100 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Northwind Assets Corp.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pinewood Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ironwood Holdings Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Partners Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Cleaning Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Northwind Assets Corp.",
+  "statement_lines": [
+    {
+      "date": "2022-09-02",
+      "counterparty": "Pinewood Telecom Inc",
+      "amount": 9250.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-02",
+      "counterparty": "Crescent Couriers Ltd",
+      "amount": -5675.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-04",
+      "counterparty": "Ironwood Holdings Limited",
+      "amount": -19194.69,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-07",
+      "counterparty": "Mistvale Partners Limited",
+      "amount": 13989.7,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-08",
+      "counterparty": "Pinewood Telecom Inc",
+      "amount": -1475.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Redwood Couriers Ltd",
+      "amount": -1925.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-13",
+      "counterparty": "Bluefin Couriers Ltd",
+      "amount": -675.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Pinewood Catering Ltd",
+      "amount": -6475.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-27",
+      "counterparty": "Crescent Cleaning Ltd",
+      "amount": -8325.0,
+      "currency": "GBP"
+    }
+  ]
+}

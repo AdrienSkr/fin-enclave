@@ -1,0 +1,32 @@
+{
+  "doc_type": "invoice",
+  "entities": [
+    {
+      "name": "Summit Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Peter Hughes",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Summit Telecom Ltd",
+      "target": "Pinewood Telecom Inc",
+      "role": "other"
+    },
+    {
+      "source": "Summit Telecom Ltd",
+      "target": "Peter Hughes",
+      "role": "other"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

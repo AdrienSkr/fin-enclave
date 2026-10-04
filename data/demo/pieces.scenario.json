@@ -1,0 +1,214 @@
+{
+  "simulated": true,
+  "beneficiary": "Oskar Lindqvist",
+  "nominee": "Willowmere Trading S.A.",
+  "cycle": [
+    "Thornfield Capital Limited",
+    "Stonehaven Investments S.A.",
+    "Brightwater Group Corp.",
+    "Willowmere Capital Corp."
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Thornfield Capital Limited",
+      "payee": "Stonehaven Investments S.A.",
+      "amount": 2002500.0,
+      "currency": "USD",
+      "date": "2014-03-26"
+    },
+    {
+      "payer": "Stonehaven Investments S.A.",
+      "payee": "Brightwater Group Corp.",
+      "amount": 1949046.64,
+      "currency": "USD",
+      "date": "2014-04-03"
+    },
+    {
+      "payer": "Brightwater Group Corp.",
+      "payee": "Willowmere Capital Corp.",
+      "amount": 1899955.15,
+      "currency": "USD",
+      "date": "2014-04-12"
+    },
+    {
+      "payer": "Willowmere Capital Corp.",
+      "payee": "Thornfield Capital Limited",
+      "amount": 1868335.81,
+      "currency": "USD",
+      "date": "2014-04-21"
+    }
+  ],
+  "exit_transfers": [
+    {
+      "payer": "Thornfield Capital Limited",
+      "payee": "Oskar Lindqvist",
+      "amount": 336300.45,
+      "currency": "USD",
+      "date": "2014-04-28"
+    },
+    {
+      "payer": "Northwind Group S.A.",
+      "payee": "Oskar Lindqvist",
+      "amount": 50225,
+      "currency": "USD",
+      "date": "2014-04-29"
+    }
+  ],
+  "smurfing": {
+    "source": "Copperfield Investments Corp.",
+    "collector": "Northwind Group S.A.",
+    "mules": [
+      "Nadia Petrova",
+      "Daniel Moreau",
+      "Marco Fiore",
+      "Irene Kowalski",
+      "Lena Hartmann",
+      "Pablo Serrano"
+    ],
+    "fan_out": [
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Nadia Petrova",
+        "amount": 9600,
+        "currency": "USD",
+        "date": "2014-04-23"
+      },
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Daniel Moreau",
+        "amount": 9650,
+        "currency": "USD",
+        "date": "2014-04-24"
+      },
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Marco Fiore",
+        "amount": 9350,
+        "currency": "USD",
+        "date": "2014-04-23"
+      },
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Irene Kowalski",
+        "amount": 9725,
+        "currency": "USD",
+        "date": "2014-04-24"
+      },
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Lena Hartmann",
+        "amount": 9525,
+        "currency": "USD",
+        "date": "2014-04-23"
+      },
+      {
+        "payer": "Copperfield Investments Corp.",
+        "payee": "Pablo Serrano",
+        "amount": 9275,
+        "currency": "USD",
+        "date": "2014-04-24"
+      }
+    ],
+    "fan_in": [
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Northwind Group S.A.",
+        "amount": 9317,
+        "currency": "USD",
+        "date": "2014-04-25"
+      },
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Northwind Group S.A.",
+        "amount": 9386,
+        "currency": "USD",
+        "date": "2014-04-26"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Northwind Group S.A.",
+        "amount": 9154,
+        "currency": "USD",
+        "date": "2014-04-27"
+      },
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Northwind Group S.A.",
+        "amount": 9465,
+        "currency": "USD",
+        "date": "2014-04-25"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Northwind Group S.A.",
+        "amount": 9424,
+        "currency": "USD",
+        "date": "2014-04-26"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Northwind Group S.A.",
+        "amount": 9060,
+        "currency": "USD",
+        "date": "2014-04-27"
+      }
+    ]
+  },
+  "powers_of_attorney": [
+    {
+      "company": "Thornfield Capital Limited",
+      "grantor": {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      },
+      "attorney": "Oskar Lindqvist"
+    },
+    {
+      "company": "Northwind Group S.A.",
+      "grantor": {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      },
+      "attorney": "Oskar Lindqvist"
+    }
+  ],
+  "legit_payments": [
+    {
+      "payer": "Stonehaven Investments S.A.",
+      "payee": "Harbour Printing Ltd",
+      "amount": 1710,
+      "currency": "USD",
+      "date": "2014-05-19"
+    },
+    {
+      "payer": "Ironwood Trading S.A.",
+      "payee": "Summit Supplies Ltd",
+      "amount": 3570,
+      "currency": "EUR",
+      "date": "2014-04-17"
+    },
+    {
+      "payer": "Brightwater Group Corp.",
+      "payee": "Redwood Telecom Ltd",
+      "amount": 5650,
+      "currency": "USD",
+      "date": "2014-05-20"
+    }
+  ],
+  "decoy_transfers": [
+    {
+      "payer": "Summit Printing Inc",
+      "payee": "Pinewood Telecom Ltd",
+      "amount": 3480,
+      "currency": "USD",
+      "date": "2014-04-04"
+    },
+    {
+      "payer": "Redwood Printing Inc",
+      "payee": "Pinewood Couriers Ltd",
+      "amount": 4515,
+      "currency": "USD",
+      "date": "2014-04-04"
+    }
+  ]
+}

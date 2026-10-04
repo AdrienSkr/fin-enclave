@@ -1,0 +1,23 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Silverpine Assets Corp",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Trading S.A",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Willowmere Trading S.A",
+      "target": "Silverpine Assets Corp",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

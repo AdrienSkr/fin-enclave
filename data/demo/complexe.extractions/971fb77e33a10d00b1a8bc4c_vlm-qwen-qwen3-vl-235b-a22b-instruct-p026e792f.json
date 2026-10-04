@@ -1,0 +1,27 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Brightwater Investments Inc.",
+  "statement_lines": [
+    {
+      "date": "2022-10-25",
+      "counterparty": "Pinewood Supplies Inc",
+      "amount": 14200.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-25",
+      "counterparty": "Redwood Cleaning Inc",
+      "amount": 16600.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-28",
+      "counterparty": "Crescent Cleaning Ltd",
+      "amount": -8325.0,
+      "currency": "GBP"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Stonehaven Trading Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Coral Fiduciary Services Ltd",
+      "target": "Stonehaven Trading Inc",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

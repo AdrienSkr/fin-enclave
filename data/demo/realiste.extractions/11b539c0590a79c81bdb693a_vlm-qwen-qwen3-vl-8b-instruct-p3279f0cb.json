@@ -1,0 +1,21 @@
+{
+  "doc_type": "invoice",
+  "entities": [
+    {
+      "name": "Harbour Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Maria Lopez",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

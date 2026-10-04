@@ -1,0 +1,25 @@
+{
+  "doc_type": "wire_transfer",
+  "entities": [
+    {
+      "name": "Thornfield Capital Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Stonehaven Investments S.A.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Thornfield Capital Limited",
+      "payee": "Stonehaven Investments S.A.",
+      "amount": 2002500.0,
+      "currency": "USD",
+      "date": "2014-03-26"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

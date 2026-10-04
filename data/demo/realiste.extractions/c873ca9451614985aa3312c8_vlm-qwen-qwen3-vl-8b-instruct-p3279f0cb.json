@@ -1,0 +1,52 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Seaglass Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Telecom",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Management Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Co",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Partners Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Supplies",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Seaglass Group Limited",
+      "payee": "Willowmere Management Limited",
+      "amount": 8610.64,
+      "currency": "EUR",
+      "date": "2022-09-07"
+    },
+    {
+      "payer": "Seaglass Group Limited",
+      "payee": "Amberfield Partners Ltd.",
+      "amount": 7348.32,
+      "currency": "EUR",
+      "date": "2022-09-10"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

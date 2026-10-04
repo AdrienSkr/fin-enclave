@@ -1,0 +1,32 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Willowmere Capital Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Trading S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Quentin Ibarra",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Willowmere Trading S.A.",
+      "target": "Willowmere Capital Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Quentin Ibarra",
+      "target": "Willowmere Capital Corp.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

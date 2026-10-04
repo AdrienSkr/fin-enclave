@@ -1,0 +1,206 @@
+[
+  {
+    "node": "10145723",
+    "name": "Silverpine Assets Corp.",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "22-DEC-2011",
+    "intermediary": "Coral Fiduciary Services Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      }
+    ]
+  },
+  {
+    "node": "10150640",
+    "name": "Oakridge Ventures Inc.",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "07-FEB-2012",
+    "intermediary": "Coral Fiduciary Services Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      }
+    ]
+  },
+  {
+    "node": "10128785",
+    "name": "Willowmere Capital Corp.",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "15-MAY-2007",
+    "intermediary": "Maple Register Agents Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      },
+      {
+        "name": "Quentin Ibarra",
+        "role": "shareholder"
+      }
+    ]
+  },
+  {
+    "node": "10121878",
+    "name": "Copperfield Investments Corp.",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "07-DEC-2005",
+    "intermediary": "Coral Fiduciary Services Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      },
+      {
+        "name": "Mateo Pavlov",
+        "role": "beneficial_owner"
+      }
+    ]
+  },
+  {
+    "node": "10142827",
+    "name": "Stonehaven Investments S.A.",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "11-MAR-2010",
+    "intermediary": "Coral Fiduciary Services Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      }
+    ]
+  },
+  {
+    "node": "10118671",
+    "name": "Amberfield Management Corp.",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "27-APR-2006",
+    "intermediary": "Coral Fiduciary Services Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      },
+      {
+        "name": "Mistvale Enterprises Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "name": "Helena Morales",
+        "role": "shareholder"
+      }
+    ]
+  },
+  {
+    "node": "10120230",
+    "name": "Oakridge Partners Corp.",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "08-MAR-2006",
+    "intermediary": "Coral Fiduciary Services Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      },
+      {
+        "name": "Mistvale Enterprises Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "name": "Ashcroft Assets S.A.",
+        "role": "shareholder"
+      },
+      {
+        "name": "Nora Morales",
+        "role": "shareholder"
+      }
+    ]
+  },
+  {
+    "node": "10150316",
+    "name": "Northwind Group S.A.",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "14-OCT-2011",
+    "intermediary": "Coral Fiduciary Services Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      },
+      {
+        "name": "Priya Ibarra",
+        "role": "beneficial_owner"
+      }
+    ]
+  },
+  {
+    "node": "10151567",
+    "name": "Ironwood Trading S.A.",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "15-OCT-2012",
+    "intermediary": "Coral Fiduciary Services Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      }
+    ]
+  },
+  {
+    "node": "10138573",
+    "name": "Thornfield Capital Limited",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "28-JAN-2010",
+    "intermediary": "Coral Fiduciary Services Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      },
+      {
+        "name": "Vincent Holmgren",
+        "role": "beneficial_owner"
+      }
+    ]
+  },
+  {
+    "node": "10133269",
+    "name": "Brightwater Group Corp.",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "25-AUG-2009",
+    "intermediary": "Coral Fiduciary Services Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      },
+      {
+        "name": "Mistvale Enterprises Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "name": "Oakridge Management Limited",
+        "role": "shareholder"
+      },
+      {
+        "name": "Thornfield Assets Ltd.",
+        "role": "shareholder"
+      }
+    ]
+  },
+  {
+    "node": "10149446",
+    "name": "Mistvale Assets S.A.",
+    "jurisdiction": "British Virgin Islands",
+    "incorporated": "28-NOV-2012",
+    "intermediary": "Coral Fiduciary Services Ltd.",
+    "officers": [
+      {
+        "name": "Willowmere Trading S.A.",
+        "role": "shareholder"
+      }
+    ]
+  }
+]

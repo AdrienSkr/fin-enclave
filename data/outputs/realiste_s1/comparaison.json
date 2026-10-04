@@ -1,0 +1,149 @@
+[
+  {
+    "tier": "CPU, sans LLM",
+    "station": "tout poste",
+    "memory": "—",
+    "model": null,
+    "measured": true,
+    "entities": {
+      "precision": 0.9213,
+      "recall": 0.385,
+      "f1": 0.543
+    },
+    "relations": {
+      "precision": 1.0,
+      "recall": 0.9167,
+      "f1": 0.9565
+    },
+    "transfers": {
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "hallucinated_entities": 0,
+    "failed_pieces": 0,
+    "findings": {
+      "circuit": false,
+      "fractionnement": false,
+      "beneficiaire_cache": false
+    },
+    "notes_llm": null,
+    "typologies": {
+      "CYCLE": {
+        "found": 0,
+        "total": 3,
+        "recall": 0.0
+      },
+      "FAN-OUT": {
+        "found": 0,
+        "total": 7,
+        "recall": 0.0
+      },
+      "SCATTER-GATHER": {
+        "found": 0,
+        "total": 6,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "tier": "Petit modèle 8B",
+    "station": "RTX 4090 (24 Go)",
+    "memory": "≈ 17 Go (BF16)",
+    "model": "qwen/qwen3-vl-8b-instruct",
+    "measured": true,
+    "entities": {
+      "precision": 0.9765,
+      "recall": 0.9765,
+      "f1": 0.9765
+    },
+    "relations": {
+      "precision": 0.8293,
+      "recall": 0.9444,
+      "f1": 0.8831
+    },
+    "transfers": {
+      "precision": 0.0759,
+      "recall": 0.048,
+      "f1": 0.0588
+    },
+    "hallucinated_entities": 4,
+    "failed_pieces": 0,
+    "findings": {
+      "circuit": false,
+      "fractionnement": false,
+      "beneficiaire_cache": false
+    },
+    "notes_llm": {
+      "total": 2,
+      "accepted": 2
+    },
+    "typologies": {
+      "CYCLE": {
+        "found": 0,
+        "total": 3,
+        "recall": 0.0
+      },
+      "FAN-OUT": {
+        "found": 0,
+        "total": 7,
+        "recall": 0.0
+      },
+      "SCATTER-GATHER": {
+        "found": 1,
+        "total": 6,
+        "recall": 0.1667
+      }
+    }
+  },
+  {
+    "tier": "Grand modèle 235B",
+    "station": "GX10 (128 Go unifiés)",
+    "memory": "≈ 120 Go (4 bits)",
+    "model": "qwen/qwen3-vl-235b-a22b-instruct",
+    "measured": true,
+    "entities": {
+      "precision": 0.9119,
+      "recall": 0.9718,
+      "f1": 0.9409
+    },
+    "relations": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "transfers": {
+      "precision": 0.1802,
+      "recall": 0.16,
+      "f1": 0.1695
+    },
+    "hallucinated_entities": 7,
+    "failed_pieces": 0,
+    "findings": {
+      "circuit": false,
+      "fractionnement": false,
+      "beneficiaire_cache": false
+    },
+    "notes_llm": {
+      "total": 0,
+      "accepted": 0
+    },
+    "typologies": {
+      "CYCLE": {
+        "found": 1,
+        "total": 3,
+        "recall": 0.3333
+      },
+      "FAN-OUT": {
+        "found": 1,
+        "total": 7,
+        "recall": 0.1429
+      },
+      "SCATTER-GATHER": {
+        "found": 3,
+        "total": 6,
+        "recall": 0.5
+      }
+    }
+  }
+]

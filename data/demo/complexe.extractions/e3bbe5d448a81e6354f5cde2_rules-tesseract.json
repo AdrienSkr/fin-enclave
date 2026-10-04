@@ -1,0 +1,17 @@
+{
+  "doc_type": "other",
+  "entities": [
+    {
+      "name": "prises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Enterprises Limited",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

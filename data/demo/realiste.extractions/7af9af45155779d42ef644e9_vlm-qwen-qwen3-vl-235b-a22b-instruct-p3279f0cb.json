@@ -1,0 +1,114 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Ironwood Ventures S.A.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Bluefin Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Management Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Partners Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Ironwood Ventures S.A.",
+  "statement_lines": [
+    {
+      "date": "2022-08-24",
+      "counterparty": "Bluefin Couriers Ltd",
+      "amount": -1850.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-30",
+      "counterparty": "Harbour Supplies Ltd",
+      "amount": -4225.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-07",
+      "counterparty": "Willowmere Management Limited",
+      "amount": 17620.22,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Amberfield Partners Ltd.",
+      "amount": -15037.1,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Paper Catering Inc",
+      "amount": 16350.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-16",
+      "counterparty": "Summit Telecom Ltd",
+      "amount": -8550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-23",
+      "counterparty": "Redwood Cleaning Ltd",
+      "amount": -1075.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-11",
+      "counterparty": "Harbour Catering Inc",
+      "amount": 21900.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-17",
+      "counterparty": "Pinewood Telecom Ltd",
+      "amount": -1125.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-02",
+      "counterparty": "Summit Cleaning Ltd",
+      "amount": -500.0,
+      "currency": "GBP"
+    }
+  ]
+}

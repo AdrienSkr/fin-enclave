@@ -1,0 +1,25 @@
+{
+  "doc_type": "wire_transfer",
+  "entities": [
+    {
+      "name": "Willowmere Capital Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Thornfield Capital Limited",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Willowmere Capital Corp.",
+      "payee": "Thornfield Capital Limited",
+      "amount": 1868335.81,
+      "currency": "USD",
+      "date": "2014-04-21"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

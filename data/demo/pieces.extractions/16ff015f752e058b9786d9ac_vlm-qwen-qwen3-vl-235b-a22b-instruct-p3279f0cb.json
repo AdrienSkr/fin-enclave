@@ -1,0 +1,74 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Copperfield Investments Corp.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Nadia Petrova",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Copperfield Investments Corp.",
+  "statement_lines": [
+    {
+      "date": "2014-04-23",
+      "counterparty": "Nadia Petrova",
+      "amount": -9600.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-23",
+      "counterparty": "Marco Fiore",
+      "amount": -9350.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-23",
+      "counterparty": "Lena Hartmann",
+      "amount": -9525.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-24",
+      "counterparty": "Daniel Moreau",
+      "amount": -9650.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-24",
+      "counterparty": "Irene Kowalski",
+      "amount": -9725.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-24",
+      "counterparty": "Pablo Serrano",
+      "amount": -9275.0,
+      "currency": "USD"
+    }
+  ]
+}

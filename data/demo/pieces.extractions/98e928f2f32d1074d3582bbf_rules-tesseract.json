@@ -1,0 +1,58 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Northwind Group S.A",
+      "kind": "Societe"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serranc",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Oskar Lindqvist",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Lena Hartmann",
+      "payee": "Northwind Group S.A",
+      "amount": 9424.0,
+      "currency": "USD",
+      "date": "2014-04-26"
+    },
+    {
+      "payer": "Marco Fiore",
+      "payee": "Northwind Group S.A",
+      "amount": 9154.0,
+      "currency": "USD",
+      "date": "2014-04-27"
+    },
+    {
+      "payer": "Pablo Serranc",
+      "payee": "Northwind Group S.A",
+      "amount": 9060.0,
+      "currency": "USD",
+      "date": "2014-04-27"
+    },
+    {
+      "payer": "Northwind Group S.A",
+      "payee": "Oskar Lindqvist",
+      "amount": 50225.0,
+      "currency": "USD",
+      "date": "2014-04-29"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

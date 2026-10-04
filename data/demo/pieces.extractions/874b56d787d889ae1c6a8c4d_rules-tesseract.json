@@ -1,0 +1,17 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Thornfield Capital Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Trading S.A",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

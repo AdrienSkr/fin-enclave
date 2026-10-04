@@ -1,0 +1,50 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Oakridge Partners Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Trading S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Enterprises Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ashcroft Assets S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Nora Morales",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Willowmere Trading S.A.",
+      "target": "Oakridge Partners Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Mistvale Enterprises Ltd.",
+      "target": "Oakridge Partners Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Ashcroft Assets S.A.",
+      "target": "Oakridge Partners Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Nora Morales",
+      "target": "Oakridge Partners Corp.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

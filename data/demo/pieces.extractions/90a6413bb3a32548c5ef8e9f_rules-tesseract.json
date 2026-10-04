@@ -1,0 +1,41 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Amberfield Management Corp",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Trading S.A",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Mistvale Enterprises Ltd",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Helena Morales",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Willowmere Trading S.A",
+      "target": "Amberfield Management Corp",
+      "role": "shareholder"
+    },
+    {
+      "source": "Mistvale Enterprises Ltd",
+      "target": "Amberfield Management Corp",
+      "role": "shareholder"
+    },
+    {
+      "source": "Helena Morales",
+      "target": "Amberfield Management Corp",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

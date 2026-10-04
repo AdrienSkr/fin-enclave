@@ -1,0 +1,32 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Seaglass Holdings Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Enterprises Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Oakridge Management Corp",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Oakridge Enterprises Limited",
+      "target": "Seaglass Holdings Inc",
+      "role": "shareholder"
+    },
+    {
+      "source": "Oakridge Management Corp",
+      "target": "Seaglass Holdings Inc",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

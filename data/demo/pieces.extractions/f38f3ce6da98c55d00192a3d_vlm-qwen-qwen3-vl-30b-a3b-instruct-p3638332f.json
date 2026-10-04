@@ -1,0 +1,27 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Stonehaven Investments S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd.",
+      "kind": "Intermediaire"
+    },
+    {
+      "name": "BRITISH VIRGIN ISLANDS",
+      "kind": "Adresse"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Coral Fiduciary Services Ltd.",
+      "target": "Stonehaven Investments S.A.",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

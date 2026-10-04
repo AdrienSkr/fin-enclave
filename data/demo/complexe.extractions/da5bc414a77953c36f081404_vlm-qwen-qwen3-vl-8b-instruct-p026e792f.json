@@ -1,0 +1,224 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Northwind Assets Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Stonehaven Trading Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Couriers Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-23",
+      "counterparty": "Harbour Catering Inc",
+      "amount": 22950.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-29",
+      "counterparty": "Redwood Cleaning Ltd",
+      "amount": -5750.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-01",
+      "counterparty": "Crescent Printing Ltd",
+      "amount": -400.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-07",
+      "counterparty": "Seaglass Holdings Inc.",
+      "amount": -17620.22,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-07",
+      "counterparty": "Mistvale Enterprises Limited",
+      "amount": -8610.64,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-09",
+      "counterparty": "Stonehaven Trading Inc.",
+      "amount": -2284.16,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-12",
+      "counterparty": "Summit Telecom Ltd",
+      "amount": -6000.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-21",
+      "counterparty": "Summit Printing Inc",
+      "amount": -4725.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Summit Catering Inc",
+      "amount": -15800.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-27",
+      "counterparty": "Pinewood Catering Ltd",
+      "amount": -5975.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-03",
+      "counterparty": "Bluefin Couriers Ltd",
+      "amount": -6500.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-03",
+      "counterparty": "Summit Cleaning Ltd",
+      "amount": -3725.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-12",
+      "counterparty": "Redwood Telecom Ltd",
+      "amount": -8775.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-13",
+      "counterparty": "Pinewood Couriers Ltd",
+      "amount": -6400.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Paper Printing Inc",
+      "amount": -20850.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-17",
+      "counterparty": "Summit Printing Ltd",
+      "amount": -7125.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-25",
+      "counterparty": "Bluefin Supplies Ltd",
+      "amount": -2125.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-25",
+      "counterparty": "Paper Supplies Inc",
+      "amount": -26300.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-27",
+      "counterparty": "Harbour Telecom Ltd",
+      "amount": -3625.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-28",
+      "counterparty": "Harbour Couriers Ltd",
+      "amount": -9350.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-30",
+      "counterparty": "Redwood Couriers Ltd",
+      "amount": -3275.0,
+      "currency": "USD"
+    }
+  ]
+}

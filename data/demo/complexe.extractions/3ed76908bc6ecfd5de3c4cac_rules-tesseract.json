@@ -1,0 +1,13 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Mistvale Partners Limited",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

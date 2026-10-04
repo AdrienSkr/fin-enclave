@@ -1,0 +1,197 @@
+{
+  "simulated": true,
+  "complex_ibm": true,
+  "case_seed": 1,
+  "cycle": [
+    "Northwind Assets Corp.",
+    "Ironwood Holdings Limited",
+    "Mistvale Partners Limited"
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Northwind Assets Corp.",
+      "payee": "Ironwood Holdings Limited",
+      "amount": 19194.69,
+      "currency": "USD",
+      "date": "2022-09-04"
+    },
+    {
+      "payer": "Ironwood Holdings Limited",
+      "payee": "Mistvale Partners Limited",
+      "amount": 15377.24,
+      "currency": "EUR",
+      "date": "2022-09-06"
+    },
+    {
+      "payer": "Mistvale Partners Limited",
+      "payee": "Northwind Assets Corp.",
+      "amount": 13989.7,
+      "currency": "EUR",
+      "date": "2022-09-07"
+    }
+  ],
+  "ibm_patterns": [
+    {
+      "typology": "CYCLE",
+      "description": "CYCLE:  Max 3 hops",
+      "tx": [
+        {
+          "payer": "Northwind Assets Corp.",
+          "payee": "Ironwood Holdings Limited",
+          "amount": 19194.69,
+          "currency": "USD",
+          "date": "2022-09-04",
+          "ibm_from_account": "80EBD88F0",
+          "ibm_to_account": "809936360"
+        },
+        {
+          "payer": "Ironwood Holdings Limited",
+          "payee": "Mistvale Partners Limited",
+          "amount": 15377.24,
+          "currency": "EUR",
+          "date": "2022-09-06",
+          "ibm_from_account": "809936360",
+          "ibm_to_account": "807BFE2C0"
+        },
+        {
+          "payer": "Mistvale Partners Limited",
+          "payee": "Northwind Assets Corp.",
+          "amount": 13989.7,
+          "currency": "EUR",
+          "date": "2022-09-07",
+          "ibm_from_account": "807BFE2C0",
+          "ibm_to_account": "80EBD88F0"
+        }
+      ]
+    },
+    {
+      "typology": "FAN-OUT",
+      "description": "FAN-OUT:  Max 7-degree Fan-Out",
+      "tx": [
+        {
+          "payer": "Fairhaven Holdings Inc.",
+          "payee": "Mistvale Enterprises Limited",
+          "amount": 13690.05,
+          "currency": "EUR",
+          "date": "2022-09-08",
+          "ibm_from_account": "800195070",
+          "ibm_to_account": "8001866E0"
+        },
+        {
+          "payer": "Fairhaven Holdings Inc.",
+          "payee": "Stonehaven Trading Inc.",
+          "amount": 7425.99,
+          "currency": "EUR",
+          "date": "2022-09-10",
+          "ibm_from_account": "800195070",
+          "ibm_to_account": "8001253F0"
+        },
+        {
+          "payer": "Fairhaven Holdings Inc.",
+          "payee": "Ashcroft Enterprises Limited",
+          "amount": 9340.72,
+          "currency": "USD",
+          "date": "2022-09-11",
+          "ibm_from_account": "800195070",
+          "ibm_to_account": "800043990"
+        },
+        {
+          "payer": "Fairhaven Holdings Inc.",
+          "payee": "Vincent Reynaud",
+          "amount": 1993.91,
+          "currency": "USD",
+          "date": "2022-09-11",
+          "ibm_from_account": "800195070",
+          "ibm_to_account": "80012A760"
+        },
+        {
+          "payer": "Fairhaven Holdings Inc.",
+          "payee": "Stonehaven Management Ltd.",
+          "amount": 12116.84,
+          "currency": "EUR",
+          "date": "2022-09-11",
+          "ibm_from_account": "800195070",
+          "ibm_to_account": "80016A6F0"
+        },
+        {
+          "payer": "Fairhaven Holdings Inc.",
+          "payee": "Stonehaven Assets Corp.",
+          "amount": 6639.07,
+          "currency": "EUR",
+          "date": "2022-09-12",
+          "ibm_from_account": "800195070",
+          "ibm_to_account": "80016BEA0"
+        },
+        {
+          "payer": "Fairhaven Holdings Inc.",
+          "payee": "Adrian Ortega",
+          "amount": 13829.37,
+          "currency": "EUR",
+          "date": "2022-09-12",
+          "ibm_from_account": "800195070",
+          "ibm_to_account": "8001B8810"
+        }
+      ]
+    },
+    {
+      "typology": "SCATTER-GATHER",
+      "description": "SCATTER-GATHER",
+      "tx": [
+        {
+          "payer": "Willowmere Management Limited",
+          "payee": "Ironwood Ventures S.A.",
+          "amount": 17620.22,
+          "currency": "USD",
+          "date": "2022-09-07",
+          "ibm_from_account": "807E7A050",
+          "ibm_to_account": "8066C70E0"
+        },
+        {
+          "payer": "Ironwood Ventures S.A.",
+          "payee": "Amberfield Partners Ltd.",
+          "amount": 15037.1,
+          "currency": "EUR",
+          "date": "2022-09-10",
+          "ibm_from_account": "8066C70E0",
+          "ibm_to_account": "801C95950"
+        },
+        {
+          "payer": "Willowmere Management Limited",
+          "payee": "Seaglass Group Limited",
+          "amount": 8610.64,
+          "currency": "USD",
+          "date": "2022-09-07",
+          "ibm_from_account": "807E7A050",
+          "ibm_to_account": "8054BBA20"
+        },
+        {
+          "payer": "Seaglass Group Limited",
+          "payee": "Amberfield Partners Ltd.",
+          "amount": 7348.32,
+          "currency": "EUR",
+          "date": "2022-09-10",
+          "ibm_from_account": "8054BBA20",
+          "ibm_to_account": "801C95950"
+        },
+        {
+          "payer": "Willowmere Management Limited",
+          "payee": "Seaglass Holdings Inc.",
+          "amount": 2284.16,
+          "currency": "USD",
+          "date": "2022-09-09",
+          "ibm_from_account": "807E7A050",
+          "ibm_to_account": "801F61160"
+        },
+        {
+          "payer": "Seaglass Holdings Inc.",
+          "payee": "Amberfield Partners Ltd.",
+          "amount": 1577.86,
+          "currency": "EUR",
+          "date": "2022-09-10",
+          "ibm_from_account": "801F61160",
+          "ibm_to_account": "801C95950"
+        }
+      ]
+    }
+  ]
+}

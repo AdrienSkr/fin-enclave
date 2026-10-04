@@ -1,0 +1,23 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Amberfield Partners Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Enterprises Limited",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Oakridge Enterprises Limited",
+      "target": "Amberfield Partners Ltd",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

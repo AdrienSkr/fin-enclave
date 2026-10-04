@@ -1,0 +1,31 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "BRITISH VIRGIN ISLANDS",
+      "kind": "Societe"
+    },
+    {
+      "name": "REGISTRAR OF CORPORATE AFFAIRS",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Capital Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Maple Register Agents Ltd.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Maple Register Agents Ltd.",
+      "target": "Willowmere Capital Corp.",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

@@ -1,0 +1,225 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Stonehaven Trading Inc.",
+  "statement_lines": [
+    {
+      "date": "2022-08-25",
+      "counterparty": "Solde initial",
+      "amount": 671769.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-25",
+      "counterparty": "Règlement facture client - Summit Couriers Inc",
+      "amount": 6250.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-26",
+      "counterparty": "Licences logiciels et hébergement - Summit Couriers Ltd",
+      "amount": -7750.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-26",
+      "counterparty": "Fournitures de bureau - Summit Printing Ltd",
+      "amount": -7800.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-30",
+      "counterparty": "Virement reçu prestation - Harbour Couriers Inc",
+      "amount": 24150.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-31",
+      "counterparty": "Frais d'audit et assistance juridique - Paper Catering Ltd",
+      "amount": -4400.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-01",
+      "counterparty": "Abonnement télécms et réseaux - Pinewood Catering Ltd",
+      "amount": -2000.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-02",
+      "counterparty": "Abonnement télécms et réseaux - Pinewood Supplies Ltd",
+      "amount": -4000.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-03",
+      "counterparty": "Prestations logistiques et fret - Paper Cleaning Ltd",
+      "amount": -7300.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-06",
+      "counterparty": "Fournitures de bureau - Harbour Cleaning Ltd",
+      "amount": -900.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-09",
+      "counterparty": "VIR SEPA REF 29855 Northwind Assets Corp.",
+      "amount": 2284.16,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "VIR SEPA REF 46633 Ironwood Holdings Limited",
+      "amount": -1577.86,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Honoraires de conseil - Redwood Printing Ltd",
+      "amount": -4950.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-20",
+      "counterparty": "Encaissement commercial REF 19846 - Bluefin Printing Inc",
+      "amount": 24500.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-21",
+      "counterparty": "Règlement facture client - Crescent Cleaning Inc",
+      "amount": 17300.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Virement reçu prestation - Redwood Couriers Inc",
+      "amount": 14800.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-27",
+      "counterparty": "Licences logiciels et hébergement - Crescent Supplies Ltd",
+      "amount": -3725.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-28",
+      "counterparty": "Frais d'audit et assistance juridique - Summit Cleaning Ltd",
+      "amount": -1600.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-29",
+      "counterparty": "Encaissement commercial REF 16175 - Crescent Cleaning Inc",
+      "amount": 23250.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-01",
+      "counterparty": "Prestations logistiques et fret - Harbour Telecom Ltd",
+      "amount": -8300.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-04",
+      "counterparty": "Honoraires de conseil - Crescent Supplies Ltd",
+      "amount": -8450.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-14",
+      "counterparty": "Abonnement télécms et réseaux - Harbour Printing Ltd",
+      "amount": -7200.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-14",
+      "counterparty": "Honoraires de conseil - Redwood Cleaning Ltd",
+      "amount": -2525.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-17",
+      "counterparty": "Honoraires de conseil - Redwood Supplies Ltd",
+      "amount": -7125.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-22",
+      "counterparty": "Honoraires de conseil - Paper Telecom Ltd",
+      "amount": -8875.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-24",
+      "counterparty": "Règlement loyer commercial REF 75673",
+      "amount": -5450.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-26",
+      "counterparty": "Licences logiciels et hébergement - Redwood Printing Ltd",
+      "amount": -9025.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-28",
+      "counterparty": "Règlement loyer commercial REF 63797",
+      "amount": -6650.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-29",
+      "counterparty": "Virement salaires mensuels REF 57257",
+      "amount": -7850.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-29",
+      "counterparty": "Encaissement commercial REF 94686 - Summit Catering Inc",
+      "amount": 14500.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-30",
+      "counterparty": "Fournitures de bureau - Redwood Printing Ltd",
+      "amount": -4375.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Licences logiciels et hébergement - Pinewood Telecom Ltd",
+      "amount": -7425.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Abonnement télécms et réseaux - Redwood Catering Ltd",
+      "amount": -8800.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-02",
+      "counterparty": "Abonnement télécms et réseaux - Paper Telecom Ltd",
+      "amount": -7425.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-08",
+      "counterparty": "Frais d'audit et assistance juridique - Redwood Catering Ltd",
+      "amount": -4000.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-08",
+      "counterparty": "Solde à reporter",
+      "amount": 652325.3,
+      "currency": "USD"
+    }
+  ]
+}

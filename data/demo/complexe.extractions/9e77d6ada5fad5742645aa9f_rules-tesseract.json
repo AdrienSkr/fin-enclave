@@ -1,0 +1,13 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Adrian Nielsen",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

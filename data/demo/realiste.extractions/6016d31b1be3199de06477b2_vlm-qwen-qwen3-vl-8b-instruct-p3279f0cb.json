@@ -1,0 +1,123 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Mistvale Enterprises Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Countryside Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Fairhaven Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Cleaning Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Mistvale Enterprises Ltd.",
+      "payee": "Bluefin Supplies Inc",
+      "amount": 17300.0,
+      "currency": "GBP",
+      "date": "2022-08-27"
+    },
+    {
+      "payer": "Mistvale Enterprises Ltd.",
+      "payee": "Crescent Supplies Inc",
+      "amount": 11650.0,
+      "currency": "GBP",
+      "date": "2022-09-02"
+    },
+    {
+      "payer": "Mistvale Enterprises Ltd.",
+      "payee": "Fairhaven Holdings Inc.",
+      "amount": 13690.05,
+      "currency": "GBP",
+      "date": "2022-09-08"
+    },
+    {
+      "payer": "Mistvale Enterprises Ltd.",
+      "payee": "Fairhaven Holdings Inc.",
+      "amount": 13690.05,
+      "currency": "GBP",
+      "date": "2022-09-08"
+    },
+    {
+      "payer": "Mistvale Enterprises Ltd.",
+      "payee": "Harbour Printing Ltd",
+      "amount": 6925.0,
+      "currency": "GBP",
+      "date": "2022-09-15"
+    },
+    {
+      "payer": "Mistvale Enterprises Ltd.",
+      "payee": "Harbour Cleaning Ltd",
+      "amount": 8325.0,
+      "currency": "GBP",
+      "date": "2022-09-30"
+    },
+    {
+      "payer": "Mistvale Enterprises Ltd.",
+      "payee": "Summit Supplies Inc",
+      "amount": 22750.0,
+      "currency": "GBP",
+      "date": "2022-10-06"
+    },
+    {
+      "payer": "Mistvale Enterprises Ltd.",
+      "payee": "Paper Catering Inc",
+      "amount": 14900.0,
+      "currency": "GBP",
+      "date": "2022-10-19"
+    },
+    {
+      "payer": "Mistvale Enterprises Ltd.",
+      "payee": "Paper Cleaning Ltd",
+      "amount": 8850.0,
+      "currency": "GBP",
+      "date": "2022-10-26"
+    },
+    {
+      "payer": "Mistvale Enterprises Ltd.",
+      "payee": "Harbour Printing Inc",
+      "amount": 3700.0,
+      "currency": "GBP",
+      "date": "2022-11-02"
+    },
+    {
+      "payer": "Mistvale Enterprises Ltd.",
+      "payee": "Harbour Printing Inc",
+      "amount": 17300.0,
+      "currency": "GBP",
+      "date": "2022-11-06"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

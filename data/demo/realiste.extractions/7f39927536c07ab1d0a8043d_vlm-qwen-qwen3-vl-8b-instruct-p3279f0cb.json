@@ -1,0 +1,28 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Ironwood Ventures S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd.",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "BRITISH VIRGIN ISLANDS",
+      "target": "Ironwood Ventures S.A.",
+      "role": "registered_address"
+    },
+    {
+      "source": "Coral Fiduciary Services Ltd.",
+      "target": "Ironwood Ventures S.A.",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

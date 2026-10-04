@@ -1,0 +1,152 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Ashcroft Enterprises Limited",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-19",
+      "counterparty": "Bluefin Supplies Ltd",
+      "amount": 4550.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-20",
+      "counterparty": "Crescent Cleaning Inc",
+      "amount": -24150.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-23",
+      "counterparty": "Summit Couriers Inc",
+      "amount": -20400.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-27",
+      "counterparty": "Harbour Cleaning Inc",
+      "amount": -18600.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-29",
+      "counterparty": "Bluefin Couriers Ltd",
+      "amount": -3300.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-31",
+      "counterparty": "Redwood Cleaning Ltd",
+      "amount": -4325.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-02",
+      "counterparty": "Vincent Reynaud",
+      "amount": -1413.09,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-02",
+      "counterparty": "Paper Couriers Ltd",
+      "amount": -8125.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-05",
+      "counterparty": "Vincent Reynaud",
+      "amount": -1387.87,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-15",
+      "counterparty": "Pinewood Couriers Ltd",
+      "amount": -4175.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-25",
+      "counterparty": "Pinewood Cleaning Inc",
+      "amount": -14950.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-30",
+      "counterparty": "Crescent Telecom Ltd",
+      "amount": -6800.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-02",
+      "counterparty": "Summit Cleaning Inc",
+      "amount": -12150.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-03",
+      "counterparty": "Pinewood Catering Ltd",
+      "amount": -725.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-04",
+      "counterparty": "Redwood Cleaning Ltd",
+      "amount": -8075.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-07",
+      "counterparty": "Harbour Cleaning Inc",
+      "amount": -18450.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-12",
+      "counterparty": "Summit Printing Inc",
+      "amount": -7450.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-17",
+      "counterparty": "Harbour Catering Inc",
+      "amount": -5300.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-18",
+      "counterparty": "Redwood Catering Ltd",
+      "amount": -3775.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-22",
+      "counterparty": "Bluefin Telecom Inc",
+      "amount": -24350.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-24",
+      "counterparty": "Summit Couriers Ltd",
+      "amount": -4500.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-24",
+      "counterparty": "Bluefin Cleaning Ltd",
+      "amount": -525.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-30",
+      "counterparty": "REF 49651",
+      "amount": -6250.0,
+      "currency": "EUR"
+    }
+  ]
+}

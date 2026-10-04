@@ -1,0 +1,21 @@
+{
+  "doc_type": "invoice",
+  "entities": [
+    {
+      "name": "Harbour Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Peter Hughes",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

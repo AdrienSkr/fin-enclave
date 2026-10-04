@@ -1,0 +1,28 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Oakridge Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Sigrid Castille",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Oakridge Enterprises Limited",
+      "target": "Northwind Assets Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Sigrid Castille",
+      "target": "Northwind Assets Corp.",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

@@ -1,0 +1,94 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Amberfield Partners Ltd.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Redwood Parking Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ironwood Ventures S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Courier Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Telecom Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-09-04",
+      "counterparty": "Redwood Parking Ltd",
+      "amount": -4900.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Ironwood Ventures S.A.",
+      "amount": -15037.1,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Seaglass Group Limited",
+      "amount": -7348.32,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Seaglass Holdings Inc.",
+      "amount": -1577.86,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-13",
+      "counterparty": "Summit Telecom Ltd",
+      "amount": -250.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Bluefin Catering Ltd",
+      "amount": -5175.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-31",
+      "counterparty": "Crescent Courier Ltd",
+      "amount": -125.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Pinewood Telecom Ltd",
+      "amount": -250.0,
+      "currency": "EUR"
+    }
+  ]
+}

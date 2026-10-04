@@ -1,0 +1,32 @@
+{
+  "doc_type": "power_of_attorney",
+  "entities": [
+    {
+      "name": "Willowmere Trading S.A",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Thornfield Capital Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oskar Lindqvist",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Oskar Lindqvist",
+      "target": "Thornfield Capital Limited",
+      "role": "attorney"
+    },
+    {
+      "source": "Willowmere Trading S.A",
+      "target": "Thornfield Capital Limited",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

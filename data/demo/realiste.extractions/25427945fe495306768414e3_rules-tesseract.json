@@ -1,0 +1,25 @@
+{
+  "doc_type": "invoice",
+  "entities": [
+    {
+      "name": "Summit Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit oc",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Maria u",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "atering Inc",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

@@ -1,0 +1,6603 @@
+[
+  {
+    "piece_id": "PIECE-0001",
+    "file": "PIECE-0001.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Adrian Nielsen",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Bluefin Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Brightwater Investments Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Couriers Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Bluefin Printing Inc",
+        "payee": "Adrian Nielsen",
+        "amount": 15550.0,
+        "currency": "EUR",
+        "date": "2022-08-27"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Pinewood Cleaning Ltd",
+        "amount": 7000.0,
+        "currency": "EUR",
+        "date": "2022-08-30"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 8775.0,
+        "currency": "EUR",
+        "date": "2022-09-01"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Crescent Cleaning Ltd",
+        "amount": 6100.0,
+        "currency": "EUR",
+        "date": "2022-09-02"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Harbour Printing Ltd",
+        "amount": 9550.0,
+        "currency": "EUR",
+        "date": "2022-09-04"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Adrian Nielsen",
+        "amount": 391.44,
+        "currency": "EUR",
+        "date": "2022-09-05"
+      },
+      {
+        "payer": "Paper Telecom Inc",
+        "payee": "Adrian Nielsen",
+        "amount": 21450.0,
+        "currency": "EUR",
+        "date": "2022-09-09"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Pinewood Supplies Ltd",
+        "amount": 7525.0,
+        "currency": "EUR",
+        "date": "2022-09-11"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 2550.0,
+        "currency": "EUR",
+        "date": "2022-09-14"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Paper Cleaning Ltd",
+        "amount": 5425.0,
+        "currency": "EUR",
+        "date": "2022-09-16"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 4900.0,
+        "currency": "EUR",
+        "date": "2022-09-20"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Paper Printing Ltd",
+        "amount": 9475.0,
+        "currency": "EUR",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Paper Printing Inc",
+        "payee": "Adrian Nielsen",
+        "amount": 3700.0,
+        "currency": "EUR",
+        "date": "2022-09-29"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Crescent Printing Ltd",
+        "amount": 7675.0,
+        "currency": "EUR",
+        "date": "2022-09-30"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Summit Couriers Ltd",
+        "amount": 3575.0,
+        "currency": "EUR",
+        "date": "2022-10-01"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 5800.0,
+        "currency": "EUR",
+        "date": "2022-10-02"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Summit Supplies Ltd",
+        "amount": 5950.0,
+        "currency": "EUR",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Summit Couriers Ltd",
+        "amount": 2975.0,
+        "currency": "EUR",
+        "date": "2022-10-19"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Pinewood Supplies Ltd",
+        "amount": 2500.0,
+        "currency": "EUR",
+        "date": "2022-10-25"
+      },
+      {
+        "payer": "Pinewood Catering Inc",
+        "payee": "Adrian Nielsen",
+        "amount": 23850.0,
+        "currency": "EUR",
+        "date": "2022-10-25"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 4850.0,
+        "currency": "EUR",
+        "date": "2022-11-01"
+      },
+      {
+        "payer": "Adrian Nielsen",
+        "payee": "Bluefin Couriers Ltd",
+        "amount": 2425.0,
+        "currency": "EUR",
+        "date": "2022-11-01"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0002",
+    "file": "PIECE-0002.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Paper Telecom Ltd",
+        "amount": 9575.0,
+        "currency": "EUR",
+        "date": "2022-10-31"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 9450.0,
+        "currency": "EUR",
+        "date": "2022-11-03"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 4425.0,
+        "currency": "EUR",
+        "date": "2022-11-05"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 2100.0,
+        "currency": "EUR",
+        "date": "2022-11-06"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0003",
+    "file": "PIECE-0003.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Cobalt Group Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Seaglass Capital S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Pinewood Supplies Ltd",
+        "amount": 6750.0,
+        "currency": "USD",
+        "date": "2022-08-24"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Bluefin Couriers Ltd",
+        "amount": 2100.0,
+        "currency": "USD",
+        "date": "2022-09-01"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Crescent Catering Ltd",
+        "amount": 7025.0,
+        "currency": "USD",
+        "date": "2022-09-02"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Seaglass Capital S.A.",
+        "amount": 9957.07,
+        "currency": "USD",
+        "date": "2022-09-05"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Bluefin Telecom Ltd",
+        "amount": 600.0,
+        "currency": "USD",
+        "date": "2022-09-06"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 8175.0,
+        "currency": "USD",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 7025.0,
+        "currency": "USD",
+        "date": "2022-09-14"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 6050.0,
+        "currency": "USD",
+        "date": "2022-09-14"
+      },
+      {
+        "payer": "Paper Printing Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 10900.0,
+        "currency": "USD",
+        "date": "2022-09-15"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Crescent Supplies Ltd",
+        "amount": 6975.0,
+        "currency": "USD",
+        "date": "2022-09-15"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 5375.0,
+        "currency": "USD",
+        "date": "2022-09-16"
+      },
+      {
+        "payer": "Harbour Supplies Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 3800.0,
+        "currency": "USD",
+        "date": "2022-09-17"
+      },
+      {
+        "payer": "Paper Catering Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 14300.0,
+        "currency": "USD",
+        "date": "2022-09-25"
+      },
+      {
+        "payer": "Harbour Supplies Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 6400.0,
+        "currency": "USD",
+        "date": "2022-09-30"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Paper Catering Ltd",
+        "amount": 1525.0,
+        "currency": "USD",
+        "date": "2022-09-30"
+      },
+      {
+        "payer": "Pinewood Catering Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 26100.0,
+        "currency": "USD",
+        "date": "2022-10-04"
+      },
+      {
+        "payer": "Harbour Telecom Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 3350.0,
+        "currency": "USD",
+        "date": "2022-10-05"
+      },
+      {
+        "payer": "Bluefin Telecom Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 5800.0,
+        "currency": "USD",
+        "date": "2022-10-07"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 3000.0,
+        "currency": "USD",
+        "date": "2022-10-08"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Pinewood Supplies Ltd",
+        "amount": 8150.0,
+        "currency": "USD",
+        "date": "2022-10-08"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Harbour Printing Ltd",
+        "amount": 5250.0,
+        "currency": "USD",
+        "date": "2022-10-12"
+      },
+      {
+        "payer": "Bluefin Telecom Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 6150.0,
+        "currency": "USD",
+        "date": "2022-10-12"
+      },
+      {
+        "payer": "Summit Printing Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 19400.0,
+        "currency": "USD",
+        "date": "2022-10-13"
+      },
+      {
+        "payer": "Summit Couriers Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 14550.0,
+        "currency": "USD",
+        "date": "2022-10-15"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 5300.0,
+        "currency": "USD",
+        "date": "2022-10-18"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 6675.0,
+        "currency": "USD",
+        "date": "2022-10-18"
+      },
+      {
+        "payer": "Bluefin Supplies Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 23500.0,
+        "currency": "USD",
+        "date": "2022-10-18"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 7200.0,
+        "currency": "USD",
+        "date": "2022-10-19"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Harbour Printing Ltd",
+        "amount": 3225.0,
+        "currency": "USD",
+        "date": "2022-10-21"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 5300.0,
+        "currency": "USD",
+        "date": "2022-10-22"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Summit Supplies Ltd",
+        "amount": 1925.0,
+        "currency": "USD",
+        "date": "2022-10-26"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Redwood Printing Ltd",
+        "amount": 3350.0,
+        "currency": "USD",
+        "date": "2022-10-27"
+      },
+      {
+        "payer": "Crescent Cleaning Inc",
+        "payee": "Cobalt Group Inc.",
+        "amount": 22950.0,
+        "currency": "USD",
+        "date": "2022-10-31"
+      },
+      {
+        "payer": "Cobalt Group Inc.",
+        "payee": "Pinewood Telecom Ltd",
+        "amount": 5100.0,
+        "currency": "USD",
+        "date": "2022-11-02"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0004",
+    "file": "PIECE-0004.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Crescent Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0005",
+    "file": "PIECE-0005.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Mistvale Partners Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Mistvale Partners Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0006",
+    "file": "PIECE-0006.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Amberfield Partners Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Amberfield Partners Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0007",
+    "file": "PIECE-0007.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Amberfield Partners Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Bluefin Catering Ltd",
+        "amount": 6725.0,
+        "currency": "USD",
+        "date": "2022-10-18"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Crescent Cleaning Ltd",
+        "amount": 7600.0,
+        "currency": "USD",
+        "date": "2022-10-19"
+      },
+      {
+        "payer": "Summit Printing Inc",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 9350.0,
+        "currency": "USD",
+        "date": "2022-10-19"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Bluefin Catering Ltd",
+        "amount": 1250.0,
+        "currency": "USD",
+        "date": "2022-10-22"
+      },
+      {
+        "payer": "Crescent Catering Inc",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 12500.0,
+        "currency": "USD",
+        "date": "2022-10-23"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Harbour Catering Ltd",
+        "amount": 7200.0,
+        "currency": "USD",
+        "date": "2022-10-24"
+      },
+      {
+        "payer": "Harbour Couriers Inc",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 11150.0,
+        "currency": "USD",
+        "date": "2022-10-26"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Harbour Supplies Ltd",
+        "amount": 5050.0,
+        "currency": "USD",
+        "date": "2022-10-29"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Bluefin Catering Ltd",
+        "amount": 7700.0,
+        "currency": "USD",
+        "date": "2022-11-01"
+      },
+      {
+        "payer": "Crescent Cleaning Inc",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 27100.0,
+        "currency": "USD",
+        "date": "2022-11-04"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Bluefin Cleaning Ltd",
+        "amount": 5900.0,
+        "currency": "USD",
+        "date": "2022-11-05"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Paper Supplies Ltd",
+        "amount": 5525.0,
+        "currency": "USD",
+        "date": "2022-11-08"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0008",
+    "file": "PIECE-0008.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Clara Holmgren",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Seaglass Group Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Clara Holmgren",
+        "target": "Seaglass Group Limited",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0009",
+    "file": "PIECE-0009.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Northwind Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sigrid Castille",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Northwind Assets Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Sigrid Castille",
+        "target": "Northwind Assets Corp.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0010",
+    "file": "PIECE-0010.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Fairhaven Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Redwood Catering Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 25750.0,
+        "currency": "EUR",
+        "date": "2022-10-21"
+      },
+      {
+        "payer": "Summit Cleaning Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 25950.0,
+        "currency": "EUR",
+        "date": "2022-10-26"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Paper Cleaning Ltd",
+        "amount": 8850.0,
+        "currency": "EUR",
+        "date": "2022-10-28"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Bluefin Cleaning Ltd",
+        "amount": 9450.0,
+        "currency": "EUR",
+        "date": "2022-10-30"
+      },
+      {
+        "payer": "Bluefin Supplies Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 9300.0,
+        "currency": "EUR",
+        "date": "2022-11-03"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 5250.0,
+        "currency": "EUR",
+        "date": "2022-11-03"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 5125.0,
+        "currency": "EUR",
+        "date": "2022-11-03"
+      },
+      {
+        "payer": "Harbour Printing Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 3700.0,
+        "currency": "EUR",
+        "date": "2022-11-04"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Summit Catering Ltd",
+        "amount": 9550.0,
+        "currency": "EUR",
+        "date": "2022-11-07"
+      },
+      {
+        "payer": "Bluefin Telecom Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 10750.0,
+        "currency": "EUR",
+        "date": "2022-11-07"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Pinewood Catering Ltd",
+        "amount": 3900.0,
+        "currency": "EUR",
+        "date": "2022-11-07"
+      },
+      {
+        "payer": "Harbour Printing Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 17300.0,
+        "currency": "EUR",
+        "date": "2022-11-08"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0011",
+    "file": "PIECE-0011.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Northwind Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Northwind Assets Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0012",
+    "file": "PIECE-0012.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0013",
+    "file": "PIECE-0013.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Paper Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0014",
+    "file": "PIECE-0014.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ironwood Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Ironwood Holdings Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0015",
+    "file": "PIECE-0015.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ashcroft Enterprises Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Ashcroft Enterprises Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0016",
+    "file": "PIECE-0016.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Investments Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Adrian Nielsen",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Paper Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Inc",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 4200.0,
+        "currency": "EUR",
+        "date": "2022-08-21"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Paper Couriers Ltd",
+        "amount": 8775.0,
+        "currency": "EUR",
+        "date": "2022-08-27"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Bluefin Couriers Ltd",
+        "amount": 6475.0,
+        "currency": "EUR",
+        "date": "2022-08-28"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Crescent Cleaning Ltd",
+        "amount": 3125.0,
+        "currency": "EUR",
+        "date": "2022-09-03"
+      },
+      {
+        "payer": "Pinewood Telecom Inc",
+        "payee": "Brightwater Investments Inc.",
+        "amount": 9250.0,
+        "currency": "EUR",
+        "date": "2022-09-03"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Crescent Couriers Ltd",
+        "amount": 5675.0,
+        "currency": "EUR",
+        "date": "2022-09-03"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Adrian Nielsen",
+        "amount": 391.44,
+        "currency": "EUR",
+        "date": "2022-09-05"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Crescent Couriers Ltd",
+        "amount": 2700.0,
+        "currency": "EUR",
+        "date": "2022-09-11"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Paper Cleaning Ltd",
+        "amount": 6575.0,
+        "currency": "EUR",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Redwood Couriers Inc",
+        "payee": "Brightwater Investments Inc.",
+        "amount": 26800.0,
+        "currency": "EUR",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Crescent Catering Inc",
+        "payee": "Brightwater Investments Inc.",
+        "amount": 15400.0,
+        "currency": "EUR",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 5475.0,
+        "currency": "EUR",
+        "date": "2022-09-22"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Pinewood Telecom Ltd",
+        "amount": 1475.0,
+        "currency": "EUR",
+        "date": "2022-09-22"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 5300.0,
+        "currency": "EUR",
+        "date": "2022-09-24"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Pinewood Printing Ltd",
+        "amount": 3850.0,
+        "currency": "EUR",
+        "date": "2022-09-24"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 7525.0,
+        "currency": "EUR",
+        "date": "2022-09-24"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Redwood Couriers Ltd",
+        "amount": 1925.0,
+        "currency": "EUR",
+        "date": "2022-09-25"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Bluefin Catering Ltd",
+        "amount": 8975.0,
+        "currency": "EUR",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 7775.0,
+        "currency": "EUR",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Paper Supplies Inc",
+        "payee": "Brightwater Investments Inc.",
+        "amount": 12300.0,
+        "currency": "EUR",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Bluefin Catering Ltd",
+        "amount": 2425.0,
+        "currency": "EUR",
+        "date": "2022-09-29"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Pinewood Printing Ltd",
+        "amount": 2600.0,
+        "currency": "EUR",
+        "date": "2022-09-29"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Crescent Couriers Ltd",
+        "amount": 6475.0,
+        "currency": "EUR",
+        "date": "2022-10-01"
+      },
+      {
+        "payer": "Harbour Telecom Inc",
+        "payee": "Brightwater Investments Inc.",
+        "amount": 12750.0,
+        "currency": "EUR",
+        "date": "2022-10-02"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Crescent Printing Ltd",
+        "amount": 7225.0,
+        "currency": "EUR",
+        "date": "2022-10-02"
+      },
+      {
+        "payer": "Paper Telecom Inc",
+        "payee": "Brightwater Investments Inc.",
+        "amount": 25150.0,
+        "currency": "EUR",
+        "date": "2022-10-03"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Redwood Catering Ltd",
+        "amount": 3625.0,
+        "currency": "EUR",
+        "date": "2022-10-06"
+      },
+      {
+        "payer": "Paper Supplies Inc",
+        "payee": "Brightwater Investments Inc.",
+        "amount": 20750.0,
+        "currency": "EUR",
+        "date": "2022-10-12"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Redwood Catering Ltd",
+        "amount": 8225.0,
+        "currency": "EUR",
+        "date": "2022-10-12"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Summit Telecom Ltd",
+        "amount": 5875.0,
+        "currency": "EUR",
+        "date": "2022-10-12"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 1650.0,
+        "currency": "EUR",
+        "date": "2022-10-14"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Bluefin Couriers Ltd",
+        "amount": 8675.0,
+        "currency": "EUR",
+        "date": "2022-10-14"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Pinewood Catering Ltd",
+        "amount": 6475.0,
+        "currency": "EUR",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Summit Couriers Inc",
+        "payee": "Brightwater Investments Inc.",
+        "amount": 27950.0,
+        "currency": "EUR",
+        "date": "2022-10-18"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0017",
+    "file": "PIECE-0017.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sigrid Castille",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Willowmere Management Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Sigrid Castille",
+        "target": "Willowmere Management Limited",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0018",
+    "file": "PIECE-0018.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ironwood Ventures S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Ironwood Ventures S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0019",
+    "file": "PIECE-0019.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ironwood Ventures S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Partners Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Seaglass Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Paper Printing Inc",
+        "payee": "Ironwood Ventures S.A.",
+        "amount": 7600.0,
+        "currency": "USD",
+        "date": "2022-08-20"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Crescent Supplies Ltd",
+        "amount": 8225.0,
+        "currency": "USD",
+        "date": "2022-08-22"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 5850.0,
+        "currency": "USD",
+        "date": "2022-08-25"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Bluefin Telecom Ltd",
+        "amount": 9575.0,
+        "currency": "USD",
+        "date": "2022-08-29"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Ironwood Ventures S.A.",
+        "amount": 19194.69,
+        "currency": "USD",
+        "date": "2022-09-04"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Seaglass Group Limited",
+        "amount": 15377.24,
+        "currency": "USD",
+        "date": "2022-09-06"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 3150.0,
+        "currency": "USD",
+        "date": "2022-09-07"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Summit Supplies Ltd",
+        "amount": 4275.0,
+        "currency": "USD",
+        "date": "2022-09-07"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Crescent Catering Ltd",
+        "amount": 1500.0,
+        "currency": "USD",
+        "date": "2022-09-11"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Paper Couriers Ltd",
+        "amount": 4450.0,
+        "currency": "USD",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Paper Printing Ltd",
+        "amount": 2625.0,
+        "currency": "USD",
+        "date": "2022-09-15"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Paper Supplies Ltd",
+        "amount": 5925.0,
+        "currency": "USD",
+        "date": "2022-09-16"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Paper Cleaning Ltd",
+        "amount": 3625.0,
+        "currency": "USD",
+        "date": "2022-09-17"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 3125.0,
+        "currency": "USD",
+        "date": "2022-09-19"
+      },
+      {
+        "payer": "Paper Printing Inc",
+        "payee": "Ironwood Ventures S.A.",
+        "amount": 8950.0,
+        "currency": "USD",
+        "date": "2022-09-21"
+      },
+      {
+        "payer": "Crescent Printing Inc",
+        "payee": "Ironwood Ventures S.A.",
+        "amount": 27350.0,
+        "currency": "USD",
+        "date": "2022-09-21"
+      },
+      {
+        "payer": "Pinewood Cleaning Inc",
+        "payee": "Ironwood Ventures S.A.",
+        "amount": 11600.0,
+        "currency": "USD",
+        "date": "2022-09-24"
+      },
+      {
+        "payer": "Pinewood Printing Inc",
+        "payee": "Ironwood Ventures S.A.",
+        "amount": 25900.0,
+        "currency": "USD",
+        "date": "2022-09-27"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Harbour Printing Ltd",
+        "amount": 6575.0,
+        "currency": "USD",
+        "date": "2022-10-07"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Paper Telecom Ltd",
+        "amount": 5025.0,
+        "currency": "USD",
+        "date": "2022-10-09"
+      },
+      {
+        "payer": "Crescent Catering Inc",
+        "payee": "Ironwood Ventures S.A.",
+        "amount": 24550.0,
+        "currency": "USD",
+        "date": "2022-10-13"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Paper Printing Ltd",
+        "amount": 3600.0,
+        "currency": "USD",
+        "date": "2022-10-16"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 7975.0,
+        "currency": "USD",
+        "date": "2022-10-16"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Crescent Catering Ltd",
+        "amount": 4150.0,
+        "currency": "USD",
+        "date": "2022-10-29"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Paper Catering Ltd",
+        "amount": 2900.0,
+        "currency": "USD",
+        "date": "2022-10-31"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0020",
+    "file": "PIECE-0020.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ashcroft Enterprises Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Ashcroft Enterprises Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0021",
+    "file": "PIECE-0021.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Seaglass Group Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0022",
+    "file": "PIECE-0022.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0023",
+    "file": "PIECE-0023.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Amberfield Partners Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Theo Garrido",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Ironwood Group Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Partners Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Nora Nielsen",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Enterprises Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Crescent Couriers Inc",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 17800.0,
+        "currency": "USD",
+        "date": "2022-08-26"
+      },
+      {
+        "payer": "Harbour Couriers Inc",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 21300.0,
+        "currency": "USD",
+        "date": "2022-08-26"
+      },
+      {
+        "payer": "Summit Catering Inc",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 6800.0,
+        "currency": "USD",
+        "date": "2022-08-27"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Summit Printing Ltd",
+        "amount": 1750.0,
+        "currency": "USD",
+        "date": "2022-08-27"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Pinewood Supplies Ltd",
+        "amount": 6275.0,
+        "currency": "USD",
+        "date": "2022-08-27"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 3525.0,
+        "currency": "USD",
+        "date": "2022-08-30"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Bluefin Couriers Ltd",
+        "amount": 1125.0,
+        "currency": "USD",
+        "date": "2022-09-06"
+      },
+      {
+        "payer": "Northwind Assets S.A.",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 3361.03,
+        "currency": "USD",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Ashcroft Enterprises Inc.",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 13639.72,
+        "currency": "USD",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Theo Garrido",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 1126160.08,
+        "currency": "USD",
+        "date": "2022-09-11"
+      },
+      {
+        "payer": "Ironwood Group Ltd.",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 13578.18,
+        "currency": "USD",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Crescent Printing Ltd",
+        "amount": 2775.0,
+        "currency": "USD",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Northwind Partners Inc.",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 15320.2,
+        "currency": "USD",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Nora Nielsen",
+        "amount": 16204.27,
+        "currency": "USD",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 4900.0,
+        "currency": "USD",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Fairhaven Enterprises Corp.",
+        "amount": 12022.79,
+        "currency": "USD",
+        "date": "2022-09-17"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Pinewood Telecom Ltd",
+        "amount": 900.0,
+        "currency": "USD",
+        "date": "2022-09-17"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 9550.0,
+        "currency": "USD",
+        "date": "2022-09-18"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Paper Couriers Ltd",
+        "amount": 2625.0,
+        "currency": "USD",
+        "date": "2022-09-20"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Paper Supplies Ltd",
+        "amount": 7100.0,
+        "currency": "USD",
+        "date": "2022-09-22"
+      },
+      {
+        "payer": "Paper Telecom Inc",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 10800.0,
+        "currency": "USD",
+        "date": "2022-09-22"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Bluefin Telecom Ltd",
+        "amount": 8700.0,
+        "currency": "USD",
+        "date": "2022-09-25"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 9300.0,
+        "currency": "USD",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 9225.0,
+        "currency": "USD",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Paper Couriers Inc",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 4100.0,
+        "currency": "USD",
+        "date": "2022-09-30"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Bluefin Couriers Ltd",
+        "amount": 8850.0,
+        "currency": "USD",
+        "date": "2022-10-01"
+      },
+      {
+        "payer": "Bluefin Cleaning Inc",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 25700.0,
+        "currency": "USD",
+        "date": "2022-10-03"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 4600.0,
+        "currency": "USD",
+        "date": "2022-10-04"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Harbour Cleaning Ltd",
+        "amount": 475.0,
+        "currency": "USD",
+        "date": "2022-10-04"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Bluefin Telecom Ltd",
+        "amount": 775.0,
+        "currency": "USD",
+        "date": "2022-10-07"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Summit Telecom Ltd",
+        "amount": 5825.0,
+        "currency": "USD",
+        "date": "2022-10-13"
+      },
+      {
+        "payer": "Harbour Supplies Inc",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 27150.0,
+        "currency": "USD",
+        "date": "2022-10-14"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Summit Couriers Ltd",
+        "amount": 4575.0,
+        "currency": "USD",
+        "date": "2022-10-14"
+      },
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Redwood Catering Ltd",
+        "amount": 3050.0,
+        "currency": "USD",
+        "date": "2022-10-16"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0024",
+    "file": "PIECE-0024.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Harbour Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0025",
+    "file": "PIECE-0025.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Mistvale Enterprises Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Paper Cleaning Inc",
+        "payee": "Mistvale Enterprises Limited",
+        "amount": 24250.0,
+        "currency": "USD",
+        "date": "2022-10-31"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 9725.0,
+        "currency": "USD",
+        "date": "2022-11-02"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0026",
+    "file": "PIECE-0026.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Mistvale Enterprises Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sigrid Castille",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Mistvale Enterprises Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Sigrid Castille",
+        "target": "Mistvale Enterprises Limited",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0027",
+    "file": "PIECE-0027.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ironwood Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Seaglass Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Enterprises Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Stonehaven Trading Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Pinewood Couriers Ltd",
+        "amount": 3400.0,
+        "currency": "EUR",
+        "date": "2022-08-26"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 7125.0,
+        "currency": "EUR",
+        "date": "2022-08-30"
+      },
+      {
+        "payer": "Harbour Couriers Inc",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 15600.0,
+        "currency": "EUR",
+        "date": "2022-09-04"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Pinewood Printing Ltd",
+        "amount": 3800.0,
+        "currency": "EUR",
+        "date": "2022-09-09"
+      },
+      {
+        "payer": "Bluefin Telecom Inc",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 11200.0,
+        "currency": "EUR",
+        "date": "2022-09-09"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 15037.1,
+        "currency": "EUR",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 7348.32,
+        "currency": "EUR",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 1577.86,
+        "currency": "EUR",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Pinewood Couriers Inc",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 26850.0,
+        "currency": "EUR",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Harbour Telecom Ltd",
+        "amount": 4625.0,
+        "currency": "EUR",
+        "date": "2022-09-11"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Paper Catering Ltd",
+        "amount": 8000.0,
+        "currency": "EUR",
+        "date": "2022-09-11"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 450.0,
+        "currency": "EUR",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Paper Supplies Ltd",
+        "amount": 6200.0,
+        "currency": "EUR",
+        "date": "2022-09-14"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Crescent Printing Ltd",
+        "amount": 4775.0,
+        "currency": "EUR",
+        "date": "2022-09-15"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Paper Couriers Ltd",
+        "amount": 4550.0,
+        "currency": "EUR",
+        "date": "2022-09-17"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 1950.0,
+        "currency": "EUR",
+        "date": "2022-09-19"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Bluefin Telecom Ltd",
+        "amount": 9175.0,
+        "currency": "EUR",
+        "date": "2022-09-22"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Summit Supplies Ltd",
+        "amount": 1775.0,
+        "currency": "EUR",
+        "date": "2022-09-25"
+      },
+      {
+        "payer": "Harbour Supplies Inc",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 24800.0,
+        "currency": "EUR",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Crescent Catering Inc",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 22250.0,
+        "currency": "EUR",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Bluefin Catering Ltd",
+        "amount": 4100.0,
+        "currency": "EUR",
+        "date": "2022-09-27"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Crescent Cleaning Ltd",
+        "amount": 8950.0,
+        "currency": "EUR",
+        "date": "2022-10-08"
+      },
+      {
+        "payer": "Crescent Couriers Inc",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 9400.0,
+        "currency": "EUR",
+        "date": "2022-10-10"
+      },
+      {
+        "payer": "Harbour Catering Inc",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 27500.0,
+        "currency": "EUR",
+        "date": "2022-10-11"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 575.0,
+        "currency": "EUR",
+        "date": "2022-10-13"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Crescent Catering Ltd",
+        "amount": 3400.0,
+        "currency": "EUR",
+        "date": "2022-10-14"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Crescent Printing Ltd",
+        "amount": 6850.0,
+        "currency": "EUR",
+        "date": "2022-10-15"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Bluefin Telecom Ltd",
+        "amount": 7200.0,
+        "currency": "EUR",
+        "date": "2022-10-16"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Pinewood Catering Ltd",
+        "amount": 6375.0,
+        "currency": "EUR",
+        "date": "2022-10-19"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 5350.0,
+        "currency": "EUR",
+        "date": "2022-10-24"
+      },
+      {
+        "payer": "Summit Cleaning Inc",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 14600.0,
+        "currency": "EUR",
+        "date": "2022-10-30"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Pinewood Telecom Ltd",
+        "amount": 1225.0,
+        "currency": "EUR",
+        "date": "2022-11-01"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Redwood Catering Ltd",
+        "amount": 950.0,
+        "currency": "EUR",
+        "date": "2022-11-02"
+      },
+      {
+        "payer": "Ironwood Holdings Limited",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 6050.0,
+        "currency": "EUR",
+        "date": "2022-11-03"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0028",
+    "file": "PIECE-0028.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Northwind Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Seaglass Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Enterprises Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Stonehaven Trading Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Harbour Catering Inc",
+        "payee": "Northwind Assets Corp.",
+        "amount": 22950.0,
+        "currency": "USD",
+        "date": "2022-08-23"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 5750.0,
+        "currency": "USD",
+        "date": "2022-08-29"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Crescent Printing Ltd",
+        "amount": 400.0,
+        "currency": "USD",
+        "date": "2022-09-01"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Seaglass Holdings Inc.",
+        "amount": 17620.22,
+        "currency": "USD",
+        "date": "2022-09-07"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Mistvale Enterprises Limited",
+        "amount": 8610.64,
+        "currency": "USD",
+        "date": "2022-09-07"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Stonehaven Trading Inc.",
+        "amount": 2284.16,
+        "currency": "USD",
+        "date": "2022-09-09"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Harbour Printing Ltd",
+        "amount": 6000.0,
+        "currency": "USD",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Summit Telecom Ltd",
+        "amount": 4725.0,
+        "currency": "USD",
+        "date": "2022-09-21"
+      },
+      {
+        "payer": "Summit Printing Inc",
+        "payee": "Northwind Assets Corp.",
+        "amount": 23050.0,
+        "currency": "USD",
+        "date": "2022-09-24"
+      },
+      {
+        "payer": "Summit Catering Inc",
+        "payee": "Northwind Assets Corp.",
+        "amount": 15800.0,
+        "currency": "USD",
+        "date": "2022-09-24"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Pinewood Catering Ltd",
+        "amount": 5975.0,
+        "currency": "USD",
+        "date": "2022-09-27"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Bluefin Couriers Ltd",
+        "amount": 6500.0,
+        "currency": "USD",
+        "date": "2022-10-03"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 3725.0,
+        "currency": "USD",
+        "date": "2022-10-03"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Crescent Catering Ltd",
+        "amount": 9175.0,
+        "currency": "USD",
+        "date": "2022-10-12"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 8775.0,
+        "currency": "USD",
+        "date": "2022-10-12"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Pinewood Couriers Ltd",
+        "amount": 6400.0,
+        "currency": "USD",
+        "date": "2022-10-13"
+      },
+      {
+        "payer": "Paper Printing Inc",
+        "payee": "Northwind Assets Corp.",
+        "amount": 20850.0,
+        "currency": "USD",
+        "date": "2022-10-16"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Summit Printing Ltd",
+        "amount": 7125.0,
+        "currency": "USD",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 2125.0,
+        "currency": "USD",
+        "date": "2022-10-25"
+      },
+      {
+        "payer": "Paper Supplies Inc",
+        "payee": "Northwind Assets Corp.",
+        "amount": 26300.0,
+        "currency": "USD",
+        "date": "2022-10-25"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Harbour Telecom Ltd",
+        "amount": 3625.0,
+        "currency": "USD",
+        "date": "2022-10-27"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 9350.0,
+        "currency": "USD",
+        "date": "2022-10-28"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Redwood Couriers Ltd",
+        "amount": 3275.0,
+        "currency": "USD",
+        "date": "2022-10-30"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0029",
+    "file": "PIECE-0029.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Fairhaven Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Fairhaven Holdings Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0030",
+    "file": "PIECE-0030.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Stonehaven Trading Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Bluefin Cleaning Ltd",
+        "amount": 9400.0,
+        "currency": "USD",
+        "date": "2022-11-08"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 4700.0,
+        "currency": "USD",
+        "date": "2022-11-08"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0031",
+    "file": "PIECE-0031.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Stonehaven Trading Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ironwood Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Summit Couriers Inc",
+        "payee": "Stonehaven Trading Inc.",
+        "amount": 6250.0,
+        "currency": "USD",
+        "date": "2022-08-25"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Summit Couriers Ltd",
+        "amount": 7750.0,
+        "currency": "USD",
+        "date": "2022-08-26"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Summit Printing Ltd",
+        "amount": 7800.0,
+        "currency": "USD",
+        "date": "2022-08-26"
+      },
+      {
+        "payer": "Harbour Couriers Inc",
+        "payee": "Stonehaven Trading Inc.",
+        "amount": 24150.0,
+        "currency": "USD",
+        "date": "2022-08-30"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Paper Catering Ltd",
+        "amount": 4400.0,
+        "currency": "USD",
+        "date": "2022-08-31"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Pinewood Catering Ltd",
+        "amount": 2000.0,
+        "currency": "USD",
+        "date": "2022-09-01"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Pinewood Supplies Ltd",
+        "amount": 4000.0,
+        "currency": "USD",
+        "date": "2022-09-02"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Paper Cleaning Ltd",
+        "amount": 7300.0,
+        "currency": "USD",
+        "date": "2022-09-03"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Harbour Cleaning Ltd",
+        "amount": 900.0,
+        "currency": "USD",
+        "date": "2022-09-06"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Stonehaven Trading Inc.",
+        "amount": 2284.16,
+        "currency": "USD",
+        "date": "2022-09-09"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 1577.86,
+        "currency": "USD",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Redwood Printing Ltd",
+        "amount": 4950.0,
+        "currency": "USD",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Bluefin Printing Inc",
+        "payee": "Stonehaven Trading Inc.",
+        "amount": 24500.0,
+        "currency": "USD",
+        "date": "2022-09-20"
+      },
+      {
+        "payer": "Crescent Cleaning Inc",
+        "payee": "Stonehaven Trading Inc.",
+        "amount": 17300.0,
+        "currency": "USD",
+        "date": "2022-09-21"
+      },
+      {
+        "payer": "Redwood Couriers Inc",
+        "payee": "Stonehaven Trading Inc.",
+        "amount": 14800.0,
+        "currency": "USD",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Crescent Supplies Ltd",
+        "amount": 3725.0,
+        "currency": "USD",
+        "date": "2022-09-27"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 1600.0,
+        "currency": "USD",
+        "date": "2022-09-28"
+      },
+      {
+        "payer": "Crescent Cleaning Inc",
+        "payee": "Stonehaven Trading Inc.",
+        "amount": 23250.0,
+        "currency": "USD",
+        "date": "2022-09-29"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Harbour Telecom Ltd",
+        "amount": 8300.0,
+        "currency": "USD",
+        "date": "2022-10-01"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Crescent Supplies Ltd",
+        "amount": 8450.0,
+        "currency": "USD",
+        "date": "2022-10-04"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Harbour Printing Ltd",
+        "amount": 7200.0,
+        "currency": "USD",
+        "date": "2022-10-14"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 2525.0,
+        "currency": "USD",
+        "date": "2022-10-14"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 7125.0,
+        "currency": "USD",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Paper Telecom Ltd",
+        "amount": 8875.0,
+        "currency": "USD",
+        "date": "2022-10-22"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Paper Cleaning Ltd",
+        "amount": 5450.0,
+        "currency": "USD",
+        "date": "2022-10-24"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Redwood Printing Ltd",
+        "amount": 9025.0,
+        "currency": "USD",
+        "date": "2022-10-26"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Summit Telecom Ltd",
+        "amount": 6650.0,
+        "currency": "USD",
+        "date": "2022-10-28"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 7850.0,
+        "currency": "USD",
+        "date": "2022-10-29"
+      },
+      {
+        "payer": "Summit Catering Inc",
+        "payee": "Stonehaven Trading Inc.",
+        "amount": 14500.0,
+        "currency": "USD",
+        "date": "2022-10-29"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Redwood Printing Ltd",
+        "amount": 4375.0,
+        "currency": "USD",
+        "date": "2022-10-30"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Pinewood Telecom Ltd",
+        "amount": 7425.0,
+        "currency": "USD",
+        "date": "2022-11-01"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Redwood Catering Ltd",
+        "amount": 8800.0,
+        "currency": "USD",
+        "date": "2022-11-01"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Paper Telecom Ltd",
+        "amount": 7425.0,
+        "currency": "USD",
+        "date": "2022-11-02"
+      },
+      {
+        "payer": "Stonehaven Trading Inc.",
+        "payee": "Redwood Catering Ltd",
+        "amount": 1000.0,
+        "currency": "USD",
+        "date": "2022-11-08"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0032",
+    "file": "PIECE-0032.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Fairhaven Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Glenbrook Trading Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Stonehaven Holdings Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Fairhaven Holdings Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Glenbrook Trading Corp.",
+        "target": "Fairhaven Holdings Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Seaglass Investments S.A.",
+        "target": "Fairhaven Holdings Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Stonehaven Holdings Corp.",
+        "target": "Fairhaven Holdings Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0033",
+    "file": "PIECE-0033.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Seaglass Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ironwood Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Paper Couriers Ltd",
+        "amount": 8800.0,
+        "currency": "USD",
+        "date": "2022-08-24"
+      },
+      {
+        "payer": "Bluefin Supplies Inc",
+        "payee": "Seaglass Holdings Inc.",
+        "amount": 7450.0,
+        "currency": "USD",
+        "date": "2022-08-25"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Bluefin Cleaning Ltd",
+        "amount": 2475.0,
+        "currency": "USD",
+        "date": "2022-08-27"
+      },
+      {
+        "payer": "Pinewood Cleaning Inc",
+        "payee": "Seaglass Holdings Inc.",
+        "amount": 3350.0,
+        "currency": "USD",
+        "date": "2022-08-28"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Summit Supplies Ltd",
+        "amount": 850.0,
+        "currency": "USD",
+        "date": "2022-08-29"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Summit Printing Ltd",
+        "amount": 8250.0,
+        "currency": "USD",
+        "date": "2022-08-30"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Pinewood Printing Ltd",
+        "amount": 9000.0,
+        "currency": "USD",
+        "date": "2022-09-06"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Seaglass Holdings Inc.",
+        "amount": 17620.22,
+        "currency": "USD",
+        "date": "2022-09-07"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Pinewood Cleaning Ltd",
+        "amount": 3125.0,
+        "currency": "USD",
+        "date": "2022-09-08"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Crescent Supplies Ltd",
+        "amount": 700.0,
+        "currency": "USD",
+        "date": "2022-09-09"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 15037.1,
+        "currency": "USD",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Harbour Catering Ltd",
+        "amount": 6125.0,
+        "currency": "USD",
+        "date": "2022-09-15"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 3750.0,
+        "currency": "USD",
+        "date": "2022-09-16"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 2450.0,
+        "currency": "USD",
+        "date": "2022-09-16"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Paper Printing Ltd",
+        "amount": 5425.0,
+        "currency": "USD",
+        "date": "2022-09-18"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 8475.0,
+        "currency": "USD",
+        "date": "2022-09-30"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Bluefin Catering Ltd",
+        "amount": 6225.0,
+        "currency": "USD",
+        "date": "2022-10-06"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Harbour Catering Ltd",
+        "amount": 4900.0,
+        "currency": "USD",
+        "date": "2022-10-09"
+      },
+      {
+        "payer": "Harbour Catering Inc",
+        "payee": "Seaglass Holdings Inc.",
+        "amount": 7100.0,
+        "currency": "USD",
+        "date": "2022-10-11"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Summit Printing Ltd",
+        "amount": 7125.0,
+        "currency": "USD",
+        "date": "2022-10-12"
+      },
+      {
+        "payer": "Harbour Printing Inc",
+        "payee": "Seaglass Holdings Inc.",
+        "amount": 15600.0,
+        "currency": "USD",
+        "date": "2022-10-13"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Crescent Couriers Ltd",
+        "amount": 700.0,
+        "currency": "USD",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Bluefin Catering Ltd",
+        "amount": 775.0,
+        "currency": "USD",
+        "date": "2022-10-22"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Summit Supplies Ltd",
+        "amount": 6925.0,
+        "currency": "USD",
+        "date": "2022-10-26"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Summit Printing Ltd",
+        "amount": 700.0,
+        "currency": "USD",
+        "date": "2022-10-28"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Paper Couriers Ltd",
+        "amount": 2050.0,
+        "currency": "USD",
+        "date": "2022-10-29"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Harbour Cleaning Ltd",
+        "amount": 1150.0,
+        "currency": "USD",
+        "date": "2022-11-02"
+      },
+      {
+        "payer": "Seaglass Holdings Inc.",
+        "payee": "Redwood Couriers Ltd",
+        "amount": 1725.0,
+        "currency": "USD",
+        "date": "2022-11-06"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0034",
+    "file": "PIECE-0034.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Seaglass Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ironwood Ventures S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Partners Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Inc",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Couriers Ltd",
+        "amount": 7275.0,
+        "currency": "EUR",
+        "date": "2022-08-23"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 4375.0,
+        "currency": "EUR",
+        "date": "2022-08-24"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Crescent Supplies Ltd",
+        "amount": 8750.0,
+        "currency": "EUR",
+        "date": "2022-08-25"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Couriers Ltd",
+        "amount": 5400.0,
+        "currency": "EUR",
+        "date": "2022-08-26"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Harbour Printing Ltd",
+        "amount": 2375.0,
+        "currency": "EUR",
+        "date": "2022-08-31"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Redwood Couriers Ltd",
+        "amount": 1500.0,
+        "currency": "EUR",
+        "date": "2022-09-01"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 7475.0,
+        "currency": "EUR",
+        "date": "2022-09-03"
+      },
+      {
+        "payer": "Crescent Supplies Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 6250.0,
+        "currency": "EUR",
+        "date": "2022-09-03"
+      },
+      {
+        "payer": "Ironwood Ventures S.A.",
+        "payee": "Seaglass Group Limited",
+        "amount": 15377.24,
+        "currency": "EUR",
+        "date": "2022-09-06"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Mistvale Partners Limited",
+        "amount": 13989.7,
+        "currency": "EUR",
+        "date": "2022-09-07"
+      },
+      {
+        "payer": "Summit Catering Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 22800.0,
+        "currency": "EUR",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Crescent Catering Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 20500.0,
+        "currency": "EUR",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 4175.0,
+        "currency": "EUR",
+        "date": "2022-09-20"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 8750.0,
+        "currency": "EUR",
+        "date": "2022-09-21"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Supplies Ltd",
+        "amount": 1700.0,
+        "currency": "EUR",
+        "date": "2022-09-25"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Pinewood Telecom Ltd",
+        "amount": 6350.0,
+        "currency": "EUR",
+        "date": "2022-09-27"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Telecom Ltd",
+        "amount": 5350.0,
+        "currency": "EUR",
+        "date": "2022-09-28"
+      },
+      {
+        "payer": "Pinewood Printing Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 21050.0,
+        "currency": "EUR",
+        "date": "2022-10-01"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Harbour Telecom Ltd",
+        "amount": 6450.0,
+        "currency": "EUR",
+        "date": "2022-10-01"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 7675.0,
+        "currency": "EUR",
+        "date": "2022-10-05"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 8075.0,
+        "currency": "EUR",
+        "date": "2022-10-11"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Bluefin Telecom Ltd",
+        "amount": 9175.0,
+        "currency": "EUR",
+        "date": "2022-10-11"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Crescent Supplies Ltd",
+        "amount": 8450.0,
+        "currency": "EUR",
+        "date": "2022-10-11"
+      },
+      {
+        "payer": "Harbour Catering Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 26250.0,
+        "currency": "EUR",
+        "date": "2022-10-13"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Harbour Cleaning Ltd",
+        "amount": 5625.0,
+        "currency": "EUR",
+        "date": "2022-10-14"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 9700.0,
+        "currency": "EUR",
+        "date": "2022-10-15"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Pinewood Telecom Ltd",
+        "amount": 2725.0,
+        "currency": "EUR",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Pinewood Cleaning Ltd",
+        "amount": 4700.0,
+        "currency": "EUR",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Pinewood Supplies Ltd",
+        "amount": 7100.0,
+        "currency": "EUR",
+        "date": "2022-10-20"
+      },
+      {
+        "payer": "Harbour Couriers Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 5250.0,
+        "currency": "EUR",
+        "date": "2022-10-20"
+      },
+      {
+        "payer": "Harbour Printing Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 11150.0,
+        "currency": "EUR",
+        "date": "2022-10-21"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Crescent Catering Ltd",
+        "amount": 4000.0,
+        "currency": "EUR",
+        "date": "2022-10-22"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Paper Catering Ltd",
+        "amount": 1550.0,
+        "currency": "EUR",
+        "date": "2022-10-22"
+      },
+      {
+        "payer": "Summit Cleaning Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 22750.0,
+        "currency": "EUR",
+        "date": "2022-10-23"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0035",
+    "file": "PIECE-0035.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Fairhaven Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Thornfield Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Clara Reynaud",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Stonehaven Capital Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ironwood Management Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sigrid Davenport",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Brightwater Group S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ironwood Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sigrid Reynaud",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Couriers Inc",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Pinewood Cleaning Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 27400.0,
+        "currency": "EUR",
+        "date": "2022-08-26"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Summit Printing Ltd",
+        "amount": 9700.0,
+        "currency": "EUR",
+        "date": "2022-08-26"
+      },
+      {
+        "payer": "Bluefin Supplies Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 17300.0,
+        "currency": "EUR",
+        "date": "2022-08-29"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 2450.0,
+        "currency": "EUR",
+        "date": "2022-09-01"
+      },
+      {
+        "payer": "Crescent Supplies Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 11650.0,
+        "currency": "EUR",
+        "date": "2022-09-04"
+      },
+      {
+        "payer": "Redwood Cleaning Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 4550.0,
+        "currency": "EUR",
+        "date": "2022-09-05"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Redwood Couriers Ltd",
+        "amount": 7400.0,
+        "currency": "EUR",
+        "date": "2022-09-06"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Harbour Cleaning Ltd",
+        "amount": 8650.0,
+        "currency": "EUR",
+        "date": "2022-09-06"
+      },
+      {
+        "payer": "Thornfield Group Limited",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 12030.97,
+        "currency": "EUR",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Clara Reynaud",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 4197.12,
+        "currency": "EUR",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Stonehaven Capital Limited",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 4443.22,
+        "currency": "EUR",
+        "date": "2022-09-11"
+      },
+      {
+        "payer": "Ironwood Management Inc.",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 8392.45,
+        "currency": "EUR",
+        "date": "2022-09-11"
+      },
+      {
+        "payer": "Sigrid Davenport",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 7762.42,
+        "currency": "EUR",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Summit Printing Ltd",
+        "amount": 2550.0,
+        "currency": "EUR",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Brightwater Group S.A.",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 6894.67,
+        "currency": "EUR",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Ironwood Group Limited",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 9466.64,
+        "currency": "EUR",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Sigrid Reynaud",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 8667.21,
+        "currency": "EUR",
+        "date": "2022-09-14"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Summit Printing Ltd",
+        "amount": 5100.0,
+        "currency": "EUR",
+        "date": "2022-09-15"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 6925.0,
+        "currency": "EUR",
+        "date": "2022-09-16"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Harbour Printing Ltd",
+        "amount": 6925.0,
+        "currency": "EUR",
+        "date": "2022-09-17"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 500.0,
+        "currency": "EUR",
+        "date": "2022-09-21"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Crescent Catering Ltd",
+        "amount": 7275.0,
+        "currency": "EUR",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Harbour Printing Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 9450.0,
+        "currency": "EUR",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Paper Supplies Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 11900.0,
+        "currency": "EUR",
+        "date": "2022-09-30"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Harbour Cleaning Ltd",
+        "amount": 8325.0,
+        "currency": "EUR",
+        "date": "2022-10-02"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 5425.0,
+        "currency": "EUR",
+        "date": "2022-10-02"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 2500.0,
+        "currency": "EUR",
+        "date": "2022-10-04"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Bluefin Telecom Ltd",
+        "amount": 375.0,
+        "currency": "EUR",
+        "date": "2022-10-04"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Pinewood Couriers Ltd",
+        "amount": 7175.0,
+        "currency": "EUR",
+        "date": "2022-10-06"
+      },
+      {
+        "payer": "Summit Supplies Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 22750.0,
+        "currency": "EUR",
+        "date": "2022-10-08"
+      },
+      {
+        "payer": "Fairhaven Holdings Inc.",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 3500.0,
+        "currency": "EUR",
+        "date": "2022-10-14"
+      },
+      {
+        "payer": "Summit Printing Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 16800.0,
+        "currency": "EUR",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Paper Catering Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 14900.0,
+        "currency": "EUR",
+        "date": "2022-10-21"
+      },
+      {
+        "payer": "Crescent Couriers Inc",
+        "payee": "Fairhaven Holdings Inc.",
+        "amount": 20050.0,
+        "currency": "EUR",
+        "date": "2022-10-21"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0036",
+    "file": "PIECE-0036.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Mistvale Enterprises Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ironwood Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 525.0,
+        "currency": "USD",
+        "date": "2022-08-27"
+      },
+      {
+        "payer": "Pinewood Cleaning Inc",
+        "payee": "Mistvale Enterprises Limited",
+        "amount": 24400.0,
+        "currency": "USD",
+        "date": "2022-08-27"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Summit Couriers Ltd",
+        "amount": 3250.0,
+        "currency": "USD",
+        "date": "2022-08-28"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 7225.0,
+        "currency": "USD",
+        "date": "2022-08-28"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Summit Couriers Ltd",
+        "amount": 9175.0,
+        "currency": "USD",
+        "date": "2022-08-30"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Pinewood Supplies Ltd",
+        "amount": 4775.0,
+        "currency": "USD",
+        "date": "2022-09-02"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 9375.0,
+        "currency": "USD",
+        "date": "2022-09-04"
+      },
+      {
+        "payer": "Summit Supplies Inc",
+        "payee": "Mistvale Enterprises Limited",
+        "amount": 4650.0,
+        "currency": "USD",
+        "date": "2022-09-04"
+      },
+      {
+        "payer": "Northwind Assets Corp.",
+        "payee": "Mistvale Enterprises Limited",
+        "amount": 8610.64,
+        "currency": "USD",
+        "date": "2022-09-07"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Ironwood Holdings Limited",
+        "amount": 7348.32,
+        "currency": "USD",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Paper Telecom Ltd",
+        "amount": 5650.0,
+        "currency": "USD",
+        "date": "2022-09-15"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Crescent Cleaning Ltd",
+        "amount": 2050.0,
+        "currency": "USD",
+        "date": "2022-09-19"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Redwood Couriers Ltd",
+        "amount": 2925.0,
+        "currency": "USD",
+        "date": "2022-09-21"
+      },
+      {
+        "payer": "Crescent Supplies Inc",
+        "payee": "Mistvale Enterprises Limited",
+        "amount": 5000.0,
+        "currency": "USD",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 2300.0,
+        "currency": "USD",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Paper Cleaning Ltd",
+        "amount": 625.0,
+        "currency": "USD",
+        "date": "2022-09-28"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 8875.0,
+        "currency": "USD",
+        "date": "2022-09-29"
+      },
+      {
+        "payer": "Redwood Couriers Inc",
+        "payee": "Mistvale Enterprises Limited",
+        "amount": 19450.0,
+        "currency": "USD",
+        "date": "2022-09-29"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Pinewood Supplies Ltd",
+        "amount": 4300.0,
+        "currency": "USD",
+        "date": "2022-10-01"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 6725.0,
+        "currency": "USD",
+        "date": "2022-10-03"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 4250.0,
+        "currency": "USD",
+        "date": "2022-10-03"
+      },
+      {
+        "payer": "Harbour Couriers Inc",
+        "payee": "Mistvale Enterprises Limited",
+        "amount": 26600.0,
+        "currency": "USD",
+        "date": "2022-10-07"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 5600.0,
+        "currency": "USD",
+        "date": "2022-10-12"
+      },
+      {
+        "payer": "Bluefin Catering Inc",
+        "payee": "Mistvale Enterprises Limited",
+        "amount": 8100.0,
+        "currency": "USD",
+        "date": "2022-10-14"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Paper Catering Ltd",
+        "amount": 7500.0,
+        "currency": "USD",
+        "date": "2022-10-14"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Pinewood Cleaning Ltd",
+        "amount": 2925.0,
+        "currency": "USD",
+        "date": "2022-10-16"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Redwood Catering Ltd",
+        "amount": 1200.0,
+        "currency": "USD",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 2150.0,
+        "currency": "USD",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Redwood Couriers Ltd",
+        "amount": 3525.0,
+        "currency": "USD",
+        "date": "2022-10-22"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Crescent Cleaning Ltd",
+        "amount": 4600.0,
+        "currency": "USD",
+        "date": "2022-10-25"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 3700.0,
+        "currency": "USD",
+        "date": "2022-10-28"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Paper Couriers Ltd",
+        "amount": 1825.0,
+        "currency": "USD",
+        "date": "2022-10-29"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 8625.0,
+        "currency": "USD",
+        "date": "2022-10-30"
+      },
+      {
+        "payer": "Mistvale Enterprises Limited",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 8750.0,
+        "currency": "USD",
+        "date": "2022-10-30"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0037",
+    "file": "PIECE-0037.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Stonehaven Trading Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Stonehaven Trading Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0038",
+    "file": "PIECE-0038.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0039",
+    "file": "PIECE-0039.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ashcroft Enterprises Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Vincent Reynaud",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 4550.0,
+        "currency": "EUR",
+        "date": "2022-08-19"
+      },
+      {
+        "payer": "Crescent Cleaning Inc",
+        "payee": "Ashcroft Enterprises Limited",
+        "amount": 24150.0,
+        "currency": "EUR",
+        "date": "2022-08-20"
+      },
+      {
+        "payer": "Summit Couriers Inc",
+        "payee": "Ashcroft Enterprises Limited",
+        "amount": 20400.0,
+        "currency": "EUR",
+        "date": "2022-08-23"
+      },
+      {
+        "payer": "Harbour Cleaning Inc",
+        "payee": "Ashcroft Enterprises Limited",
+        "amount": 18600.0,
+        "currency": "EUR",
+        "date": "2022-08-27"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Bluefin Couriers Ltd",
+        "amount": 3300.0,
+        "currency": "EUR",
+        "date": "2022-08-29"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 4325.0,
+        "currency": "EUR",
+        "date": "2022-09-01"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Vincent Reynaud",
+        "amount": 1413.09,
+        "currency": "EUR",
+        "date": "2022-09-02"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Paper Couriers Ltd",
+        "amount": 8125.0,
+        "currency": "EUR",
+        "date": "2022-09-02"
+      },
+      {
+        "payer": "Vincent Reynaud",
+        "payee": "Ashcroft Enterprises Limited",
+        "amount": 1387.87,
+        "currency": "EUR",
+        "date": "2022-09-05"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Pinewood Couriers Ltd",
+        "amount": 4175.0,
+        "currency": "EUR",
+        "date": "2022-09-15"
+      },
+      {
+        "payer": "Pinewood Cleaning Inc",
+        "payee": "Ashcroft Enterprises Limited",
+        "amount": 14950.0,
+        "currency": "EUR",
+        "date": "2022-09-25"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 6800.0,
+        "currency": "EUR",
+        "date": "2022-09-30"
+      },
+      {
+        "payer": "Summit Cleaning Inc",
+        "payee": "Ashcroft Enterprises Limited",
+        "amount": 12150.0,
+        "currency": "EUR",
+        "date": "2022-10-02"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Pinewood Catering Ltd",
+        "amount": 725.0,
+        "currency": "EUR",
+        "date": "2022-10-03"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 8075.0,
+        "currency": "EUR",
+        "date": "2022-10-04"
+      },
+      {
+        "payer": "Harbour Cleaning Inc",
+        "payee": "Ashcroft Enterprises Limited",
+        "amount": 18450.0,
+        "currency": "EUR",
+        "date": "2022-10-07"
+      },
+      {
+        "payer": "Summit Printing Inc",
+        "payee": "Ashcroft Enterprises Limited",
+        "amount": 7450.0,
+        "currency": "EUR",
+        "date": "2022-10-12"
+      },
+      {
+        "payer": "Harbour Catering Inc",
+        "payee": "Ashcroft Enterprises Limited",
+        "amount": 5300.0,
+        "currency": "EUR",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Redwood Catering Ltd",
+        "amount": 3775.0,
+        "currency": "EUR",
+        "date": "2022-10-18"
+      },
+      {
+        "payer": "Bluefin Telecom Inc",
+        "payee": "Ashcroft Enterprises Limited",
+        "amount": 24350.0,
+        "currency": "EUR",
+        "date": "2022-10-22"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Summit Couriers Ltd",
+        "amount": 4500.0,
+        "currency": "EUR",
+        "date": "2022-10-24"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Bluefin Cleaning Ltd",
+        "amount": 525.0,
+        "currency": "EUR",
+        "date": "2022-10-24"
+      },
+      {
+        "payer": "Ashcroft Enterprises Limited",
+        "payee": "Summit Catering Ltd",
+        "amount": 6250.0,
+        "currency": "EUR",
+        "date": "2022-10-30"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0040",
+    "file": "PIECE-0040.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ironwood Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Ironwood Holdings Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0041",
+    "file": "PIECE-0041.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Willowmere Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Willowmere Management Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0042",
+    "file": "PIECE-0042.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Amberfield Partners Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Amberfield Partners Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0043",
+    "file": "PIECE-0043.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Mistvale Partners Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ironwood Ventures S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Seaglass Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Paper Couriers Ltd",
+        "amount": 3475.0,
+        "currency": "USD",
+        "date": "2022-08-21"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Paper Telecom Ltd",
+        "amount": 8925.0,
+        "currency": "USD",
+        "date": "2022-08-21"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Harbour Printing Ltd",
+        "amount": 2100.0,
+        "currency": "USD",
+        "date": "2022-08-23"
+      },
+      {
+        "payer": "Summit Telecom Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 20900.0,
+        "currency": "USD",
+        "date": "2022-08-30"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 8950.0,
+        "currency": "USD",
+        "date": "2022-09-01"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Paper Couriers Ltd",
+        "amount": 3500.0,
+        "currency": "USD",
+        "date": "2022-09-03"
+      },
+      {
+        "payer": "Crescent Telecom Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 23500.0,
+        "currency": "USD",
+        "date": "2022-09-03"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Ironwood Ventures S.A.",
+        "amount": 19194.69,
+        "currency": "USD",
+        "date": "2022-09-04"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Mistvale Partners Limited",
+        "amount": 13989.7,
+        "currency": "USD",
+        "date": "2022-09-07"
+      },
+      {
+        "payer": "Crescent Couriers Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 7900.0,
+        "currency": "USD",
+        "date": "2022-09-07"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Redwood Couriers Ltd",
+        "amount": 3775.0,
+        "currency": "USD",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Harbour Telecom Ltd",
+        "amount": 2450.0,
+        "currency": "USD",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Harbour Telecom Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 14600.0,
+        "currency": "USD",
+        "date": "2022-09-16"
+      },
+      {
+        "payer": "Crescent Telecom Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 20550.0,
+        "currency": "USD",
+        "date": "2022-09-17"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 3525.0,
+        "currency": "USD",
+        "date": "2022-09-18"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 1500.0,
+        "currency": "USD",
+        "date": "2022-09-19"
+      },
+      {
+        "payer": "Pinewood Printing Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 4150.0,
+        "currency": "USD",
+        "date": "2022-09-23"
+      },
+      {
+        "payer": "Harbour Telecom Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 12600.0,
+        "currency": "USD",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Paper Telecom Ltd",
+        "amount": 2450.0,
+        "currency": "USD",
+        "date": "2022-09-27"
+      },
+      {
+        "payer": "Summit Telecom Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 20050.0,
+        "currency": "USD",
+        "date": "2022-09-28"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Summit Telecom Ltd",
+        "amount": 450.0,
+        "currency": "USD",
+        "date": "2022-10-03"
+      },
+      {
+        "payer": "Harbour Couriers Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 9350.0,
+        "currency": "USD",
+        "date": "2022-10-07"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Crescent Couriers Ltd",
+        "amount": 7075.0,
+        "currency": "USD",
+        "date": "2022-10-08"
+      },
+      {
+        "payer": "Pinewood Catering Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 4650.0,
+        "currency": "USD",
+        "date": "2022-10-11"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Crescent Cleaning Ltd",
+        "amount": 5000.0,
+        "currency": "USD",
+        "date": "2022-10-16"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Summit Printing Ltd",
+        "amount": 5325.0,
+        "currency": "USD",
+        "date": "2022-10-17"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Pinewood Printing Ltd",
+        "amount": 1475.0,
+        "currency": "USD",
+        "date": "2022-10-18"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Crescent Cleaning Ltd",
+        "amount": 5150.0,
+        "currency": "USD",
+        "date": "2022-10-18"
+      },
+      {
+        "payer": "Summit Couriers Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 14400.0,
+        "currency": "USD",
+        "date": "2022-10-19"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 6050.0,
+        "currency": "USD",
+        "date": "2022-10-19"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Crescent Printing Ltd",
+        "amount": 600.0,
+        "currency": "USD",
+        "date": "2022-10-23"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 8800.0,
+        "currency": "USD",
+        "date": "2022-10-24"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Paper Supplies Ltd",
+        "amount": 4275.0,
+        "currency": "USD",
+        "date": "2022-10-25"
+      },
+      {
+        "payer": "Mistvale Partners Limited",
+        "payee": "Crescent Cleaning Ltd",
+        "amount": 1150.0,
+        "currency": "USD",
+        "date": "2022-10-31"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0044",
+    "file": "PIECE-0044.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Stonehaven Trading Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Dimitri Lindholm",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Stonehaven Trading Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Dimitri Lindholm",
+        "target": "Stonehaven Trading Inc.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0045",
+    "file": "PIECE-0045.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Stonehaven Management Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Stonehaven Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Adrian Ortega",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Amberfield Trading Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Management Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Uma Holmgren",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Ashcroft Investments Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 1350.0,
+        "currency": "EUR",
+        "date": "2022-08-25"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 3850.0,
+        "currency": "EUR",
+        "date": "2022-08-28"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Redwood Catering Ltd",
+        "amount": 7775.0,
+        "currency": "EUR",
+        "date": "2022-08-29"
+      },
+      {
+        "payer": "Pinewood Supplies Inc",
+        "payee": "Willowmere Management Limited",
+        "amount": 18800.0,
+        "currency": "EUR",
+        "date": "2022-08-29"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Pinewood Telecom Ltd",
+        "amount": 9400.0,
+        "currency": "EUR",
+        "date": "2022-08-29"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Pinewood Cleaning Ltd",
+        "amount": 4350.0,
+        "currency": "EUR",
+        "date": "2022-08-30"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Harbour Supplies Ltd",
+        "amount": 900.0,
+        "currency": "EUR",
+        "date": "2022-09-02"
+      },
+      {
+        "payer": "Paper Cleaning Inc",
+        "payee": "Willowmere Management Limited",
+        "amount": 8000.0,
+        "currency": "EUR",
+        "date": "2022-09-05"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Stonehaven Management Ltd.",
+        "amount": 13690.05,
+        "currency": "EUR",
+        "date": "2022-09-08"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Paper Couriers Ltd",
+        "amount": 6100.0,
+        "currency": "EUR",
+        "date": "2022-09-08"
+      },
+      {
+        "payer": "Crescent Catering Inc",
+        "payee": "Willowmere Management Limited",
+        "amount": 9350.0,
+        "currency": "EUR",
+        "date": "2022-09-09"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Stonehaven Assets Corp.",
+        "amount": 7425.99,
+        "currency": "EUR",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Summit Printing Inc",
+        "payee": "Willowmere Management Limited",
+        "amount": 20850.0,
+        "currency": "EUR",
+        "date": "2022-09-10"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Adrian Ortega",
+        "amount": 9340.72,
+        "currency": "EUR",
+        "date": "2022-09-11"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Amberfield Trading Corp.",
+        "amount": 1993.91,
+        "currency": "EUR",
+        "date": "2022-09-11"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Amberfield Management Inc.",
+        "amount": 12116.84,
+        "currency": "EUR",
+        "date": "2022-09-11"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Uma Holmgren",
+        "amount": 6639.07,
+        "currency": "EUR",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Ashcroft Investments Inc.",
+        "amount": 13829.37,
+        "currency": "EUR",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 1950.0,
+        "currency": "EUR",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Paper Supplies Ltd",
+        "amount": 6650.0,
+        "currency": "EUR",
+        "date": "2022-09-19"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Summit Catering Ltd",
+        "amount": 1350.0,
+        "currency": "EUR",
+        "date": "2022-09-20"
+      },
+      {
+        "payer": "Redwood Cleaning Inc",
+        "payee": "Willowmere Management Limited",
+        "amount": 13550.0,
+        "currency": "EUR",
+        "date": "2022-09-24"
+      },
+      {
+        "payer": "Paper Telecom Inc",
+        "payee": "Willowmere Management Limited",
+        "amount": 27400.0,
+        "currency": "EUR",
+        "date": "2022-09-24"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Summit Printing Ltd",
+        "amount": 7825.0,
+        "currency": "EUR",
+        "date": "2022-09-24"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Harbour Supplies Ltd",
+        "amount": 8075.0,
+        "currency": "EUR",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Redwood Telecom Inc",
+        "payee": "Willowmere Management Limited",
+        "amount": 24000.0,
+        "currency": "EUR",
+        "date": "2022-09-26"
+      },
+      {
+        "payer": "Harbour Telecom Inc",
+        "payee": "Willowmere Management Limited",
+        "amount": 3250.0,
+        "currency": "EUR",
+        "date": "2022-09-29"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Paper Telecom Ltd",
+        "amount": 2000.0,
+        "currency": "EUR",
+        "date": "2022-10-01"
+      },
+      {
+        "payer": "Harbour Printing Inc",
+        "payee": "Willowmere Management Limited",
+        "amount": 12450.0,
+        "currency": "EUR",
+        "date": "2022-10-11"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Pinewood Printing Ltd",
+        "amount": 3650.0,
+        "currency": "EUR",
+        "date": "2022-10-13"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Summit Supplies Ltd",
+        "amount": 1425.0,
+        "currency": "EUR",
+        "date": "2022-10-20"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Harbour Printing Ltd",
+        "amount": 3300.0,
+        "currency": "EUR",
+        "date": "2022-10-22"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Paper Supplies Ltd",
+        "amount": 2000.0,
+        "currency": "EUR",
+        "date": "2022-10-22"
+      },
+      {
+        "payer": "Willowmere Management Limited",
+        "payee": "Redwood Catering Ltd",
+        "amount": 4075.0,
+        "currency": "EUR",
+        "date": "2022-10-24"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0046",
+    "file": "PIECE-0046.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Mistvale Partners Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Inc",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Bluefin Cleaning Inc",
+        "payee": "Mistvale Partners Limited",
+        "amount": 7700.0,
+        "currency": "USD",
+        "date": "2022-11-03"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0047",
+    "file": "PIECE-0047.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Mistvale Partners Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Mistvale Partners Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0048",
+    "file": "PIECE-0048.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Seaglass Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oakridge Management Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Seaglass Holdings Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oakridge Management Corp.",
+        "target": "Seaglass Holdings Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0049",
+    "file": "PIECE-0049.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 9400.0,
+        "currency": "EUR",
+        "date": "2022-10-26"
+      },
+      {
+        "payer": "Harbour Printing Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 17250.0,
+        "currency": "EUR",
+        "date": "2022-10-30"
+      },
+      {
+        "payer": "Harbour Cleaning Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 17550.0,
+        "currency": "EUR",
+        "date": "2022-11-01"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 7700.0,
+        "currency": "EUR",
+        "date": "2022-11-02"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0050",
+    "file": "PIECE-0050.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Seaglass Holdings Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0051",
+    "file": "PIECE-0051.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ironwood Ventures S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Quentin Reynaud",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Priya Castille",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sigrid Castille",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Oakridge Enterprises Limited",
+        "target": "Ironwood Ventures S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Quentin Reynaud",
+        "target": "Ironwood Ventures S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Priya Castille",
+        "target": "Ironwood Ventures S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Sigrid Castille",
+        "target": "Ironwood Ventures S.A.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0052",
+    "file": "PIECE-0052.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Yara Morales",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Harbour Printing Ltd",
+        "amount": 9450.0,
+        "currency": "EUR",
+        "date": "2022-08-22"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 975.0,
+        "currency": "EUR",
+        "date": "2022-08-27"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Catering Ltd",
+        "amount": 9100.0,
+        "currency": "EUR",
+        "date": "2022-08-29"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Redwood Catering Ltd",
+        "amount": 8075.0,
+        "currency": "EUR",
+        "date": "2022-08-31"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Crescent Couriers Ltd",
+        "amount": 2250.0,
+        "currency": "EUR",
+        "date": "2022-09-01"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 4625.0,
+        "currency": "EUR",
+        "date": "2022-09-03"
+      },
+      {
+        "payer": "Yara Morales",
+        "payee": "Seaglass Group Limited",
+        "amount": 13073.91,
+        "currency": "EUR",
+        "date": "2022-09-04"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Crescent Couriers Ltd",
+        "amount": 8175.0,
+        "currency": "EUR",
+        "date": "2022-09-08"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Paper Telecom Ltd",
+        "amount": 3150.0,
+        "currency": "EUR",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Summit Cleaning Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 7850.0,
+        "currency": "EUR",
+        "date": "2022-09-12"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 1875.0,
+        "currency": "EUR",
+        "date": "2022-09-13"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Supplies Ltd",
+        "amount": 3250.0,
+        "currency": "EUR",
+        "date": "2022-09-18"
+      },
+      {
+        "payer": "Paper Couriers Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 8200.0,
+        "currency": "EUR",
+        "date": "2022-09-18"
+      },
+      {
+        "payer": "Paper Printing Inc",
+        "payee": "Seaglass Group Limited",
+        "amount": 2900.0,
+        "currency": "EUR",
+        "date": "2022-09-19"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Couriers Ltd",
+        "amount": 4300.0,
+        "currency": "EUR",
+        "date": "2022-09-21"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Pinewood Couriers Ltd",
+        "amount": 2825.0,
+        "currency": "EUR",
+        "date": "2022-09-25"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Pinewood Cleaning Ltd",
+        "amount": 9625.0,
+        "currency": "EUR",
+        "date": "2022-09-29"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 5275.0,
+        "currency": "EUR",
+        "date": "2022-09-30"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Summit Printing Ltd",
+        "amount": 6875.0,
+        "currency": "EUR",
+        "date": "2022-10-06"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 7675.0,
+        "currency": "EUR",
+        "date": "2022-10-06"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Bluefin Cleaning Ltd",
+        "amount": 5950.0,
+        "currency": "EUR",
+        "date": "2022-10-24"
+      },
+      {
+        "payer": "Seaglass Group Limited",
+        "payee": "Paper Couriers Ltd",
+        "amount": 4225.0,
+        "currency": "EUR",
+        "date": "2022-10-31"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0053",
+    "file": "PIECE-0053.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Brightwater Investments Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Pinewood Supplies Inc",
+        "payee": "Brightwater Investments Inc.",
+        "amount": 14200.0,
+        "currency": "EUR",
+        "date": "2022-10-25"
+      },
+      {
+        "payer": "Redwood Cleaning Inc",
+        "payee": "Brightwater Investments Inc.",
+        "amount": 16600.0,
+        "currency": "EUR",
+        "date": "2022-10-25"
+      },
+      {
+        "payer": "Brightwater Investments Inc.",
+        "payee": "Crescent Cleaning Ltd",
+        "amount": 8325.0,
+        "currency": "EUR",
+        "date": "2022-10-28"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0054",
+    "file": "PIECE-0054.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Mistvale Enterprises Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Mistvale Enterprises Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  }
+]

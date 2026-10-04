@@ -1,0 +1,153 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Adrian Nielsen",
+  "statement_lines": [
+    {
+      "date": "2022-08-27",
+      "counterparty": "Opening balance",
+      "amount": 998106.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-27",
+      "counterparty": "Customer invoice settlement - Bluefin Printing Inc",
+      "amount": 15550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-30",
+      "counterparty": "Logistics & transport services - Pinewood Cleaning Ltd",
+      "amount": -7000.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-01",
+      "counterparty": "Legal & statutory audit fees - Redwood Supplies Ltd",
+      "amount": -8775.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-02",
+      "counterparty": "Software license subscription - Crescent Cleaning Ltd",
+      "amount": -6100.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-04",
+      "counterparty": "Monthly staff payroll REF 90343",
+      "amount": -9550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-05",
+      "counterparty": "SEPA CR REF 12352 Brightwater Investments Inc.",
+      "amount": 391.44,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-09",
+      "counterparty": "Commercial trade receivable - Paper Telecom Inc",
+      "amount": 21450.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Commercial premises lease REF 75165",
+      "amount": -7525.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-14",
+      "counterparty": "Monthly staff payroll REF 67960",
+      "amount": -2550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-16",
+      "counterparty": "Commercial premises lease REF 24066",
+      "amount": -5425.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-20",
+      "counterparty": "Consulting fees - Bluefin Printing Ltd",
+      "amount": -4900.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Consulting fees - Paper Printing Ltd",
+      "amount": -9475.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-29",
+      "counterparty": "Customer invoice settlement - Paper Printing Inc",
+      "amount": 3700.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-30",
+      "counterparty": "Monthly staff payroll REF 84340",
+      "amount": -7675.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-01",
+      "counterparty": "Monthly staff payroll REF 33622",
+      "amount": -3575.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-02",
+      "counterparty": "Software license subscription - Bluefin Printing Ltd",
+      "amount": -5800.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-17",
+      "counterparty": "Monthly staff payroll REF 87157",
+      "amount": -5950.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-19",
+      "counterparty": "Legal & statutory audit fees - Summit Couriers Ltd",
+      "amount": -2975.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-25",
+      "counterparty": "Monthly staff payroll REF 62470",
+      "amount": -2500.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-25",
+      "counterparty": "Commercial trade receivable - Pinewood Catering Inc",
+      "amount": 23850.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Telecom and network services - Bluefin Printing Ltd",
+      "amount": -4850.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Office supplies - Bluefin Couriers Ltd",
+      "amount": -2425.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Closing balance",
+      "amount": 965997.44,
+      "currency": "GBP"
+    }
+  ]
+}

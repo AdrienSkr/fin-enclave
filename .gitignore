@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Tests & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Outputs générés
+data/outputs/*.html
+data/outputs/*.json
+data/outputs/*.md
+!data/outputs/.gitkeep
+
+# IDEs & Agents
+.vscode/
+.idea/
+.cursor/
+.kilo/
+.kilocode/
+
+# Cache d'extraction
+data/cache/
+
+# Donnees externes volumineuses et jeux generes
+data/external/
+data/raw/
+data/outputs/_*
+data/outputs/*/*
+!data/outputs/*/comparaison.json
+!data/outputs/investigation/rapport.md

@@ -1,0 +1,31 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "BRITISH VIRGIN ISLANDS",
+      "kind": "Societe"
+    },
+    {
+      "name": "REGISTRAR OF CORPORATE AFFAIRS",
+      "kind": "Societe"
+    },
+    {
+      "name": "Stonehaven Trading Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Coral Fiduciary Services Ltd.",
+      "target": "Stonehaven Trading Inc.",
+      "role": "registered_address"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

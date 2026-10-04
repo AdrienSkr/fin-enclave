@@ -1,0 +1,242 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Brightwater Investments Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Adrian Nielsen",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Redwood Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Couriers Inc",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-21",
+      "counterparty": "Crescent Telecom Ltd",
+      "amount": 4200.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-27",
+      "counterparty": "Paper Couriers Ltd",
+      "amount": 8775.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-28",
+      "counterparty": "Crescent Cleaning Ltd",
+      "amount": 6475.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-03",
+      "counterparty": "Pinewood Telecom Inc",
+      "amount": 3125.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-03",
+      "counterparty": "Crescent Couriers Ltd",
+      "amount": 5675.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-05",
+      "counterparty": "Adrian Nielsen",
+      "amount": 391.44,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Crescent Couriers Ltd",
+      "amount": 2700.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-12",
+      "counterparty": "Redwood Couriers Inc",
+      "amount": 6575.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Crescent Catering Inc",
+      "amount": 15400.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-22",
+      "counterparty": "Crescent Telecom Ltd",
+      "amount": 5475.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-22",
+      "counterparty": "Pinewood Telecom Ltd",
+      "amount": 1475.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Crescent Telecom Ltd",
+      "amount": 5300.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Pinewood Printing Ltd",
+      "amount": 3850.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Harbour Couriers Ltd",
+      "amount": 7525.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-25",
+      "counterparty": "Redwood Couriers Ltd",
+      "amount": 1925.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Bluefin Catering Ltd",
+      "amount": 8975.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Paper Supplies Inc",
+      "amount": 7775.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-29",
+      "counterparty": "Bluefin Catering Ltd",
+      "amount": 2425.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-29",
+      "counterparty": "Pinewood Printing Ltd",
+      "amount": 2600.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-01",
+      "counterparty": "Harbour Telecom Inc",
+      "amount": 6475.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-02",
+      "counterparty": "Crescent Printing Ltd",
+      "amount": 7225.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-03",
+      "counterparty": "Paper Telecom Inc",
+      "amount": 25150.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-06",
+      "counterparty": "Redwood Catering Ltd",
+      "amount": 3625.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-12",
+      "counterparty": "Paper Supplies Inc",
+      "amount": 20750.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-12",
+      "counterparty": "Redwood Catering Ltd",
+      "amount": 8225.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-12",
+      "counterparty": "Crescent Telecom Ltd",
+      "amount": 5875.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-14",
+      "counterparty": "Harbour Couriers Ltd",
+      "amount": 1650.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-14",
+      "counterparty": "Crescent Telecom Ltd",
+      "amount": 8675.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-17",
+      "counterparty": "Pinewood Catering Ltd",
+      "amount": 6475.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-18",
+      "counterparty": "Summit Couriers Inc",
+      "amount": 27950.0,
+      "currency": "USD"
+    }
+  ]
+}

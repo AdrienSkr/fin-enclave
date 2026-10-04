@@ -1,0 +1,21 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Mistvale Enterprises Limited",
+  "statement_lines": [
+    {
+      "date": "2022-10-31",
+      "counterparty": "Règlement facture client - Paper Cleaning Inc",
+      "amount": 24250.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-11-02",
+      "counterparty": "Fournitures de bureau - Crescent Telecom Ltd",
+      "amount": -9725.0,
+      "currency": "EUR"
+    }
+  ]
+}

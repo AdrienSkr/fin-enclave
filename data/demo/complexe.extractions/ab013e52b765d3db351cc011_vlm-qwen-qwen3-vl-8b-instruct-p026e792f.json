@@ -1,0 +1,190 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Ironwood Ventures S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Partners Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Telecom Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-20",
+      "counterparty": "Paper Printing Inc",
+      "amount": 7600.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-22",
+      "counterparty": "Crescent Supplies Ltd",
+      "amount": -8225.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-25",
+      "counterparty": "Redwood Telecom Ltd",
+      "amount": -850.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-29",
+      "counterparty": "Mistvale Partners Limited",
+      "amount": -9575.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-04",
+      "counterparty": "Seaglass Group Limited",
+      "amount": -15377.24,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-06",
+      "counterparty": "Summit Cleaning Ltd",
+      "amount": -3150.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-07",
+      "counterparty": "Summit Supplies Ltd",
+      "amount": -1275.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Crescent Catering Ltd",
+      "amount": -1000.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Paper Couriers Ltd",
+      "amount": -4450.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-15",
+      "counterparty": "Paper Supplies Ltd",
+      "amount": -2625.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-16",
+      "counterparty": "Paper Cleaning Ltd",
+      "amount": -3625.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-17",
+      "counterparty": "Paper Printing Inc",
+      "amount": -3125.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-19",
+      "counterparty": "Pinewood Printing Inc",
+      "amount": -8950.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-21",
+      "counterparty": "Pinewood Cleaning Inc",
+      "amount": -27350.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Paper Telecom Ltd",
+      "amount": -6575.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-27",
+      "counterparty": "Crescent Catering Inc",
+      "amount": -5025.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-09",
+      "counterparty": "Paper Printing Ltd",
+      "amount": -3600.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-13",
+      "counterparty": "Redwood Telecom Ltd",
+      "amount": -7975.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Crescent Catering Ltd",
+      "amount": -4150.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-29",
+      "counterparty": "Paper Catering Ltd",
+      "amount": -2900.0,
+      "currency": "EUR"
+    }
+  ]
+}

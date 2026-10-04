@@ -1,0 +1,32 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Copperfield Investments Corp",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Trading S.A",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Mateo Pavlov",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Willowmere Trading S.A",
+      "target": "Copperfield Investments Corp",
+      "role": "shareholder"
+    },
+    {
+      "source": "Mateo Pavlov",
+      "target": "Copperfield Investments Corp",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

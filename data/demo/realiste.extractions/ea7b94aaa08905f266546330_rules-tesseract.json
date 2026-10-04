@@ -1,0 +1,17 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Northwind Assets Corp",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltq",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

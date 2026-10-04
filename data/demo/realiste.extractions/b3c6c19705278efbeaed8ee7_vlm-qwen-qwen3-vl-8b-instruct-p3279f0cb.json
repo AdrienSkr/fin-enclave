@@ -1,0 +1,28 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Seaglass Group Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd.",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "BRITISH VIRGIN ISLANDS",
+      "target": "Seaglass Group Ltd.",
+      "role": "registered_address"
+    },
+    {
+      "source": "Coral Fiduciary Services Ltd.",
+      "target": "Seaglass Group Ltd.",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

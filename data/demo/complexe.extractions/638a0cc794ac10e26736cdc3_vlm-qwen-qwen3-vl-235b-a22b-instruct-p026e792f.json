@@ -1,0 +1,21 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Stonehaven Trading Inc.",
+  "statement_lines": [
+    {
+      "date": "2022-11-08",
+      "counterparty": "Règlement loyer commercial REF 37246",
+      "amount": -9400.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-11-08",
+      "counterparty": "Règlement loyer commercial REF 51576",
+      "amount": -4700.0,
+      "currency": "EUR"
+    }
+  ]
+}

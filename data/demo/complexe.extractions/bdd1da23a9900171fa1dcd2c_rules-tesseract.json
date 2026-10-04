@@ -1,0 +1,50 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Fairhaven Holdings Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Enterprises Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Glenbrook Trading Corp",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Seaglass Investments S.A",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Stonehaven Holdings Corp",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Oakridge Enterprises Limited",
+      "target": "Fairhaven Holdings Inc",
+      "role": "shareholder"
+    },
+    {
+      "source": "Glenbrook Trading Corp",
+      "target": "Fairhaven Holdings Inc",
+      "role": "shareholder"
+    },
+    {
+      "source": "Seaglass Investments S.A",
+      "target": "Fairhaven Holdings Inc",
+      "role": "shareholder"
+    },
+    {
+      "source": "Stonehaven Holdings Corp",
+      "target": "Fairhaven Holdings Inc",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

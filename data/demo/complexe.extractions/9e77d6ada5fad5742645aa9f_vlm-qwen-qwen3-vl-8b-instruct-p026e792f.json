@@ -1,0 +1,182 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Adrian Nielsen",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Bluefin Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Brightwater Investments Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Couriers Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-27",
+      "counterparty": "Bluefin Printing Inc",
+      "amount": 15550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-30",
+      "counterparty": "Pinewood Cleaning Ltd",
+      "amount": -7000.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-01",
+      "counterparty": "Redwood Supplies Ltd",
+      "amount": -8775.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-02",
+      "counterparty": "Crescent Cleaning Ltd",
+      "amount": -6100.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-04",
+      "counterparty": "Paper Telecom Inc",
+      "amount": -9550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-05",
+      "counterparty": "Brightwater Investments Inc.",
+      "amount": -39144.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-09",
+      "counterparty": "Paper Telecom Inc",
+      "amount": -21450.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Paper Telecom Inc",
+      "amount": -7525.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-14",
+      "counterparty": "Paper Telecom Inc",
+      "amount": -2550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-16",
+      "counterparty": "Paper Telecom Inc",
+      "amount": -5425.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-20",
+      "counterparty": "Bluefin Printing Ltd",
+      "amount": -4900.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Paper Printing Ltd",
+      "amount": -9475.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-29",
+      "counterparty": "Paper Printing Inc",
+      "amount": -3700.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-30",
+      "counterparty": "Paper Printing Inc",
+      "amount": -7675.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-01",
+      "counterparty": "Paper Printing Inc",
+      "amount": -3575.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-02",
+      "counterparty": "Bluefin Printing Ltd",
+      "amount": -5800.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-17",
+      "counterparty": "Paper Printing Inc",
+      "amount": -5950.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-19",
+      "counterparty": "Summit Couriers Ltd",
+      "amount": -2975.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-25",
+      "counterparty": "Paper Printing Inc",
+      "amount": -2500.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-25",
+      "counterparty": "Pinewood Catering Inc",
+      "amount": -23850.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Bluefin Printing Ltd",
+      "amount": -4850.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Bluefin Couriers Ltd",
+      "amount": -2425.0,
+      "currency": "GBP"
+    }
+  ]
+}

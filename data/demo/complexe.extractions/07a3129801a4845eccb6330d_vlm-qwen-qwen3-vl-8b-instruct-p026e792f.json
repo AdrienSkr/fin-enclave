@@ -1,0 +1,212 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Stonehaven Trading Inc.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-25",
+      "counterparty": "Summit Couriers Inc",
+      "amount": 6250.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-26",
+      "counterparty": "Summit Couriers Ltd",
+      "amount": -7750.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-26",
+      "counterparty": "Summit Printing Ltd",
+      "amount": -7800.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-30",
+      "counterparty": "Harbour Couriers Inc",
+      "amount": -24150.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-31",
+      "counterparty": "Paper Catering Ltd",
+      "amount": -4400.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-01",
+      "counterparty": "Pinewood Catering Ltd",
+      "amount": -2000.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-02",
+      "counterparty": "Pinewood Supplies Ltd",
+      "amount": -4000.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-03",
+      "counterparty": "Paper Cleaning Ltd",
+      "amount": -7300.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-06",
+      "counterparty": "Harbour Cleaning Ltd",
+      "amount": -900.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-09",
+      "counterparty": "Northwind Assets Corp.",
+      "amount": -2284.16,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Ironwood Holdings Limited",
+      "amount": -1577.86,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Redwood Printing Ltd",
+      "amount": -4950.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-20",
+      "counterparty": "Bluefin Printing Inc",
+      "amount": -24500.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-21",
+      "counterparty": "Crescent Cleaning Inc",
+      "amount": -17300.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Redwood Couriers Inc",
+      "amount": -14800.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-27",
+      "counterparty": "Crescent Supplies Ltd",
+      "amount": -3725.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-28",
+      "counterparty": "Summit Cleaning Ltd",
+      "amount": -1600.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-29",
+      "counterparty": "Crescent Cleaning Inc",
+      "amount": -23250.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-01",
+      "counterparty": "Harbour Telecom Ltd",
+      "amount": -8300.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-04",
+      "counterparty": "Crescent Supplies Ltd",
+      "amount": -8450.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-14",
+      "counterparty": "Harbour Printing Ltd",
+      "amount": -7200.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-14",
+      "counterparty": "Redwood Cleaning Ltd",
+      "amount": -2525.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-17",
+      "counterparty": "Redwood Supplies Ltd",
+      "amount": -7125.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-22",
+      "counterparty": "Paper Telecom Ltd",
+      "amount": -8875.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-24",
+      "counterparty": "Redwood Printing Ltd",
+      "amount": -5450.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-26",
+      "counterparty": "Redwood Printing Ltd",
+      "amount": -9025.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-28",
+      "counterparty": "Redwood Printing Ltd",
+      "amount": -6650.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-29",
+      "counterparty": "Summit Catering Inc",
+      "amount": -7850.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-29",
+      "counterparty": "Redwood Printing Ltd",
+      "amount": -4375.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Pinewood Telecom Ltd",
+      "amount": -7425.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Redwood Catering Ltd",
+      "amount": -8800.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-11-02",
+      "counterparty": "Paper Telecom Ltd",
+      "amount": -7425.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-11-08",
+      "counterparty": "Redwood Catering Ltd",
+      "amount": -4000.0,
+      "currency": "EUR"
+    }
+  ]
+}

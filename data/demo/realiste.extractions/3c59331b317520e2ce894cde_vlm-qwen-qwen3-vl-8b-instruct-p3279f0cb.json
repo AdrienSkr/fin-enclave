@@ -1,0 +1,190 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Fairhaven Holdings Inc.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pinewood Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Stonehaven Trading Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ashcroft Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Vincent Reynaud",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Stonehaven Management Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Stonehaven Assets Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Adrian Ortega",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Bluefin Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Catering Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-24",
+      "counterparty": "Pinewood Cleaning Inc",
+      "amount": -27400.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-30",
+      "counterparty": "Crescent Telecom Ltd",
+      "amount": -450.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-03",
+      "counterparty": "Redwood Cleaning Inc",
+      "amount": 4550.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-08",
+      "counterparty": "Mistvale Enterprises Limited",
+      "amount": -13690.05,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Stonehaven Trading Inc.",
+      "amount": -7425.99,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Ashcroft Enterprises Limited",
+      "amount": -9340.72,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Vincent Reynaud",
+      "amount": -1993.91,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Stonehaven Management Ltd.",
+      "amount": -12116.84,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-12",
+      "counterparty": "Stonehaven Assets Corp.",
+      "amount": -6639.07,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-12",
+      "counterparty": "Adrian Ortega",
+      "amount": -13829.37,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-14",
+      "counterparty": "Bluefin Supplies Ltd",
+      "amount": -6925.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Harbour Printing Inc",
+      "amount": -9450.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-04",
+      "counterparty": "Pinewood Couriers Ltd",
+      "amount": -7175.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-10",
+      "counterparty": "Summit Printing Ltd",
+      "amount": -5100.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-15",
+      "counterparty": "Summit Printing Inc",
+      "amount": -16800.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-19",
+      "counterparty": "Redwood Catering Inc",
+      "amount": -25750.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Bluefin Supplies Inc",
+      "amount": -9300.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-11-05",
+      "counterparty": "Summit Catering Ltd",
+      "amount": -9550.0,
+      "currency": "USD"
+    }
+  ]
+}

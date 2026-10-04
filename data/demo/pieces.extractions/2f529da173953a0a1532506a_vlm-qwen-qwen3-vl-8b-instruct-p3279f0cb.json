@@ -1,0 +1,25 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Brightwater Group Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Telecom Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Brightwater Group Corp.",
+      "payee": "Redwood Telecom Ltd",
+      "amount": 5650.0,
+      "currency": "USD",
+      "date": "2014-05-20"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

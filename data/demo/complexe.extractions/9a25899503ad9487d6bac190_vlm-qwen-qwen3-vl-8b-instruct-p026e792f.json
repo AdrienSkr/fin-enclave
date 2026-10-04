@@ -1,0 +1,304 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Willowmere Management Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Stonehaven Management Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Adrian Ortega",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Amberfield Trading Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Management Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Uma Holmgren",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Ashcroft Investments Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Catering Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Willowmere Management Limited",
+  "statement_lines": [
+    {
+      "date": "2022-08-25",
+      "counterparty": "Opening balance",
+      "amount": 785914.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-25",
+      "counterparty": "Commercial premises lease REF 97138",
+      "amount": -1350.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-28",
+      "counterparty": "Logistics & transport services - Redwood Telecom Ltd",
+      "amount": -3850.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-29",
+      "counterparty": "Monthly staff payroll REF 10685",
+      "amount": -7775.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-29",
+      "counterparty": "Customer invoice settlement - Pinewood Supplies Inc",
+      "amount": -18800.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-29",
+      "counterparty": "Telecom and network services - Pinewood Telecom Ltd",
+      "amount": -9400.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-30",
+      "counterparty": "Monthly staff payroll REF 77218",
+      "amount": -4350.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-02",
+      "counterparty": "Software license subscription - Harbour Supplies Ltd",
+      "amount": -900.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-05",
+      "counterparty": "Customer invoice settlement - Paper Cleaning Inc",
+      "amount": -8000.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-08",
+      "counterparty": "SEPA CT REF 44679 Stonehaven Management Ltd.",
+      "amount": -13690.05,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-08",
+      "counterparty": "Commercial premises lease REF 32634",
+      "amount": -6100.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-09",
+      "counterparty": "Settlement payment REF 35156 - Crescent Catering Inc",
+      "amount": -9350.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "SEPA CT REF 63888 Stonehaven Assets Corp.",
+      "amount": -7425.99,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Settlement payment REF 67760 - Summit Printing Inc",
+      "amount": -20850.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "SEPA CT REF 81335 Adrian Ortega",
+      "amount": -9340.72,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "SEPA CT REF 70564 Amberfield Trading Corp.",
+      "amount": -1993.91,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "SEPA CT REF 73510 Amberfield Management Inc.",
+      "amount": -12116.84,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-12",
+      "counterparty": "SEPA CT REF 76889 Uma Holmgren",
+      "amount": -6639.07,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-12",
+      "counterparty": "SEPA CT REF 76883 Ashcroft Investments Inc.",
+      "amount": -13829.37,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Consulting fees - Bluefin Printing Ltd",
+      "amount": -1950.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-19",
+      "counterparty": "Software license subscription - Paper Supplies Ltd",
+      "amount": -6650.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-20",
+      "counterparty": "Consulting fees - Summit Catering Ltd",
+      "amount": -1350.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Settlement payment REF 14002 - Redwood Cleaning Inc",
+      "amount": -13550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Commercial trade receivable - Paper Telecom Inc",
+      "amount": -27400.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-24",
+      "counterparty": "Commercial premises lease REF 36923",
+      "amount": -7825.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Telecom and network services - Harbour Supplies Ltd",
+      "amount": -8075.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Settlement payment REF 25353 - Redwood Telecom Inc",
+      "amount": -24000.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-29",
+      "counterparty": "Customer invoice settlement - Harbour Telecom Inc",
+      "amount": -3250.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-01",
+      "counterparty": "Legal & statutory audit fees - Paper Telecom Ltd",
+      "amount": -2000.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-01",
+      "counterparty": "Settlement payment REF 40371 - Harbour Printing Inc",
+      "amount": -12450.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-13",
+      "counterparty": "Monthly staff payroll REF 32591",
+      "amount": -3650.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-20",
+      "counterparty": "Legal & statutory audit fees - Summit Supplies Ltd",
+      "amount": -1425.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-22",
+      "counterparty": "Legal & statutory audit fees - Harbour Printing Ltd",
+      "amount": -3300.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-22",
+      "counterparty": "Office supplies - Paper Supplies Ltd",
+      "amount": -2000.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-24",
+      "counterparty": "Office supplies - Redwood Catering Ltd",
+      "amount": -4075.0,
+      "currency": "GBP"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "doc_type": "other",
+  "entities": [
+    {
+      "name": "Stonehaven Trading Inc",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

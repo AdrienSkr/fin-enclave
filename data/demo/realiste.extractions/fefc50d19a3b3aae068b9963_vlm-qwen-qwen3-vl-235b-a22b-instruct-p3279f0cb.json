@@ -1,0 +1,134 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Stonehaven Trading Inc.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Bluefin Telecom Inc",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pinewood Couriers Ltd",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Paper Catering Ltd",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Paper Cleaning Ltd",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Fairhaven Holdings Inc.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Harbour Printing Inc",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pinewood Catering Ltd",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pinewood Supplies Ltd",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Bluefin Supplies Inc",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Summit Couriers Ltd",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Crescent Printing Ltd",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Harbour Supplies Inc",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Stonehaven Trading Inc.",
+  "statement_lines": [
+    {
+      "date": "2022-08-31",
+      "counterparty": "Bluefin Telecom Inc",
+      "amount": 5400.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-08-31",
+      "counterparty": "Pinewood Couriers Ltd",
+      "amount": -9050.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-08",
+      "counterparty": "Paper Catering Ltd",
+      "amount": -4700.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-09",
+      "counterparty": "Paper Cleaning Ltd",
+      "amount": -3750.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Fairhaven Holdings Inc.",
+      "amount": 7425.99,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-16",
+      "counterparty": "Harbour Printing Inc",
+      "amount": -3500.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-09-25",
+      "counterparty": "Pinewood Catering Ltd",
+      "amount": -9450.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-05",
+      "counterparty": "Pinewood Supplies Ltd",
+      "amount": -8025.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-11",
+      "counterparty": "Bluefin Supplies Inc",
+      "amount": 5250.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-12",
+      "counterparty": "Summit Couriers Ltd",
+      "amount": -7400.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-26",
+      "counterparty": "Crescent Printing Ltd",
+      "amount": -4125.0,
+      "currency": "EUR"
+    },
+    {
+      "date": "2022-10-27",
+      "counterparty": "Harbour Supplies Inc",
+      "amount": 5900.0,
+      "currency": "EUR"
+    }
+  ]
+}

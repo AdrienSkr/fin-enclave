@@ -1,0 +1,284 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Fairhaven Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Thornfield Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Clara Reynaud",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Stonehaven Capital Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ironwood Management Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Sigrid Davenport",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Brightwater Group S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ironwood Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Sigrid Reynaud",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Summit Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Couriers Inc",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-26",
+      "counterparty": "Pinewood Cleaning Inc",
+      "amount": -9700.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-08-26",
+      "counterparty": "Bluefin Supplies Inc",
+      "amount": -27400.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-01",
+      "counterparty": "Crescent Supplies Inc",
+      "amount": -2450.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-04",
+      "counterparty": "Redwood Cleaning Inc",
+      "amount": -17300.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-05",
+      "counterparty": "Thornfield Group Limited",
+      "amount": -7400.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-06",
+      "counterparty": "Clara Reynaud",
+      "amount": -8650.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Stonehaven Capital Limited",
+      "amount": -4197.12,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Ironwood Management Inc.",
+      "amount": -4443.22,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-12",
+      "counterparty": "Sigrid Davenport",
+      "amount": -8392.45,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Brightwater Group S.A.",
+      "amount": -2550.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Ironwood Group Limited",
+      "amount": -6894.67,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-14",
+      "counterparty": "Sigrid Reynaud",
+      "amount": -9466.64,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-15",
+      "counterparty": "Summit Printing Ltd",
+      "amount": -5100.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-16",
+      "counterparty": "Bluefin Supplies Ltd",
+      "amount": -6925.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-17",
+      "counterparty": "Harbour Printing Ltd",
+      "amount": -6925.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-21",
+      "counterparty": "Redwood Supplies Ltd",
+      "amount": -500.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Harbour Printing Inc",
+      "amount": -7275.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-09-30",
+      "counterparty": "Paper Supplies Inc",
+      "amount": -9450.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-02",
+      "counterparty": "Harbour Cleaning Ltd",
+      "amount": -8325.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-04",
+      "counterparty": "Crescent Telecom Ltd",
+      "amount": -5425.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-04",
+      "counterparty": "Redwood Telecom Ltd",
+      "amount": -2500.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-06",
+      "counterparty": "Bluefin Telecom Ltd",
+      "amount": -375.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-08",
+      "counterparty": "Pinewood Couriers Ltd",
+      "amount": -7175.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-14",
+      "counterparty": "Summit Supplies Inc",
+      "amount": -3500.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-17",
+      "counterparty": "Summit Cleaning Ltd",
+      "amount": -22750.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-21",
+      "counterparty": "Paper Catering Inc",
+      "amount": -16800.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2022-10-21",
+      "counterparty": "Crescent Couriers Inc",
+      "amount": -14900.0,
+      "currency": "USD"
+    }
+  ]
+}

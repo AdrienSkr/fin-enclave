@@ -1,0 +1,36 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Amberfield Management Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd.",
+      "kind": "Intermediaire"
+    },
+    {
+      "name": "BRITISH VIRGIN ISLANDS",
+      "kind": "Adresse"
+    },
+    {
+      "name": "REGISTRAR OF CORPORATE AFFAIRS",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Coral Fiduciary Services Ltd.",
+      "target": "Amberfield Management Corp.",
+      "role": "intermediary"
+    },
+    {
+      "source": "Amberfield Management Corp.",
+      "target": "BRITISH VIRGIN ISLANDS",
+      "role": "registered_address"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

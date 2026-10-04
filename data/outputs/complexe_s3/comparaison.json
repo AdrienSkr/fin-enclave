@@ -1,0 +1,209 @@
+[
+  {
+    "tier": "CPU, sans LLM",
+    "station": "tout poste",
+    "memory": "—",
+    "model": null,
+    "measured": true,
+    "entities": {
+      "precision": 0.8438,
+      "recall": 0.1304,
+      "f1": 0.2259
+    },
+    "relations": {
+      "precision": 1.0,
+      "recall": 0.6333,
+      "f1": 0.7755
+    },
+    "transfers": {
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "hallucinated_entities": 1,
+    "failed_pieces": 0,
+    "findings": {
+      "circuit": false,
+      "fractionnement": false,
+      "beneficiaire_cache": false
+    },
+    "notes_llm": null,
+    "typologies": {
+      "CYCLE": {
+        "found": 0,
+        "total": 4,
+        "recall": 0.0
+      },
+      "FAN-OUT": {
+        "found": 0,
+        "total": 7,
+        "recall": 0.0
+      },
+      "FAN-IN": {
+        "found": 0,
+        "total": 11,
+        "recall": 0.0
+      },
+      "SCATTER-GATHER": {
+        "found": 0,
+        "total": 6,
+        "recall": 0.0
+      },
+      "GATHER-SCATTER": {
+        "found": 0,
+        "total": 7,
+        "recall": 0.0
+      },
+      "STACK": {
+        "found": 0,
+        "total": 2,
+        "recall": 0.0
+      },
+      "BIPARTITE": {
+        "found": 0,
+        "total": 3,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "tier": "Petit modèle 8B",
+    "station": "RTX 4090 (24 Go)",
+    "memory": "≈ 17 Go (BF16)",
+    "model": "qwen/qwen3-vl-8b-instruct",
+    "measured": true,
+    "entities": {
+      "precision": 0.9828,
+      "recall": 0.7375,
+      "f1": 0.8427
+    },
+    "relations": {
+      "precision": 0.7097,
+      "recall": 0.7333,
+      "f1": 0.7213
+    },
+    "transfers": {
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "hallucinated_entities": 21,
+    "failed_pieces": 0,
+    "findings": {
+      "circuit": false,
+      "fractionnement": false,
+      "beneficiaire_cache": false
+    },
+    "notes_llm": {
+      "total": 0,
+      "accepted": 0
+    },
+    "typologies": {
+      "CYCLE": {
+        "found": 0,
+        "total": 4,
+        "recall": 0.0
+      },
+      "FAN-OUT": {
+        "found": 0,
+        "total": 7,
+        "recall": 0.0
+      },
+      "FAN-IN": {
+        "found": 0,
+        "total": 11,
+        "recall": 0.0
+      },
+      "SCATTER-GATHER": {
+        "found": 0,
+        "total": 6,
+        "recall": 0.0
+      },
+      "GATHER-SCATTER": {
+        "found": 0,
+        "total": 7,
+        "recall": 0.0
+      },
+      "STACK": {
+        "found": 0,
+        "total": 2,
+        "recall": 0.0
+      },
+      "BIPARTITE": {
+        "found": 0,
+        "total": 3,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "tier": "Grand modèle 235B",
+    "station": "GX10 (128 Go unifiés)",
+    "memory": "≈ 120 Go (4 bits)",
+    "model": "qwen/qwen3-vl-235b-a22b-instruct",
+    "measured": true,
+    "entities": {
+      "precision": 0.2516,
+      "recall": 0.1948,
+      "f1": 0.2196
+    },
+    "relations": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "transfers": {
+      "precision": 0.039,
+      "recall": 0.0248,
+      "f1": 0.0303
+    },
+    "hallucinated_entities": 24,
+    "failed_pieces": 0,
+    "findings": {
+      "circuit": false,
+      "fractionnement": false,
+      "beneficiaire_cache": false
+    },
+    "notes_llm": {
+      "total": 1,
+      "accepted": 1
+    },
+    "typologies": {
+      "CYCLE": {
+        "found": 2,
+        "total": 4,
+        "recall": 0.5
+      },
+      "FAN-OUT": {
+        "found": 5,
+        "total": 7,
+        "recall": 0.7143
+      },
+      "FAN-IN": {
+        "found": 0,
+        "total": 11,
+        "recall": 0.0
+      },
+      "SCATTER-GATHER": {
+        "found": 4,
+        "total": 6,
+        "recall": 0.6667
+      },
+      "GATHER-SCATTER": {
+        "found": 0,
+        "total": 7,
+        "recall": 0.0
+      },
+      "STACK": {
+        "found": 0,
+        "total": 2,
+        "recall": 0.0
+      },
+      "BIPARTITE": {
+        "found": 0,
+        "total": 3,
+        "recall": 0.0
+      }
+    }
+  }
+]

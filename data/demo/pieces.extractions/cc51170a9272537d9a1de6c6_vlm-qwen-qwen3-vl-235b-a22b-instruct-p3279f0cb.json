@@ -1,0 +1,25 @@
+{
+  "doc_type": "wire_transfer",
+  "entities": [
+    {
+      "name": "Summit Printing Inc",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pinewood Telecom Ltd",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Summit Printing Inc",
+      "payee": "Pinewood Telecom Ltd",
+      "amount": 3480.0,
+      "currency": "USD",
+      "date": "2014-04-04"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": []
+}

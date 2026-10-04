@@ -1,0 +1,308 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Amberfield Partners Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Catering Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Assets S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ashcroft Enterprises Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Theo Garrido",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Ironwood Group Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Partners Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Nora Nielsen",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Fairhaven Enterprises Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Telecom Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Couriers Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Paper Couriers Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Supplies Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Couriers Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [
+    {
+      "date": "2022-08-26",
+      "counterparty": "Crescent Couriers Inc",
+      "amount": 17800.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-26",
+      "counterparty": "Harbour Couriers Inc",
+      "amount": 21300.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-27",
+      "counterparty": "Summit Catering Inc",
+      "amount": -6800.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-27",
+      "counterparty": "Summit Printing Ltd",
+      "amount": 1750.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-27",
+      "counterparty": "Pinewood Supplies Ltd",
+      "amount": 6275.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-08-30",
+      "counterparty": "Bluefin Printing Ltd",
+      "amount": 3525.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-06",
+      "counterparty": "Bluefin Couriers Ltd",
+      "amount": 1125.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Northwind Assets S.A.",
+      "amount": -3361.03,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Ashcroft Enterprises Inc.",
+      "amount": -13639.72,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-11",
+      "counterparty": "Theo Garrido",
+      "amount": -1126160.08,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-12",
+      "counterparty": "Ironwood Group Ltd.",
+      "amount": -13578.18,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-12",
+      "counterparty": "Crescent Printing Ltd",
+      "amount": 2775.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Northwind Partners Inc.",
+      "amount": -15320.2,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Nora Nielsen",
+      "amount": -16204.27,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-13",
+      "counterparty": "Fairhaven Enterprises Corp.",
+      "amount": -12022.79,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-17",
+      "counterparty": "Pinewood Telecom Ltd",
+      "amount": 900.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-18",
+      "counterparty": "Summit Cleaning Ltd",
+      "amount": 9550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-20",
+      "counterparty": "Paper Couriers Ltd",
+      "amount": 2625.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-22",
+      "counterparty": "Paper Telecom Inc",
+      "amount": -10800.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-25",
+      "counterparty": "Bluefin Telecom Ltd",
+      "amount": 8700.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Harbour Couriers Ltd",
+      "amount": 9300.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-26",
+      "counterparty": "Paper Couriers Inc",
+      "amount": 9225.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-30",
+      "counterparty": "Bluefin Couriers Ltd",
+      "amount": 8850.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-03",
+      "counterparty": "Bluefin Cleaning Inc",
+      "amount": -25700.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-04",
+      "counterparty": "Crescent Telecom Ltd",
+      "amount": 4600.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-04",
+      "counterparty": "Bluefin Telecom Ltd",
+      "amount": 475.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-07",
+      "counterparty": "Bluefin Telecom Ltd",
+      "amount": 775.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-13",
+      "counterparty": "Summit Telecom Ltd",
+      "amount": 5825.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-14",
+      "counterparty": "Harbour Supplies Inc",
+      "amount": 27150.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-14",
+      "counterparty": "Summit Couriers Ltd",
+      "amount": 4575.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Summit Couriers Ltd",
+      "amount": 3050.0,
+      "currency": "GBP"
+    }
+  ]
+}

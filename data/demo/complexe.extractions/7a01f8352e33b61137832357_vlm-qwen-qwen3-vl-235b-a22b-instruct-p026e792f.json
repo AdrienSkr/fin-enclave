@@ -1,0 +1,62 @@
+{
+  "doc_type": "register_of_shareholders",
+  "entities": [
+    {
+      "name": "Seaglass Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Supplies Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Seaglass Group Limited",
+  "statement_lines": [
+    {
+      "date": "2022-10-26",
+      "counterparty": "Balance brought forward",
+      "amount": 602942.54,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-30",
+      "counterparty": "Commercial premises lease REF 99303",
+      "amount": -9400.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Customer invoice settlement - Harbour Printing Inc",
+      "amount": 17250.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-01",
+      "counterparty": "Commercial trade receivable - Harbour Cleaning Inc",
+      "amount": 17550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-02",
+      "counterparty": "Office supplies - Bluefin Supplies Ltd",
+      "amount": -7700.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-11-02",
+      "counterparty": "Closing balance",
+      "amount": 620642.54,
+      "currency": "GBP"
+    }
+  ]
+}

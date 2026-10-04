@@ -1,0 +1,31 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "BRITISH VIRGIN ISLANDS",
+      "kind": "Intermediaire"
+    },
+    {
+      "name": "REGISTRAR OF CORPORATE AFFAIRS",
+      "kind": "Intermediaire"
+    },
+    {
+      "name": "Ashcroft Enterprises Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd.",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Coral Fiduciary Services Ltd.",
+      "target": "Ashcroft Enterprises Limited",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

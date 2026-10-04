@@ -1,0 +1,96 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Northwind Group S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Nadia Petrova",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Oskar Lindqvist",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Northwind Group S.A.",
+  "statement_lines": [
+    {
+      "date": "2014-04-25",
+      "counterparty": "Opening balance",
+      "amount": 80188.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-25",
+      "counterparty": "Transfer from Nadia Petrova",
+      "amount": 9317.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-25",
+      "counterparty": "Transfer from Irene Kowalski",
+      "amount": 9465.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-26",
+      "counterparty": "Transfer from Daniel Moreau",
+      "amount": 9386.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-26",
+      "counterparty": "Transfer from Lena Hartmann",
+      "amount": 9424.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-27",
+      "counterparty": "Transfer from Marco Fiore",
+      "amount": 9154.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-27",
+      "counterparty": "Transfer from Pablo Serrano",
+      "amount": 9060.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-29",
+      "counterparty": "Transfer to Oskar Lindqvist",
+      "amount": -50225.0,
+      "currency": "USD"
+    },
+    {
+      "date": "2014-04-29",
+      "counterparty": "Closing balance",
+      "amount": 85769.0,
+      "currency": "USD"
+    }
+  ]
+}

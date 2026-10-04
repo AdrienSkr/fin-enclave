@@ -1,0 +1,23 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Willowmere Capital Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Maple Register Agents Ltd.",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Maple Register Agents Ltd.",
+      "target": "Willowmere Capital Corp.",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": []
+}

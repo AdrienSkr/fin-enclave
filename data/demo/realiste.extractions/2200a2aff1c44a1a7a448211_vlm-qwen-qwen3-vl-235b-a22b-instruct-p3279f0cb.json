@@ -1,0 +1,120 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Seaglass Holdings Inc.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Crescent Telecom Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Supplies Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Bluefin Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Management Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Partners Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Redwood Cleaning Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Crescent Cleaning Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pinewood Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Couriers Inc",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Seaglass Holdings Inc.",
+  "statement_lines": [
+    {
+      "date": "2022-08-31",
+      "counterparty": "Crescent Telecom Ltd",
+      "amount": -3300.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-02",
+      "counterparty": "Pinewood Supplies Ltd",
+      "amount": -1400.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-05",
+      "counterparty": "Bluefin Printing Ltd",
+      "amount": -3375.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-09",
+      "counterparty": "Willowmere Management Limited",
+      "amount": 2284.16,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-10",
+      "counterparty": "Amberfield Partners Ltd.",
+      "amount": -1577.86,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-15",
+      "counterparty": "Summit Cleaning Ltd",
+      "amount": -5750.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-25",
+      "counterparty": "Redwood Cleaning Inc",
+      "amount": 13550.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-09-28",
+      "counterparty": "Redwood Cleaning Inc",
+      "amount": 9250.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-06",
+      "counterparty": "Crescent Cleaning Ltd",
+      "amount": -475.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-14",
+      "counterparty": "Pinewood Printing Ltd",
+      "amount": -650.0,
+      "currency": "GBP"
+    },
+    {
+      "date": "2022-10-16",
+      "counterparty": "Summit Couriers Inc",
+      "amount": 14900.0,
+      "currency": "GBP"
+    }
+  ]
+}
