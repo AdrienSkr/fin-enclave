@@ -1,0 +1,1449 @@
+[
+  {
+    "piece_id": "PIECE-0001",
+    "file": "PIECE-0001.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Brightwater Group Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Glenbrook Trading Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Theo Ellsworth",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Brightwater Group Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Seaglass Investments S.A.",
+        "target": "Brightwater Group Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Glenbrook Trading Corp.",
+        "target": "Brightwater Group Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Theo Ellsworth",
+        "target": "Brightwater Group Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0002",
+    "file": "PIECE-0002.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Stonehaven Ventures Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Helena Pavlov",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Stonehaven Ventures Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Seaglass Investments S.A.",
+        "target": "Stonehaven Ventures Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Helena Pavlov",
+        "target": "Stonehaven Ventures Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0003",
+    "file": "PIECE-0003.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ashcroft Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Ashcroft Enterprises S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0004",
+    "file": "PIECE-0004.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Willowmere Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Quentin Bergstrom",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Willowmere Investments S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Quentin Bergstrom",
+        "target": "Willowmere Investments S.A.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0005",
+    "file": "PIECE-0005.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Willowmere Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Willowmere Investments S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0006",
+    "file": "PIECE-0006.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Stonehaven Group Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Brightwater Enterprises Ltd.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Stonehaven Group Ltd.",
+        "payee": "Brightwater Enterprises Ltd.",
+        "amount": 2169111.4,
+        "currency": "USD",
+        "date": "2014-03-04"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0007",
+    "file": "PIECE-0007.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Paper Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0008",
+    "file": "PIECE-0008.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0009",
+    "file": "PIECE-0009.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ashcroft Investments Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Ashcroft Investments Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0010",
+    "file": "PIECE-0010.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Brightwater Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nora Bergstrom",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Brightwater Enterprises Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Nora Bergstrom",
+        "target": "Brightwater Enterprises Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0011",
+    "file": "PIECE-0011.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Elena Marchetti",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sofia Brandt",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Thornfield Assets Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9018,
+        "currency": "USD",
+        "date": "2014-03-25"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9121,
+        "currency": "USD",
+        "date": "2014-03-26"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9300,
+        "currency": "USD",
+        "date": "2014-03-27"
+      },
+      {
+        "payer": "Sofia Brandt",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9206,
+        "currency": "USD",
+        "date": "2014-03-25"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9458,
+        "currency": "USD",
+        "date": "2014-03-26"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9659,
+        "currency": "USD",
+        "date": "2014-03-27"
+      },
+      {
+        "payer": "Thornfield Assets Ltd.",
+        "payee": "Elena Marchetti",
+        "amount": 50186,
+        "currency": "USD",
+        "date": "2014-03-29"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0012",
+    "file": "PIECE-0012.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0013",
+    "file": "PIECE-0013.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0014",
+    "file": "PIECE-0014.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Summit Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0015",
+    "file": "PIECE-0015.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Cobalt Assets Ltd.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Brightwater Enterprises Ltd.",
+        "payee": "Cobalt Assets Ltd.",
+        "amount": 2327500.0,
+        "currency": "USD",
+        "date": "2014-02-14"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0016",
+    "file": "PIECE-0016.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Pinewood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0017",
+    "file": "PIECE-0017.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Glenbrook Group Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Glenbrook Group Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0018",
+    "file": "PIECE-0018.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Redwood Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Redwood Catering Inc",
+        "payee": "Summit Supplies Ltd",
+        "amount": 3405,
+        "currency": "USD",
+        "date": "2014-02-23"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0019",
+    "file": "PIECE-0019.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Brightwater Enterprises Ltd.",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 4170,
+        "currency": "USD",
+        "date": "2014-03-08"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0020",
+    "file": "PIECE-0020.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0021",
+    "file": "PIECE-0021.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Cobalt Assets Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ironwood Ventures Ltd.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Cobalt Assets Ltd.",
+        "payee": "Ironwood Ventures Ltd.",
+        "amount": 2280387.65,
+        "currency": "USD",
+        "date": "2014-02-18"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0022",
+    "file": "PIECE-0022.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Bluefin Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0023",
+    "file": "PIECE-0023.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ironwood Ventures Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Stonehaven Group Ltd.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Ironwood Ventures Ltd.",
+        "payee": "Stonehaven Group Ltd.",
+        "amount": 2234718.95,
+        "currency": "USD",
+        "date": "2014-02-24"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0024",
+    "file": "PIECE-0024.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ironwood Ventures Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Ironwood Ventures Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0025",
+    "file": "PIECE-0025.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Thornfield Assets Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Thornfield Assets Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0026",
+    "file": "PIECE-0026.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Brightwater Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Brightwater Enterprises Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0027",
+    "file": "PIECE-0027.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0028",
+    "file": "PIECE-0028.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Brightwater Group Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Brightwater Group Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0029",
+    "file": "PIECE-0029.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Crescent Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0030",
+    "file": "PIECE-0030.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Stonehaven Group Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Helena Holmgren",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Stonehaven Group Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Helena Holmgren",
+        "target": "Stonehaven Group Ltd.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0031",
+    "file": "PIECE-0031.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Glenbrook Group Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oakridge Group S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Silverpine Management Inc.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Glenbrook Group Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Seaglass Investments S.A.",
+        "target": "Glenbrook Group Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oakridge Group S.A.",
+        "target": "Glenbrook Group Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Silverpine Management Inc.",
+        "target": "Glenbrook Group Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0032",
+    "file": "PIECE-0032.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Glenbrook Ventures Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Glenbrook Ventures Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0033",
+    "file": "PIECE-0033.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Glenbrook Ventures Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Glenbrook Ventures Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0034",
+    "file": "PIECE-0034.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ashcroft Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Ashcroft Enterprises S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0035",
+    "file": "PIECE-0035.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Thornfield Assets Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Thornfield Assets Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0036",
+    "file": "PIECE-0036.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Willowmere Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Willowmere Investments S.A.",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 4750,
+        "currency": "EUR",
+        "date": "2014-04-01"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0037",
+    "file": "PIECE-0037.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Cobalt Assets Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Cobalt Assets Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0038",
+    "file": "PIECE-0038.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sofia Brandt",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Stonehaven Ventures Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Daniel Moreau",
+        "amount": 9200,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Tomas Vidal",
+        "amount": 9375,
+        "currency": "USD",
+        "date": "2014-03-24"
+      },
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Pablo Serrano",
+        "amount": 9500,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Sofia Brandt",
+        "amount": 9325,
+        "currency": "USD",
+        "date": "2014-03-24"
+      },
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Lena Hartmann",
+        "amount": 9725,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Marco Fiore",
+        "amount": 9850,
+        "currency": "USD",
+        "date": "2014-03-24"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0039",
+    "file": "PIECE-0039.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Crescent Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0040",
+    "file": "PIECE-0040.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Crescent Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Crescent Printing Inc",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 4055,
+        "currency": "USD",
+        "date": "2014-02-23"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0041",
+    "file": "PIECE-0041.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Stonehaven Ventures Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Stonehaven Ventures Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0042",
+    "file": "PIECE-0042.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0043",
+    "file": "PIECE-0043.pdf",
+    "doc_type": "power_of_attorney",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Elena Marchetti",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Brightwater Enterprises Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Elena Marchetti",
+        "target": "Brightwater Enterprises Ltd.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0044",
+    "file": "PIECE-0044.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ashcroft Investments Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Uma Bergstrom",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Ashcroft Investments Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Uma Bergstrom",
+        "target": "Ashcroft Investments Inc.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0045",
+    "file": "PIECE-0045.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ironwood Ventures Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Ironwood Ventures Ltd.",
+        "payee": "Paper Telecom Ltd",
+        "amount": 2030,
+        "currency": "EUR",
+        "date": "2014-03-22"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0046",
+    "file": "PIECE-0046.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Group Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Stonehaven Group Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0047",
+    "file": "PIECE-0047.png",
+    "doc_type": "power_of_attorney",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Thornfield Assets Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Elena Marchetti",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Thornfield Assets Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Elena Marchetti",
+        "target": "Thornfield Assets Ltd.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0048",
+    "file": "PIECE-0048.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Elena Marchetti",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Brightwater Enterprises Ltd.",
+        "payee": "Elena Marchetti",
+        "amount": 390440.05,
+        "currency": "USD",
+        "date": "2014-03-08"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0049",
+    "file": "PIECE-0049.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ironwood Ventures Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Enterprises Inc.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Enterprises Inc.",
+        "target": "Ironwood Ventures Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0050",
+    "file": "PIECE-0050.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Cobalt Assets Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Cobalt Assets Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  }
+]

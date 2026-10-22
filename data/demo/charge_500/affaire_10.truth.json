@@ -1,0 +1,1449 @@
+[
+  {
+    "piece_id": "PIECE-0001",
+    "file": "PIECE-0001.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0002",
+    "file": "PIECE-0002.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Ventures Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Seaglass Ventures Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0003",
+    "file": "PIECE-0003.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Cobalt Partners Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Cobalt Partners Corp.",
+        "payee": "Harbour Printing Ltd",
+        "amount": 5220,
+        "currency": "USD",
+        "date": "2014-03-20"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0004",
+    "file": "PIECE-0004.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Harbour Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0005",
+    "file": "PIECE-0005.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Brightwater Investments Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Brightwater Investments Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0006",
+    "file": "PIECE-0006.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Amberfield Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Brightwater Ventures S.A.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Amberfield Holdings Limited",
+        "payee": "Brightwater Ventures S.A.",
+        "amount": 2276195.02,
+        "currency": "USD",
+        "date": "2014-02-21"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0007",
+    "file": "PIECE-0007.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Brightwater Ventures S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Brightwater Ventures S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0008",
+    "file": "PIECE-0008.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Brightwater Investments Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Brightwater Investments Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0009",
+    "file": "PIECE-0009.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Investments Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Brightwater Investments Limited",
+        "payee": "Stonehaven Investments S.A.",
+        "amount": 2375000.0,
+        "currency": "USD",
+        "date": "2014-02-10"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0010",
+    "file": "PIECE-0010.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Brightwater Investments Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Brightwater Investments Limited",
+        "payee": "Rafael Quintero",
+        "amount": 397615.58,
+        "currency": "USD",
+        "date": "2014-03-11"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0011",
+    "file": "PIECE-0011.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Copperfield Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Copperfield Holdings Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0012",
+    "file": "PIECE-0012.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Stonehaven Investments S.A.",
+        "payee": "Bluefin Catering Ltd",
+        "amount": 4460,
+        "currency": "USD",
+        "date": "2014-03-18"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0013",
+    "file": "PIECE-0013.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Amberfield Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Amberfield Holdings Limited",
+        "payee": "Paper Telecom Ltd",
+        "amount": 1890,
+        "currency": "EUR",
+        "date": "2014-03-22"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0014",
+    "file": "PIECE-0014.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Stonehaven Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Fairhaven Group Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Yara Nielsen",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Stonehaven Management Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Fairhaven Group Limited",
+        "target": "Stonehaven Management Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Yara Nielsen",
+        "target": "Stonehaven Management Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0015",
+    "file": "PIECE-0015.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Crescent Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0016",
+    "file": "PIECE-0016.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Brightwater Ventures S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Brightwater Investments Limited",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Brightwater Ventures S.A.",
+        "payee": "Brightwater Investments Limited",
+        "amount": 2208975.46,
+        "currency": "USD",
+        "date": "2014-03-02"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0017",
+    "file": "PIECE-0017.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0018",
+    "file": "PIECE-0018.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Cobalt Trading S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Cobalt Trading S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0019",
+    "file": "PIECE-0019.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Harbour Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0020",
+    "file": "PIECE-0020.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Cobalt Partners Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Cobalt Partners Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0021",
+    "file": "PIECE-0021.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Copperfield Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Copperfield Holdings Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0022",
+    "file": "PIECE-0022.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Amberfield Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Amberfield Holdings Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0023",
+    "file": "PIECE-0023.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0024",
+    "file": "PIECE-0024.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Cobalt Trading S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Fairhaven Group Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Fairhaven Holdings Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Vincent Castille",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Cobalt Trading S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Fairhaven Group Limited",
+        "target": "Cobalt Trading S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Fairhaven Holdings Corp.",
+        "target": "Cobalt Trading S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Vincent Castille",
+        "target": "Cobalt Trading S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0025",
+    "file": "PIECE-0025.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Fairhaven Group Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Copperfield Management Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Thornfield Group Inc.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Stonehaven Investments S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Fairhaven Group Limited",
+        "target": "Stonehaven Investments S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Copperfield Management Ltd.",
+        "target": "Stonehaven Investments S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Thornfield Group Inc.",
+        "target": "Stonehaven Investments S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0026",
+    "file": "PIECE-0026.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Adrian Davenport",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Seaglass Assets S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Adrian Davenport",
+        "target": "Seaglass Assets S.A.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0027",
+    "file": "PIECE-0027.pdf",
+    "doc_type": "power_of_attorney",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Stonehaven Management Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Rafael Quintero",
+        "target": "Stonehaven Management Corp.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0028",
+    "file": "PIECE-0028.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Cobalt Partners Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Cobalt Partners Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0029",
+    "file": "PIECE-0029.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0030",
+    "file": "PIECE-0030.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Stonehaven Investments S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0031",
+    "file": "PIECE-0031.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sofia Brandt",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Thornfield Investments Corp.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Daniel Moreau",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-03-20"
+      },
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Pablo Serrano",
+        "amount": 9725,
+        "currency": "USD",
+        "date": "2014-03-21"
+      },
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Sofia Brandt",
+        "amount": 9350,
+        "currency": "USD",
+        "date": "2014-03-20"
+      },
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Nadia Petrova",
+        "amount": 9400,
+        "currency": "USD",
+        "date": "2014-03-21"
+      },
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Irene Kowalski",
+        "amount": 9775,
+        "currency": "USD",
+        "date": "2014-03-20"
+      },
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Lena Hartmann",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-03-21"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0032",
+    "file": "PIECE-0032.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Mistvale Ventures Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Mistvale Ventures Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0033",
+    "file": "PIECE-0033.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Brightwater Ventures S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nora Ibarra",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Brightwater Ventures S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Nora Ibarra",
+        "target": "Brightwater Ventures S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0034",
+    "file": "PIECE-0034.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Pinewood Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Pinewood Catering Inc",
+        "payee": "Crescent Telecom Ltd",
+        "amount": 4380,
+        "currency": "USD",
+        "date": "2014-02-19"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0035",
+    "file": "PIECE-0035.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sofia Brandt",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Stonehaven Management Corp.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9045,
+        "currency": "USD",
+        "date": "2014-03-22"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9609,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Sofia Brandt",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9123,
+        "currency": "USD",
+        "date": "2014-03-24"
+      },
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9240,
+        "currency": "USD",
+        "date": "2014-03-22"
+      },
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9618,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9000,
+        "currency": "USD",
+        "date": "2014-03-24"
+      },
+      {
+        "payer": "Stonehaven Management Corp.",
+        "payee": "Rafael Quintero",
+        "amount": 50072,
+        "currency": "USD",
+        "date": "2014-03-26"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0036",
+    "file": "PIECE-0036.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Summit Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Cleaning Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Summit Couriers Inc",
+        "payee": "Harbour Cleaning Ltd",
+        "amount": 2905,
+        "currency": "USD",
+        "date": "2014-02-19"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0037",
+    "file": "PIECE-0037.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0038",
+    "file": "PIECE-0038.pdf",
+    "doc_type": "power_of_attorney",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Investments Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Brightwater Investments Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Rafael Quintero",
+        "target": "Brightwater Investments Limited",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0039",
+    "file": "PIECE-0039.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0040",
+    "file": "PIECE-0040.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Thornfield Investments Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Clara Fujimoto",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Thornfield Investments Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Clara Fujimoto",
+        "target": "Thornfield Investments Corp.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0041",
+    "file": "PIECE-0041.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Holdings Limited",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Stonehaven Investments S.A.",
+        "payee": "Amberfield Holdings Limited",
+        "amount": 2338776.95,
+        "currency": "USD",
+        "date": "2014-02-17"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0042",
+    "file": "PIECE-0042.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Seaglass Ventures Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Seaglass Ventures Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0043",
+    "file": "PIECE-0043.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Crescent Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0044",
+    "file": "PIECE-0044.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Amberfield Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Quentin Pavlov",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Corp.",
+        "target": "Amberfield Holdings Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Quentin Pavlov",
+        "target": "Amberfield Holdings Limited",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0045",
+    "file": "PIECE-0045.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Seaglass Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Seaglass Assets S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0046",
+    "file": "PIECE-0046.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0047",
+    "file": "PIECE-0047.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Mistvale Ventures Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Mistvale Ventures Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0048",
+    "file": "PIECE-0048.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Thornfield Investments Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Thornfield Investments Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0049",
+    "file": "PIECE-0049.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Bluefin Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0050",
+    "file": "PIECE-0050.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Stonehaven Management Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  }
+]

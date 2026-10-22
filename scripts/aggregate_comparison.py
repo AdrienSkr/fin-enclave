@@ -1,5 +1,5 @@
 """
-Agrégation des résultats comparatifs (CPU sans LLM vs 8B vs 235B) sur plusieurs graines.
+Agrégation des résultats comparatifs (CPU sans LLM, 8B, GX10 72B, référence 235B hors GX10).
 
 Lit les fichiers 'comparaison.json' générés sur différents dossiers (ex: graines 1, 2, 3)
 et calcule pour chaque station la moyenne et l'écart min-max.
@@ -7,7 +7,7 @@ Produit un affichage console Rich et un tableau Markdown prêt pour le README.
 
 Usage :
     uv run python scripts/aggregate_comparison.py path/to/c1.json path/to/c2.json path/to/c3.json
-    uv run python scripts/aggregate_comparison.py data/outputs/complexe_s*/comparaison.json
+    uv run python scripts/aggregate_comparison.py data/outputs/investigation/comparaison.json
 """
 
 import argparse
@@ -72,6 +72,8 @@ def aggregate(files: list[Path], dataset_name: str = "") -> None:
                     "rel_r": [],
                     "tx_p": [],
                     "tx_r": [],
+                    "txc_p": [],
+                    "txc_r": [],
                     "hallucinated": [],
                     "failed": [],
                     "circuit": [],
@@ -92,13 +94,21 @@ def aggregate(files: list[Path], dataset_name: str = "") -> None:
             td["rel_r"].append(row["relations"]["recall"])
             td["tx_p"].append(row["transfers"]["precision"])
             td["tx_r"].append(row["transfers"]["recall"])
+            cur = row.get("transfers_currency")
+            if cur:
+                td["txc_p"].append(cur["precision"])
+                td["txc_r"].append(cur["recall"])
             td["hallucinated"].append(row.get("hallucinated_entities", 0))
             td["failed"].append(row.get("failed_pieces", 0))
 
             fnd = row.get("findings", {})
-            td["circuit"].append(1.0 if fnd.get("circuit") else 0.0)
-            td["fractionnement"].append(1.0 if fnd.get("fractionnement") else 0.0)
-            td["beneficiaire"].append(1.0 if fnd.get("beneficiaire_cache") else 0.0)
+            for key, src in (
+                ("circuit", "circuit"),
+                ("fractionnement", "fractionnement"),
+                ("beneficiaire", "beneficiaire_cache"),
+            ):
+                if fnd.get(src) is not None:  # None = sans objet pour ce scénario
+                    td[key].append(1.0 if fnd[src] else 0.0)
 
             typos = row.get("typologies", {})
             for t_name, t_val in typos.items():
@@ -129,7 +139,12 @@ def aggregate(files: list[Path], dataset_name: str = "") -> None:
         *(_fmt_pr(tiers_data[t]["rel_p"], tiers_data[t]["rel_r"]) for t in tier_names),
     )
     table.add_row(
-        "  Virements", *(_fmt_pr(tiers_data[t]["tx_p"], tiers_data[t]["tx_r"]) for t in tier_names)
+        "  Virements (émetteur, bénéficiaire, montant)",
+        *(_fmt_pr(tiers_data[t]["tx_p"], tiers_data[t]["tx_r"]) for t in tier_names),
+    )
+    table.add_row(
+        "  Virements, devise exacte",
+        *(_fmt_pr(tiers_data[t]["txc_p"], tiers_data[t]["txc_r"]) for t in tier_names),
     )
     table.add_row(
         "  Noms inventés (rejetés OCR)",
@@ -184,6 +199,11 @@ def aggregate(files: list[Path], dataset_name: str = "") -> None:
         + " |"
     )
     print(
+        "| Virements, devise exacte (P / R) | "
+        + " | ".join(_fmt_pr(tiers_data[t]["txc_p"], tiers_data[t]["txc_r"]) for t in tier_names)
+        + " |"
+    )
+    print(
         "| Hallucinations rejetées | "
         + " | ".join(_fmt(tiers_data[t]["hallucinated"], is_percent=False) for t in tier_names)
         + " |"
@@ -205,9 +225,9 @@ def main() -> None:
     ap.add_argument(
         "--set",
         dest="dataset_set",
-        choices=["realiste", "complexe"],
-        default="realiste",
-        help="Jeu de données par défaut (realiste ou complexe)",
+        choices=["investigation"],
+        default="investigation",
+        help="Jeu de données par défaut (ex: investigation)",
     )
     ap.add_argument("files", nargs="*", type=str, help="Fichiers comparaison.json ou motifs glob")
     args = ap.parse_args()
@@ -221,25 +241,9 @@ def main() -> None:
             elif Path(pattern).exists():
                 targets.append(Path(pattern))
     else:
-        # Recherche par défaut selon le jeu choisi
-        chosen = [
-            Path(f"data/outputs/{args.dataset_set}_s1/comparaison.json"),
-            Path(f"data/outputs/{args.dataset_set}_s2/comparaison.json"),
-            Path(f"data/outputs/{args.dataset_set}_s3/comparaison.json"),
-        ]
-        targets = [p for p in chosen if p.exists()]
-        if not targets:
-            # Repli sur l'autre jeu si le jeu demandé n'existe pas encore
-            other_set = "complexe" if args.dataset_set == "realiste" else "realiste"
-            other = [
-                Path(f"data/outputs/{other_set}_s1/comparaison.json"),
-                Path(f"data/outputs/{other_set}_s2/comparaison.json"),
-                Path(f"data/outputs/{other_set}_s3/comparaison.json"),
-            ]
-            targets = [p for p in other if p.exists()]
-        if not targets:
-            # Essai sur n'importe quel comparaison.json dans outputs
-            targets = list(Path("data/outputs").glob("**/comparaison.json"))
+        # Un dossier de sortie par jeu officiel (data/outputs/<jeu>/comparaison.json)
+        targets = [Path(f"data/outputs/{args.dataset_set}/comparaison.json")]
+        targets = [p for p in targets if p.exists()]
 
     aggregate(targets, dataset_name=args.dataset_set)
 

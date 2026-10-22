@@ -1,3 +1,4 @@
+# Python & Virtual Environments
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,9 +8,11 @@ env/
 venv/
 .venv/
 .env
+.env.local
 
 # Tests & Coverage
 .pytest_cache/
+.ruff_cache/
 .coverage
 htmlcov/
 
@@ -18,21 +21,33 @@ data/outputs/*.html
 data/outputs/*.json
 data/outputs/*.md
 !data/outputs/.gitkeep
+data/outputs/_*
+data/outputs/*/*
+!data/outputs/*/comparaison.json
+!data/outputs/investigation/rapport.md
 
-# IDEs & Agents
+# Caches et traces d'exécution
+data/cache/
+data/external/
+data/raw/
+runs/*
+!runs/*.json
+!runs/.gitkeep
+
+# IDEs & OS
 .vscode/
 .idea/
 .cursor/
 .kilo/
 .kilocode/
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Cache d'extraction
-data/cache/
-
-# Donnees externes volumineuses et jeux generes
-data/external/
-data/raw/
-data/outputs/_*
-data/outputs/*/*
-!data/outputs/*/comparaison.json
-!data/outputs/investigation/rapport.md
+# Documents internes et assistants
+AGENTS.md
+CONTEXT.md
+docs/
+.agents/
+.scratch/
+.tours/

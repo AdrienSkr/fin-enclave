@@ -1,0 +1,1449 @@
+[
+  {
+    "piece_id": "PIECE-0001",
+    "file": "PIECE-0001.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0002",
+    "file": "PIECE-0002.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Willowmere Trading Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Brightwater Management Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Cobalt Capital S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Adrian Bergstrom",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Willowmere Trading Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Brightwater Management Ltd.",
+        "target": "Willowmere Trading Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Cobalt Capital S.A.",
+        "target": "Willowmere Trading Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Adrian Bergstrom",
+        "target": "Willowmere Trading Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0003",
+    "file": "PIECE-0003.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Bluefin Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Bluefin Couriers Inc",
+        "payee": "Pinewood Printing Ltd",
+        "amount": 1035,
+        "currency": "USD",
+        "date": "2014-02-24"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0004",
+    "file": "PIECE-0004.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Group Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Oakridge Group Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0005",
+    "file": "PIECE-0005.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Cobalt Assets Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Cobalt Assets Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0006",
+    "file": "PIECE-0006.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Pinewood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0007",
+    "file": "PIECE-0007.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Glenbrook Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Glenbrook Assets S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0008",
+    "file": "PIECE-0008.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Copperfield Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Copperfield Holdings Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0009",
+    "file": "PIECE-0009.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Cobalt Capital Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Viktor Haldane",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Cobalt Capital Inc.",
+        "payee": "Viktor Haldane",
+        "amount": 373315.02,
+        "currency": "USD",
+        "date": "2014-03-16"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0010",
+    "file": "PIECE-0010.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Oakridge Group Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Cobalt Capital Inc.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Oakridge Group Inc.",
+        "payee": "Cobalt Capital Inc.",
+        "amount": 2073972.36,
+        "currency": "USD",
+        "date": "2014-03-07"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0011",
+    "file": "PIECE-0011.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Pinewood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0012",
+    "file": "PIECE-0012.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Northwind Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Northwind Enterprises S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0013",
+    "file": "PIECE-0013.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Trading Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Willowmere Trading Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0014",
+    "file": "PIECE-0014.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Copperfield Capital Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Couriers Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Copperfield Capital Corp.",
+        "payee": "Pinewood Couriers Ltd",
+        "amount": 4500,
+        "currency": "USD",
+        "date": "2014-03-23"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0015",
+    "file": "PIECE-0015.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Cobalt Capital Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Trading Limited",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Cobalt Capital Inc.",
+        "payee": "Willowmere Trading Limited",
+        "amount": 2227500.0,
+        "currency": "USD",
+        "date": "2014-02-15"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0016",
+    "file": "PIECE-0016.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Paper Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0017",
+    "file": "PIECE-0017.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0018",
+    "file": "PIECE-0018.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Partners Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Mateo Jansen",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Brightwater Partners Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Mateo Jansen",
+        "target": "Brightwater Partners Limited",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0019",
+    "file": "PIECE-0019.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Trading Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Thornfield Holdings Ltd.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Willowmere Trading Limited",
+        "payee": "Thornfield Holdings Ltd.",
+        "amount": 2183125.57,
+        "currency": "USD",
+        "date": "2014-02-24"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0020",
+    "file": "PIECE-0020.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Seaglass Investments S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0021",
+    "file": "PIECE-0021.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Copperfield Capital Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nora Keller",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Copperfield Capital Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Nora Keller",
+        "target": "Copperfield Capital Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0022",
+    "file": "PIECE-0022.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Willowmere Trading Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Willowmere Trading Limited",
+        "payee": "Bluefin Supplies Ltd",
+        "amount": 4790,
+        "currency": "USD",
+        "date": "2014-04-04"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0023",
+    "file": "PIECE-0023.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Cobalt Capital Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Owen Fujimoto",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Cobalt Capital Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Owen Fujimoto",
+        "target": "Cobalt Capital Inc.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0024",
+    "file": "PIECE-0024.pdf",
+    "doc_type": "power_of_attorney",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Cobalt Capital Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Viktor Haldane",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Cobalt Capital Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Viktor Haldane",
+        "target": "Cobalt Capital Inc.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0025",
+    "file": "PIECE-0025.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Oakridge Group Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Oakridge Group Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0026",
+    "file": "PIECE-0026.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Partners Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Brightwater Partners Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0027",
+    "file": "PIECE-0027.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Northwind Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Northwind Enterprises S.A.",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 6440,
+        "currency": "USD",
+        "date": "2014-03-08"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0028",
+    "file": "PIECE-0028.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Thornfield Holdings Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Group Inc.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Thornfield Holdings Ltd.",
+        "payee": "Oakridge Group Inc.",
+        "amount": 2130670.44,
+        "currency": "USD",
+        "date": "2014-03-03"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0029",
+    "file": "PIECE-0029.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Paper Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Paper Catering Inc",
+        "payee": "Harbour Catering Ltd",
+        "amount": 2780,
+        "currency": "USD",
+        "date": "2014-02-24"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0030",
+    "file": "PIECE-0030.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Stonehaven Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Stonehaven Holdings Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0031",
+    "file": "PIECE-0031.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0032",
+    "file": "PIECE-0032.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0033",
+    "file": "PIECE-0033.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Harbour Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0034",
+    "file": "PIECE-0034.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Thornfield Holdings Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Thornfield Holdings Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0035",
+    "file": "PIECE-0035.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Glenbrook Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Brightwater Management Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oakridge Holdings Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Copperfield Holdings Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Glenbrook Assets S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Brightwater Management Ltd.",
+        "target": "Glenbrook Assets S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oakridge Holdings Corp.",
+        "target": "Glenbrook Assets S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Copperfield Holdings Corp.",
+        "target": "Glenbrook Assets S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0036",
+    "file": "PIECE-0036.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Pinewood Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0037",
+    "file": "PIECE-0037.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Thornfield Holdings Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Thornfield Holdings Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0038",
+    "file": "PIECE-0038.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Copperfield Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Copperfield Holdings Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0039",
+    "file": "PIECE-0039.jpg",
+    "doc_type": "power_of_attorney",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Northwind Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Viktor Haldane",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Northwind Enterprises S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Viktor Haldane",
+        "target": "Northwind Enterprises S.A.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0040",
+    "file": "PIECE-0040.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Cobalt Assets Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Cobalt Assets Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0041",
+    "file": "PIECE-0041.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Bluefin Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0042",
+    "file": "PIECE-0042.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0043",
+    "file": "PIECE-0043.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Stonehaven Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Stonehaven Holdings Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0044",
+    "file": "PIECE-0044.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Theo Davenport",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Seaglass Investments S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Theo Davenport",
+        "target": "Seaglass Investments S.A.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0045",
+    "file": "PIECE-0045.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Cobalt Capital Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Cobalt Capital Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0046",
+    "file": "PIECE-0046.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Pinewood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0047",
+    "file": "PIECE-0047.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Copperfield Capital Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Copperfield Capital Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0048",
+    "file": "PIECE-0048.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Northwind Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ashcroft Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Brightwater Management Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Helena Holmgren",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Ashcroft Trading S.A.",
+        "target": "Northwind Enterprises S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Brightwater Management Ltd.",
+        "target": "Northwind Enterprises S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Helena Holmgren",
+        "target": "Northwind Enterprises S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0049",
+    "file": "PIECE-0049.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Glenbrook Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Lena Hartmann",
+        "amount": 9450,
+        "currency": "USD",
+        "date": "2014-03-11"
+      },
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Marco Fiore",
+        "amount": 9125,
+        "currency": "USD",
+        "date": "2014-03-12"
+      },
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Daniel Moreau",
+        "amount": 9775,
+        "currency": "USD",
+        "date": "2014-03-11"
+      },
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Tomas Vidal",
+        "amount": 9575,
+        "currency": "USD",
+        "date": "2014-03-12"
+      },
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Nadia Petrova",
+        "amount": 9475,
+        "currency": "USD",
+        "date": "2014-03-11"
+      },
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Pablo Serrano",
+        "amount": 9150,
+        "currency": "USD",
+        "date": "2014-03-12"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0050",
+    "file": "PIECE-0050.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Northwind Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Viktor Haldane",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 9352,
+        "currency": "USD",
+        "date": "2014-03-13"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 8892,
+        "currency": "USD",
+        "date": "2014-03-14"
+      },
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 9555,
+        "currency": "USD",
+        "date": "2014-03-15"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 9294,
+        "currency": "USD",
+        "date": "2014-03-13"
+      },
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 9261,
+        "currency": "USD",
+        "date": "2014-03-14"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 8946,
+        "currency": "USD",
+        "date": "2014-03-15"
+      },
+      {
+        "payer": "Northwind Enterprises S.A.",
+        "payee": "Viktor Haldane",
+        "amount": 49770,
+        "currency": "USD",
+        "date": "2014-03-17"
+      }
+    ]
+  }
+]

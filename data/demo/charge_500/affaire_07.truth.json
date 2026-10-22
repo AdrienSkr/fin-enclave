@@ -1,0 +1,1449 @@
+[
+  {
+    "piece_id": "PIECE-0001",
+    "file": "PIECE-0001.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oakridge Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sofia Brandt",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Sofia Brandt",
+        "amount": 9350,
+        "currency": "USD",
+        "date": "2014-03-07"
+      },
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Lena Hartmann",
+        "amount": 9800,
+        "currency": "USD",
+        "date": "2014-03-08"
+      },
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Marco Fiore",
+        "amount": 9350,
+        "currency": "USD",
+        "date": "2014-03-07"
+      },
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Pablo Serrano",
+        "amount": 9300,
+        "currency": "USD",
+        "date": "2014-03-08"
+      },
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Tomas Vidal",
+        "amount": 9625,
+        "currency": "USD",
+        "date": "2014-03-07"
+      },
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Irene Kowalski",
+        "amount": 9825,
+        "currency": "USD",
+        "date": "2014-03-08"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0002",
+    "file": "PIECE-0002.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Brightwater Investments Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Brightwater Investments Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0003",
+    "file": "PIECE-0003.png",
+    "doc_type": "power_of_attorney",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Fairhaven Trading Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oskar Lindqvist",
+        "target": "Fairhaven Trading Ltd.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0004",
+    "file": "PIECE-0004.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Paper Couriers Inc",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 3220,
+        "currency": "USD",
+        "date": "2014-02-22"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0005",
+    "file": "PIECE-0005.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Mistvale Holdings Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Mistvale Holdings Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0006",
+    "file": "PIECE-0006.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Oakridge Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Oakridge Management Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0007",
+    "file": "PIECE-0007.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Oakridge Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Partners Ltd.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Oakridge Enterprises S.A.",
+        "payee": "Amberfield Partners Ltd.",
+        "amount": 2392500.0,
+        "currency": "USD",
+        "date": "2014-02-13"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0008",
+    "file": "PIECE-0008.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Fairhaven Group Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Fairhaven Group Ltd.",
+        "payee": "Paper Catering Ltd",
+        "amount": 5530,
+        "currency": "EUR",
+        "date": "2014-02-14"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0009",
+    "file": "PIECE-0009.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Amberfield Assets Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Amberfield Assets Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0010",
+    "file": "PIECE-0010.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0011",
+    "file": "PIECE-0011.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Fairhaven Trading Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0012",
+    "file": "PIECE-0012.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Mistvale Holdings Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Mistvale Holdings Corp.",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 6360,
+        "currency": "USD",
+        "date": "2014-03-09"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0013",
+    "file": "PIECE-0013.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sofia Brandt",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Sofia Brandt",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9230,
+        "currency": "USD",
+        "date": "2014-03-09"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9634,
+        "currency": "USD",
+        "date": "2014-03-10"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9115,
+        "currency": "USD",
+        "date": "2014-03-11"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9038,
+        "currency": "USD",
+        "date": "2014-03-09"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9428,
+        "currency": "USD",
+        "date": "2014-03-10"
+      },
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9683,
+        "currency": "USD",
+        "date": "2014-03-11"
+      },
+      {
+        "payer": "Fairhaven Trading Ltd.",
+        "payee": "Oskar Lindqvist",
+        "amount": 50515,
+        "currency": "USD",
+        "date": "2014-03-13"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0014",
+    "file": "PIECE-0014.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Fairhaven Trading Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0015",
+    "file": "PIECE-0015.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Harbour Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0016",
+    "file": "PIECE-0016.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Fairhaven Group Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Fairhaven Group Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0017",
+    "file": "PIECE-0017.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Amberfield Partners Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Cobalt Trading Inc.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Julian Fujimoto",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Amberfield Partners Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Seaglass Investments S.A.",
+        "target": "Amberfield Partners Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Cobalt Trading Inc.",
+        "target": "Amberfield Partners Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Julian Fujimoto",
+        "target": "Amberfield Partners Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0018",
+    "file": "PIECE-0018.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Bluefin Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0019",
+    "file": "PIECE-0019.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Amberfield Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Amberfield Management Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0020",
+    "file": "PIECE-0020.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Fairhaven Trading Ltd.",
+        "payee": "Summit Supplies Ltd",
+        "amount": 5860,
+        "currency": "EUR",
+        "date": "2014-04-12"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0021",
+    "file": "PIECE-0021.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Paper Supplies Inc",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 4780,
+        "currency": "USD",
+        "date": "2014-02-22"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0022",
+    "file": "PIECE-0022.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0023",
+    "file": "PIECE-0023.png",
+    "doc_type": "power_of_attorney",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Oakridge Enterprises S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oskar Lindqvist",
+        "target": "Oakridge Enterprises S.A.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0024",
+    "file": "PIECE-0024.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Amberfield Partners Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ironwood Holdings Inc.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Amberfield Partners Ltd.",
+        "payee": "Ironwood Holdings Inc.",
+        "amount": 2343492.1,
+        "currency": "USD",
+        "date": "2014-02-19"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0025",
+    "file": "PIECE-0025.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Amberfield Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Adrian Bergstrom",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Amberfield Management Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Adrian Bergstrom",
+        "target": "Amberfield Management Corp.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0026",
+    "file": "PIECE-0026.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Oakridge Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Karin Garrido",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Oakridge Management Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Karin Garrido",
+        "target": "Oakridge Management Limited",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0027",
+    "file": "PIECE-0027.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ironwood Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oakridge Ventures Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Northwind Group Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Ironwood Holdings Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Seaglass Investments S.A.",
+        "target": "Ironwood Holdings Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oakridge Ventures Ltd.",
+        "target": "Ironwood Holdings Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Northwind Group Ltd.",
+        "target": "Ironwood Holdings Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0028",
+    "file": "PIECE-0028.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Amberfield Assets Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Amberfield Assets Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0029",
+    "file": "PIECE-0029.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Crescent Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0030",
+    "file": "PIECE-0030.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Oakridge Enterprises S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0031",
+    "file": "PIECE-0031.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Mistvale Holdings Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Mistvale Holdings Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0032",
+    "file": "PIECE-0032.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Paper Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0033",
+    "file": "PIECE-0033.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Bluefin Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0034",
+    "file": "PIECE-0034.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Summit Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0035",
+    "file": "PIECE-0035.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Brightwater Investments Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Yara Castille",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Brightwater Investments Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Yara Castille",
+        "target": "Brightwater Investments Inc.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0036",
+    "file": "PIECE-0036.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ironwood Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Ironwood Holdings Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0037",
+    "file": "PIECE-0037.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Amberfield Partners Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Amberfield Partners Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0038",
+    "file": "PIECE-0038.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises S.A.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Fairhaven Trading Corp.",
+        "payee": "Oakridge Enterprises S.A.",
+        "amount": 2262487.01,
+        "currency": "USD",
+        "date": "2014-02-28"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0039",
+    "file": "PIECE-0039.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Oakridge Ventures Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Oakridge Ventures Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0040",
+    "file": "PIECE-0040.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Fairhaven Trading Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0041",
+    "file": "PIECE-0041.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Clara Davenport",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Fairhaven Trading Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Clara Davenport",
+        "target": "Fairhaven Trading Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0042",
+    "file": "PIECE-0042.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Ventures Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Oakridge Ventures Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0043",
+    "file": "PIECE-0043.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Fairhaven Group Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Management Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Clara Bergstrom",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Mistvale Management Corp.",
+        "target": "Fairhaven Group Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Seaglass Investments S.A.",
+        "target": "Fairhaven Group Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Clara Bergstrom",
+        "target": "Fairhaven Group Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0044",
+    "file": "PIECE-0044.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Oakridge Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Oakridge Enterprises S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0045",
+    "file": "PIECE-0045.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Crescent Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0046",
+    "file": "PIECE-0046.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ironwood Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Corp.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Ironwood Holdings Inc.",
+        "payee": "Fairhaven Trading Corp.",
+        "amount": 2303003.14,
+        "currency": "USD",
+        "date": "2014-02-24"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0047",
+    "file": "PIECE-0047.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0048",
+    "file": "PIECE-0048.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Crescent Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0049",
+    "file": "PIECE-0049.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Oakridge Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Oakridge Enterprises S.A.",
+        "payee": "Oskar Lindqvist",
+        "amount": 407247.66,
+        "currency": "USD",
+        "date": "2014-03-07"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0050",
+    "file": "PIECE-0050.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  }
+]

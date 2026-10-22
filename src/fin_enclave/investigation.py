@@ -13,22 +13,87 @@ Chaque constat renvoie aux pièces qui le fondent (cote, fichier, SHA-256). Le L
 qu'en aval, pour rédiger, jamais pour trouver.
 """
 
-import math
 import time
-from collections import Counter, defaultdict
+import tracemalloc
+from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Any
 
 import networkx as nx
 
+from .config import settings
 from .documents.extractor import extract_dossier, make_engine
-from .documents.linker import build_document_graph
 from .documents.models import OWNERSHIP_ROLES, PieceExtraction
+from .graph.builder import build_document_graph
 from .graph.detector import DetectionResult, GraphDetector
 from .graph.resolver import EntityResolver
-from .schemas import AnomalyReport, ProofPoint
+from .graph.structural import build_portfolios
+from .reasoning.models import AnomalyReport
 
 HOLDING_ROLES = OWNERSHIP_ROLES | {"director", "secretary"}
+
+
+@dataclass
+class InvestigationFindings:
+    """
+    Constats déterministes structurés issus de l'analyse du graphe financier.
+    Fournit un typage fort pour les couches aval tout en préservant le contrat
+    d'accès par dictionnaire (__getitem__, get) pour la rétrocompatibilité.
+    """
+
+    ownership: list[dict[str, Any]]
+    portfolios: list[dict[str, Any]]
+    hidden_controllers: list[dict[str, Any]]
+    money_ranking: list[dict[str, Any]]
+    cycles: list[dict[str, Any]]
+    smurfing: list[dict[str, Any]]
+    pivot: dict[str, Any]
+    flows: dict[str, Any]
+    vigilance: dict[str, Any]
+    telemetry: dict[str, Any]
+    report_authors: list[str] = field(default_factory=list)
+    # Plafonds du détecteur atteints (jamais silencieux : rapport, scellé et graphe les montrent)
+    limits: dict[str, Any] = field(default_factory=dict)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "ownership": self.ownership,
+            "portfolios": self.portfolios,
+            "hidden_controllers": self.hidden_controllers,
+            "money_ranking": self.money_ranking,
+            "cycles": self.cycles,
+            "smurfing": self.smurfing,
+            "pivot": self.pivot,
+            "flows": self.flows,
+            "vigilance": self.vigilance,
+            "telemetry": self.telemetry,
+            "report_authors": self.report_authors,
+            "limits": self.limits,
+        }
+
+    def __getitem__(self, key: str) -> Any:
+        try:
+            return getattr(self, key)
+        except AttributeError as e:
+            raise KeyError(key) from e
+
+    def __setitem__(self, key: str, value: Any) -> None:
+        setattr(self, key, value)
+
+    def setdefault(self, key: str, default: Any = None) -> Any:
+        if hasattr(self, key):
+            val = getattr(self, key)
+            if val is not None:
+                return val
+        setattr(self, key, default)
+        return default
+
+    def get(self, key: str, default: Any = None) -> Any:
+        return getattr(self, key, default)
+
+    def __contains__(self, key: str) -> bool:
+        return hasattr(self, key)
 
 
 @dataclass
@@ -38,9 +103,8 @@ class Investigation:
     pieces: list[PieceExtraction]
     graph: nx.DiGraph
     resolver: EntityResolver
-    ledger: dict[str, ProofPoint]
     detection: DetectionResult
-    findings: dict
+    findings: InvestigationFindings | dict[str, Any]
     reports: list[AnomalyReport] = field(default_factory=list)
     timings: dict[str, float] = field(default_factory=dict)
 
@@ -86,34 +150,6 @@ def ownership_table(G: nx.DiGraph) -> list[dict]:
                 }
             )
     return sorted(rows, key=lambda r: r["company"])
-
-
-def portfolios(G: nx.DiGraph, ownership: list[dict]) -> list[dict]:
-    """Portefeuille de chaque acteur : sociétés qu'il détient ou dirige d'après les registres."""
-    by_actor: dict[str, dict] = {}
-    for row in ownership:
-        for h in row["holders"]:
-            a = by_actor.setdefault(
-                h["id"],
-                {"name": h["name"], "id": h["id"], "companies": [], "roles": Counter()},
-            )
-            if row["company"] not in a["companies"]:
-                a["companies"].append(row["company"])
-            a["roles"][h["role"]] += 1
-    n_companies = max(1, len(ownership))
-    threshold = max(4, math.ceil(n_companies / 3))
-    out = []
-    for a in by_actor.values():
-        out.append(
-            {
-                **a,
-                "roles": dict(a["roles"]),
-                "n_companies": len(a["companies"]),
-                "nominee_profile": len(a["companies"]) >= threshold,
-                "nominee_threshold": threshold,
-            }
-        )
-    return sorted(out, key=lambda a: (-a["n_companies"], a["name"]))
 
 
 def money_ranking(G: nx.DiGraph) -> list[dict]:
@@ -219,6 +255,9 @@ def _vigilance(pieces: list[PieceExtraction], resolver: EntityResolver, G: nx.Di
     """Ce que l'enquêteur doit valider à la main : rien n'est masqué."""
     return {
         "failed_pieces": [{"piece": p.piece_id, "error": p.error[:200]} for p in pieces if p.error],
+        "review_pieces": [
+            {"piece": p.piece_id, "reason": p.review_reason} for p in pieces if p.needs_review
+        ],
         "rejected_entities": [
             {"piece": p.piece_id, "name": e.name, "score": e.grounding_score}
             for p in pieces
@@ -244,32 +283,66 @@ def _vigilance(pieces: list[PieceExtraction], resolver: EntityResolver, G: nx.Di
     }
 
 
-def analyse(pieces: list[PieceExtraction], require_grounding: bool = True) -> tuple:
+def analyse(
+    pieces: list[PieceExtraction], require_grounding: bool = True
+) -> tuple[nx.DiGraph, EntityResolver, DetectionResult, dict[str, Any]]:
     """Graphe + constats déterministes à partir d'extractions (sans appel réseau)."""
-    G, resolver, ledger = build_document_graph(pieces, require_grounding=require_grounding)
-    detection = GraphDetector(G).run_detection()
+    started_tracemalloc = False
+    if not tracemalloc.is_tracing():
+        tracemalloc.start()
+        started_tracemalloc = True
+
+    t0_total = time.perf_counter()
+    t0_link = time.perf_counter()
+    G, resolver = build_document_graph(pieces, require_grounding=require_grounding)
+    t_link_ms = round((time.perf_counter() - t0_link) * 1000, 2)
+
+    t0_det = time.perf_counter()
+    detection = GraphDetector(G).run_detection(smurf_threshold_usd=settings.smurf_threshold_usd)
+    t_det_ms = round((time.perf_counter() - t0_det) * 1000, 2)
+
+    t0_find = time.perf_counter()
     own = ownership_table(G)
-    folios = portfolios(G, own)
+    folios = build_portfolios(own)
     flows = [t for _, _, e in G.edges(data=True) for t in e.get("transfers", [])]
-    findings = {
-        "ownership": own,
-        "portfolios": folios,
-        "hidden_controllers": hidden_controllers(G, own, folios),
-        "money_ranking": money_ranking(G),
-        "cycles": _cycle_findings(G, detection),
-        "smurfing": _smurfing_findings(G, detection),
-        "pivot": {
+
+    _, peak_bytes = tracemalloc.get_traced_memory()
+    if started_tracemalloc:
+        tracemalloc.stop()
+
+    t_find_ms = round((time.perf_counter() - t0_find) * 1000, 2)
+    t_total_ms = round((time.perf_counter() - t0_total) * 1000, 2)
+
+    findings = InvestigationFindings(
+        ownership=own,
+        portfolios=folios,
+        hidden_controllers=hidden_controllers(G, own, folios),
+        money_ranking=money_ranking(G),
+        cycles=_cycle_findings(G, detection),
+        smurfing=_smurfing_findings(G, detection),
+        pivot={
             "name": detection.pivot_name,
             "id": detection.pivot_node,
             "betweenness": round(detection.betweenness_scores.get(detection.pivot_node, 0.0), 4),
         },
-        "flows": {
+        flows={
             "count": len(flows),
             "total_usd": round(sum(t["amount_usd"] for t in flows), 2),
         },
-        "vigilance": _vigilance(pieces, resolver, G),
-    }
-    return G, resolver, ledger, detection, findings
+        vigilance=_vigilance(pieces, resolver, G),
+        limits={
+            "cycles_truncated": detection.cycles_truncated,
+            "smurfing_skipped": detection.smurfing_skipped,
+        },
+        telemetry={
+            "link_ms": t_link_ms,
+            "detection_ms": t_det_ms,
+            "findings_ms": t_find_ms,
+            "total_analyse_ms": t_total_ms,
+            "peak_memory_mb": round(peak_bytes / (1024 * 1024), 2),
+        },
+    )
+    return G, resolver, detection, findings
 
 
 def investigate(
@@ -277,17 +350,15 @@ def investigate(
     engine=None,
     cache_dir: Path | None = None,
     qualify: bool = True,
-    llm_notes: bool = False,
-    llm_model: str | None = None,
 ) -> Investigation:
     from .reasoning.qualifier import qualify_findings
 
     dossier = Path(dossier)
-    engine = engine or make_engine()
+    engine = engine or make_engine(dossier=dossier, cache_dir=cache_dir)
     t0 = time.perf_counter()
     pieces = extract_dossier(dossier, engine, cache_dir=cache_dir)
     t1 = time.perf_counter()
-    G, resolver, ledger, detection, findings = analyse(pieces)
+    G, resolver, detection, findings = analyse(pieces)
     t2 = time.perf_counter()
     inv = Investigation(
         dossier=dossier,
@@ -295,15 +366,16 @@ def investigate(
         pieces=pieces,
         graph=G,
         resolver=resolver,
-        ledger=ledger,
         detection=detection,
         findings=findings,
     )
     if qualify:
-        inv.reports = qualify_findings(inv, use_llm=llm_notes, model=llm_model, cache_dir=cache_dir)
+        inv.reports = qualify_findings(inv)
     inv.timings = {
         "extraction_s": round(t1 - t0, 2),
         "graph_and_detection_s": round(t2 - t1, 3),
         "qualification_s": round(time.perf_counter() - t2, 2),
+        "total_investigation_s": round(time.perf_counter() - t0, 2),
+        "analyse_details": findings.get("telemetry", {}),
     }
     return inv

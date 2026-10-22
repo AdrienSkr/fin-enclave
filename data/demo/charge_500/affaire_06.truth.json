@@ -1,0 +1,1449 @@
+[
+  {
+    "piece_id": "PIECE-0001",
+    "file": "PIECE-0001.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Glenbrook Holdings Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Glenbrook Holdings Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0002",
+    "file": "PIECE-0002.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Glenbrook Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Vincent Ellsworth",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Glenbrook Management Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Vincent Ellsworth",
+        "target": "Glenbrook Management Limited",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0003",
+    "file": "PIECE-0003.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Mistvale Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Capital Ltd.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Mistvale Assets S.A.",
+        "payee": "Fairhaven Capital Ltd.",
+        "amount": 2052500.0,
+        "currency": "USD",
+        "date": "2014-04-04"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0004",
+    "file": "PIECE-0004.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Fairhaven Capital Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Fairhaven Capital Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0005",
+    "file": "PIECE-0005.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Harbour Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Harbour Supplies Inc",
+        "payee": "Bluefin Catering Ltd",
+        "amount": 2965,
+        "currency": "USD",
+        "date": "2014-04-13"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0006",
+    "file": "PIECE-0006.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Glenbrook Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Glenbrook Management Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0007",
+    "file": "PIECE-0007.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Stonehaven Investments S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0008",
+    "file": "PIECE-0008.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Assets Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Willowmere Assets Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0009",
+    "file": "PIECE-0009.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Bluefin Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0010",
+    "file": "PIECE-0010.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Bluefin Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0011",
+    "file": "PIECE-0011.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Mistvale Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Mistvale Assets S.A.",
+        "payee": "Rafael Quintero",
+        "amount": 346695.94,
+        "currency": "USD",
+        "date": "2014-04-30"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0012",
+    "file": "PIECE-0012.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Seaglass Partners S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Seaglass Partners S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0013",
+    "file": "PIECE-0013.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Mistvale Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Mistvale Assets S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0014",
+    "file": "PIECE-0014.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Glenbrook Holdings Limited",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Stonehaven Investments S.A.",
+        "payee": "Glenbrook Holdings Limited",
+        "amount": 1971731.77,
+        "currency": "USD",
+        "date": "2014-04-19"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0015",
+    "file": "PIECE-0015.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Willowmere Management Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0016",
+    "file": "PIECE-0016.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Glenbrook Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Glenbrook Holdings Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0017",
+    "file": "PIECE-0017.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Paper Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0018",
+    "file": "PIECE-0018.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0019",
+    "file": "PIECE-0019.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Amberfield Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oakridge Partners Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Julian Bergstrom",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Amberfield Management Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oakridge Partners Limited",
+        "target": "Amberfield Management Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Julian Bergstrom",
+        "target": "Amberfield Management Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0020",
+    "file": "PIECE-0020.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Glenbrook Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Mistvale Assets S.A.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Glenbrook Holdings Limited",
+        "payee": "Mistvale Assets S.A.",
+        "amount": 1926088.55,
+        "currency": "USD",
+        "date": "2014-04-25"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0021",
+    "file": "PIECE-0021.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Fairhaven Capital Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Fairhaven Capital Ltd.",
+        "payee": "Stonehaven Investments S.A.",
+        "amount": 2004176.21,
+        "currency": "USD",
+        "date": "2014-04-11"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0022",
+    "file": "PIECE-0022.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Paper Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Paper Catering Inc",
+        "payee": "Harbour Catering Ltd",
+        "amount": 1930,
+        "currency": "USD",
+        "date": "2014-04-13"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0023",
+    "file": "PIECE-0023.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Glenbrook Holdings Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Uma Pavlov",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Glenbrook Holdings Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Uma Pavlov",
+        "target": "Glenbrook Holdings Corp.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0024",
+    "file": "PIECE-0024.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0025",
+    "file": "PIECE-0025.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Summit Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0026",
+    "file": "PIECE-0026.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Willowmere Assets Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Willowmere Assets Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0027",
+    "file": "PIECE-0027.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Glenbrook Holdings Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Glenbrook Holdings Corp.",
+        "payee": "Summit Catering Ltd",
+        "amount": 3000,
+        "currency": "USD",
+        "date": "2014-04-28"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0028",
+    "file": "PIECE-0028.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Fairhaven Capital Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Uma Keller",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Fairhaven Capital Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Uma Keller",
+        "target": "Fairhaven Capital Ltd.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0029",
+    "file": "PIECE-0029.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Summit Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0030",
+    "file": "PIECE-0030.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Mistvale Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Mistvale Assets S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0031",
+    "file": "PIECE-0031.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Seaglass Partners S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Cleaning Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Seaglass Partners S.A.",
+        "payee": "Paper Cleaning Ltd",
+        "amount": 5040,
+        "currency": "USD",
+        "date": "2014-05-27"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0032",
+    "file": "PIECE-0032.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Stonehaven Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oakridge Partners Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Silverpine Holdings Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Mateo Reynaud",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Stonehaven Investments S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oakridge Partners Limited",
+        "target": "Stonehaven Investments S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Silverpine Holdings Ltd.",
+        "target": "Stonehaven Investments S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Mateo Reynaud",
+        "target": "Stonehaven Investments S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0033",
+    "file": "PIECE-0033.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Willowmere Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Willowmere Management Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0034",
+    "file": "PIECE-0034.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Fairhaven Trading Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0035",
+    "file": "PIECE-0035.pdf",
+    "doc_type": "power_of_attorney",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Willowmere Management Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Rafael Quintero",
+        "target": "Willowmere Management Corp.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0036",
+    "file": "PIECE-0036.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Seaglass Partners S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sigrid Keller",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Seaglass Partners S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Sigrid Keller",
+        "target": "Seaglass Partners S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0037",
+    "file": "PIECE-0037.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Amberfield Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Summit Cleaning Ltd",
+        "amount": 3920,
+        "currency": "USD",
+        "date": "2014-05-24"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0038",
+    "file": "PIECE-0038.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0039",
+    "file": "PIECE-0039.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oakridge Partners Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Amberfield Holdings Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Mistvale Enterprises Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Fairhaven Trading Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oakridge Partners Limited",
+        "target": "Fairhaven Trading Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Amberfield Holdings Corp.",
+        "target": "Fairhaven Trading Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Mistvale Enterprises Ltd.",
+        "target": "Fairhaven Trading Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0040",
+    "file": "PIECE-0040.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Amberfield Ventures Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Amberfield Ventures Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0041",
+    "file": "PIECE-0041.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Amberfield Ventures Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Amberfield Ventures Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0042",
+    "file": "PIECE-0042.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Amberfield Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Amberfield Management Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0043",
+    "file": "PIECE-0043.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sofia Brandt",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Willowmere Management Corp.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Marco Fiore",
+        "payee": "Willowmere Management Corp.",
+        "amount": 9421,
+        "currency": "USD",
+        "date": "2014-05-02"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Willowmere Management Corp.",
+        "amount": 9711,
+        "currency": "USD",
+        "date": "2014-05-03"
+      },
+      {
+        "payer": "Sofia Brandt",
+        "payee": "Willowmere Management Corp.",
+        "amount": 8919,
+        "currency": "USD",
+        "date": "2014-05-04"
+      },
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Willowmere Management Corp.",
+        "amount": 9211,
+        "currency": "USD",
+        "date": "2014-05-02"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Willowmere Management Corp.",
+        "amount": 9072,
+        "currency": "USD",
+        "date": "2014-05-03"
+      },
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Willowmere Management Corp.",
+        "amount": 9216,
+        "currency": "USD",
+        "date": "2014-05-04"
+      },
+      {
+        "payer": "Willowmere Management Corp.",
+        "payee": "Rafael Quintero",
+        "amount": 49995,
+        "currency": "USD",
+        "date": "2014-05-06"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0044",
+    "file": "PIECE-0044.png",
+    "doc_type": "power_of_attorney",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Mistvale Assets S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Amberfield Capital Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Amberfield Capital Corp.",
+        "target": "Mistvale Assets S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Rafael Quintero",
+        "target": "Mistvale Assets S.A.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0045",
+    "file": "PIECE-0045.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Amberfield Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sofia Brandt",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Marco Fiore",
+        "amount": 9650,
+        "currency": "USD",
+        "date": "2014-04-30"
+      },
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Tomas Vidal",
+        "amount": 9875,
+        "currency": "USD",
+        "date": "2014-05-01"
+      },
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Sofia Brandt",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-04-30"
+      },
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Daniel Moreau",
+        "amount": 9400,
+        "currency": "USD",
+        "date": "2014-05-01"
+      },
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Lena Hartmann",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-04-30"
+      },
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Irene Kowalski",
+        "amount": 9325,
+        "currency": "USD",
+        "date": "2014-05-01"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0046",
+    "file": "PIECE-0046.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Redwood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0047",
+    "file": "PIECE-0047.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Glenbrook Holdings Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Coral Fiduciary Services Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Coral Fiduciary Services Ltd.",
+        "target": "Glenbrook Holdings Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0048",
+    "file": "PIECE-0048.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Harbour Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0049",
+    "file": "PIECE-0049.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Paper Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0050",
+    "file": "PIECE-0050.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  }
+]

@@ -6,106 +6,75 @@
     "model": null,
     "measured": true,
     "entities": {
-      "precision": 0.9213,
-      "recall": 0.385,
-      "f1": 0.543
+      "precision": 1.0,
+      "recall": 0.8905,
+      "f1": 0.9421
     },
     "relations": {
       "precision": 1.0,
-      "recall": 0.9167,
-      "f1": 0.9565
+      "recall": 0.875,
+      "f1": 0.9333
     },
     "transfers": {
-      "precision": 1.0,
-      "recall": 0.0,
-      "f1": 0.0
+      "precision": 0.8947,
+      "recall": 0.7391,
+      "f1": 0.8095
     },
-    "hallucinated_entities": 0,
+    "transfers_currency": {
+      "precision": 0.8947,
+      "recall": 0.7391,
+      "f1": 0.8095
+    },
     "failed_pieces": 0,
     "findings": {
       "circuit": false,
       "fractionnement": false,
-      "beneficiaire_cache": false
-    },
-    "notes_llm": null,
-    "typologies": {
-      "CYCLE": {
-        "found": 0,
-        "total": 3,
-        "recall": 0.0
-      },
-      "FAN-OUT": {
-        "found": 0,
-        "total": 7,
-        "recall": 0.0
-      },
-      "SCATTER-GATHER": {
-        "found": 0,
-        "total": 6,
-        "recall": 0.0
-      }
+      "beneficiaire_cache": true
     }
   },
   {
     "tier": "Petit modèle 8B",
-    "station": "RTX 4090 (24 Go)",
-    "memory": "≈ 17 Go (BF16)",
-    "model": "qwen/qwen3-vl-8b-instruct",
+    "station": "RTX 5070 / 5080 (16 Go)",
+    "memory": "≈ 8 Go (FP8)",
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
     "measured": true,
     "entities": {
-      "precision": 0.9765,
-      "recall": 0.9765,
-      "f1": 0.9765
+      "precision": 0.9856,
+      "recall": 1.0,
+      "f1": 0.9928
     },
     "relations": {
-      "precision": 0.8293,
-      "recall": 0.9444,
-      "f1": 0.8831
+      "precision": 0.9756,
+      "recall": 1.0,
+      "f1": 0.9877
     },
     "transfers": {
-      "precision": 0.0759,
-      "recall": 0.048,
-      "f1": 0.0588
+      "precision": 1.0,
+      "recall": 0.4348,
+      "f1": 0.6061
     },
-    "hallucinated_entities": 4,
+    "transfers_currency": {
+      "precision": 1.0,
+      "recall": 0.4348,
+      "f1": 0.6061
+    },
     "failed_pieces": 0,
     "findings": {
-      "circuit": false,
+      "circuit": true,
       "fractionnement": false,
-      "beneficiaire_cache": false
-    },
-    "notes_llm": {
-      "total": 3,
-      "accepted": 3
-    },
-    "typologies": {
-      "CYCLE": {
-        "found": 0,
-        "total": 3,
-        "recall": 0.0
-      },
-      "FAN-OUT": {
-        "found": 0,
-        "total": 7,
-        "recall": 0.0
-      },
-      "SCATTER-GATHER": {
-        "found": 1,
-        "total": 6,
-        "recall": 0.1667
-      }
+      "beneficiaire_cache": true
     }
   },
   {
-    "tier": "Grand modèle 235B",
+    "tier": "GX10 : 72B",
     "station": "GX10 (128 Go unifiés)",
-    "memory": "≈ 120 Go (4 bits)",
-    "model": "qwen/qwen3-vl-235b-a22b-instruct",
+    "memory": "≈ 71 Go (FP8)",
+    "model": "Qwen/Qwen2.5-VL-72B-Instruct",
     "measured": true,
     "entities": {
-      "precision": 0.9119,
-      "recall": 0.9718,
-      "f1": 0.9409
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
     },
     "relations": {
       "precision": 1.0,
@@ -113,37 +82,53 @@
       "f1": 1.0
     },
     "transfers": {
-      "precision": 0.1802,
-      "recall": 0.16,
-      "f1": 0.1695
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
     },
-    "hallucinated_entities": 7,
+    "transfers_currency": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
     "failed_pieces": 0,
     "findings": {
-      "circuit": false,
-      "fractionnement": false,
-      "beneficiaire_cache": false
+      "circuit": true,
+      "fractionnement": true,
+      "beneficiaire_cache": true
+    }
+  },
+  {
+    "tier": "Référence 235B, hors GX10",
+    "station": "hors GX10 (ne tient pas en mémoire)",
+    "memory": "≈ 120 Go (4 bits)",
+    "model": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+    "measured": true,
+    "entities": {
+      "precision": 0.8616,
+      "recall": 1.0,
+      "f1": 0.9257
     },
-    "notes_llm": {
-      "total": 2,
-      "accepted": 2
+    "relations": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
     },
-    "typologies": {
-      "CYCLE": {
-        "found": 1,
-        "total": 3,
-        "recall": 0.3333
-      },
-      "FAN-OUT": {
-        "found": 1,
-        "total": 7,
-        "recall": 0.1429
-      },
-      "SCATTER-GATHER": {
-        "found": 3,
-        "total": 6,
-        "recall": 0.5
-      }
+    "transfers": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "transfers_currency": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "failed_pieces": 0,
+    "findings": {
+      "circuit": true,
+      "fractionnement": true,
+      "beneficiaire_cache": true
     }
   }
 ]

@@ -1,0 +1,214 @@
+{
+  "simulated": true,
+  "beneficiary": "Oskar Lindqvist",
+  "nominee": "Fairhaven Trading Ltd.",
+  "cycle": [
+    "Willowmere Holdings Inc.",
+    "Oakridge Management Inc.",
+    "Ironwood Management Corp.",
+    "Seaglass Investments S.A."
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Willowmere Holdings Inc.",
+      "payee": "Oakridge Management Inc.",
+      "amount": 1840000.0,
+      "currency": "USD",
+      "date": "2014-05-20"
+    },
+    {
+      "payer": "Oakridge Management Inc.",
+      "payee": "Ironwood Management Corp.",
+      "amount": 1797432.31,
+      "currency": "USD",
+      "date": "2014-05-25"
+    },
+    {
+      "payer": "Ironwood Management Corp.",
+      "payee": "Seaglass Investments S.A.",
+      "amount": 1744005.57,
+      "currency": "USD",
+      "date": "2014-06-02"
+    },
+    {
+      "payer": "Seaglass Investments S.A.",
+      "payee": "Willowmere Holdings Inc.",
+      "amount": 1693447.2,
+      "currency": "USD",
+      "date": "2014-06-09"
+    }
+  ],
+  "exit_transfers": [
+    {
+      "payer": "Willowmere Holdings Inc.",
+      "payee": "Oskar Lindqvist",
+      "amount": 304820.5,
+      "currency": "USD",
+      "date": "2014-06-12"
+    },
+    {
+      "payer": "Willowmere Trading Corp.",
+      "payee": "Oskar Lindqvist",
+      "amount": 49870,
+      "currency": "USD",
+      "date": "2014-07-05"
+    }
+  ],
+  "smurfing": {
+    "source": "Fairhaven Trading Limited",
+    "collector": "Willowmere Trading Corp.",
+    "mules": [
+      "Daniel Moreau",
+      "Lena Hartmann",
+      "Pablo Serrano",
+      "Nadia Petrova",
+      "Marco Fiore",
+      "Irene Kowalski"
+    ],
+    "fan_out": [
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Daniel Moreau",
+        "amount": 9525,
+        "currency": "USD",
+        "date": "2014-06-29"
+      },
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Lena Hartmann",
+        "amount": 9200,
+        "currency": "USD",
+        "date": "2014-06-30"
+      },
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Pablo Serrano",
+        "amount": 9750,
+        "currency": "USD",
+        "date": "2014-06-29"
+      },
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Nadia Petrova",
+        "amount": 9525,
+        "currency": "USD",
+        "date": "2014-06-30"
+      },
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Marco Fiore",
+        "amount": 9425,
+        "currency": "USD",
+        "date": "2014-06-29"
+      },
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Irene Kowalski",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-06-30"
+      }
+    ],
+    "fan_in": [
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 9308,
+        "currency": "USD",
+        "date": "2014-07-01"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 8927,
+        "currency": "USD",
+        "date": "2014-07-02"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 9588,
+        "currency": "USD",
+        "date": "2014-07-03"
+      },
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 9401,
+        "currency": "USD",
+        "date": "2014-07-01"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 9246,
+        "currency": "USD",
+        "date": "2014-07-02"
+      },
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 8941,
+        "currency": "USD",
+        "date": "2014-07-03"
+      }
+    ]
+  },
+  "powers_of_attorney": [
+    {
+      "company": "Willowmere Holdings Inc.",
+      "grantor": {
+        "name": "Fairhaven Trading Ltd.",
+        "role": "shareholder"
+      },
+      "attorney": "Oskar Lindqvist"
+    },
+    {
+      "company": "Willowmere Trading Corp.",
+      "grantor": {
+        "name": "Fairhaven Trading Ltd.",
+        "role": "shareholder"
+      },
+      "attorney": "Oskar Lindqvist"
+    }
+  ],
+  "legit_payments": [
+    {
+      "payer": "Willowmere Holdings Inc.",
+      "payee": "Harbour Telecom Ltd",
+      "amount": 2960,
+      "currency": "EUR",
+      "date": "2014-07-11"
+    },
+    {
+      "payer": "Oakridge Management Inc.",
+      "payee": "Harbour Couriers Ltd",
+      "amount": 1400,
+      "currency": "EUR",
+      "date": "2014-06-13"
+    },
+    {
+      "payer": "Glenbrook Enterprises Corp.",
+      "payee": "Redwood Supplies Ltd",
+      "amount": 5850,
+      "currency": "USD",
+      "date": "2014-06-22"
+    }
+  ],
+  "decoy_transfers": [
+    {
+      "payer": "Summit Supplies Inc",
+      "payee": "Pinewood Telecom Ltd",
+      "amount": 2520,
+      "currency": "USD",
+      "date": "2014-05-29"
+    },
+    {
+      "payer": "Harbour Catering Inc",
+      "payee": "Redwood Cleaning Ltd",
+      "amount": 3060,
+      "currency": "USD",
+      "date": "2014-05-29"
+    }
+  ]
+}

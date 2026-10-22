@@ -1,0 +1,214 @@
+{
+  "simulated": true,
+  "beneficiary": "Rafael Quintero",
+  "nominee": "Amberfield Capital Corp.",
+  "cycle": [
+    "Mistvale Assets S.A.",
+    "Fairhaven Capital Ltd.",
+    "Stonehaven Investments S.A.",
+    "Glenbrook Holdings Limited"
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Mistvale Assets S.A.",
+      "payee": "Fairhaven Capital Ltd.",
+      "amount": 2052500.0,
+      "currency": "USD",
+      "date": "2014-04-04"
+    },
+    {
+      "payer": "Fairhaven Capital Ltd.",
+      "payee": "Stonehaven Investments S.A.",
+      "amount": 2004176.21,
+      "currency": "USD",
+      "date": "2014-04-11"
+    },
+    {
+      "payer": "Stonehaven Investments S.A.",
+      "payee": "Glenbrook Holdings Limited",
+      "amount": 1971731.77,
+      "currency": "USD",
+      "date": "2014-04-19"
+    },
+    {
+      "payer": "Glenbrook Holdings Limited",
+      "payee": "Mistvale Assets S.A.",
+      "amount": 1926088.55,
+      "currency": "USD",
+      "date": "2014-04-25"
+    }
+  ],
+  "exit_transfers": [
+    {
+      "payer": "Mistvale Assets S.A.",
+      "payee": "Rafael Quintero",
+      "amount": 346695.94,
+      "currency": "USD",
+      "date": "2014-04-30"
+    },
+    {
+      "payer": "Willowmere Management Corp.",
+      "payee": "Rafael Quintero",
+      "amount": 49995,
+      "currency": "USD",
+      "date": "2014-05-06"
+    }
+  ],
+  "smurfing": {
+    "source": "Amberfield Management Limited",
+    "collector": "Willowmere Management Corp.",
+    "mules": [
+      "Marco Fiore",
+      "Tomas Vidal",
+      "Sofia Brandt",
+      "Daniel Moreau",
+      "Lena Hartmann",
+      "Irene Kowalski"
+    ],
+    "fan_out": [
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Marco Fiore",
+        "amount": 9650,
+        "currency": "USD",
+        "date": "2014-04-30"
+      },
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Tomas Vidal",
+        "amount": 9875,
+        "currency": "USD",
+        "date": "2014-05-01"
+      },
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Sofia Brandt",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-04-30"
+      },
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Daniel Moreau",
+        "amount": 9400,
+        "currency": "USD",
+        "date": "2014-05-01"
+      },
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Lena Hartmann",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-04-30"
+      },
+      {
+        "payer": "Amberfield Management Limited",
+        "payee": "Irene Kowalski",
+        "amount": 9325,
+        "currency": "USD",
+        "date": "2014-05-01"
+      }
+    ],
+    "fan_in": [
+      {
+        "payer": "Marco Fiore",
+        "payee": "Willowmere Management Corp.",
+        "amount": 9421,
+        "currency": "USD",
+        "date": "2014-05-02"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Willowmere Management Corp.",
+        "amount": 9711,
+        "currency": "USD",
+        "date": "2014-05-03"
+      },
+      {
+        "payer": "Sofia Brandt",
+        "payee": "Willowmere Management Corp.",
+        "amount": 8919,
+        "currency": "USD",
+        "date": "2014-05-04"
+      },
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Willowmere Management Corp.",
+        "amount": 9211,
+        "currency": "USD",
+        "date": "2014-05-02"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Willowmere Management Corp.",
+        "amount": 9072,
+        "currency": "USD",
+        "date": "2014-05-03"
+      },
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Willowmere Management Corp.",
+        "amount": 9216,
+        "currency": "USD",
+        "date": "2014-05-04"
+      }
+    ]
+  },
+  "powers_of_attorney": [
+    {
+      "company": "Mistvale Assets S.A.",
+      "grantor": {
+        "name": "Amberfield Capital Corp.",
+        "role": "shareholder"
+      },
+      "attorney": "Rafael Quintero"
+    },
+    {
+      "company": "Willowmere Management Corp.",
+      "grantor": {
+        "name": "Amberfield Capital Corp.",
+        "role": "shareholder"
+      },
+      "attorney": "Rafael Quintero"
+    }
+  ],
+  "legit_payments": [
+    {
+      "payer": "Glenbrook Holdings Corp.",
+      "payee": "Summit Catering Ltd",
+      "amount": 3000,
+      "currency": "USD",
+      "date": "2014-04-28"
+    },
+    {
+      "payer": "Amberfield Management Limited",
+      "payee": "Summit Cleaning Ltd",
+      "amount": 3920,
+      "currency": "USD",
+      "date": "2014-05-24"
+    },
+    {
+      "payer": "Seaglass Partners S.A.",
+      "payee": "Paper Cleaning Ltd",
+      "amount": 5040,
+      "currency": "USD",
+      "date": "2014-05-27"
+    }
+  ],
+  "decoy_transfers": [
+    {
+      "payer": "Harbour Supplies Inc",
+      "payee": "Bluefin Catering Ltd",
+      "amount": 2965,
+      "currency": "USD",
+      "date": "2014-04-13"
+    },
+    {
+      "payer": "Paper Catering Inc",
+      "payee": "Harbour Catering Ltd",
+      "amount": 1930,
+      "currency": "USD",
+      "date": "2014-04-13"
+    }
+  ]
+}

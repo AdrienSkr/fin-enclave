@@ -27,18 +27,16 @@ from fin_enclave.documents.evaluation import (
     evaluate_pieces,
     evaluate_scenario,
 )
-from fin_enclave.documents.extractor import (
-    RuleEngine,
-    VLMEngine,
-    cached_coverage,
-)
+from fin_enclave.documents.extractor import select_engine
 from fin_enclave.documents.forge import (
+    forge_charge_500,
     forge_dossier,
     scenario_path,
     select_case,
     truth_path,
 )
-from fin_enclave.documents.ocr import IMAGE_SUFFIXES
+from fin_enclave.documents.image_loader import IMAGE_SUFFIXES
+from fin_enclave.exports import write_exports
 from fin_enclave.investigation import investigate
 from fin_enclave.reporting import write_outputs
 
@@ -47,6 +45,7 @@ if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
 
 console = Console(width=120)
 DEMO_DOSSIER = Path("data/demo/pieces")
+DEFAULT_BATCH_SEED_START: int = 101
 
 
 def _usd(x: float) -> str:
@@ -54,7 +53,7 @@ def _usd(x: float) -> str:
 
 
 def _cache_dir(dossier: Path) -> Path:
-    """Lectures scellées du dossier, versionnées à côté de lui : rejouables sans réseau."""
+    """Extractions en cache du dossier, versionnées à côté de lui : rejouables sans réseau."""
     return dossier.parent / f"{dossier.name}.extractions"
 
 
@@ -90,87 +89,9 @@ def forge(dossier: Path, icij: Path, companies: int, distractors: int, seed: int
     console.print(f"[green]✓[/green] {len(pieces)} pièces générées dans {dossier}")
 
 
-def forge_complex(
-    dossier: Path,
-    icij: Path,
-    ibm_patterns_path: Path,
-    companies: int,
-    distractors: int,
-    seed: int,
-    preset: str = "stress",
-) -> None:
-    from fin_enclave.documents.forge import anonymize_case
-    from fin_enclave.documents.forge_complex import PRESETS, STRESS, forge_complex_dossier
-    from fin_enclave.graph.structural import detect_nominee_hubs
-    from fin_enclave.ingestion.ibm_aml import parse_ibm_patterns, select_attempts
-    from fin_enclave.ingestion.icij_loader import load_offshore_leaks
-
-    difficulty = PRESETS.get(preset, STRESS)
-    case_file = dossier.parent / f"{dossier.name}.cas_icij.json"
-    fallback_case = Path("data/demo/pieces.cas_icij.json")
-    if icij.exists():
-        with console.status("Chargement de la base ICIJ Offshore Leaks (Panama Papers)..."):
-            G = load_offshore_leaks(icij)
-            hub = next(h for h in detect_nominee_hubs(G, 30) if 40 <= h["k_out"] <= 150)
-            raw = select_case(G, hub["node"], companies, seed)
-            case = anonymize_case(raw, seed)
-        case_file.parent.mkdir(parents=True, exist_ok=True)
-        case_file.write_text(json.dumps(case, indent=2, ensure_ascii=False), encoding="utf-8")
-        console.print(
-            f"[green]✓[/green] Topologie ICIJ (hub {hub['k_out']} sociétés) → "
-            f"{len(case)} sociétés, [bold]noms fictifs[/bold]"
-        )
-    elif case_file.exists():
-        case = json.loads(case_file.read_text(encoding="utf-8"))
-        console.print(f"[green]✓[/green] Cas anonymisé relu depuis {case_file}")
-    elif fallback_case.exists():
-        case = json.loads(fallback_case.read_text(encoding="utf-8"))
-        console.print(f"[green]✓[/green] Cas anonymisé relu depuis {fallback_case}")
-    else:
-        sys.exit(f"Base ICIJ absente ({icij}) et aucun extrait {case_file} ou {fallback_case}.")
-
-    if not ibm_patterns_path.exists():
-        sys.exit(f"Fichier de motifs IBM AML introuvable : {ibm_patterns_path}.")
-    with console.status(f"Chargement et sélection des motifs IBM AMLworld ({difficulty.name})..."):
-        all_attempts = parse_ibm_patterns(ibm_patterns_path)
-        selected_attempts = select_attempts(
-            all_attempts, seed=seed, typologies=difficulty.typologies
-        )
-    console.print(
-        f"[green]✓[/green] {len(selected_attempts)} typologies IBM AML sélectionnées "
-        f"({sum(len(a['transactions']) for a in selected_attempts)} tx) [preset {difficulty.name}]"
-    )
-
-    if dossier.exists():
-        for f in dossier.glob("PIECE-*"):
-            f.unlink()
-
-    with console.status(f"Génération des pièces du dossier complexe dans {dossier}..."):
-        pieces = forge_complex_dossier(
-            case=case,
-            ibm_attempts=selected_attempts,
-            out_dir=dossier,
-            n_distractors=distractors,
-            seed=seed,
-            anonymize=False,
-            render_images=True,
-            difficulty=difficulty,
-        )
-    console.print(f"[green]✓[/green] {len(pieces)} pièces complexes générées dans {dossier}")
-
-
 def choose_engine(kind: str, dossier: Path):
-    if kind == "rules":
-        return RuleEngine(), "règles + Tesseract (hors ligne)"
-    key = settings.get_effective_api_key()
-    live = settings.llm_backend == "local_gx10" or (key and key != "EMPTY" and "your_" not in key)
-    vlm = VLMEngine()
-    where = "vLLM local (GX10)" if settings.llm_backend == "local_gx10" else settings.llm_backend
-    if kind == "vlm" or live:
-        return vlm, f"modèle de vision {vlm.model} ({where})"
-    if cached_coverage(dossier, vlm, _cache_dir(dossier)) == 1.0:
-        return vlm, f"rejeu des lectures scellées de {vlm.model} (aucun appel réseau)"
-    return RuleEngine(), "règles + Tesseract (hors ligne, aucune clé configurée)"
+    """Rejeu des extractions en cache prioritaire (voir select_engine)."""
+    return select_engine(kind, dossier, _cache_dir(dossier))
 
 
 def evaluate(inv, dossier: Path) -> dict | None:
@@ -267,11 +188,13 @@ def show_comparison(rows: list[dict]) -> None:
     def pr(m: dict) -> str:
         return f"{m['precision']:.2f} / {m['recall']:.2f}"
 
-    def ok(b: bool) -> str:
+    def ok(b: bool | None) -> str:
+        if b is None:
+            return "[dim]sans objet[/dim]"
         return "[green]oui[/green]" if b else "[red]non[/red]"
 
     t = Table(
-        title="Même dossier, trois stations : qui retrouve le scénario caché ?",
+        title="Même dossier, quatre colonnes : qui retrouve le scénario caché ?",
         title_justify="left",
         border_style="magenta",
     )
@@ -289,22 +212,16 @@ def show_comparison(rows: list[dict]) -> None:
     line("  Entités", lambda r: pr(r["entities"]))
     line("  Liens détention / contrôle", lambda r: pr(r["relations"]))
     line("  Virements", lambda r: pr(r["transfers"]))
-    line("  Noms inventés (rejetés par l'OCR)", lambda r: str(r["hallucinated_entities"]))
+    line(
+        "  Virements, devise exacte",
+        lambda r: pr(r["transfers_currency"]) if r.get("transfers_currency") else "—",
+    )
     line("  Pièces illisibles", lambda r: str(r["failed_pieces"]))
     t.add_section()
     t.add_row("[bold]Constats retrouvés[/bold]", *("" for _ in rows))
     line("  Circuit fermé", lambda r: ok(r["findings"]["circuit"]))
     line("  Fractionnement", lambda r: ok(r["findings"]["fractionnement"]))
     line("  Bénéficiaire caché", lambda r: ok(r["findings"]["beneficiaire_cache"]))
-    t.add_section()
-    line(
-        "[bold]Notes d'analyse fidèles aux faits[/bold]",
-        lambda r: (
-            f"{r['notes_llm']['accepted']} / {r['notes_llm']['total']}"
-            if r["notes_llm"]
-            else "[dim]pas de LLM[/dim]"
-        ),
-    )
     if any(r.get("typologies") for r in measured):
         t.add_section()
         t.add_row("[bold]Typologies IBM (transactions retrouvées)[/bold]", *("" for _ in rows))
@@ -326,7 +243,7 @@ def show_comparison(rows: list[dict]) -> None:
     console.print(t)
     if len(measured) < len(rows):
         console.print(
-            "[dim]Colonnes non mesurées : aucune lecture scellée pour ce modèle et aucune clé "
+            "[dim]Colonnes non mesurées : aucune extraction en cache pour ce modèle et aucune clé "
             "configurée (OPENROUTER_API_KEY ou LLM_BACKEND=local_gx10).[/dim]"
         )
 
@@ -334,40 +251,23 @@ def show_comparison(rows: list[dict]) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
     ap.add_argument("--dossier", type=Path, default=DEMO_DOSSIER)
-    ap.add_argument("--engine", choices=["auto", "vlm", "rules"], default="auto")
+    ap.add_argument("--engine", choices=["auto", "vlm", "routed", "rules"], default="auto")
     ap.add_argument("--out", type=Path, default=Path(settings.output_dir) / "investigation")
     ap.add_argument("--forge", action="store_true", help="Régénérer le dossier de démonstration")
     ap.add_argument(
-        "--forge-complex",
+        "--forge-500",
         action="store_true",
-        help="Générer un dossier complexe (motifs IBM AML + relevés multi-pages)",
-    )
-    ap.add_argument(
-        "--preset",
-        choices=["stress", "realiste"],
-        default="stress",
-        help="Preset de difficulté pour --forge-complex (stress ou realiste)",
-    )
-    ap.add_argument(
-        "--ibm-patterns",
-        type=Path,
-        default=Path("data/external/ibm_aml/HI-Small_Patterns.txt"),
-        help="Chemin vers le fichier de motifs IBM AML",
+        help="Générer 10 affaires de 50 pièces (500 pièces au total)",
     )
     ap.add_argument("--icij", type=Path, default=Path("data/external/oldb"))
     ap.add_argument("--companies", type=int, default=12)
-    ap.add_argument("--distractors", type=int, default=6)
+    ap.add_argument("--distractors", type=int, default=12)
     ap.add_argument("--seed", type=int, default=7)
-    ap.add_argument(
-        "--llm-notes",
-        action="store_true",
-        help="Faire rédiger les notes par le LLM (rejetées si elles s'écartent des faits)",
-    )
     ap.add_argument("--open", action="store_true", help="Ouvrir le graphe dans le navigateur")
     ap.add_argument(
         "--no-compare",
         action="store_true",
-        help="Ne pas comparer CPU sans LLM / petit modèle 8B / grand modèle 235B",
+        help="Ne pas comparer CPU sans LLM / 8B / GX10 72B / référence 235B hors GX10",
     )
     args = ap.parse_args()
 
@@ -379,30 +279,27 @@ def main() -> None:
             expand=False,
         )
     )
-    if args.forge_complex:
+    if args.forge_500:
         if args.dossier == DEMO_DOSSIER:
-            args.dossier = (
-                Path("data/demo/realiste")
-                if args.preset == "realiste"
-                else Path("data/demo/complexe")
-            )
-        if args.out == Path(settings.output_dir) / "investigation":
-            args.out = Path(settings.output_dir) / args.dossier.name
-        forge_complex(
-            args.dossier,
-            args.icij,
-            args.ibm_patterns,
-            args.companies,
-            args.distractors,
-            args.seed,
-            preset=args.preset,
+            args.dossier = Path("data/demo/charge_500")
+        seed_start = DEFAULT_BATCH_SEED_START if args.seed == 7 else args.seed
+        with console.status(
+            f"Génération de 10 affaires (500 pièces) dans [yellow]{args.dossier}[/yellow]..."
+        ):
+            created = forge_charge_500(args.dossier, n_cases=10, seed_start=seed_start)
+        console.print(
+            f"[green]✓[/green] 500 pièces générées réparties en {len(created)} affaires "
+            f"dans [bold]{args.dossier}[/bold]"
         )
-    elif args.forge:
+        return
+    if args.forge:
         forge(args.dossier, args.icij, args.companies, args.distractors, args.seed)
     if not args.dossier.exists():
         sys.exit(f"Dossier introuvable : {args.dossier} (option --forge pour le générer)")
 
     files = [p for p in args.dossier.iterdir() if p.suffix.lower() in IMAGE_SUFFIXES]
+    if not files:
+        sys.exit(f"Aucune pièce (image ou PDF) dans {args.dossier} : rien à investiguer.")
     kinds = {s: sum(p.suffix.lower() == s for p in files) for s in (".png", ".pdf", ".jpg")}
     console.print(
         f"[bold cyan][1/4][/bold cyan] Dossier [yellow]{args.dossier}[/yellow] : {len(files)} "
@@ -412,16 +309,29 @@ def main() -> None:
     engine, label = choose_engine(args.engine, args.dossier)
     console.print(f"[bold cyan][2/4][/bold cyan] Lecture des pièces : {label}")
     t0 = time.perf_counter()
-    with console.status("Lecture, contrôle OCR témoin, mise en relation, détection..."):
-        inv = investigate(
-            args.dossier, engine, cache_dir=_cache_dir(args.dossier), llm_notes=args.llm_notes
+    with console.status("Lecture, mise en relation, détection..."):
+        inv = investigate(args.dossier, engine, cache_dir=_cache_dir(args.dossier))
+    n_read = sum(not p.error for p in inv.pieces)
+    if n_read == 0:  # jamais de livrable vide : on s'arrête avant toute écriture
+        first = next((p.error for p in inv.pieces if p.error), "aucune pièce dans le dossier")
+        console.print(
+            f"[bold red]✗ Aucune pièce lue sur {len(inv.pieces)}[/bold red] ({label}). "
+            f"Première erreur : {first}\n"
+            "  Vérifier le modèle configuré (VLM_MODEL), l'accès au serveur, ou rejouer les "
+            "extractions en cache ; aucun livrable écrit."
         )
+        sys.exit(1)
     n_tx = inv.findings["flows"]["count"]
+    n_review = sum(p.needs_review for p in inv.pieces)
     console.print(
-        f"  [green]✓[/green] {len(inv.pieces)} pièces lues en {inv.timings['extraction_s']} s "
-        f"({sum(p.from_cache for p in inv.pieces)} depuis les lectures scellées, "
-        f"{sum(bool(p.error) for p in inv.pieces)} en échec)"
+        f"  [green]✓[/green] {n_read} pièces lues sur {len(inv.pieces)} en "
+        f"{inv.timings['extraction_s']} s "
+        f"({sum(p.from_cache for p in inv.pieces)} depuis les extractions en cache, "
+        f"{sum(bool(p.error) for p in inv.pieces)} en échec, {n_review} à relire)"
     )
+    for p in inv.pieces:
+        if p.needs_review:
+            console.print(f"  [yellow]à relire[/yellow] {p.piece_id} : {p.review_reason}")
     console.print(
         f"[bold cyan][3/4][/bold cyan] Graphe : {inv.graph.number_of_nodes()} entités, "
         f"{inv.graph.number_of_edges()} liens dont {n_tx} virements "
@@ -434,18 +344,23 @@ def main() -> None:
 
     ev = evaluate(inv, args.dossier)
     paths = write_outputs(inv, args.out, ev)
+    exports = write_exports(inv, args.out)
     if ev:
         show_evaluation(ev)
     console.print("[bold cyan][4/4][/bold cyan] Livrables :")
-    for label, key in (("Rapport", "markdown"), ("Graphe", "html"), ("Scellé JSON", "json")):
+    for label, key in (("Rapport", "markdown"), ("Graphe", "html")):
         console.print(
             f"  [green]✓[/green] {label} : [link={paths[key].resolve().as_uri()}]"
             f"{paths[key]}[/link]"
         )
+    console.print(
+        "  [green]✓[/green] Exports Neo4j / Linkurious / i2 / Gephi : "
+        + ", ".join(p.name for p in exports.values())
+    )
     console.print(f"[dim]Terminé en {time.perf_counter() - t0:.1f} s, en local.[/dim]")
     if ev and not args.no_compare:
         console.print(
-            "\n[bold cyan]Comparaison[/bold cyan] : le même dossier relu par trois stations"
+            "\n[bold cyan]Comparaison[/bold cyan] : le même dossier relu par chaque station"
         )
         with console.status("Lecture et analyse par chaque station..."):
             rows = compare(args.dossier, _cache_dir(args.dossier))

@@ -1,0 +1,1449 @@
+[
+  {
+    "piece_id": "PIECE-0001",
+    "file": "PIECE-0001.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Harbour Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0002",
+    "file": "PIECE-0002.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Harbour Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0003",
+    "file": "PIECE-0003.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Willowmere Holdings Inc.",
+        "payee": "Oskar Lindqvist",
+        "amount": 304820.5,
+        "currency": "USD",
+        "date": "2014-06-12"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0004",
+    "file": "PIECE-0004.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Willowmere Trading Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Willowmere Trading Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0005",
+    "file": "PIECE-0005.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Glenbrook Enterprises Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Glenbrook Enterprises Corp.",
+        "payee": "Redwood Supplies Ltd",
+        "amount": 5850,
+        "currency": "USD",
+        "date": "2014-06-22"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0006",
+    "file": "PIECE-0006.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0007",
+    "file": "PIECE-0007.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Cobalt Investments Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Cobalt Investments Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0008",
+    "file": "PIECE-0008.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Harbour Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Harbour Catering Inc",
+        "payee": "Redwood Cleaning Ltd",
+        "amount": 3060,
+        "currency": "USD",
+        "date": "2014-05-29"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0009",
+    "file": "PIECE-0009.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Stonehaven Group Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0010",
+    "file": "PIECE-0010.png",
+    "doc_type": "power_of_attorney",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Willowmere Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Willowmere Holdings Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oskar Lindqvist",
+        "target": "Willowmere Holdings Inc.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0011",
+    "file": "PIECE-0011.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Crescent Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0012",
+    "file": "PIECE-0012.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0013",
+    "file": "PIECE-0013.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Northwind Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Northwind Enterprises S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0014",
+    "file": "PIECE-0014.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Bluefin Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0015",
+    "file": "PIECE-0015.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ironwood Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Ironwood Management Corp.",
+        "payee": "Seaglass Investments S.A.",
+        "amount": 1744005.57,
+        "currency": "USD",
+        "date": "2014-06-02"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0016",
+    "file": "PIECE-0016.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Copperfield Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Copperfield Group Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0017",
+    "file": "PIECE-0017.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Willowmere Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Willowmere Holdings Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0018",
+    "file": "PIECE-0018.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Management Inc.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Willowmere Holdings Inc.",
+        "payee": "Oakridge Management Inc.",
+        "amount": 1840000.0,
+        "currency": "USD",
+        "date": "2014-05-20"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0019",
+    "file": "PIECE-0019.pdf",
+    "doc_type": "power_of_attorney",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Trading Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Willowmere Trading Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Oskar Lindqvist",
+        "target": "Willowmere Trading Corp.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0020",
+    "file": "PIECE-0020.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Copperfield Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Seaglass Ventures Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Owen Holmgren",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Copperfield Enterprises Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Seaglass Ventures Limited",
+        "target": "Copperfield Enterprises Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Owen Holmgren",
+        "target": "Copperfield Enterprises Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0021",
+    "file": "PIECE-0021.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Glenbrook Enterprises Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Seaglass Ventures Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Ironwood Investments Corp.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Priya Pavlov",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Glenbrook Enterprises Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Seaglass Ventures Limited",
+        "target": "Glenbrook Enterprises Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Ironwood Investments Corp.",
+        "target": "Glenbrook Enterprises Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Priya Pavlov",
+        "target": "Glenbrook Enterprises Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0022",
+    "file": "PIECE-0022.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Cobalt Investments Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Cobalt Investments Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0023",
+    "file": "PIECE-0023.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0024",
+    "file": "PIECE-0024.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Stonehaven Group Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0025",
+    "file": "PIECE-0025.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Willowmere Holdings Inc.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Seaglass Investments S.A.",
+        "payee": "Willowmere Holdings Inc.",
+        "amount": 1693447.2,
+        "currency": "USD",
+        "date": "2014-06-09"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0026",
+    "file": "PIECE-0026.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Northwind Enterprises S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Adrian Pavlov",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Northwind Enterprises S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Adrian Pavlov",
+        "target": "Northwind Enterprises S.A.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0027",
+    "file": "PIECE-0027.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Glenbrook Enterprises Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Glenbrook Enterprises Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0028",
+    "file": "PIECE-0028.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Oakridge Management Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Uma Holmgren",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Oakridge Management Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Uma Holmgren",
+        "target": "Oakridge Management Inc.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0029",
+    "file": "PIECE-0029.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Pinewood Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0030",
+    "file": "PIECE-0030.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ironwood Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Ironwood Management Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0031",
+    "file": "PIECE-0031.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Bluefin Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0032",
+    "file": "PIECE-0032.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Management Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ironwood Management Corp.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Oakridge Management Inc.",
+        "payee": "Ironwood Management Corp.",
+        "amount": 1797432.31,
+        "currency": "USD",
+        "date": "2014-05-25"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0033",
+    "file": "PIECE-0033.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Fairhaven Trading Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0034",
+    "file": "PIECE-0034.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Oskar Lindqvist",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Willowmere Trading Corp.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 9308,
+        "currency": "USD",
+        "date": "2014-07-01"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 8927,
+        "currency": "USD",
+        "date": "2014-07-02"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 9588,
+        "currency": "USD",
+        "date": "2014-07-03"
+      },
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 9401,
+        "currency": "USD",
+        "date": "2014-07-01"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 9246,
+        "currency": "USD",
+        "date": "2014-07-02"
+      },
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Willowmere Trading Corp.",
+        "amount": 8941,
+        "currency": "USD",
+        "date": "2014-07-03"
+      },
+      {
+        "payer": "Willowmere Trading Corp.",
+        "payee": "Oskar Lindqvist",
+        "amount": 49870,
+        "currency": "USD",
+        "date": "2014-07-05"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0035",
+    "file": "PIECE-0035.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Willowmere Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Vincent Lindholm",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Willowmere Holdings Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Vincent Lindholm",
+        "target": "Willowmere Holdings Inc.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0036",
+    "file": "PIECE-0036.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Willowmere Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Willowmere Holdings Inc.",
+        "payee": "Harbour Telecom Ltd",
+        "amount": 2960,
+        "currency": "EUR",
+        "date": "2014-07-11"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0037",
+    "file": "PIECE-0037.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Management Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Oakridge Management Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0038",
+    "file": "PIECE-0038.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Seaglass Investments S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0039",
+    "file": "PIECE-0039.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Copperfield Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Copperfield Enterprises Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0040",
+    "file": "PIECE-0040.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0041",
+    "file": "PIECE-0041.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0042",
+    "file": "PIECE-0042.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ironwood Management Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Seaglass Ventures Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Seaglass Investments Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Copperfield Group S.A.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Ironwood Management Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Seaglass Ventures Limited",
+        "target": "Ironwood Management Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Seaglass Investments Limited",
+        "target": "Ironwood Management Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Copperfield Group S.A.",
+        "target": "Ironwood Management Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0043",
+    "file": "PIECE-0043.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Willowmere Trading Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Willowmere Trading Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0044",
+    "file": "PIECE-0044.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Oakridge Management Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Oakridge Management Inc.",
+        "payee": "Harbour Couriers Ltd",
+        "amount": 1400,
+        "currency": "EUR",
+        "date": "2014-06-13"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0045",
+    "file": "PIECE-0045.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0046",
+    "file": "PIECE-0046.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Summit Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Summit Supplies Inc",
+        "payee": "Pinewood Telecom Ltd",
+        "amount": 2520,
+        "currency": "USD",
+        "date": "2014-05-29"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0047",
+    "file": "PIECE-0047.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Copperfield Group Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Copperfield Group Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0048",
+    "file": "PIECE-0048.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Fairhaven Trading Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Daniel Moreau",
+        "amount": 9525,
+        "currency": "USD",
+        "date": "2014-06-29"
+      },
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Lena Hartmann",
+        "amount": 9200,
+        "currency": "USD",
+        "date": "2014-06-30"
+      },
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Pablo Serrano",
+        "amount": 9750,
+        "currency": "USD",
+        "date": "2014-06-29"
+      },
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Nadia Petrova",
+        "amount": 9525,
+        "currency": "USD",
+        "date": "2014-06-30"
+      },
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Marco Fiore",
+        "amount": 9425,
+        "currency": "USD",
+        "date": "2014-06-29"
+      },
+      {
+        "payer": "Fairhaven Trading Limited",
+        "payee": "Irene Kowalski",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-06-30"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0049",
+    "file": "PIECE-0049.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Fairhaven Trading Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Uma Davenport",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Fairhaven Trading Ltd.",
+        "target": "Fairhaven Trading Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Uma Davenport",
+        "target": "Fairhaven Trading Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0050",
+    "file": "PIECE-0050.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Seaglass Investments S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Seaglass Investments S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  }
+]

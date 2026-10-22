@@ -1,0 +1,644 @@
+﻿{
+    "input_path": "data/demo/pieces/PIECE-0032.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 1240,
+    "height": 1754,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "STATEMENT OF ACCOUNT",
+            "block_bbox": [
+                106,
+                143,
+                532,
+                179
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    106.0,
+                    143.0
+                ],
+                [
+                    532.0,
+                    143.0
+                ],
+                [
+                    532.0,
+                    179.0
+                ],
+                [
+                    106.0,
+                    179.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Account holder:",
+            "block_bbox": [
+                97,
+                225,
+                249,
+                249
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    97.0,
+                    225.0
+                ],
+                [
+                    249.0,
+                    225.0
+                ],
+                [
+                    249.0,
+                    249.0
+                ],
+                [
+                    97.0,
+                    249.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Fairhaven Holdings Inc.",
+            "block_bbox": [
+                316,
+                225,
+                533,
+                250
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    316.0,
+                    225.0
+                ],
+                [
+                    533.0,
+                    225.0
+                ],
+                [
+                    533.0,
+                    250.0
+                ],
+                [
+                    316.0,
+                    250.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Account number: GB29 MIDL 683484 80019507",
+            "block_bbox": [
+                97,
+                260,
+                258,
+                283
+            ],
+            "block_id": 3,
+            "block_order": 4,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    97.0,
+                    260.0
+                ],
+                [
+                    258.0,
+                    260.0
+                ],
+                [
+                    258.0,
+                    283.0
+                ],
+                [
+                    97.0,
+                    283.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                317,
+                258,
+                601,
+                283
+            ],
+            "block_id": 4,
+            "block_order": 5,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    317.0,
+                    258.0
+                ],
+                [
+                    601.0,
+                    258.0
+                ],
+                [
+                    601.0,
+                    283.0
+                ],
+                [
+                    317.0,
+                    283.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Period:",
+            "block_bbox": [
+                98,
+                293,
+                168,
+                317
+            ],
+            "block_id": 5,
+            "block_order": 6,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    98.0,
+                    293.0
+                ],
+                [
+                    167.0,
+                    293.0
+                ],
+                [
+                    167.0,
+                    316.0
+                ],
+                [
+                    98.0,
+                    316.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "24.08.2022-07.11.2022",
+            "block_bbox": [
+                316,
+                293,
+                550,
+                317
+            ],
+            "block_id": 6,
+            "block_order": 7,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    316.0,
+                    293.0
+                ],
+                [
+                    550.0,
+                    293.0
+                ],
+                [
+                    550.0,
+                    317.0
+                ],
+                [
+                    316.0,
+                    317.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 1 of 1",
+            "block_bbox": [
+                877,
+                293,
+                985,
+                319
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    877.0,
+                    293.0
+                ],
+                [
+                    985.0,
+                    293.0
+                ],
+                [
+                    985.0,
+                    319.0
+                ],
+                [
+                    877.0,
+                    319.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Date</td><td>Description</td><td>Debit</td><td>Credit</td><td>Balance</td></tr><tr><td></td><td>Opening balance</td><td></td><td></td><td>1.114.190,00</td></tr><tr><td>24.08.2022</td><td>Customer invoice settlement - Pinewood Cleaning Inc</td><td></td><td>27.400,00</td><td>1.141.590,00</td></tr><tr><td>30.08.2022</td><td>Monthly staff payroll REF 61590 - Crescent Telecom Ltd 450,00</td><td></td><td></td><td>1.139.140,00</td></tr><tr><td>03.09.2022</td><td>Commercial trade receivable - Redwood Cleaning Inc</td><td></td><td>4.550,00</td><td>1.143.690,00</td></tr><tr><td>08.09.2022</td><td>SEPA CT REF 51581 Mistvale Enterprises Limited</td><td>13.690,05</td><td></td><td>1.129.999,95</td></tr><tr><td>10.09.2022</td><td>SEPA CT REF 95044 Stonehaven Trading Inc.</td><td>7.425,99</td><td></td><td>1.122.573,96</td></tr><tr><td>11.09.2022</td><td>SEPA CT REF 99982 Ashcroft Enterprises Limited</td><td>9.340,72</td><td></td><td>1.113.233,24</td></tr><tr><td>11.09.2022</td><td>SEPA CT REF 39586 Vincent Reynaud</td><td>1.993,91</td><td></td><td>1.111.239,33</td></tr><tr><td>11.09.2022</td><td>SEPA CT REF 74890 Stonehaven Management Ltd.</td><td>12.116,84</td><td></td><td>1.099.122,49</td></tr><tr><td>12.09.2022</td><td>SEPA CT REF 39499 Stonehaven Assets Corp.</td><td>6.639,07</td><td></td><td>1.092.483,42</td></tr><tr><td>12.09.2022</td><td>SEPA CT REF 54164 Adrian Ortega</td><td>13.829,37</td><td></td><td>1.078.654,05</td></tr><tr><td>14.09.2022</td><td>Consulting fees - Bluefin Supplies Ltd</td><td>6.925,00</td><td></td><td>1.071.729,05</td></tr><tr><td>24.09.2022</td><td>Customer invoice settlement - Harbour Printing Inc</td><td></td><td>9.450,00</td><td>1.081.179,05</td></tr><tr><td>04.10.2022</td><td>Consulting fees - Pinewood Couriers Ltd</td><td>7.175,00</td><td></td><td>1.074.004,05</td></tr><tr><td>10.10.2022</td><td>Legal &amp; statutory audit fees - Summit Printing Ltd</td><td>5.100,00</td><td></td><td>1.068.904,05</td></tr><tr><td>15.10.2022</td><td>Customer invoice settlement - Summit Printing Inc</td><td></td><td>16.800,00</td><td>1.085.704,05</td></tr><tr><td>19.10.2022</td><td>Settlement payment REF 41587 - Redwood Catering Inc</td><td></td><td>25.750,00</td><td>1.111.454,05</td></tr><tr><td>01.11.2022</td><td>Settlement payment REF 15335 - Bluefin Supplies Inc</td><td></td><td>9.300,00</td><td>1.120.754,05</td></tr><tr><td>05.11.2022</td><td>Software license subscription - Summit Catering Ltd</td><td>9.550,00</td><td></td><td>1.111.204,05</td></tr><tr><td></td><td>Closing balance</td><td></td><td></td><td>1.111.204,05</td></tr></table>",
+            "block_bbox": [
+                94,
+                347,
+                1168,
+                1054
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    94.0,
+                    347.0
+                ],
+                [
+                    1168.0,
+                    347.0
+                ],
+                [
+                    1168.0,
+                    1054.0
+                ],
+                [
+                    94.0,
+                    1054.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer_image",
+            "block_content": "",
+            "block_bbox": [
+                154,
+                1481,
+                400,
+                1518
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    154.0,
+                    1481.0
+                ],
+                [
+                    400.0,
+                    1481.0
+                ],
+                [
+                    400.0,
+                    1518.0
+                ],
+                [
+                    154.0,
+                    1518.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6973769068717957,
+                "coordinate": [
+                    106,
+                    143,
+                    532,
+                    179
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        106.0,
+                        143.0
+                    ],
+                    [
+                        532.0,
+                        143.0
+                    ],
+                    [
+                        532.0,
+                        179.0
+                    ],
+                    [
+                        106.0,
+                        179.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.45848187804222107,
+                "coordinate": [
+                    97,
+                    225,
+                    249,
+                    249
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        97.0,
+                        225.0
+                    ],
+                    [
+                        249.0,
+                        225.0
+                    ],
+                    [
+                        249.0,
+                        249.0
+                    ],
+                    [
+                        97.0,
+                        249.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.46370700001716614,
+                "coordinate": [
+                    316,
+                    225,
+                    533,
+                    250
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        316.0,
+                        225.0
+                    ],
+                    [
+                        533.0,
+                        225.0
+                    ],
+                    [
+                        533.0,
+                        250.0
+                    ],
+                    [
+                        316.0,
+                        250.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4386202096939087,
+                "coordinate": [
+                    97,
+                    260,
+                    258,
+                    283
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        97.0,
+                        260.0
+                    ],
+                    [
+                        258.0,
+                        260.0
+                    ],
+                    [
+                        258.0,
+                        283.0
+                    ],
+                    [
+                        97.0,
+                        283.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4436332583427429,
+                "coordinate": [
+                    317,
+                    258,
+                    601,
+                    283
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        317.0,
+                        258.0
+                    ],
+                    [
+                        601.0,
+                        258.0
+                    ],
+                    [
+                        601.0,
+                        283.0
+                    ],
+                    [
+                        317.0,
+                        283.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4351641535758972,
+                "coordinate": [
+                    98,
+                    293,
+                    168,
+                    317
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        98.0,
+                        293.0
+                    ],
+                    [
+                        167.0,
+                        293.0
+                    ],
+                    [
+                        167.0,
+                        316.0
+                    ],
+                    [
+                        98.0,
+                        316.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.43198829889297485,
+                "coordinate": [
+                    316,
+                    293,
+                    550,
+                    317
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        316.0,
+                        293.0
+                    ],
+                    [
+                        550.0,
+                        293.0
+                    ],
+                    [
+                        550.0,
+                        317.0
+                    ],
+                    [
+                        316.0,
+                        317.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.441084086894989,
+                "coordinate": [
+                    877,
+                    293,
+                    985,
+                    319
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        877.0,
+                        293.0
+                    ],
+                    [
+                        985.0,
+                        293.0
+                    ],
+                    [
+                        985.0,
+                        319.0
+                    ],
+                    [
+                        877.0,
+                        319.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9435110688209534,
+                "coordinate": [
+                    94,
+                    347,
+                    1168,
+                    1054
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        94.0,
+                        347.0
+                    ],
+                    [
+                        1168.0,
+                        347.0
+                    ],
+                    [
+                        1168.0,
+                        1054.0
+                    ],
+                    [
+                        94.0,
+                        1054.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 9,
+                "label": "footer_image",
+                "score": 0.5691402554512024,
+                "coordinate": [
+                    154,
+                    1481,
+                    400,
+                    1518
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        154.0,
+                        1481.0
+                    ],
+                    [
+                        400.0,
+                        1481.0
+                    ],
+                    [
+                        400.0,
+                        1518.0
+                    ],
+                    [
+                        154.0,
+                        1518.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

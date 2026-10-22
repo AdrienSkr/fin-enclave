@@ -1,0 +1,35 @@
+{
+  "doc_type": "other",
+  "entities": [
+    {
+      "name": "Brightwater Group Corp.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Redwood Telecom Ltd",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Brightwater Group Corp.",
+      "payee": "Redwood Telecom Ltd",
+      "amount": 5650.0,
+      "currency": "USD",
+      "date": "2014-05-20"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

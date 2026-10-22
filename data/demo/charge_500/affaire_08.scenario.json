@@ -1,0 +1,214 @@
+{
+  "simulated": true,
+  "beneficiary": "Viktor Haldane",
+  "nominee": "Ashcroft Trading S.A.",
+  "cycle": [
+    "Cobalt Capital Inc.",
+    "Willowmere Trading Limited",
+    "Thornfield Holdings Ltd.",
+    "Oakridge Group Inc."
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Cobalt Capital Inc.",
+      "payee": "Willowmere Trading Limited",
+      "amount": 2227500.0,
+      "currency": "USD",
+      "date": "2014-02-15"
+    },
+    {
+      "payer": "Willowmere Trading Limited",
+      "payee": "Thornfield Holdings Ltd.",
+      "amount": 2183125.57,
+      "currency": "USD",
+      "date": "2014-02-24"
+    },
+    {
+      "payer": "Thornfield Holdings Ltd.",
+      "payee": "Oakridge Group Inc.",
+      "amount": 2130670.44,
+      "currency": "USD",
+      "date": "2014-03-03"
+    },
+    {
+      "payer": "Oakridge Group Inc.",
+      "payee": "Cobalt Capital Inc.",
+      "amount": 2073972.36,
+      "currency": "USD",
+      "date": "2014-03-07"
+    }
+  ],
+  "exit_transfers": [
+    {
+      "payer": "Cobalt Capital Inc.",
+      "payee": "Viktor Haldane",
+      "amount": 373315.02,
+      "currency": "USD",
+      "date": "2014-03-16"
+    },
+    {
+      "payer": "Northwind Enterprises S.A.",
+      "payee": "Viktor Haldane",
+      "amount": 49770,
+      "currency": "USD",
+      "date": "2014-03-17"
+    }
+  ],
+  "smurfing": {
+    "source": "Glenbrook Assets S.A.",
+    "collector": "Northwind Enterprises S.A.",
+    "mules": [
+      "Lena Hartmann",
+      "Marco Fiore",
+      "Daniel Moreau",
+      "Tomas Vidal",
+      "Nadia Petrova",
+      "Pablo Serrano"
+    ],
+    "fan_out": [
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Lena Hartmann",
+        "amount": 9450,
+        "currency": "USD",
+        "date": "2014-03-11"
+      },
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Marco Fiore",
+        "amount": 9125,
+        "currency": "USD",
+        "date": "2014-03-12"
+      },
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Daniel Moreau",
+        "amount": 9775,
+        "currency": "USD",
+        "date": "2014-03-11"
+      },
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Tomas Vidal",
+        "amount": 9575,
+        "currency": "USD",
+        "date": "2014-03-12"
+      },
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Nadia Petrova",
+        "amount": 9475,
+        "currency": "USD",
+        "date": "2014-03-11"
+      },
+      {
+        "payer": "Glenbrook Assets S.A.",
+        "payee": "Pablo Serrano",
+        "amount": 9150,
+        "currency": "USD",
+        "date": "2014-03-12"
+      }
+    ],
+    "fan_in": [
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 9352,
+        "currency": "USD",
+        "date": "2014-03-13"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 8892,
+        "currency": "USD",
+        "date": "2014-03-14"
+      },
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 9555,
+        "currency": "USD",
+        "date": "2014-03-15"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 9294,
+        "currency": "USD",
+        "date": "2014-03-13"
+      },
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 9261,
+        "currency": "USD",
+        "date": "2014-03-14"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Northwind Enterprises S.A.",
+        "amount": 8946,
+        "currency": "USD",
+        "date": "2014-03-15"
+      }
+    ]
+  },
+  "powers_of_attorney": [
+    {
+      "company": "Cobalt Capital Inc.",
+      "grantor": {
+        "name": "Ashcroft Trading S.A.",
+        "role": "shareholder"
+      },
+      "attorney": "Viktor Haldane"
+    },
+    {
+      "company": "Northwind Enterprises S.A.",
+      "grantor": {
+        "name": "Ashcroft Trading S.A.",
+        "role": "shareholder"
+      },
+      "attorney": "Viktor Haldane"
+    }
+  ],
+  "legit_payments": [
+    {
+      "payer": "Copperfield Capital Corp.",
+      "payee": "Pinewood Couriers Ltd",
+      "amount": 4500,
+      "currency": "USD",
+      "date": "2014-03-23"
+    },
+    {
+      "payer": "Willowmere Trading Limited",
+      "payee": "Bluefin Supplies Ltd",
+      "amount": 4790,
+      "currency": "USD",
+      "date": "2014-04-04"
+    },
+    {
+      "payer": "Northwind Enterprises S.A.",
+      "payee": "Redwood Cleaning Ltd",
+      "amount": 6440,
+      "currency": "USD",
+      "date": "2014-03-08"
+    }
+  ],
+  "decoy_transfers": [
+    {
+      "payer": "Paper Catering Inc",
+      "payee": "Harbour Catering Ltd",
+      "amount": 2780,
+      "currency": "USD",
+      "date": "2014-02-24"
+    },
+    {
+      "payer": "Bluefin Couriers Inc",
+      "payee": "Pinewood Printing Ltd",
+      "amount": 1035,
+      "currency": "USD",
+      "date": "2014-02-24"
+    }
+  ]
+}

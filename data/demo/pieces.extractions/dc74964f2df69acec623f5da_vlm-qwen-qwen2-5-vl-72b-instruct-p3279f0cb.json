@@ -1,0 +1,35 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Thornfield Capital Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Stonehaven Investments S.A.",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Thornfield Capital Limited",
+      "payee": "Stonehaven Investments S.A.",
+      "amount": 2002500.0,
+      "currency": "USD",
+      "date": "2014-03-26"
+    }
+  ],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

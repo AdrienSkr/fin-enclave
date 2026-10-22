@@ -33,19 +33,24 @@ def _match_count(pred: list, truth: list, eq) -> int:
 
 
 def _same_transfer(pred: tuple, true: dict) -> bool:
-    payer, payee, amount, currency = pred[:4]
+    """Score principal : émetteur, bénéficiaire et montant (la devise est un score à part)."""
+    payer, payee, amount = pred[:3]
     return (
         _same(payer, true["payer"])
         and _same(payee, true["payee"])
-        and currency == true["currency"]
         and abs(amount - true["amount"]) <= 0.005 * true["amount"]
     )
+
+
+def _same_transfer_currency(pred: tuple, true: dict) -> bool:
+    """Score devise : appariement principal, plus la même devise."""
+    return _same_transfer(pred, true) and pred[3] == true["currency"]
 
 
 def evaluate_pieces(pieces: list[PieceExtraction], truth: list[dict]) -> dict:
     """P/R des entités, relations et virements par pièce (micro-moyenne), par qualité de pièce."""
     by_id = {t["piece_id"]: t for t in truth}
-    agg: dict[str, list[int]] = defaultdict(lambda: [0] * 9)
+    agg: dict[str, list[int]] = defaultdict(lambda: [0] * 10)
     dates_ok = dates_total = 0
     ungrounded = total_entities = 0
     for p in pieces:
@@ -62,6 +67,7 @@ def evaluate_pieces(pieces: list[PieceExtraction], truth: list[dict]) -> dict:
         pt = [(x.payer, x.payee, x.amount, x.currency, x.date) for x in p.transfers]
         tt = t.get("transfers", [])
         tx_tp = _match_count(pt, tt, _same_transfer)
+        cur_tp = _match_count(pt, tt, _same_transfer_currency)
         for x in pt:
             match = next((y for y in tt if _same_transfer(x, y)), None)
             if match is not None:
@@ -70,7 +76,8 @@ def evaluate_pieces(pieces: list[PieceExtraction], truth: list[dict]) -> dict:
         for key in ("all", t["quality"]):
             a = agg[key]
             for i, v in enumerate(
-                (ent_tp, len(pe), len(te), rel_tp, len(pr), len(tr), tx_tp, len(pt), len(tt))
+                (ent_tp, len(pe), len(te), rel_tp, len(pr), len(tr))
+                + (tx_tp, len(pt), len(tt), cur_tp)
             ):
                 a[i] += v
         total_entities += len(p.entities)
@@ -81,6 +88,7 @@ def evaluate_pieces(pieces: list[PieceExtraction], truth: list[dict]) -> dict:
             "entities": _pr(a[0], a[1], a[2]),
             "relations": _pr(a[3], a[4], a[5]),
             "transfers": _pr(a[6], a[7], a[8]),
+            "transfers_currency": _pr(a[9], a[7], a[8]),
         }
         for k, a in agg.items()
     }
@@ -112,9 +120,11 @@ def evaluate_graph(G: nx.DiGraph, truth: list[dict]) -> dict:
         for d in e.get("transfers", [])
     ]
     flow_tp = _match_count(pred_tx, true_tx, _same_transfer)
+    flow_cur_tp = _match_count(pred_tx, true_tx, _same_transfer_currency)
     return {
         "edges": _pr(tp, len(pred_edges), len(true_edges)),
         "flows": _pr(flow_tp, len(pred_tx), len(true_tx)),
+        "flows_currency": _pr(flow_cur_tp, len(pred_tx), len(true_tx)),
         "nodes_reconstructed": G.number_of_nodes(),
         "distinct_true_entities": len(true_names),
     }
@@ -195,10 +205,12 @@ def evaluate_typologies(G: nx.DiGraph, scenario: dict) -> dict[str, dict]:
         if not txs:
             continue
         tp = _match_count(pred_tx, txs, _same_transfer)
+        tp_cur = _match_count(pred_tx, txs, _same_transfer_currency)
         recall = round(tp / len(txs), 4) if txs else 1.0
         out[typo] = {
             "found": tp,
             "total": len(txs),
             "recall": recall,
+            "recall_currency": round(tp_cur / len(txs), 4),
         }
     return out

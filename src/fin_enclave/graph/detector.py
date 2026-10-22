@@ -4,8 +4,12 @@ from datetime import date
 
 import networkx as nx
 
+from ..config import DEFAULT_SMURF_THRESHOLD_USD, UNPRINTED_CURRENCY
+
 BRANDES_SAMPLING_THRESHOLD = 5_000
 BRANDES_SAMPLE_SIZE = 500
+DEFAULT_MAX_CYCLES_TOTAL = 10_000
+DEFAULT_SMURFING_MAX_NODES = 50_000
 
 
 @dataclass
@@ -25,6 +29,8 @@ class DetectionResult:
     brandes_execution_ms: float
     cycle_details: list[dict] = field(default_factory=list)
     rejected_cycles_count: int = 0
+    cycles_truncated: bool = False
+    smurfing_skipped: bool = False
     params: dict = field(default_factory=dict)
     smurfing_findings: list[dict] = field(default_factory=list)
 
@@ -82,12 +88,45 @@ class GraphDetector:
         amounts = [float(e.get("amount_usd", 0.0)) for e in edges]
         dates = [e.get("date", "") or "" for e in edges]
 
-        # Conservation de masse par étape (commission de transit ou marge, pas de dilution)
+        # Vérification stricte des devises : même devise avérée exigée pour tout le circuit
+        cycle_currencies = set()
+        for e in edges:
+            transfers = e.get("transfers", [])
+            if transfers:
+                for t in transfers:
+                    if "currency" in t:
+                        cur = t["currency"]
+                    elif "currency" in e:
+                        cur = e["currency"]
+                    elif "amount_usd" in t or "amount_usd" in e:
+                        cur = "USD"
+                    else:
+                        cur = None
+
+                    if not cur or cur == UNPRINTED_CURRENCY:
+                        return None
+                    cycle_currencies.add(cur)
+            elif "currency" in e:
+                cur = e["currency"]
+                if not cur or cur == UNPRINTED_CURRENCY:
+                    return None
+                cycle_currencies.add(cur)
+            elif "amount_usd" in e:
+                cycle_currencies.add("USD")
+            else:
+                return None
+
+        if len(cycle_currencies) != 1:
+            return None
+
+        # Conservation de masse par étape (tolérance standard sur même devise)
         step_dev = [
             abs(amounts[i] - amounts[i + 1]) / max(amounts[i], amounts[i + 1]) for i in range(n - 1)
         ]
         if any(d > tolerance for d in step_dev):
             return None
+
+        currency_status, hypothesis = "imprimee", ""
 
         # Cohérence chronologique : l'argent ne peut pas sortir avant d'être entré
         if enforce_dates and all(dates) and any(dates[i] > dates[i + 1] for i in range(n - 1)):
@@ -115,12 +154,14 @@ class GraphDetector:
             "exit_amount_usd": amounts[-1],
             "leakage_pct": round((1.0 - amounts[-1] / amounts[0]) * 100, 2),
             "max_step_deviation_pct": round(max(step_dev, default=0.0) * 100, 2),
+            "currency_status": currency_status,
+            "currency_hypothesis": hypothesis,
             "steps": steps,
         }
 
     def detect_smurfing(
         self,
-        threshold_usd: float = 10_000.0,
+        threshold_usd: float = DEFAULT_SMURF_THRESHOLD_USD,
         min_mules: int = 5,
         window_days: int = 7,
         F: nx.DiGraph | None = None,
@@ -164,6 +205,7 @@ class GraphDetector:
                         "collector": collector,
                         "mules": sorted(relays),
                         "n_mules": len(relays),
+                        "threshold_usd": threshold_usd,
                         "total_in_usd": round(total_in, 2),
                         "total_collected_usd": round(total_out, 2),
                         "span_days": span,
@@ -186,13 +228,19 @@ class GraphDetector:
         max_cycle_len: int = 8,
         step_tolerance: float = 0.15,
         enforce_dates: bool = True,
-        smurf_threshold_usd: float = 10_000.0,
+        smurf_threshold_usd: float = DEFAULT_SMURF_THRESHOLD_USD,
         smurf_min_mules: int = 5,
         smurf_window_days: int = 7,
+        max_cycles_total: int = DEFAULT_MAX_CYCLES_TOTAL,
+        smurf_max_nodes: int = DEFAULT_SMURFING_MAX_NODES,
+        tolerance: float | None = None,
     ) -> DetectionResult:
         """Exécute l'ensemble des analyses topologiques avec chronométrage précis."""
+        if tolerance is not None:
+            step_tolerance = tolerance
         # 1. Tarjan sur la couche flux, puis Johnson borné dans chaque SCC non triviale
         t0 = time.perf_counter()
+
         F = flow_view(self.G)
         sccs = [c for c in nx.strongly_connected_components(F) if len(c) >= min_cycle_len]
         scc_components = [sorted(c) for c in sccs]
@@ -201,9 +249,17 @@ class GraphDetector:
         candidates: list[dict] = []
         rejected = 0
         seen_cycles: set[tuple[str, ...]] = set()
+        cycles_enumerated = 0
+        cycles_truncated = False
         for comp in scc_components:
+            if cycles_truncated:
+                break
             sub = F.subgraph(comp)
             for raw in nx.simple_cycles(sub, length_bound=max_cycle_len):
+                cycles_enumerated += 1
+                if cycles_enumerated > max_cycles_total:
+                    cycles_truncated = True
+                    break
                 if len(raw) < min_cycle_len:
                     continue
                 cycle = self._rotate_to_earliest(list(raw), F)
@@ -237,7 +293,14 @@ class GraphDetector:
             suspicious_nodes.update(ids)
 
         # 2b. Éventails de schtroumpfage (fan-out -> fan-in sous le seuil déclaratif)
-        smurfing = self.detect_smurfing(smurf_threshold_usd, smurf_min_mules, smurf_window_days, F)
+        flow_nodes = F.number_of_nodes()
+        smurfing_skipped = flow_nodes > smurf_max_nodes
+        if smurfing_skipped:
+            smurfing: list[dict] = []
+        else:
+            smurfing = self.detect_smurfing(
+                smurf_threshold_usd, smurf_min_mules, smurf_window_days, F
+            )
         for s in smurfing:
             suspicious_nodes.update([s["source"], s["collector"], *s["mules"]])
 
@@ -280,12 +343,22 @@ class GraphDetector:
             brandes_execution_ms=round(brandes_ms, 2),
             cycle_details=cycle_details,
             rejected_cycles_count=rejected,
+            cycles_truncated=cycles_truncated,
+            smurfing_skipped=smurfing_skipped,
             smurfing_findings=smurfing,
             params={
                 "min_cycle_len": min_cycle_len,
                 "max_cycle_len": max_cycle_len,
                 "step_tolerance": step_tolerance,
                 "enforce_dates": enforce_dates,
+                "smurf_threshold_usd": smurf_threshold_usd,
+                "smurf_min_mules": smurf_min_mules,
+                "smurf_window_days": smurf_window_days,
                 "brandes_sampled": n_nodes > BRANDES_SAMPLING_THRESHOLD,
+                "max_cycles_total": max_cycles_total,
+                "cycles_enumerated": cycles_enumerated,
+                "cycles_truncated": cycles_truncated,
+                "smurf_max_nodes": smurf_max_nodes,
+                "smurfing_skipped": smurfing_skipped,
             },
         )

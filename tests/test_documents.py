@@ -5,7 +5,7 @@ import pytest
 
 from fin_enclave.config import settings
 from fin_enclave.documents.evaluation import evaluate_graph, evaluate_pieces
-from fin_enclave.documents.extractor import RuleEngine, extract_dossier, extract_piece
+from fin_enclave.documents.extractor import extract_piece
 from fin_enclave.documents.forge import forge_dossier, select_case, truth_path
 from fin_enclave.documents.linker import build_document_graph
 from fin_enclave.documents.models import (
@@ -17,10 +17,7 @@ from fin_enclave.documents.models import (
     PieceExtraction,
     StatementLine,
 )
-from fin_enclave.documents.ocr import tesseract_path
 from fin_enclave.graph.structural import detect_nominee_hubs
-
-needs_tesseract = pytest.mark.skipif(tesseract_path() is None, reason="Tesseract non installé")
 
 
 def _icij_like() -> nx.DiGraph:
@@ -63,9 +60,9 @@ def _oracle(truth: list[dict], out_dir) -> list[PieceExtraction]:
     ]
 
 
-@pytest.fixture()
-def dossier(tmp_path):
-    out = tmp_path / "pieces"
+@pytest.fixture(scope="module")
+def dossier(tmp_path_factory):
+    out = tmp_path_factory.mktemp("pieces_doc") / "pieces"
     case = select_case(_icij_like(), "H", n_companies=6, seed=1)
     forge_dossier(case, out, n_distractors=3, seed=1, anonymize=False)
     return out, json.loads(truth_path(out).read_text(encoding="utf-8"))
@@ -92,12 +89,11 @@ def test_forge_keeps_ground_truth_out_of_the_dossier(dossier):
 def test_oracle_extraction_rebuilds_graph_and_nominee(dossier):
     out, truth = dossier
     pieces = _oracle(truth, out)
-    G, _, ledger = build_document_graph(pieces)
+    G, _ = build_document_graph(pieces)
     assert evaluate_pieces(pieces, truth)["all"]["relations"]["recall"] == 1.0
     assert evaluate_graph(G, truth)["edges"] == {"precision": 1.0, "recall": 1.0, "f1": 1.0}
     hubs = detect_nominee_hubs(G, min_entities=6)
     assert [h["name"] for h in hubs] == ["ALPHA NOMINEES LIMITED"]
-    assert all(p.source_file.startswith("PIECE-") for p in ledger.values())
 
 
 def test_ungrounded_entities_are_dropped_from_graph():
@@ -114,7 +110,7 @@ def test_ungrounded_entities_are_dropped_from_graph():
             ExtractedRelation(source="INVENTED PERSON", target="REAL CO LIMITED", role="director")
         ],
     )
-    G, _, _ = build_document_graph([piece])
+    G, _ = build_document_graph([piece])
     assert G.number_of_nodes() == 1 and G.number_of_edges() == 0
 
 
@@ -151,78 +147,72 @@ def test_extraction_is_cached_and_failures_are_not_repaired(dossier, tmp_path, m
     assert failed.error and failed.entities == [] and failed.relations == []
 
 
-@needs_tesseract
-def test_hallucinated_entity_is_flagged_by_independent_ocr(dossier, tmp_path, monkeypatch):
-    monkeypatch.setattr(settings, "extraction_cache_dir", tmp_path / "cache")
-    out, truth = dossier
-    clean = next(t for t in truth if t["quality"] == "clean" and t["relations"])
-    real = clean["entities"][0]["name"]
-    fake = _FakeVLM(
-        DocumentExtraction(
-            doc_type="other",
-            entities=[
-                ExtractedEntity(name=real, kind="Societe"),
-                ExtractedEntity(name="ZXQW PHANTOM VENTURES", kind="Societe"),
+@pytest.mark.parametrize(
+    (
+        "typology",
+        "transfers_graph",
+        "scenario_tx",
+        "expected_found",
+        "expected_total",
+        "expected_recall",
+    ),
+    [
+        (
+            "CYCLE",
+            [{"amount": 1000.0, "currency": "USD", "date": "2022-09-01"}],
+            [
+                {
+                    "payer": "ALICE CORP",
+                    "payee": "BOB CORP",
+                    "amount": 1000.0,
+                    "currency": "USD",
+                    "date": "2022-09-01",
+                },
+                {
+                    "payer": "BOB CORP",
+                    "payee": "ALICE CORP",
+                    "amount": 950.0,
+                    "currency": "USD",
+                    "date": "2022-09-02",
+                },
             ],
-        )
-    )
-    res = extract_piece(out / clean["file"], fake)
-    flags = {e.name: e.grounded for e in res.entities}
-    assert flags[real] is True and flags["ZXQW PHANTOM VENTURES"] is False
-
-
-@needs_tesseract
-def test_rule_engine_is_exact_on_clean_pieces(dossier, tmp_path, monkeypatch):
-    monkeypatch.setattr(settings, "extraction_cache_dir", tmp_path / "cache")
-    out, truth = dossier
-    pieces = extract_dossier(out, RuleEngine(), workers=2)
-    ev = evaluate_pieces(pieces, truth)
-    assert ev["clean"]["relations"]["precision"] == 1.0
-    assert ev["all"]["relations"]["precision"] >= 0.9
-    assert ev["clean"]["transfers"]["precision"] == 1.0
-
-
-def test_evaluate_typologies_toy_graph():
+            1,
+            2,
+            0.5,
+        ),
+        (
+            "FAN-OUT",
+            [{"amount": 500.0, "currency": "EUR", "date": "2022-09-03"}],
+            [
+                {
+                    "payer": "ALICE CORP",
+                    "payee": "BOB CORP",
+                    "amount": 500.0,
+                    "currency": "EUR",
+                    "date": "2022-09-03",
+                },
+            ],
+            1,
+            1,
+            1.0,
+        ),
+    ],
+)
+def test_evaluate_typologies(
+    typology, transfers_graph, scenario_tx, expected_found, expected_total, expected_recall
+):
     from fin_enclave.documents.evaluation import evaluate_typologies
 
     G = nx.DiGraph()
     G.add_node("A", name="ALICE CORP")
     G.add_node("B", name="BOB CORP")
-    G.add_edge(
-        "A",
-        "B",
-        transfers=[
-            {"amount": 1000.0, "currency": "USD", "date": "2022-09-01"},
-        ],
-    )
-    scenario = {
-        "ibm_patterns": [
-            {
-                "typology": "CYCLE",
-                "tx": [
-                    {
-                        "payer": "ALICE CORP",
-                        "payee": "BOB CORP",
-                        "amount": 1000.0,
-                        "currency": "USD",
-                        "date": "2022-09-01",
-                    },
-                    {
-                        "payer": "BOB CORP",
-                        "payee": "ALICE CORP",
-                        "amount": 950.0,
-                        "currency": "USD",
-                        "date": "2022-09-02",
-                    },
-                ],
-            }
-        ]
-    }
+    G.add_edge("A", "B", transfers=transfers_graph)
+    scenario = {"ibm_patterns": [{"typology": typology, "tx": scenario_tx}]}
     res = evaluate_typologies(G, scenario)
-    assert "CYCLE" in res
-    assert res["CYCLE"]["found"] == 1
-    assert res["CYCLE"]["total"] == 2
-    assert res["CYCLE"]["recall"] == 0.5
+    assert typology in res
+    assert res[typology]["found"] == expected_found
+    assert res[typology]["total"] == expected_total
+    assert res[typology]["recall"] == expected_recall
 
 
 def test_resolved_transfers_cleans_hyphenated_description_and_ref():
@@ -265,3 +255,64 @@ def test_resolved_transfers_cleans_hyphenated_description_and_ref():
     assert txs[1].payee == "ALPHA CORP"
     assert txs[2].payee == "Pine Couriers Ltd"
     assert txs[3].payee == "Summit Supplies Ltd"
+
+
+def test_wrong_currency_counts_in_main_score_not_in_currency_score():
+    truth = [
+        {
+            "piece_id": "P1",
+            "quality": "clean",
+            "entities": [],
+            "relations": [],
+            "transfers": [
+                {
+                    "payer": "ALPHA CORP",
+                    "payee": "BETA CORP",
+                    "amount": 1000.0,
+                    "currency": "EUR",
+                },
+                {"payer": "BETA CORP", "payee": "GAMMA CORP", "amount": 500.0, "currency": "USD"},
+            ],
+        }
+    ]
+    piece = PieceExtraction(
+        piece_id="P1",
+        file="P1.png",
+        file_sha256="0" * 64,
+        engine="test",
+        doc_type="bank_statement",
+        entities=[],
+        relations=[],
+        transfers=[
+            GroundedTransfer(payer="ALPHA CORP", payee="BETA CORP", amount=1000.0, currency="GBP"),
+            GroundedTransfer(payer="BETA CORP", payee="GAMMA CORP", amount=500.0, currency="USD"),
+        ],
+    )
+    ev = evaluate_pieces([piece], truth)["all"]
+    assert ev["transfers"]["recall"] == 1.0
+    assert ev["transfers"]["precision"] == 1.0
+    assert ev["transfers_currency"]["recall"] == 0.5
+
+
+def test_build_document_graph_never_merges_person_and_company():
+    piece1 = PieceExtraction(
+        piece_id="PIECE-0001",
+        file="PIECE-0001.png",
+        file_sha256="1" * 64,
+        engine="test",
+        entities=[
+            GroundedEntity(name="HERNANDEZ NOMINEES", kind="PersonnePhysique", grounded=True),
+        ],
+    )
+    piece2 = PieceExtraction(
+        piece_id="PIECE-0002",
+        file="PIECE-0002.png",
+        file_sha256="2" * 64,
+        engine="test",
+        entities=[
+            GroundedEntity(name="HERNANDEZ NOMINEES", kind="Societe", grounded=True),
+        ],
+    )
+    G, resolver = build_document_graph([piece1, piece2])
+    assert G.number_of_nodes() == 2
+    assert len(resolver.merge_history) == 0

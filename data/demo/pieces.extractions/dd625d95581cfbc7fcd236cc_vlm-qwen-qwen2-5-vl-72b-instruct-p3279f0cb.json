@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Willowmere Capital Corp.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Thornfield Capital Limited",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Willowmere Capital Corp.",
+  "statement_lines": [
+    {
+      "date": "2014-04-21",
+      "counterparty": "Thornfield Capital Limited",
+      "amount": -1868335.81,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

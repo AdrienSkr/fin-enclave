@@ -1,0 +1,214 @@
+{
+  "simulated": true,
+  "beneficiary": "Elena Marchetti",
+  "nominee": "Ashcroft Enterprises Inc.",
+  "cycle": [
+    "Brightwater Enterprises Ltd.",
+    "Cobalt Assets Ltd.",
+    "Ironwood Ventures Ltd.",
+    "Stonehaven Group Ltd."
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Brightwater Enterprises Ltd.",
+      "payee": "Cobalt Assets Ltd.",
+      "amount": 2327500.0,
+      "currency": "USD",
+      "date": "2014-02-14"
+    },
+    {
+      "payer": "Cobalt Assets Ltd.",
+      "payee": "Ironwood Ventures Ltd.",
+      "amount": 2280387.65,
+      "currency": "USD",
+      "date": "2014-02-18"
+    },
+    {
+      "payer": "Ironwood Ventures Ltd.",
+      "payee": "Stonehaven Group Ltd.",
+      "amount": 2234718.95,
+      "currency": "USD",
+      "date": "2014-02-24"
+    },
+    {
+      "payer": "Stonehaven Group Ltd.",
+      "payee": "Brightwater Enterprises Ltd.",
+      "amount": 2169111.4,
+      "currency": "USD",
+      "date": "2014-03-04"
+    }
+  ],
+  "exit_transfers": [
+    {
+      "payer": "Brightwater Enterprises Ltd.",
+      "payee": "Elena Marchetti",
+      "amount": 390440.05,
+      "currency": "USD",
+      "date": "2014-03-08"
+    },
+    {
+      "payer": "Thornfield Assets Ltd.",
+      "payee": "Elena Marchetti",
+      "amount": 50186,
+      "currency": "USD",
+      "date": "2014-03-29"
+    }
+  ],
+  "smurfing": {
+    "source": "Stonehaven Ventures Corp.",
+    "collector": "Thornfield Assets Ltd.",
+    "mules": [
+      "Daniel Moreau",
+      "Tomas Vidal",
+      "Pablo Serrano",
+      "Sofia Brandt",
+      "Lena Hartmann",
+      "Marco Fiore"
+    ],
+    "fan_out": [
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Daniel Moreau",
+        "amount": 9200,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Tomas Vidal",
+        "amount": 9375,
+        "currency": "USD",
+        "date": "2014-03-24"
+      },
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Pablo Serrano",
+        "amount": 9500,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Sofia Brandt",
+        "amount": 9325,
+        "currency": "USD",
+        "date": "2014-03-24"
+      },
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Lena Hartmann",
+        "amount": 9725,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Stonehaven Ventures Corp.",
+        "payee": "Marco Fiore",
+        "amount": 9850,
+        "currency": "USD",
+        "date": "2014-03-24"
+      }
+    ],
+    "fan_in": [
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9018,
+        "currency": "USD",
+        "date": "2014-03-25"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9121,
+        "currency": "USD",
+        "date": "2014-03-26"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9300,
+        "currency": "USD",
+        "date": "2014-03-27"
+      },
+      {
+        "payer": "Sofia Brandt",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9206,
+        "currency": "USD",
+        "date": "2014-03-25"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9458,
+        "currency": "USD",
+        "date": "2014-03-26"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Thornfield Assets Ltd.",
+        "amount": 9659,
+        "currency": "USD",
+        "date": "2014-03-27"
+      }
+    ]
+  },
+  "powers_of_attorney": [
+    {
+      "company": "Brightwater Enterprises Ltd.",
+      "grantor": {
+        "name": "Ashcroft Enterprises Inc.",
+        "role": "shareholder"
+      },
+      "attorney": "Elena Marchetti"
+    },
+    {
+      "company": "Thornfield Assets Ltd.",
+      "grantor": {
+        "name": "Ashcroft Enterprises Inc.",
+        "role": "shareholder"
+      },
+      "attorney": "Elena Marchetti"
+    }
+  ],
+  "legit_payments": [
+    {
+      "payer": "Ironwood Ventures Ltd.",
+      "payee": "Paper Telecom Ltd",
+      "amount": 2030,
+      "currency": "EUR",
+      "date": "2014-03-22"
+    },
+    {
+      "payer": "Brightwater Enterprises Ltd.",
+      "payee": "Bluefin Printing Ltd",
+      "amount": 4170,
+      "currency": "USD",
+      "date": "2014-03-08"
+    },
+    {
+      "payer": "Willowmere Investments S.A.",
+      "payee": "Redwood Cleaning Ltd",
+      "amount": 4750,
+      "currency": "EUR",
+      "date": "2014-04-01"
+    }
+  ],
+  "decoy_transfers": [
+    {
+      "payer": "Redwood Catering Inc",
+      "payee": "Summit Supplies Ltd",
+      "amount": 3405,
+      "currency": "USD",
+      "date": "2014-02-23"
+    },
+    {
+      "payer": "Crescent Printing Inc",
+      "payee": "Bluefin Printing Ltd",
+      "amount": 4055,
+      "currency": "USD",
+      "date": "2014-02-23"
+    }
+  ]
+}

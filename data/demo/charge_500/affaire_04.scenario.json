@@ -1,0 +1,214 @@
+{
+  "simulated": true,
+  "beneficiary": "Oskar Lindqvist",
+  "nominee": "Amberfield Management S.A.",
+  "cycle": [
+    "Glenbrook Investments Ltd.",
+    "Cobalt Investments Limited",
+    "Copperfield Management Corp.",
+    "Cobalt Trading S.A."
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Glenbrook Investments Ltd.",
+      "payee": "Cobalt Investments Limited",
+      "amount": 1867500.0,
+      "currency": "USD",
+      "date": "2014-04-15"
+    },
+    {
+      "payer": "Cobalt Investments Limited",
+      "payee": "Copperfield Management Corp.",
+      "amount": 1820706.59,
+      "currency": "USD",
+      "date": "2014-04-21"
+    },
+    {
+      "payer": "Copperfield Management Corp.",
+      "payee": "Cobalt Trading S.A.",
+      "amount": 1789254.78,
+      "currency": "USD",
+      "date": "2014-04-27"
+    },
+    {
+      "payer": "Cobalt Trading S.A.",
+      "payee": "Glenbrook Investments Ltd.",
+      "amount": 1747443.13,
+      "currency": "USD",
+      "date": "2014-05-03"
+    }
+  ],
+  "exit_transfers": [
+    {
+      "payer": "Glenbrook Investments Ltd.",
+      "payee": "Oskar Lindqvist",
+      "amount": 314539.76,
+      "currency": "USD",
+      "date": "2014-05-08"
+    },
+    {
+      "payer": "Thornfield Holdings Corp.",
+      "payee": "Oskar Lindqvist",
+      "amount": 50972,
+      "currency": "USD",
+      "date": "2014-05-12"
+    }
+  ],
+  "smurfing": {
+    "source": "Fairhaven Investments Corp.",
+    "collector": "Thornfield Holdings Corp.",
+    "mules": [
+      "Irene Kowalski",
+      "Nadia Petrova",
+      "Tomas Vidal",
+      "Pablo Serrano",
+      "Daniel Moreau",
+      "Lena Hartmann"
+    ],
+    "fan_out": [
+      {
+        "payer": "Fairhaven Investments Corp.",
+        "payee": "Irene Kowalski",
+        "amount": 9675,
+        "currency": "USD",
+        "date": "2014-05-06"
+      },
+      {
+        "payer": "Fairhaven Investments Corp.",
+        "payee": "Nadia Petrova",
+        "amount": 9750,
+        "currency": "USD",
+        "date": "2014-05-07"
+      },
+      {
+        "payer": "Fairhaven Investments Corp.",
+        "payee": "Tomas Vidal",
+        "amount": 9800,
+        "currency": "USD",
+        "date": "2014-05-06"
+      },
+      {
+        "payer": "Fairhaven Investments Corp.",
+        "payee": "Pablo Serrano",
+        "amount": 9650,
+        "currency": "USD",
+        "date": "2014-05-07"
+      },
+      {
+        "payer": "Fairhaven Investments Corp.",
+        "payee": "Daniel Moreau",
+        "amount": 9550,
+        "currency": "USD",
+        "date": "2014-05-06"
+      },
+      {
+        "payer": "Fairhaven Investments Corp.",
+        "payee": "Lena Hartmann",
+        "amount": 9275,
+        "currency": "USD",
+        "date": "2014-05-07"
+      }
+    ],
+    "fan_in": [
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Thornfield Holdings Corp.",
+        "amount": 9556,
+        "currency": "USD",
+        "date": "2014-05-08"
+      },
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Thornfield Holdings Corp.",
+        "amount": 9611,
+        "currency": "USD",
+        "date": "2014-05-09"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Thornfield Holdings Corp.",
+        "amount": 9575,
+        "currency": "USD",
+        "date": "2014-05-10"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Thornfield Holdings Corp.",
+        "amount": 9550,
+        "currency": "USD",
+        "date": "2014-05-08"
+      },
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Thornfield Holdings Corp.",
+        "amount": 9325,
+        "currency": "USD",
+        "date": "2014-05-09"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Thornfield Holdings Corp.",
+        "amount": 9018,
+        "currency": "USD",
+        "date": "2014-05-10"
+      }
+    ]
+  },
+  "powers_of_attorney": [
+    {
+      "company": "Glenbrook Investments Ltd.",
+      "grantor": {
+        "name": "Amberfield Management S.A.",
+        "role": "shareholder"
+      },
+      "attorney": "Oskar Lindqvist"
+    },
+    {
+      "company": "Thornfield Holdings Corp.",
+      "grantor": {
+        "name": "Amberfield Management S.A.",
+        "role": "shareholder"
+      },
+      "attorney": "Oskar Lindqvist"
+    }
+  ],
+  "legit_payments": [
+    {
+      "payer": "Copperfield Management Corp.",
+      "payee": "Paper Printing Ltd",
+      "amount": 3120,
+      "currency": "USD",
+      "date": "2014-05-25"
+    },
+    {
+      "payer": "Thornfield Capital Limited",
+      "payee": "Summit Couriers Ltd",
+      "amount": 5330,
+      "currency": "USD",
+      "date": "2014-05-16"
+    },
+    {
+      "payer": "Northwind Trading Corp.",
+      "payee": "Harbour Couriers Ltd",
+      "amount": 4530,
+      "currency": "EUR",
+      "date": "2014-04-29"
+    }
+  ],
+  "decoy_transfers": [
+    {
+      "payer": "Pinewood Supplies Inc",
+      "payee": "Redwood Printing Ltd",
+      "amount": 1165,
+      "currency": "USD",
+      "date": "2014-04-24"
+    },
+    {
+      "payer": "Paper Catering Inc",
+      "payee": "Redwood Telecom Ltd",
+      "amount": 1910,
+      "currency": "USD",
+      "date": "2014-04-24"
+    }
+  ]
+}

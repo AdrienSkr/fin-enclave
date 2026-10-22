@@ -17,7 +17,7 @@ from typing import TYPE_CHECKING, Any
 import networkx as nx
 
 if TYPE_CHECKING:
-    from ..schemas import AnomalyReport, ProofPoint
+    from ..schemas import AnomalyReport
     from .detector import DetectionResult
 
 
@@ -77,6 +77,19 @@ def _compute_forensic_positions(
     return positions
 
 
+_HOLDER_LABELS = {
+    "beneficial_owner": "Bénéficiaire effectif déclaré",
+    "shareholder": "Inscrit au registre (actionnaire)",
+    "director": "Inscrit au registre (administrateur)",
+    "secretary": "Inscrit au registre (secrétaire)",
+}
+
+
+def _holder_label(role: str) -> str:
+    """Libellé neutre d'un inscrit au registre : jamais « prête-nom » sans preuve."""
+    return _HOLDER_LABELS.get(role, f"Inscrit au registre ({role or 'rôle non lu'})")
+
+
 def export_interactive_graph(
     G: nx.DiGraph,
     detection: DetectionResult,
@@ -86,7 +99,6 @@ def export_interactive_graph(
     reports: list[AnomalyReport] | None = None,
     findings: dict | None = None,
     pieces: list[Any] | None = None,
-    ledger: dict[str, ProofPoint] | None = None,
     dossier_path: Path | str | None = None,
     case_label: str = "Dossier d'investigation",
 ) -> Path:
@@ -117,6 +129,12 @@ def export_interactive_graph(
         if G.has_edge(v_e, u_e):
             edge_pairs.add(tuple(sorted([str(u_e), str(v_e)])))
 
+    review_piece_ids = {
+        p.piece_id
+        for p in (pieces or [])
+        if getattr(p, "needs_review", False)
+        or any(getattr(t, "review_flags", None) for t in p.transfers)
+    }
     edges_data: list[dict[str, Any]] = []
     for u, v, data in G.edges(data=True):
         amount = float(data.get("amount_usd", 0.0) or 0.0)
@@ -125,6 +143,8 @@ def export_interactive_graph(
         proof_sha = str(data.get("proof_sha256", ""))
         edge_pieces = list(data.get("pieces", []))
         is_suspicious = u in detection.suspicious_nodes and v in detection.suspicious_nodes
+        xfer_flags = [f for t in data.get("transfers", []) for f in (t.get("review_flags") or [])]
+        needs_review = bool(xfer_flags) or bool(review_piece_ids & set(edge_pieces))
 
         is_financial = amount > 0
         edge_label = f"${amount:,.0f}" if is_financial else rel_type.replace("_", " ")
@@ -143,9 +163,16 @@ def export_interactive_graph(
         else:
             smooth_cfg = {"enabled": True, "type": "curvedCW", "roundness": 0.14}
 
-        edge_color = "#dc2626" if is_suspicious else ("#2563eb" if is_financial else "#64748b")
-        edge_width = 2.6 if is_suspicious else (1.8 if is_financial else 1.3)
-        edge_dashes = False if is_financial else [5, 5]
+        if needs_review:
+            edge_color = "#d97706"  # ambre : flux à relire
+            edge_width = 2.4
+            edge_dashes = [4, 3]
+        elif is_suspicious:
+            edge_color, edge_width, edge_dashes = "#dc2626", 2.6, False
+        elif is_financial:
+            edge_color, edge_width, edge_dashes = "#2563eb", 1.8, False
+        else:
+            edge_color, edge_width, edge_dashes = "#64748b", 1.3, [5, 5]
 
         rel_clean = rel_type.replace("_", " ")
         if is_financial:
@@ -154,6 +181,9 @@ def export_interactive_graph(
         else:
             type_desc = f"Lien corporatif ({rel_clean})"
             amount_html = ""
+        if needs_review:
+            motifs = ", ".join(dict.fromkeys(xfer_flags)) or "pièce à relire"
+            type_desc += f" — à relire ({motifs})"
 
         pieces_html = ", ".join(edge_pieces) if edge_pieces else doc_ref
         edge_tooltip = (
@@ -183,6 +213,7 @@ def export_interactive_graph(
                 "dashes": edge_dashes,
                 "smooth": smooth_cfg,
                 "is_suspicious": is_suspicious,
+                "needs_review": needs_review,
             }
         )
 
@@ -346,7 +377,7 @@ def export_interactive_graph(
                     controllers[h["id"]] = {
                         "id": h["id"],
                         "name": h["name"],
-                        "role": f"Actionnaire / Prête-nom ({h.get('role', 'actionnaire')})",
+                        "role": _holder_label(h.get("role", "")),
                         "entity_type": G.nodes.get(h["id"], {}).get("entity_type", "Societe"),
                         "target": c_name,
                     }
@@ -429,11 +460,7 @@ def export_interactive_graph(
             f"{u_e}->{v_e}" for u_e, v_e in G.edges if u_e in all_node_set and v_e in all_node_set
         ]
 
-        pieces_cited: list[str] = []
-        if r.chain_of_custody:
-            pieces_cited = sorted(
-                {p.cote_judiciaire.split("/")[0] for p in r.chain_of_custody if p.cote_judiciaire}
-            )
+        pieces_cited: list[str] = sorted(set(getattr(r, "pieces", [])))
 
         steps: list[dict[str, Any]] = []
         if findings and "cycles" in findings:
@@ -586,9 +613,12 @@ def export_interactive_graph(
                         "amount": t.amount,
                         "currency": t.currency,
                         "date": t.date,
+                        "review_flags": list(t.review_flags),
                     }
                     for t in p.transfers
                 ],
+                "needs_review": bool(p.needs_review),
+                "review_reason": p.review_reason,
             }
 
     max_amount = max([e.get("amount_usd", 0.0) for e in edges_data], default=1_000_000.0)
@@ -612,6 +642,20 @@ def export_interactive_graph(
     infractions_json = json.dumps(infractions_data, ensure_ascii=False, default=str)
     pieces_json = json.dumps(pieces_dict, ensure_ascii=False, default=str)
     findings_json = json.dumps(findings or {}, ensure_ascii=False, default=str)
+    _limits = (findings or {}).get("limits", {}) or {}
+    _limit_msgs = [
+        msg
+        for key, msg in (
+            ("cycles_truncated", "énumération des circuits tronquée"),
+            ("smurfing_skipped", "fractionnement non testé (graphe trop grand)"),
+        )
+        if _limits.get(key)
+    ]
+    limits_html = "".join(
+        f'<span class="limit-warning" style="color:#b45309;font-weight:600;">'
+        f"Limite : {html.escape(m)}</span>"
+        for m in _limit_msgs
+    )
 
     if vis_css_content:
         vis_css_tag = f"<style id='vis-embedded-css'>\n{vis_css_content}\n</style>"
@@ -786,6 +830,7 @@ def export_interactive_graph(
         <span>Entités : <strong>{meta["nodes_count"]}</strong></span>
         <span>Liens : <strong>{meta["edges_count"]}</strong></span>
         <span>Pivot : <strong>{meta["pivot_name"]}</strong></span>
+        {limits_html}
       </div>
     </div>
 
@@ -1262,7 +1307,7 @@ def export_interactive_graph(
             <div class="infr-step-row">
               <strong>${{s.date || 'Date non précisée'}}</strong> : ${{s.from}} ➔ ${{s.to}}
               <div style="color:#b91c1c; font-weight:700;">$${{s.amount_usd.toLocaleString()}} USD</div>
-              <div style="font-size:10px; color:#64748b;">Pièces : ${{s.pieces.join(', ')}}</div>
+              <div style="font-size:10px; color:#64748b;">Pièces : ${{pieceTagsHtml(s.pieces)}}</div>
             </div>
           `;
         }});
@@ -1313,12 +1358,12 @@ def export_interactive_graph(
         const sepCtrl = document.createElement('li');
         sepCtrl.className = 'trans-group-header';
         sepCtrl.style.marginTop = '6px';
-        sepCtrl.innerHTML = '<strong>PERSONNES & PRÊTE-NOMS DERRIÈRE CE CIRCUIT</strong>';
+        sepCtrl.innerHTML = '<strong>PERSONNES ET ENTITÉS LIÉES AU MONTAGE</strong>';
         transList.appendChild(sepCtrl);
 
         infr.controllers.forEach(ctrl => {{
           const isPerson = ctrl.entity_type === 'PersonnePhysique' || ctrl.role.includes('Bénéficiaire') || ctrl.role.includes('UBO');
-          const isNominee = ctrl.role.includes('Prête-nom') || ctrl.role.includes('Actionnaire');
+          const isNominee = ctrl.role.includes('Prête-nom') || ctrl.role.includes('Inscrit');
           const badgeClass = isPerson ? 'badge-role-ubo' : (isNominee ? 'badge-role-nominee' : 'badge-role-trust');
 
           const li = document.createElement('li');
@@ -1520,7 +1565,7 @@ def export_interactive_graph(
       html += `
         <div style="background:#eff6ff; border-left:3px solid #2563eb; padding:8px 10px; font-size:11px; color:#1e3a8a; line-height:1.4;">
           <strong>Cadrage de l'enquête :</strong><br>
-          Le dossier rassemble l'ensemble des 42 pièces saisies. Ce volet sépare les <strong>infractions pénales qualifiées</strong> (circuits isolés) de la <strong>cartographie d'ensemble du réseau</strong> (organigramme global et soldes de tous les comptes saisis).
+          Le dossier rassemble l'ensemble des ${{Object.keys(PIECES).length}} pièces saisies. Ce volet sépare les <strong>infractions pénales qualifiées</strong> (circuits isolés) de la <strong>cartographie d'ensemble du réseau</strong> (organigramme global et soldes de tous les comptes saisis).
         </div>
       `;
 
@@ -1543,6 +1588,7 @@ def export_interactive_graph(
               <div style="font-size:10px; color:#7f1d1d; margin-bottom:6px;">
                 <strong>Base légale :</strong> ${{i.legal_basis.join(' ; ')}}
               </div>
+              <div style="margin-bottom:6px;">${{pieceTagsHtml(i.pieces)}}</div>
               <button class="btn" style="padding:2px 6px; font-size:10px;" onclick="selectInfraction('${{i.id}}')">
                 Isoler ce montage sur le graphe
               </button>
@@ -1557,7 +1603,7 @@ def export_interactive_graph(
         <div class="report-section">
           <div class="report-section-title">2. Prête-noms du Réseau Saisi (Cartographie Globale)</div>
           <div style="font-size:11px; color:#64748b; margin-bottom:6px;">
-            Acteurs apparaissant comme prête-noms professionnels pour administrer des sociétés écrans en cascade.
+            Acteurs inscrits au registre d'un grand nombre de sociétés (profil de prête-nom présumé, à vérifier).
           </div>
       `;
       (FINDINGS.portfolios || []).slice(0, 6).forEach(p => {{
@@ -1566,7 +1612,7 @@ def export_interactive_graph(
         html += `
           <div style="display:flex; justify-content:space-between; padding:3px 0; border-bottom:1px solid #f1f5f9;">
             <span class="report-entity-link" onclick="navigateToNode('${{nodeId}}')">${{p.name}}</span>
-            <span><strong>${{p.n_companies}}</strong> sociétés ${{p.nominee_profile ? '<span style="color:#b91c1c; font-weight:700;">(prête-nom)</span>' : ''}}</span>
+            <span><strong>${{p.n_companies}}</strong> sociétés ${{p.nominee_profile ? '<span style="color:#b91c1c; font-weight:700;">(prête-nom présumé)</span>' : (p.declared_ubo ? '<span style="color:#475569;">(bénéficiaire effectif déclaré)</span>' : '')}}</span>
           </div>
         `;
       }});
@@ -1605,7 +1651,63 @@ def export_interactive_graph(
         `;
       }}
 
+      html += renderAnalystSections(FINDINGS.analyst);
+
       container.innerHTML = html;
+    }}
+
+    function esc(s) {{
+      return String(s ?? '').replace(/[&<>"]/g, c => ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c]));
+    }}
+
+    function pieceTagsHtml(ids) {{
+      return (ids || []).filter(Boolean).map(id => {{
+        const safe = String(id).replace(/[^A-Za-z0-9._-]/g, '');
+        if (!safe) return '';
+        return `<span class="piece-tag" onclick="event.stopPropagation(); openPieceModal('${{safe}}')">${{esc(id)}}</span>`;
+      }}).filter(Boolean).join(' ');
+    }}
+
+    function renderAnalystSections(a) {{
+      if (!a) return '';
+      const row = 'display:flex; justify-content:space-between; gap:8px; padding:3px 0; border-bottom:1px solid #f1f5f9;';
+      let h = '';
+      h += '<div class="report-section"><div class="report-section-title">5. Chronologie des flux des constats</div>';
+      (a.timeline || []).forEach(t => {{
+        h += `<div style="${{row}}"><span>${{esc(t.date || 'date illisible')}} : ${{esc(t.from)}} → ${{esc(t.to)}}<br><span style="color:#64748b;">${{esc(t.finding)}} · ${{pieceTagsHtml(t.pieces)}}</span></span><strong>$${{Number(t.amount_usd).toLocaleString()}}</strong></div>`;
+      }});
+      if (!(a.timeline || []).length) h += '<p style="color:#64748b;">Aucun flux de constat.</p>';
+      h += '</div>';
+
+      h += '<div class="report-section"><div class="report-section-title">6. Réquisitions complémentaires</div>';
+      (a.requisitions || []).slice(0, 15).forEach(r => {{
+        const period = (r.period || []).length ? [...new Set(r.period)].join(' au ') : 'non datée';
+        const conf = r.to_confirm
+          ? `<br><span style="color:#d97706;">à confirmer : ${{esc(r.confirm_reason || '')}}</span>`
+          : '';
+        h += `<div style="${{row}}"><span><strong>${{esc(r.account)}}</strong>`
+          + ` (${{esc(r.bank)}})<br><span style="color:#64748b;">${{esc(r.reason)}}`
+          + ` · ${{pieceTagsHtml(r.cited_by)}}</span>${{conf}}</span><span>${{esc(period)}}</span></div>`;
+      }});
+      if (!(a.requisitions || []).length) h += '<p style="color:#64748b;">Aucun relevé manquant.</p>';
+      h += '</div>';
+
+      h += '<div class="report-section"><div class="report-section-title">7. Priorisation (score explicable)</div>';
+      ((a.priorities || {{}}).entities || []).slice(0, 8).forEach(e => {{
+        const parts = Object.entries(e.breakdown).filter(([, v]) => v).map(([k, v]) => `${{k}} ${{v}}`).join(' + ');
+        h += `<div style="${{row}}"><span>${{esc(e.name)}}<br><span style="color:#64748b;">${{esc(parts)}}</span></span><strong>${{e.score}}</strong></div>`;
+      }});
+      h += '</div>';
+
+      h += '<div class="report-section"><div class="report-section-title">8. Chaîne de contrôle (personne physique)</div>';
+      (a.control_chains || []).forEach(c => {{
+        const lines = c.chains.length
+          ? c.chains.map(ch => `${{esc(ch.path.join(' → '))}}${{ch.complete ? '' : ' (interrompue)'}}`).join('<br>')
+          : `<em>${{esc(c.note)}}</em>`;
+        h += `<div style="padding:3px 0; border-bottom:1px solid #f1f5f9;">${{lines}}</div>`;
+      }});
+      h += '</div>';
+      return h;
     }}
 
     // -----------------------------------------------------------------------

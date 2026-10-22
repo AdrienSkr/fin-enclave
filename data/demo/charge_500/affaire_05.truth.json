@@ -1,0 +1,1449 @@
+[
+  {
+    "piece_id": "PIECE-0001",
+    "file": "PIECE-0001.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Oakridge Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Printing Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Oakridge Enterprises Ltd.",
+        "payee": "Paper Printing Ltd",
+        "amount": 2210,
+        "currency": "USD",
+        "date": "2014-05-22"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0002",
+    "file": "PIECE-0002.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Silverpine Ventures S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Silverpine Ventures S.A.",
+        "payee": "Bluefin Catering Ltd",
+        "amount": 4800,
+        "currency": "EUR",
+        "date": "2014-06-26"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0003",
+    "file": "PIECE-0003.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Karin Garrido",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Oakridge Enterprises Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Karin Garrido",
+        "target": "Oakridge Enterprises Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0004",
+    "file": "PIECE-0004.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Stonehaven Assets Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Stonehaven Assets Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0005",
+    "file": "PIECE-0005.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Stonehaven Assets Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nora Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Stonehaven Assets Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Nora Ortega",
+        "target": "Stonehaven Assets Inc.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0006",
+    "file": "PIECE-0006.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Oakridge Capital Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Brightwater Holdings S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Theo Bergstrom",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Oakridge Capital Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Brightwater Holdings S.A.",
+        "target": "Oakridge Capital Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Theo Bergstrom",
+        "target": "Oakridge Capital Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0007",
+    "file": "PIECE-0007.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0008",
+    "file": "PIECE-0008.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Summit Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Summit Supplies Inc",
+        "payee": "Pinewood Telecom Ltd",
+        "amount": 1575,
+        "currency": "USD",
+        "date": "2014-05-23"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0009",
+    "file": "PIECE-0009.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Partners Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Oakridge Partners Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0010",
+    "file": "PIECE-0010.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Oakridge Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Stonehaven Assets Inc.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Oakridge Enterprises Ltd.",
+        "payee": "Stonehaven Assets Inc.",
+        "amount": 1822780.87,
+        "currency": "USD",
+        "date": "2014-06-02"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0011",
+    "file": "PIECE-0011.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Silverpine Ventures S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Silverpine Ventures S.A.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0012",
+    "file": "PIECE-0012.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Harbour Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0013",
+    "file": "PIECE-0013.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Willowmere Group Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Willowmere Group Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0014",
+    "file": "PIECE-0014.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Thornfield Assets Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Brightwater Holdings S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Stonehaven Partners S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Clara Fujimoto",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Thornfield Assets Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Brightwater Holdings S.A.",
+        "target": "Thornfield Assets Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Stonehaven Partners S.A.",
+        "target": "Thornfield Assets Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Clara Fujimoto",
+        "target": "Thornfield Assets Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0015",
+    "file": "PIECE-0015.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Stonehaven Assets Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Stonehaven Assets Inc.",
+        "payee": "Rafael Quintero",
+        "amount": 328100.56,
+        "currency": "USD",
+        "date": "2014-06-06"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0016",
+    "file": "PIECE-0016.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Harbour Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0017",
+    "file": "PIECE-0017.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Fairhaven Management S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Fairhaven Management S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0018",
+    "file": "PIECE-0018.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Silverpine Ventures S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Silverpine Ventures S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0019",
+    "file": "PIECE-0019.jpg",
+    "doc_type": "bank_statement",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Fairhaven Investments Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Nadia Petrova",
+        "amount": 9450,
+        "currency": "USD",
+        "date": "2014-06-07"
+      },
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Daniel Moreau",
+        "amount": 9475,
+        "currency": "USD",
+        "date": "2014-06-08"
+      },
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Pablo Serrano",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-06-07"
+      },
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Tomas Vidal",
+        "amount": 9375,
+        "currency": "USD",
+        "date": "2014-06-08"
+      },
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Marco Fiore",
+        "amount": 9150,
+        "currency": "USD",
+        "date": "2014-06-07"
+      },
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Lena Hartmann",
+        "amount": 9750,
+        "currency": "USD",
+        "date": "2014-06-08"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0020",
+    "file": "PIECE-0020.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Redwood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0021",
+    "file": "PIECE-0021.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Willowmere Group Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Willowmere Group Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0022",
+    "file": "PIECE-0022.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Oakridge Partners Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Brightwater Holdings S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Brightwater Trading S.A.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Amberfield Holdings Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Oakridge Partners Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Brightwater Holdings S.A.",
+        "target": "Oakridge Partners Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Brightwater Trading S.A.",
+        "target": "Oakridge Partners Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Amberfield Holdings Ltd.",
+        "target": "Oakridge Partners Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0023",
+    "file": "PIECE-0023.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Crescent Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0024",
+    "file": "PIECE-0024.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Fairhaven Investments Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Fairhaven Investments Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0025",
+    "file": "PIECE-0025.png",
+    "doc_type": "power_of_attorney",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Copperfield Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Copperfield Assets Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Rafael Quintero",
+        "target": "Copperfield Assets Corp.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0026",
+    "file": "PIECE-0026.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Cobalt Management Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Catering Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Cobalt Management Ltd.",
+        "payee": "Summit Catering Ltd",
+        "amount": 4660,
+        "currency": "USD",
+        "date": "2014-05-17"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0027",
+    "file": "PIECE-0027.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Harbour Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Harbour Couriers Inc",
+        "payee": "Bluefin Cleaning Ltd",
+        "amount": 3410,
+        "currency": "USD",
+        "date": "2014-05-23"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0028",
+    "file": "PIECE-0028.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Redwood Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0029",
+    "file": "PIECE-0029.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Fairhaven Management S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Enterprises Ltd.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Fairhaven Management S.A.",
+        "payee": "Oakridge Enterprises Ltd.",
+        "amount": 1864387.24,
+        "currency": "USD",
+        "date": "2014-05-26"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0030",
+    "file": "PIECE-0030.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Fairhaven Management S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Dimitri Pavlov",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Fairhaven Management S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Dimitri Pavlov",
+        "target": "Fairhaven Management S.A.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0031",
+    "file": "PIECE-0031.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0032",
+    "file": "PIECE-0032.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Oakridge Partners Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Fairhaven Management S.A.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Oakridge Partners Inc.",
+        "payee": "Fairhaven Management S.A.",
+        "amount": 1922014.24,
+        "currency": "USD",
+        "date": "2014-05-20"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0033",
+    "file": "PIECE-0033.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Cobalt Management Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Cobalt Management Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0034",
+    "file": "PIECE-0034.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Bluefin Catering Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0035",
+    "file": "PIECE-0035.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Copperfield Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Copperfield Assets Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0036",
+    "file": "PIECE-0036.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Cobalt Management Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Yara Ibarra",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Cobalt Management Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Yara Ibarra",
+        "target": "Cobalt Management Ltd.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0037",
+    "file": "PIECE-0037.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Stonehaven Assets Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Oakridge Partners Inc.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Stonehaven Assets Inc.",
+        "payee": "Oakridge Partners Inc.",
+        "amount": 1967500.0,
+        "currency": "USD",
+        "date": "2014-05-14"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0038",
+    "file": "PIECE-0038.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0039",
+    "file": "PIECE-0039.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Fairhaven Investments Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Fairhaven Investments Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0040",
+    "file": "PIECE-0040.png",
+    "doc_type": "bank_statement",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Copperfield Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Daniel Moreau",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 9266,
+        "currency": "USD",
+        "date": "2014-06-09"
+      },
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 9206,
+        "currency": "USD",
+        "date": "2014-06-10"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 8929,
+        "currency": "USD",
+        "date": "2014-06-11"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 9222,
+        "currency": "USD",
+        "date": "2014-06-09"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 8881,
+        "currency": "USD",
+        "date": "2014-06-10"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 9629,
+        "currency": "USD",
+        "date": "2014-06-11"
+      },
+      {
+        "payer": "Copperfield Assets Corp.",
+        "payee": "Rafael Quintero",
+        "amount": 49620,
+        "currency": "USD",
+        "date": "2014-06-13"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0041",
+    "file": "PIECE-0041.jpg",
+    "doc_type": "power_of_attorney",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Stonehaven Assets Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Rafael Quintero",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Stonehaven Assets Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Rafael Quintero",
+        "target": "Stonehaven Assets Inc.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0042",
+    "file": "PIECE-0042.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Thornfield Partners Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Thornfield Partners Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0043",
+    "file": "PIECE-0043.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Crescent Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0044",
+    "file": "PIECE-0044.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Thornfield Assets Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Thornfield Assets Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0045",
+    "file": "PIECE-0045.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Sterling Company Services Inc.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Sterling Company Services Inc.",
+        "target": "Oakridge Enterprises Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0046",
+    "file": "PIECE-0046.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Summit Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0047",
+    "file": "PIECE-0047.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Oakridge Capital Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Corporate Services S.A.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Harbour Corporate Services S.A.",
+        "target": "Oakridge Capital Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0048",
+    "file": "PIECE-0048.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Thornfield Partners Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Thornfield Partners Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0049",
+    "file": "PIECE-0049.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Copperfield Assets Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Trading Limited",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Copperfield Trading Limited",
+        "target": "Copperfield Assets Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0050",
+    "file": "PIECE-0050.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Pinewood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Paper Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  }
+]

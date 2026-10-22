@@ -1,0 +1,171 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Copperfield Investments Corp.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Nadia Petrova",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Copperfield Investments Corp.",
+      "payee": "Nadia Petrova",
+      "amount": 9600.0,
+      "currency": "USD",
+      "date": "2014-04-23"
+    },
+    {
+      "payer": "Copperfield Investments Corp.",
+      "payee": "Marco Fiore",
+      "amount": 9350.0,
+      "currency": "USD",
+      "date": "2014-04-23"
+    },
+    {
+      "payer": "Copperfield Investments Corp.",
+      "payee": "Lena Hartmann",
+      "amount": 9525.0,
+      "currency": "USD",
+      "date": "2014-04-23"
+    },
+    {
+      "payer": "Copperfield Investments Corp.",
+      "payee": "Daniel Moreau",
+      "amount": 9650.0,
+      "currency": "USD",
+      "date": "2014-04-24"
+    },
+    {
+      "payer": "Copperfield Investments Corp.",
+      "payee": "Irene Kowalski",
+      "amount": 9725.0,
+      "currency": "USD",
+      "date": "2014-04-24"
+    },
+    {
+      "payer": "Copperfield Investments Corp.",
+      "payee": "Pablo Serrano",
+      "amount": 9275.0,
+      "currency": "USD",
+      "date": "2014-04-24"
+    }
+  ],
+  "account_holder": "Copperfield Investments Corp.",
+  "statement_lines": [
+    {
+      "date": "2014-04-23",
+      "counterparty": "Opening balance",
+      "amount": 85625.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-23",
+      "counterparty": "Transfer to Nadia Petrova",
+      "amount": -9600.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-23",
+      "counterparty": "Transfer to Marco Fiore",
+      "amount": -9350.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-23",
+      "counterparty": "Transfer to Lena Hartmann",
+      "amount": -9525.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-24",
+      "counterparty": "Transfer to Daniel Moreau",
+      "amount": -9650.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-24",
+      "counterparty": "Transfer to Irene Kowalski",
+      "amount": -9725.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-24",
+      "counterparty": "Transfer to Pablo Serrano",
+      "amount": -9275.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-27",
+      "counterparty": "Closing balance",
+      "amount": 28500.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

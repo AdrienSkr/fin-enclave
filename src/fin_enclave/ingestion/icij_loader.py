@@ -17,8 +17,6 @@ from pathlib import Path
 
 import networkx as nx
 
-from ..schemas import ProofPoint
-
 NODE_FILES = {
     "nodes-entities.csv": "Societe",
     "nodes-officers.csv": "PersonnePhysique",
@@ -131,25 +129,3 @@ def load_offshore_leaks(
         if max_relationships and kept >= max_relationships:
             break
     return G
-
-
-def _proof(G: nx.DiGraph, data: dict, value: str) -> ProofPoint:
-    fname = data["source_file"]
-    return ProofPoint(
-        document_sha256=G.graph["source_files"][fname],
-        page_sha256=data["proof_sha256"],
-        cote_judiciaire=data["doc_reference"],
-        extracted_value=value,
-        source_file=fname,
-        source_row=data["source_row"],
-        row_sha256=data["proof_sha256"],
-    )
-
-
-def proof_for_node(G: nx.DiGraph, node_id: str) -> ProofPoint:
-    return _proof(G, G.nodes[node_id], G.nodes[node_id].get("name", node_id))
-
-
-def proof_for_edge(G: nx.DiGraph, u: str, v: str) -> ProofPoint:
-    data = G[u][v]
-    return _proof(G, data, f"{data['rel_type']} ({', '.join(data['links'])})")

@@ -1,0 +1,4 @@
+{
+  "model": "Qwen/Qwen2.5-VL-72B-Instruct",
+  "summary_note": "Les registres désignent Willowmere Trading S.A. comme profil de prête-nom présumé pour Thornfield Capital Ltd., selon PIECE-0004 et PIECE-0009. Une procuration non enregistrée donne à Oskar Lindqvist le pouvoir d'opérer les comptes de ces sociétés, et il reçoit 386,525 USD de flux attestés, conformément à PIECE-0015 et PIECE-0024. Oskar Lindqvist est bénéficiaire effectif présumé, à confirmer. La dissimulation du véritable bénéficiaire pourrait constituer une DISSIMULATION_UBO_PRETE_NOM."
+}

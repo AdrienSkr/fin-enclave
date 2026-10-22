@@ -1,0 +1,1449 @@
+[
+  {
+    "piece_id": "PIECE-0001",
+    "file": "PIECE-0001.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Brightwater Holdings Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Sigrid Keller",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Brightwater Holdings Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Sigrid Keller",
+        "target": "Brightwater Holdings Corp.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0002",
+    "file": "PIECE-0002.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ironwood Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Ironwood Management Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0003",
+    "file": "PIECE-0003.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Silverpine Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Northwind Partners Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Owen Holmgren",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Silverpine Enterprises Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Northwind Partners Ltd.",
+        "target": "Silverpine Enterprises Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Owen Holmgren",
+        "target": "Silverpine Enterprises Ltd.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0004",
+    "file": "PIECE-0004.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Copperfield Ventures Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Northwind Partners Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Copperfield Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Dimitri Ibarra",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Copperfield Ventures Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Northwind Partners Ltd.",
+        "target": "Copperfield Ventures Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Copperfield Trading Ltd.",
+        "target": "Copperfield Ventures Corp.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Dimitri Ibarra",
+        "target": "Copperfield Ventures Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0005",
+    "file": "PIECE-0005.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Crescent Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0006",
+    "file": "PIECE-0006.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Cobalt Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Copperfield Ventures Corp.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Cobalt Holdings Inc.",
+        "payee": "Copperfield Ventures Corp.",
+        "amount": 2349496.75,
+        "currency": "USD",
+        "date": "2014-02-23"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0007",
+    "file": "PIECE-0007.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ashcroft Trading Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Ashcroft Trading Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0008",
+    "file": "PIECE-0008.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Mistvale Management S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Mistvale Management S.A.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0009",
+    "file": "PIECE-0009.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Cobalt Ventures Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Vincent Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Cobalt Ventures Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Vincent Ortega",
+        "target": "Cobalt Ventures Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0010",
+    "file": "PIECE-0010.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Paper Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0011",
+    "file": "PIECE-0011.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Cobalt Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Cobalt Holdings Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0012",
+    "file": "PIECE-0012.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Brightwater Holdings Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Brightwater Holdings Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0013",
+    "file": "PIECE-0013.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Paper Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Paper Catering Inc",
+        "payee": "Bluefin Printing Ltd",
+        "amount": 3590,
+        "currency": "USD",
+        "date": "2014-03-01"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0014",
+    "file": "PIECE-0014.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Cobalt Ventures Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maple Register Agents Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Maple Register Agents Ltd.",
+        "target": "Cobalt Ventures Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0015",
+    "file": "PIECE-0015.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ironwood Enterprises Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Supplies Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Ironwood Enterprises Corp.",
+        "payee": "Summit Supplies Ltd",
+        "amount": 3870,
+        "currency": "USD",
+        "date": "2014-04-09"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0016",
+    "file": "PIECE-0016.jpg",
+    "doc_type": "power_of_attorney",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Silverpine Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Viktor Haldane",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Silverpine Enterprises Ltd.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Viktor Haldane",
+        "target": "Silverpine Enterprises Ltd.",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0017",
+    "file": "PIECE-0017.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ironwood Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Ironwood Management Limited",
+        "payee": "Harbour Printing Ltd",
+        "amount": 6320,
+        "currency": "EUR",
+        "date": "2014-03-14"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0018",
+    "file": "PIECE-0018.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Harbour Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0019",
+    "file": "PIECE-0019.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Silverpine Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Silverpine Enterprises Ltd.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0020",
+    "file": "PIECE-0020.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Redwood Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Pinewood Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0021",
+    "file": "PIECE-0021.png",
+    "doc_type": "register_of_directors",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ironwood Enterprises Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Ironwood Enterprises Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0022",
+    "file": "PIECE-0022.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Enterprises Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Northwind Partners Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Silverpine Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Willowmere Capital Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Seaglass Enterprises Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Northwind Partners Ltd.",
+        "target": "Seaglass Enterprises Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Silverpine Trading Ltd.",
+        "target": "Seaglass Enterprises Inc.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Willowmere Capital Ltd.",
+        "target": "Seaglass Enterprises Inc.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0023",
+    "file": "PIECE-0023.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Summit Telecom Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Supplies Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "John Carter",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0024",
+    "file": "PIECE-0024.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Paper Supplies Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0025",
+    "file": "PIECE-0025.jpg",
+    "doc_type": "invoice",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Redwood Printing Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Harbour Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0026",
+    "file": "PIECE-0026.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Seaglass Enterprises Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Seaglass Enterprises Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0027",
+    "file": "PIECE-0027.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Brightwater Holdings Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Ironwood Management Limited",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Brightwater Holdings Corp.",
+        "payee": "Ironwood Management Limited",
+        "amount": 2266400.96,
+        "currency": "USD",
+        "date": "2014-03-03"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0028",
+    "file": "PIECE-0028.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Trading Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Seaglass Trading Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0029",
+    "file": "PIECE-0029.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ironwood Enterprises Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Ironwood Enterprises Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0030",
+    "file": "PIECE-0030.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ironwood Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Cobalt Holdings Inc.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Ironwood Management Limited",
+        "payee": "Cobalt Holdings Inc.",
+        "amount": 2390000.0,
+        "currency": "USD",
+        "date": "2014-02-20"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0031",
+    "file": "PIECE-0031.pdf",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Mistvale Assets Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Mistvale Assets Limited",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0032",
+    "file": "PIECE-0032.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Paper Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0033",
+    "file": "PIECE-0033.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Cobalt Holdings Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Cobalt Holdings Inc.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0034",
+    "file": "PIECE-0034.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Silverpine Enterprises Ltd.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Viktor Haldane",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9544,
+        "currency": "USD",
+        "date": "2014-03-24"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9418,
+        "currency": "USD",
+        "date": "2014-03-25"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9125,
+        "currency": "USD",
+        "date": "2014-03-26"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9093,
+        "currency": "USD",
+        "date": "2014-03-24"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9159,
+        "currency": "USD",
+        "date": "2014-03-25"
+      },
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9054,
+        "currency": "USD",
+        "date": "2014-03-26"
+      },
+      {
+        "payer": "Silverpine Enterprises Ltd.",
+        "payee": "Viktor Haldane",
+        "amount": 49854,
+        "currency": "USD",
+        "date": "2014-03-28"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0035",
+    "file": "PIECE-0035.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Crescent Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Couriers Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Luis Ortega",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0036",
+    "file": "PIECE-0036.jpg",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Ashcroft Trading Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Ashcroft Trading Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0037",
+    "file": "PIECE-0037.jpg",
+    "doc_type": "wire_transfer",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Copperfield Ventures Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Brightwater Holdings Corp.",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Copperfield Ventures Corp.",
+        "payee": "Brightwater Holdings Corp.",
+        "amount": 2312022.1,
+        "currency": "USD",
+        "date": "2014-02-28"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0038",
+    "file": "PIECE-0038.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Summit Couriers Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Catering Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Maria Lopez",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0039",
+    "file": "PIECE-0039.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Copperfield Ventures Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Printing Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Copperfield Ventures Corp.",
+        "payee": "Summit Printing Ltd",
+        "amount": 4720,
+        "currency": "USD",
+        "date": "2014-04-12"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0040",
+    "file": "PIECE-0040.png",
+    "doc_type": "power_of_attorney",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Ironwood Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Viktor Haldane",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Ironwood Management Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Viktor Haldane",
+        "target": "Ironwood Management Limited",
+        "role": "attorney"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0041",
+    "file": "PIECE-0041.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ironwood Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Ironwood Management Limited",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0042",
+    "file": "PIECE-0042.pdf",
+    "doc_type": "register_of_directors",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Mistvale Assets Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nora Bergstrom",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Mistvale Assets Limited",
+        "role": "shareholder"
+      },
+      {
+        "source": "Nora Bergstrom",
+        "target": "Mistvale Assets Limited",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0043",
+    "file": "PIECE-0043.png",
+    "doc_type": "certificate_of_incorporation",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Copperfield Ventures Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Atlas Nominees Bureau Ltd.",
+        "kind": "Intermediaire"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Atlas Nominees Bureau Ltd.",
+        "target": "Copperfield Ventures Corp.",
+        "role": "intermediary"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0044",
+    "file": "PIECE-0044.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Mistvale Management S.A.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Julian Reynaud",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Mistvale Management S.A.",
+        "role": "shareholder"
+      },
+      {
+        "source": "Julian Reynaud",
+        "target": "Mistvale Management S.A.",
+        "role": "beneficial_owner"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0045",
+    "file": "PIECE-0045.pdf",
+    "doc_type": "wire_transfer",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Ironwood Management Limited",
+        "kind": "Societe"
+      },
+      {
+        "name": "Viktor Haldane",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Ironwood Management Limited",
+        "payee": "Viktor Haldane",
+        "amount": 407952.17,
+        "currency": "USD",
+        "date": "2014-03-06"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0046",
+    "file": "PIECE-0046.pdf",
+    "doc_type": "bank_statement",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Cobalt Ventures Inc.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Irene Kowalski",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Lena Hartmann",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Marco Fiore",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Nadia Petrova",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Pablo Serrano",
+        "kind": "PersonnePhysique"
+      },
+      {
+        "name": "Tomas Vidal",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Irene Kowalski",
+        "amount": 9650,
+        "currency": "USD",
+        "date": "2014-03-22"
+      },
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Lena Hartmann",
+        "amount": 9600,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Marco Fiore",
+        "amount": 9300,
+        "currency": "USD",
+        "date": "2014-03-22"
+      },
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Pablo Serrano",
+        "amount": 9275,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Tomas Vidal",
+        "amount": 9300,
+        "currency": "USD",
+        "date": "2014-03-22"
+      },
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Nadia Petrova",
+        "amount": 9200,
+        "currency": "USD",
+        "date": "2014-03-23"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0047",
+    "file": "PIECE-0047.png",
+    "doc_type": "wire_transfer",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Summit Telecom Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Redwood Telecom Ltd",
+        "kind": "Societe"
+      }
+    ],
+    "relations": [],
+    "transfers": [
+      {
+        "payer": "Summit Telecom Inc",
+        "payee": "Redwood Telecom Ltd",
+        "amount": 3020,
+        "currency": "USD",
+        "date": "2014-03-01"
+      }
+    ]
+  },
+  {
+    "piece_id": "PIECE-0048",
+    "file": "PIECE-0048.jpg",
+    "doc_type": "register_of_directors",
+    "quality": "photo",
+    "entities": [
+      {
+        "name": "Seaglass Trading Corp.",
+        "kind": "Societe"
+      },
+      {
+        "name": "Northwind Trading Ltd.",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [
+      {
+        "source": "Northwind Trading Ltd.",
+        "target": "Seaglass Trading Corp.",
+        "role": "shareholder"
+      }
+    ],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0049",
+    "file": "PIECE-0049.pdf",
+    "doc_type": "invoice",
+    "quality": "scan",
+    "entities": [
+      {
+        "name": "Paper Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Summit Cleaning Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Anna Novak",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  },
+  {
+    "piece_id": "PIECE-0050",
+    "file": "PIECE-0050.png",
+    "doc_type": "invoice",
+    "quality": "clean",
+    "entities": [
+      {
+        "name": "Bluefin Cleaning Ltd",
+        "kind": "Societe"
+      },
+      {
+        "name": "Bluefin Printing Inc",
+        "kind": "Societe"
+      },
+      {
+        "name": "Peter Hughes",
+        "kind": "PersonnePhysique"
+      }
+    ],
+    "relations": [],
+    "transfers": []
+  }
+]

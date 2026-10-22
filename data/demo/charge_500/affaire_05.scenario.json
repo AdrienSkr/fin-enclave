@@ -1,0 +1,214 @@
+{
+  "simulated": true,
+  "beneficiary": "Rafael Quintero",
+  "nominee": "Copperfield Trading Limited",
+  "cycle": [
+    "Stonehaven Assets Inc.",
+    "Oakridge Partners Inc.",
+    "Fairhaven Management S.A.",
+    "Oakridge Enterprises Ltd."
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Stonehaven Assets Inc.",
+      "payee": "Oakridge Partners Inc.",
+      "amount": 1967500.0,
+      "currency": "USD",
+      "date": "2014-05-14"
+    },
+    {
+      "payer": "Oakridge Partners Inc.",
+      "payee": "Fairhaven Management S.A.",
+      "amount": 1922014.24,
+      "currency": "USD",
+      "date": "2014-05-20"
+    },
+    {
+      "payer": "Fairhaven Management S.A.",
+      "payee": "Oakridge Enterprises Ltd.",
+      "amount": 1864387.24,
+      "currency": "USD",
+      "date": "2014-05-26"
+    },
+    {
+      "payer": "Oakridge Enterprises Ltd.",
+      "payee": "Stonehaven Assets Inc.",
+      "amount": 1822780.87,
+      "currency": "USD",
+      "date": "2014-06-02"
+    }
+  ],
+  "exit_transfers": [
+    {
+      "payer": "Stonehaven Assets Inc.",
+      "payee": "Rafael Quintero",
+      "amount": 328100.56,
+      "currency": "USD",
+      "date": "2014-06-06"
+    },
+    {
+      "payer": "Copperfield Assets Corp.",
+      "payee": "Rafael Quintero",
+      "amount": 49620,
+      "currency": "USD",
+      "date": "2014-06-13"
+    }
+  ],
+  "smurfing": {
+    "source": "Fairhaven Investments Limited",
+    "collector": "Copperfield Assets Corp.",
+    "mules": [
+      "Nadia Petrova",
+      "Daniel Moreau",
+      "Pablo Serrano",
+      "Tomas Vidal",
+      "Marco Fiore",
+      "Lena Hartmann"
+    ],
+    "fan_out": [
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Nadia Petrova",
+        "amount": 9450,
+        "currency": "USD",
+        "date": "2014-06-07"
+      },
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Daniel Moreau",
+        "amount": 9475,
+        "currency": "USD",
+        "date": "2014-06-08"
+      },
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Pablo Serrano",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-06-07"
+      },
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Tomas Vidal",
+        "amount": 9375,
+        "currency": "USD",
+        "date": "2014-06-08"
+      },
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Marco Fiore",
+        "amount": 9150,
+        "currency": "USD",
+        "date": "2014-06-07"
+      },
+      {
+        "payer": "Fairhaven Investments Limited",
+        "payee": "Lena Hartmann",
+        "amount": 9750,
+        "currency": "USD",
+        "date": "2014-06-08"
+      }
+    ],
+    "fan_in": [
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 9266,
+        "currency": "USD",
+        "date": "2014-06-09"
+      },
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 9206,
+        "currency": "USD",
+        "date": "2014-06-10"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 8929,
+        "currency": "USD",
+        "date": "2014-06-11"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 9222,
+        "currency": "USD",
+        "date": "2014-06-09"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 8881,
+        "currency": "USD",
+        "date": "2014-06-10"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Copperfield Assets Corp.",
+        "amount": 9629,
+        "currency": "USD",
+        "date": "2014-06-11"
+      }
+    ]
+  },
+  "powers_of_attorney": [
+    {
+      "company": "Stonehaven Assets Inc.",
+      "grantor": {
+        "name": "Copperfield Trading Limited",
+        "role": "shareholder"
+      },
+      "attorney": "Rafael Quintero"
+    },
+    {
+      "company": "Copperfield Assets Corp.",
+      "grantor": {
+        "name": "Copperfield Trading Limited",
+        "role": "shareholder"
+      },
+      "attorney": "Rafael Quintero"
+    }
+  ],
+  "legit_payments": [
+    {
+      "payer": "Oakridge Enterprises Ltd.",
+      "payee": "Paper Printing Ltd",
+      "amount": 2210,
+      "currency": "USD",
+      "date": "2014-05-22"
+    },
+    {
+      "payer": "Cobalt Management Ltd.",
+      "payee": "Summit Catering Ltd",
+      "amount": 4660,
+      "currency": "USD",
+      "date": "2014-05-17"
+    },
+    {
+      "payer": "Silverpine Ventures S.A.",
+      "payee": "Bluefin Catering Ltd",
+      "amount": 4800,
+      "currency": "EUR",
+      "date": "2014-06-26"
+    }
+  ],
+  "decoy_transfers": [
+    {
+      "payer": "Summit Supplies Inc",
+      "payee": "Pinewood Telecom Ltd",
+      "amount": 1575,
+      "currency": "USD",
+      "date": "2014-05-23"
+    },
+    {
+      "payer": "Harbour Couriers Inc",
+      "payee": "Bluefin Cleaning Ltd",
+      "amount": 3410,
+      "currency": "USD",
+      "date": "2014-05-23"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "simulated": true,
+  "beneficiary": "Rafael Quintero",
+  "nominee": "Northwind Trading Corp.",
+  "cycle": [
+    "Brightwater Investments Limited",
+    "Stonehaven Investments S.A.",
+    "Amberfield Holdings Limited",
+    "Brightwater Ventures S.A."
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Brightwater Investments Limited",
+      "payee": "Stonehaven Investments S.A.",
+      "amount": 2375000.0,
+      "currency": "USD",
+      "date": "2014-02-10"
+    },
+    {
+      "payer": "Stonehaven Investments S.A.",
+      "payee": "Amberfield Holdings Limited",
+      "amount": 2338776.95,
+      "currency": "USD",
+      "date": "2014-02-17"
+    },
+    {
+      "payer": "Amberfield Holdings Limited",
+      "payee": "Brightwater Ventures S.A.",
+      "amount": 2276195.02,
+      "currency": "USD",
+      "date": "2014-02-21"
+    },
+    {
+      "payer": "Brightwater Ventures S.A.",
+      "payee": "Brightwater Investments Limited",
+      "amount": 2208975.46,
+      "currency": "USD",
+      "date": "2014-03-02"
+    }
+  ],
+  "exit_transfers": [
+    {
+      "payer": "Brightwater Investments Limited",
+      "payee": "Rafael Quintero",
+      "amount": 397615.58,
+      "currency": "USD",
+      "date": "2014-03-11"
+    },
+    {
+      "payer": "Stonehaven Management Corp.",
+      "payee": "Rafael Quintero",
+      "amount": 50072,
+      "currency": "USD",
+      "date": "2014-03-26"
+    }
+  ],
+  "smurfing": {
+    "source": "Thornfield Investments Corp.",
+    "collector": "Stonehaven Management Corp.",
+    "mules": [
+      "Daniel Moreau",
+      "Pablo Serrano",
+      "Sofia Brandt",
+      "Nadia Petrova",
+      "Irene Kowalski",
+      "Lena Hartmann"
+    ],
+    "fan_out": [
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Daniel Moreau",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-03-20"
+      },
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Pablo Serrano",
+        "amount": 9725,
+        "currency": "USD",
+        "date": "2014-03-21"
+      },
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Sofia Brandt",
+        "amount": 9350,
+        "currency": "USD",
+        "date": "2014-03-20"
+      },
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Nadia Petrova",
+        "amount": 9400,
+        "currency": "USD",
+        "date": "2014-03-21"
+      },
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Irene Kowalski",
+        "amount": 9775,
+        "currency": "USD",
+        "date": "2014-03-20"
+      },
+      {
+        "payer": "Thornfield Investments Corp.",
+        "payee": "Lena Hartmann",
+        "amount": 9175,
+        "currency": "USD",
+        "date": "2014-03-21"
+      }
+    ],
+    "fan_in": [
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9045,
+        "currency": "USD",
+        "date": "2014-03-22"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9609,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Sofia Brandt",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9123,
+        "currency": "USD",
+        "date": "2014-03-24"
+      },
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9240,
+        "currency": "USD",
+        "date": "2014-03-22"
+      },
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9618,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Stonehaven Management Corp.",
+        "amount": 9000,
+        "currency": "USD",
+        "date": "2014-03-24"
+      }
+    ]
+  },
+  "powers_of_attorney": [
+    {
+      "company": "Brightwater Investments Limited",
+      "grantor": {
+        "name": "Northwind Trading Corp.",
+        "role": "shareholder"
+      },
+      "attorney": "Rafael Quintero"
+    },
+    {
+      "company": "Stonehaven Management Corp.",
+      "grantor": {
+        "name": "Northwind Trading Corp.",
+        "role": "shareholder"
+      },
+      "attorney": "Rafael Quintero"
+    }
+  ],
+  "legit_payments": [
+    {
+      "payer": "Amberfield Holdings Limited",
+      "payee": "Paper Telecom Ltd",
+      "amount": 1890,
+      "currency": "EUR",
+      "date": "2014-03-22"
+    },
+    {
+      "payer": "Stonehaven Investments S.A.",
+      "payee": "Bluefin Catering Ltd",
+      "amount": 4460,
+      "currency": "USD",
+      "date": "2014-03-18"
+    },
+    {
+      "payer": "Cobalt Partners Corp.",
+      "payee": "Harbour Printing Ltd",
+      "amount": 5220,
+      "currency": "USD",
+      "date": "2014-03-20"
+    }
+  ],
+  "decoy_transfers": [
+    {
+      "payer": "Pinewood Catering Inc",
+      "payee": "Crescent Telecom Ltd",
+      "amount": 4380,
+      "currency": "USD",
+      "date": "2014-02-19"
+    },
+    {
+      "payer": "Summit Couriers Inc",
+      "payee": "Harbour Cleaning Ltd",
+      "amount": 2905,
+      "currency": "USD",
+      "date": "2014-02-19"
+    }
+  ]
+}

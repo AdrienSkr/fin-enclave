@@ -1,0 +1,214 @@
+{
+  "simulated": true,
+  "beneficiary": "Viktor Haldane",
+  "nominee": "Willowmere Group Inc.",
+  "cycle": [
+    "Glenbrook Ventures S.A.",
+    "Cobalt Assets Corp.",
+    "Fairhaven Assets Ltd.",
+    "Amberfield Capital Limited"
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Glenbrook Ventures S.A.",
+      "payee": "Cobalt Assets Corp.",
+      "amount": 2597500.0,
+      "currency": "USD",
+      "date": "2014-03-25"
+    },
+    {
+      "payer": "Cobalt Assets Corp.",
+      "payee": "Fairhaven Assets Ltd.",
+      "amount": 2558082.42,
+      "currency": "USD",
+      "date": "2014-04-03"
+    },
+    {
+      "payer": "Fairhaven Assets Ltd.",
+      "payee": "Amberfield Capital Limited",
+      "amount": 2512190.62,
+      "currency": "USD",
+      "date": "2014-04-12"
+    },
+    {
+      "payer": "Amberfield Capital Limited",
+      "payee": "Glenbrook Ventures S.A.",
+      "amount": 2445895.45,
+      "currency": "USD",
+      "date": "2014-04-19"
+    }
+  ],
+  "exit_transfers": [
+    {
+      "payer": "Glenbrook Ventures S.A.",
+      "payee": "Viktor Haldane",
+      "amount": 440261.18,
+      "currency": "USD",
+      "date": "2014-04-27"
+    },
+    {
+      "payer": "Stonehaven Group Inc.",
+      "payee": "Viktor Haldane",
+      "amount": 51309,
+      "currency": "USD",
+      "date": "2014-05-04"
+    }
+  ],
+  "smurfing": {
+    "source": "Oakridge Holdings Limited",
+    "collector": "Stonehaven Group Inc.",
+    "mules": [
+      "Pablo Serrano",
+      "Daniel Moreau",
+      "Sofia Brandt",
+      "Tomas Vidal",
+      "Lena Hartmann",
+      "Irene Kowalski"
+    ],
+    "fan_out": [
+      {
+        "payer": "Oakridge Holdings Limited",
+        "payee": "Pablo Serrano",
+        "amount": 9875,
+        "currency": "USD",
+        "date": "2014-04-28"
+      },
+      {
+        "payer": "Oakridge Holdings Limited",
+        "payee": "Daniel Moreau",
+        "amount": 9875,
+        "currency": "USD",
+        "date": "2014-04-29"
+      },
+      {
+        "payer": "Oakridge Holdings Limited",
+        "payee": "Sofia Brandt",
+        "amount": 9850,
+        "currency": "USD",
+        "date": "2014-04-28"
+      },
+      {
+        "payer": "Oakridge Holdings Limited",
+        "payee": "Tomas Vidal",
+        "amount": 9825,
+        "currency": "USD",
+        "date": "2014-04-29"
+      },
+      {
+        "payer": "Oakridge Holdings Limited",
+        "payee": "Lena Hartmann",
+        "amount": 9150,
+        "currency": "USD",
+        "date": "2014-04-28"
+      },
+      {
+        "payer": "Oakridge Holdings Limited",
+        "payee": "Irene Kowalski",
+        "amount": 9800,
+        "currency": "USD",
+        "date": "2014-04-29"
+      }
+    ],
+    "fan_in": [
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Stonehaven Group Inc.",
+        "amount": 9718,
+        "currency": "USD",
+        "date": "2014-04-30"
+      },
+      {
+        "payer": "Daniel Moreau",
+        "payee": "Stonehaven Group Inc.",
+        "amount": 9582,
+        "currency": "USD",
+        "date": "2014-05-01"
+      },
+      {
+        "payer": "Sofia Brandt",
+        "payee": "Stonehaven Group Inc.",
+        "amount": 9558,
+        "currency": "USD",
+        "date": "2014-05-02"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Stonehaven Group Inc.",
+        "amount": 9627,
+        "currency": "USD",
+        "date": "2014-04-30"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Stonehaven Group Inc.",
+        "amount": 8917,
+        "currency": "USD",
+        "date": "2014-05-01"
+      },
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Stonehaven Group Inc.",
+        "amount": 9608,
+        "currency": "USD",
+        "date": "2014-05-02"
+      }
+    ]
+  },
+  "powers_of_attorney": [
+    {
+      "company": "Glenbrook Ventures S.A.",
+      "grantor": {
+        "name": "Willowmere Group Inc.",
+        "role": "shareholder"
+      },
+      "attorney": "Viktor Haldane"
+    },
+    {
+      "company": "Stonehaven Group Inc.",
+      "grantor": {
+        "name": "Willowmere Group Inc.",
+        "role": "shareholder"
+      },
+      "attorney": "Viktor Haldane"
+    }
+  ],
+  "legit_payments": [
+    {
+      "payer": "Ashcroft Investments Inc.",
+      "payee": "Pinewood Couriers Ltd",
+      "amount": 2080,
+      "currency": "USD",
+      "date": "2014-05-14"
+    },
+    {
+      "payer": "Oakridge Capital Ltd.",
+      "payee": "Pinewood Supplies Ltd",
+      "amount": 3940,
+      "currency": "USD",
+      "date": "2014-05-14"
+    },
+    {
+      "payer": "Stonehaven Holdings Corp.",
+      "payee": "Paper Cleaning Ltd",
+      "amount": 4650,
+      "currency": "USD",
+      "date": "2014-05-05"
+    }
+  ],
+  "decoy_transfers": [
+    {
+      "payer": "Redwood Printing Inc",
+      "payee": "Summit Supplies Ltd",
+      "amount": 2815,
+      "currency": "USD",
+      "date": "2014-04-03"
+    },
+    {
+      "payer": "Redwood Supplies Inc",
+      "payee": "Bluefin Cleaning Ltd",
+      "amount": 3560,
+      "currency": "USD",
+      "date": "2014-04-03"
+    }
+  ]
+}

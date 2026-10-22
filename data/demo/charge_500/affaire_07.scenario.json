@@ -1,0 +1,214 @@
+{
+  "simulated": true,
+  "beneficiary": "Oskar Lindqvist",
+  "nominee": "Mistvale Management Corp.",
+  "cycle": [
+    "Oakridge Enterprises S.A.",
+    "Amberfield Partners Ltd.",
+    "Ironwood Holdings Inc.",
+    "Fairhaven Trading Corp."
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Oakridge Enterprises S.A.",
+      "payee": "Amberfield Partners Ltd.",
+      "amount": 2392500.0,
+      "currency": "USD",
+      "date": "2014-02-13"
+    },
+    {
+      "payer": "Amberfield Partners Ltd.",
+      "payee": "Ironwood Holdings Inc.",
+      "amount": 2343492.1,
+      "currency": "USD",
+      "date": "2014-02-19"
+    },
+    {
+      "payer": "Ironwood Holdings Inc.",
+      "payee": "Fairhaven Trading Corp.",
+      "amount": 2303003.14,
+      "currency": "USD",
+      "date": "2014-02-24"
+    },
+    {
+      "payer": "Fairhaven Trading Corp.",
+      "payee": "Oakridge Enterprises S.A.",
+      "amount": 2262487.01,
+      "currency": "USD",
+      "date": "2014-02-28"
+    }
+  ],
+  "exit_transfers": [
+    {
+      "payer": "Oakridge Enterprises S.A.",
+      "payee": "Oskar Lindqvist",
+      "amount": 407247.66,
+      "currency": "USD",
+      "date": "2014-03-07"
+    },
+    {
+      "payer": "Fairhaven Trading Ltd.",
+      "payee": "Oskar Lindqvist",
+      "amount": 50515,
+      "currency": "USD",
+      "date": "2014-03-13"
+    }
+  ],
+  "smurfing": {
+    "source": "Oakridge Management Limited",
+    "collector": "Fairhaven Trading Ltd.",
+    "mules": [
+      "Sofia Brandt",
+      "Lena Hartmann",
+      "Marco Fiore",
+      "Pablo Serrano",
+      "Tomas Vidal",
+      "Irene Kowalski"
+    ],
+    "fan_out": [
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Sofia Brandt",
+        "amount": 9350,
+        "currency": "USD",
+        "date": "2014-03-07"
+      },
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Lena Hartmann",
+        "amount": 9800,
+        "currency": "USD",
+        "date": "2014-03-08"
+      },
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Marco Fiore",
+        "amount": 9350,
+        "currency": "USD",
+        "date": "2014-03-07"
+      },
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Pablo Serrano",
+        "amount": 9300,
+        "currency": "USD",
+        "date": "2014-03-08"
+      },
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Tomas Vidal",
+        "amount": 9625,
+        "currency": "USD",
+        "date": "2014-03-07"
+      },
+      {
+        "payer": "Oakridge Management Limited",
+        "payee": "Irene Kowalski",
+        "amount": 9825,
+        "currency": "USD",
+        "date": "2014-03-08"
+      }
+    ],
+    "fan_in": [
+      {
+        "payer": "Sofia Brandt",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9230,
+        "currency": "USD",
+        "date": "2014-03-09"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9634,
+        "currency": "USD",
+        "date": "2014-03-10"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9115,
+        "currency": "USD",
+        "date": "2014-03-11"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9038,
+        "currency": "USD",
+        "date": "2014-03-09"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9428,
+        "currency": "USD",
+        "date": "2014-03-10"
+      },
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Fairhaven Trading Ltd.",
+        "amount": 9683,
+        "currency": "USD",
+        "date": "2014-03-11"
+      }
+    ]
+  },
+  "powers_of_attorney": [
+    {
+      "company": "Oakridge Enterprises S.A.",
+      "grantor": {
+        "name": "Mistvale Management Corp.",
+        "role": "shareholder"
+      },
+      "attorney": "Oskar Lindqvist"
+    },
+    {
+      "company": "Fairhaven Trading Ltd.",
+      "grantor": {
+        "name": "Mistvale Management Corp.",
+        "role": "shareholder"
+      },
+      "attorney": "Oskar Lindqvist"
+    }
+  ],
+  "legit_payments": [
+    {
+      "payer": "Fairhaven Group Ltd.",
+      "payee": "Paper Catering Ltd",
+      "amount": 5530,
+      "currency": "EUR",
+      "date": "2014-02-14"
+    },
+    {
+      "payer": "Mistvale Holdings Corp.",
+      "payee": "Redwood Telecom Ltd",
+      "amount": 6360,
+      "currency": "USD",
+      "date": "2014-03-09"
+    },
+    {
+      "payer": "Fairhaven Trading Ltd.",
+      "payee": "Summit Supplies Ltd",
+      "amount": 5860,
+      "currency": "EUR",
+      "date": "2014-04-12"
+    }
+  ],
+  "decoy_transfers": [
+    {
+      "payer": "Paper Supplies Inc",
+      "payee": "Harbour Couriers Ltd",
+      "amount": 4780,
+      "currency": "USD",
+      "date": "2014-02-22"
+    },
+    {
+      "payer": "Paper Couriers Inc",
+      "payee": "Harbour Couriers Ltd",
+      "amount": 3220,
+      "currency": "USD",
+      "date": "2014-02-22"
+    }
+  ]
+}

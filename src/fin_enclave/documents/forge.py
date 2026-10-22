@@ -490,7 +490,7 @@ def money_scenario(case: list[dict], seed: int = 7) -> dict:
             )
         )
     decoys = []
-    for _ in range(2):
+    while len(decoys) < 2:
         a = f"{rng.choice(_FAKE_FIRST)} {rng.choice(_FAKE_SECOND)} Inc"
         b = f"{rng.choice(_FAKE_FIRST)} {rng.choice(_FAKE_SECOND)} Ltd"
         if a.split()[0] != b.split()[0]:
@@ -547,7 +547,7 @@ def _money_jobs(scenario: dict, rng: random.Random) -> list[tuple]:
 def forge_dossier(
     case: list[dict],
     out_dir: Path,
-    n_distractors: int = 6,
+    n_distractors: int = 12,
     seed: int = 7,
     with_money: bool = True,
     anonymize: bool = True,
@@ -646,3 +646,65 @@ def forge_dossier(
             json.dumps(scenario, indent=2, ensure_ascii=False), encoding="utf-8"
         )
     return pieces
+
+
+def forge_charge_500(
+    base_dir: Path = Path("data/demo/charge_500"),
+    n_cases: int = 10,
+    seed_start: int = 101,
+) -> list[Path]:
+    """
+    Génère n affaires indépendantes (par défaut 10 dossiers de 50 pièces = 500 pièces).
+
+    Pour chaque affaire (affaire_01 à affaire_10), utilise une graine distincte
+    (seed_start + i) pour permuter et anonymiser les entités, puis forge les pièces
+    avec vérité terrain et scénario financier déterministes.
+    """
+    candidates = [
+        base_dir.parent / "pieces.cas_icij.json",
+        Path("data/demo/pieces.cas_icij.json"),
+        base_dir / "pieces.cas_icij.json",
+    ]
+    raw_case: list[dict] | None = None
+    for cand in candidates:
+        if cand.exists():
+            raw_case = json.loads(cand.read_text(encoding="utf-8"))
+            break
+    if raw_case is None:
+        icij_path = Path("data/external/oldb")
+        if icij_path.exists():
+            from fin_enclave.graph.structural import detect_nominee_hubs
+            from fin_enclave.ingestion.icij_loader import load_offshore_leaks
+
+            g_icij = load_offshore_leaks(icij_path)
+            hub = next(h for h in detect_nominee_hubs(g_icij, 30) if 40 <= h["k_out"] <= 150)
+            raw_case = select_case(g_icij, hub["node"], 12, seed_start)
+        else:
+            raise FileNotFoundError(
+                "Base ICIJ ou pieces.cas_icij.json introuvable pour forger les affaires."
+            )
+
+    base_dir.mkdir(parents=True, exist_ok=True)
+    created: list[Path] = []
+    for i in range(n_cases):
+        seed = seed_start + i
+        case_name = f"affaire_{i + 1:02d}"
+        case_dir = base_dir / case_name
+        case_dir.mkdir(parents=True, exist_ok=True)
+        for f in case_dir.glob("PIECE-*"):
+            f.unlink()
+
+        rng = random.Random(seed)
+        case_copy = copy.deepcopy(raw_case)
+        rng.shuffle(case_copy)
+
+        forge_dossier(
+            case_copy,
+            case_dir,
+            n_distractors=12,
+            seed=seed,
+            with_money=True,
+            anonymize=True,
+        )
+        created.append(case_dir)
+    return created

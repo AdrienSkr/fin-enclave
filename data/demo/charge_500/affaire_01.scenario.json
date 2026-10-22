@@ -1,0 +1,214 @@
+{
+  "simulated": true,
+  "beneficiary": "Viktor Haldane",
+  "nominee": "Northwind Trading Ltd.",
+  "cycle": [
+    "Ironwood Management Limited",
+    "Cobalt Holdings Inc.",
+    "Copperfield Ventures Corp.",
+    "Brightwater Holdings Corp."
+  ],
+  "cycle_transfers": [
+    {
+      "payer": "Ironwood Management Limited",
+      "payee": "Cobalt Holdings Inc.",
+      "amount": 2390000.0,
+      "currency": "USD",
+      "date": "2014-02-20"
+    },
+    {
+      "payer": "Cobalt Holdings Inc.",
+      "payee": "Copperfield Ventures Corp.",
+      "amount": 2349496.75,
+      "currency": "USD",
+      "date": "2014-02-23"
+    },
+    {
+      "payer": "Copperfield Ventures Corp.",
+      "payee": "Brightwater Holdings Corp.",
+      "amount": 2312022.1,
+      "currency": "USD",
+      "date": "2014-02-28"
+    },
+    {
+      "payer": "Brightwater Holdings Corp.",
+      "payee": "Ironwood Management Limited",
+      "amount": 2266400.96,
+      "currency": "USD",
+      "date": "2014-03-03"
+    }
+  ],
+  "exit_transfers": [
+    {
+      "payer": "Ironwood Management Limited",
+      "payee": "Viktor Haldane",
+      "amount": 407952.17,
+      "currency": "USD",
+      "date": "2014-03-06"
+    },
+    {
+      "payer": "Silverpine Enterprises Ltd.",
+      "payee": "Viktor Haldane",
+      "amount": 49854,
+      "currency": "USD",
+      "date": "2014-03-28"
+    }
+  ],
+  "smurfing": {
+    "source": "Cobalt Ventures Inc.",
+    "collector": "Silverpine Enterprises Ltd.",
+    "mules": [
+      "Irene Kowalski",
+      "Lena Hartmann",
+      "Marco Fiore",
+      "Pablo Serrano",
+      "Tomas Vidal",
+      "Nadia Petrova"
+    ],
+    "fan_out": [
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Irene Kowalski",
+        "amount": 9650,
+        "currency": "USD",
+        "date": "2014-03-22"
+      },
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Lena Hartmann",
+        "amount": 9600,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Marco Fiore",
+        "amount": 9300,
+        "currency": "USD",
+        "date": "2014-03-22"
+      },
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Pablo Serrano",
+        "amount": 9275,
+        "currency": "USD",
+        "date": "2014-03-23"
+      },
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Tomas Vidal",
+        "amount": 9300,
+        "currency": "USD",
+        "date": "2014-03-22"
+      },
+      {
+        "payer": "Cobalt Ventures Inc.",
+        "payee": "Nadia Petrova",
+        "amount": 9200,
+        "currency": "USD",
+        "date": "2014-03-23"
+      }
+    ],
+    "fan_in": [
+      {
+        "payer": "Irene Kowalski",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9544,
+        "currency": "USD",
+        "date": "2014-03-24"
+      },
+      {
+        "payer": "Lena Hartmann",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9418,
+        "currency": "USD",
+        "date": "2014-03-25"
+      },
+      {
+        "payer": "Marco Fiore",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9125,
+        "currency": "USD",
+        "date": "2014-03-26"
+      },
+      {
+        "payer": "Pablo Serrano",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9093,
+        "currency": "USD",
+        "date": "2014-03-24"
+      },
+      {
+        "payer": "Tomas Vidal",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9159,
+        "currency": "USD",
+        "date": "2014-03-25"
+      },
+      {
+        "payer": "Nadia Petrova",
+        "payee": "Silverpine Enterprises Ltd.",
+        "amount": 9054,
+        "currency": "USD",
+        "date": "2014-03-26"
+      }
+    ]
+  },
+  "powers_of_attorney": [
+    {
+      "company": "Ironwood Management Limited",
+      "grantor": {
+        "name": "Northwind Trading Ltd.",
+        "role": "shareholder"
+      },
+      "attorney": "Viktor Haldane"
+    },
+    {
+      "company": "Silverpine Enterprises Ltd.",
+      "grantor": {
+        "name": "Northwind Trading Ltd.",
+        "role": "shareholder"
+      },
+      "attorney": "Viktor Haldane"
+    }
+  ],
+  "legit_payments": [
+    {
+      "payer": "Copperfield Ventures Corp.",
+      "payee": "Summit Printing Ltd",
+      "amount": 4720,
+      "currency": "USD",
+      "date": "2014-04-12"
+    },
+    {
+      "payer": "Ironwood Enterprises Corp.",
+      "payee": "Summit Supplies Ltd",
+      "amount": 3870,
+      "currency": "USD",
+      "date": "2014-04-09"
+    },
+    {
+      "payer": "Ironwood Management Limited",
+      "payee": "Harbour Printing Ltd",
+      "amount": 6320,
+      "currency": "EUR",
+      "date": "2014-03-14"
+    }
+  ],
+  "decoy_transfers": [
+    {
+      "payer": "Paper Catering Inc",
+      "payee": "Bluefin Printing Ltd",
+      "amount": 3590,
+      "currency": "USD",
+      "date": "2014-03-01"
+    },
+    {
+      "payer": "Summit Telecom Inc",
+      "payee": "Redwood Telecom Ltd",
+      "amount": 3020,
+      "currency": "USD",
+      "date": "2014-03-01"
+    }
+  ]
+}
