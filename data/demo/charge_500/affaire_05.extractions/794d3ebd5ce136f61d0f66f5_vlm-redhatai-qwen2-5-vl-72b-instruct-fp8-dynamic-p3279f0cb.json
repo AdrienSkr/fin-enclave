@@ -1,0 +1,42 @@
+{
+  "doc_type": "power_of_attorney",
+  "entities": [
+    {
+      "name": "Stonehaven Assets Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Copperfield Trading Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Rafael Quintero",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Copperfield Trading Limited",
+      "target": "Stonehaven Assets Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Rafael Quintero",
+      "target": "Stonehaven Assets Inc.",
+      "role": "attorney"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,42 @@
+{
+  "doc_type": "power_of_attorney",
+  "entities": [
+    {
+      "name": "Silverpine Enterprises Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Trading Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Viktor Haldane",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Northwind Trading Ltd.",
+      "target": "Silverpine Enterprises Ltd.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Viktor Haldane",
+      "target": "Silverpine Enterprises Ltd.",
+      "role": "attorney"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

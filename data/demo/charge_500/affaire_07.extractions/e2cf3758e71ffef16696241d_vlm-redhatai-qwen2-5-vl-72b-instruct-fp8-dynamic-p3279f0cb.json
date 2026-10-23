@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Fairhaven Trading Corp.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Oakridge Enterprises S.A.",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Fairhaven Trading Corp.",
+  "statement_lines": [
+    {
+      "date": "2014-02-28",
+      "counterparty": "Oakridge Enterprises S.A.",
+      "amount": -2262487.01,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Ironwood Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Management Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Investments S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Ventures Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Group Ltd.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Mistvale Management Corp.",
+      "target": "Ironwood Holdings Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Seaglass Investments S.A.",
+      "target": "Ironwood Holdings Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Oakridge Ventures Ltd.",
+      "target": "Ironwood Holdings Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Northwind Group Ltd.",
+      "target": "Ironwood Holdings Inc.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

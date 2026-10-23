@@ -1,0 +1,31 @@
+{
+  "doc_type": "invoice",
+  "entities": [
+    {
+      "name": "Redwood Printing Ltd",
+      "kind": "Societe"
+    },
+    {
+      "name": "Harbour Printing Inc",
+      "kind": "Societe"
+    },
+    {
+      "name": "Anna Novak",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

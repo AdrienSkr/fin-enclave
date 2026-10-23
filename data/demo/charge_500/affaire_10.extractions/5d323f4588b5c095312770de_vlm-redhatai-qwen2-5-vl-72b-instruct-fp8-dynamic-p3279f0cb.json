@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Cobalt Trading S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Trading Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Fairhaven Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Fairhaven Holdings Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Vincent Castille",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Northwind Trading Corp.",
+      "target": "Cobalt Trading S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Fairhaven Group Limited",
+      "target": "Cobalt Trading S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Fairhaven Holdings Corp.",
+      "target": "Cobalt Trading S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Vincent Castille",
+      "target": "Cobalt Trading S.A.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

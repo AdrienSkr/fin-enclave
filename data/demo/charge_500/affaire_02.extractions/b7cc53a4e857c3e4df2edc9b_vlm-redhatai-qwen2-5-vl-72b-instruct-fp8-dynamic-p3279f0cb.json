@@ -1,0 +1,51 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Stonehaven Ventures Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ashcroft Enterprises Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Investments S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Helena Pavlov",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Ashcroft Enterprises Inc.",
+      "target": "Stonehaven Ventures Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Seaglass Investments S.A.",
+      "target": "Stonehaven Ventures Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Helena Pavlov",
+      "target": "Stonehaven Ventures Corp.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

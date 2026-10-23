@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Copperfield Management Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Management S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Copperfield Trading Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Investments S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ironwood Capital Limited",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Amberfield Management S.A.",
+      "target": "Copperfield Management Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Copperfield Trading Inc.",
+      "target": "Copperfield Management Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Seaglass Investments S.A.",
+      "target": "Copperfield Management Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Ironwood Capital Limited",
+      "target": "Copperfield Management Corp.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

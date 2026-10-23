@@ -1,0 +1,108 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Glenbrook Assets S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Nadia Petrova",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Glenbrook Assets S.A.",
+  "statement_lines": [
+    {
+      "date": "2014-03-11",
+      "counterparty": "Lena Hartmann",
+      "amount": -9450.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-11",
+      "counterparty": "Daniel Moreau",
+      "amount": -9775.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-11",
+      "counterparty": "Nadia Petrova",
+      "amount": -9475.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-12",
+      "counterparty": "Marco Fiore",
+      "amount": -9125.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-12",
+      "counterparty": "Tomas Vidal",
+      "amount": -9575.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-12",
+      "counterparty": "Pablo Serrano",
+      "amount": -9150.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "PA62 9004 ****",
+  "bank": "",
+  "period_start": "2014-03-11",
+  "period_end": "2014-03-15",
+  "header_currency": "USD",
+  "opening_balance": 69554.0,
+  "closing_balance": 13004.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

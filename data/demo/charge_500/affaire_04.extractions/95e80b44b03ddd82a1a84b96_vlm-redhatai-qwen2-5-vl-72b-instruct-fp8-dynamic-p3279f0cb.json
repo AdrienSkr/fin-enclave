@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Northwind Trading Corp.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Harbour Couriers Ltd",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Northwind Trading Corp.",
+  "statement_lines": [
+    {
+      "date": "2014-04-29",
+      "counterparty": "Harbour Couriers Ltd",
+      "amount": -4530.0,
+      "currency": "EUR",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

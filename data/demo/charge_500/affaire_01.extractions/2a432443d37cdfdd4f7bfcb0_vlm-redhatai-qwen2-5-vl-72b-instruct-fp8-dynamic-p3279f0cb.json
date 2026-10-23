@@ -1,0 +1,42 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Mistvale Management S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Trading Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Julian Reynaud",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Northwind Trading Ltd.",
+      "target": "Mistvale Management S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Julian Reynaud",
+      "target": "Mistvale Management S.A.",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

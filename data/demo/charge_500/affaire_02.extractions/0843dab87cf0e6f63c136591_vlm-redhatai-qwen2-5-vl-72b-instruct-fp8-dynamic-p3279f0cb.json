@@ -1,0 +1,122 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Thornfield Assets Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Sofia Brandt",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Elena Marchetti",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Thornfield Assets Ltd.",
+  "statement_lines": [
+    {
+      "date": "2014-03-25",
+      "counterparty": "Daniel Moreau",
+      "amount": 9018.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-25",
+      "counterparty": "Sofia Brandt",
+      "amount": 9206.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-26",
+      "counterparty": "Tomas Vidal",
+      "amount": 9121.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-26",
+      "counterparty": "Lena Hartmann",
+      "amount": 9458.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-27",
+      "counterparty": "Pablo Serrano",
+      "amount": 9300.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-27",
+      "counterparty": "Marco Fiore",
+      "amount": 9659.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-29",
+      "counterparty": "Elena Marchetti",
+      "amount": -50186.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "PA70 7400 ****",
+  "bank": "",
+  "period_start": "2014-03-25",
+  "period_end": "2014-04-01",
+  "header_currency": "USD",
+  "opening_balance": 41435.0,
+  "closing_balance": 47011.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

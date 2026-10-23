@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-10-23T01:29:06.309440+00:00",
+  "profile": "72b-awq",
+  "engine": "routed-vlm-qwen-qwen2-5-vl-72b-instruct-awq-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
+  "mode": "single",
+  "dossier": "data/demo/pieces",
+  "n_pieces": 50,
+  "hardware": {
+    "available": true,
+    "samples_count": 19,
+    "peak_vram_mb": 54904.0,
+    "avg_vram_mb": 54664.7,
+    "peak_power_w": 11.8,
+    "avg_power_w": 11.8,
+    "peak_temp_c": 45.0,
+    "avg_temp_c": 45.0,
+    "memory_total_mb": 124552.0,
+    "vram_used_mb_before": 54233.0,
+    "vram_used_mb_after": 54904.0,
+    "power_w": 11.8,
+    "temperature_c": 45.0
+  },
+  "peak_vram_mb": 54904.0,
+  "avg_power_w": 11.8,
+  "peak_temp_c": 45.0,
+  "performance": {
+    "total_time_s": 18.53,
+    "extraction_time_s": 18.52,
+    "latency_s_per_piece": 0.37,
+    "throughput_pieces_per_min": 162.0,
+    "graph_detection_ms": 3.0
+  },
+  "accuracy": {
+    "entities": {
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "relations": {
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "transfers": {
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "circuit_found": false,
+    "smurfing_found": false,
+    "hidden_beneficiary_found": false
+  }
+}

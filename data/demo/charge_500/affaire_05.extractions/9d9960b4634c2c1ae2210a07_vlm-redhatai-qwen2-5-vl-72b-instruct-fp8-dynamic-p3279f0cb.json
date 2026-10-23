@@ -1,0 +1,33 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Willowmere Group Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Copperfield Trading Ltd.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Copperfield Trading Ltd.",
+      "target": "Willowmere Group Ltd.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

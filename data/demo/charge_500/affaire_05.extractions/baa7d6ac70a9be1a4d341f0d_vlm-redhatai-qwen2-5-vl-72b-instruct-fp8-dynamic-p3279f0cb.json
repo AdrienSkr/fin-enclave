@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Oakridge Partners Inc.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Fairhaven Management S.A.",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Oakridge Partners Inc.",
+  "statement_lines": [
+    {
+      "date": "2014-05-20",
+      "counterparty": "Fairhaven Management S.A.",
+      "amount": -1922014.24,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,33 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Seaglass Investments S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Atlas Nominees Bureau Ltd.",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Atlas Nominees Bureau Ltd.",
+      "target": "Seaglass Investments S.A.",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

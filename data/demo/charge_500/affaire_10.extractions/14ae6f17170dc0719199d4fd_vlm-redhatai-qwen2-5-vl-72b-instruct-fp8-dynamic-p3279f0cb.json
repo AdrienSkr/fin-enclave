@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Stonehaven Investments S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Trading Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Fairhaven Group Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Copperfield Management Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Thornfield Group Inc.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Northwind Trading Corp.",
+      "target": "Stonehaven Investments S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Fairhaven Group Limited",
+      "target": "Stonehaven Investments S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Copperfield Management Ltd.",
+      "target": "Stonehaven Investments S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Thornfield Group Inc.",
+      "target": "Stonehaven Investments S.A.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Fairhaven Trading Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Capital Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Partners Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Holdings Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Enterprises Ltd.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Amberfield Capital Corp.",
+      "target": "Fairhaven Trading Ltd.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Oakridge Partners Limited",
+      "target": "Fairhaven Trading Ltd.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Amberfield Holdings Corp.",
+      "target": "Fairhaven Trading Ltd.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Mistvale Enterprises Ltd.",
+      "target": "Fairhaven Trading Ltd.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

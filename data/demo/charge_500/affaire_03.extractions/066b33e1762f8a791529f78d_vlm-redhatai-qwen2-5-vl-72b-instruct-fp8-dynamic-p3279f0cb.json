@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Oakridge Management Inc.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Harbour Couriers Ltd",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Oakridge Management Inc.",
+  "statement_lines": [
+    {
+      "date": "2014-06-13",
+      "counterparty": "Harbour Couriers Ltd",
+      "amount": -1400.0,
+      "currency": "EUR",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

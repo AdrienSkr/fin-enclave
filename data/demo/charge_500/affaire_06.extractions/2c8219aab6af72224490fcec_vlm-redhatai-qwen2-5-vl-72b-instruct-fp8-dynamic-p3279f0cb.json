@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Mistvale Assets S.A.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Fairhaven Capital Ltd.",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Mistvale Assets S.A.",
+  "statement_lines": [
+    {
+      "date": "2014-04-04",
+      "counterparty": "Fairhaven Capital Ltd.",
+      "amount": -2052500.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

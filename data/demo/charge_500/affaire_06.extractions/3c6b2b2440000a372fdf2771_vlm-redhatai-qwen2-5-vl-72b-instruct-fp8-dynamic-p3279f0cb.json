@@ -1,0 +1,33 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Fairhaven Trading Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Coral Fiduciary Services Ltd.",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Coral Fiduciary Services Ltd.",
+      "target": "Fairhaven Trading Ltd.",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

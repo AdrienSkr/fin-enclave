@@ -1,0 +1,42 @@
+{
+  "doc_type": "power_of_attorney",
+  "entities": [
+    {
+      "name": "Thornfield Holdings Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Management S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oskar Lindqvist",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Amberfield Management S.A.",
+      "target": "Thornfield Holdings Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Oskar Lindqvist",
+      "target": "Thornfield Holdings Corp.",
+      "role": "attorney"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

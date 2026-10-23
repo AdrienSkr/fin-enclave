@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Ironwood Trading S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Summit Supplies Ltd",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Ironwood Trading S.A.",
+  "statement_lines": [
+    {
+      "date": "2014-04-17",
+      "counterparty": "Summit Supplies Ltd",
+      "amount": -3570.0,
+      "currency": "EUR",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

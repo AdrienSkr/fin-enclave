@@ -1,0 +1,122 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Silverpine Enterprises Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Nadia Petrova",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Viktor Haldane",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Silverpine Enterprises Ltd.",
+  "statement_lines": [
+    {
+      "date": "2014-03-24",
+      "counterparty": "Irene Kowalski",
+      "amount": 9544.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-24",
+      "counterparty": "Pablo Serrano",
+      "amount": 9093.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-25",
+      "counterparty": "Lena Hartmann",
+      "amount": 9418.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-25",
+      "counterparty": "Tomas Vidal",
+      "amount": 9159.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-26",
+      "counterparty": "Marco Fiore",
+      "amount": 9125.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-26",
+      "counterparty": "Nadia Petrova",
+      "amount": 9054.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-28",
+      "counterparty": "Viktor Haldane",
+      "amount": -49854.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "PA88 2495 ****",
+  "bank": "",
+  "period_start": "2014-03-24",
+  "period_end": "2014-03-31",
+  "header_currency": "USD",
+  "opening_balance": 86707.0,
+  "closing_balance": 92246.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

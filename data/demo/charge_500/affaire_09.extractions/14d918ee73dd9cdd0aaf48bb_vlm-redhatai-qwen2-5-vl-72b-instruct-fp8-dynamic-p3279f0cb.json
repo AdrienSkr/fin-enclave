@@ -1,0 +1,122 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Stonehaven Group Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Sofia Brandt",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Viktor Haldane",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Stonehaven Group Inc.",
+  "statement_lines": [
+    {
+      "date": "2014-04-30",
+      "counterparty": "Pablo Serrano",
+      "amount": 9718.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-30",
+      "counterparty": "Tomas Vidal",
+      "amount": 9627.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-01",
+      "counterparty": "Daniel Moreau",
+      "amount": 9582.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-01",
+      "counterparty": "Lena Hartmann",
+      "amount": 8917.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-02",
+      "counterparty": "Sofia Brandt",
+      "amount": 9558.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-02",
+      "counterparty": "Irene Kowalski",
+      "amount": 9608.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-04",
+      "counterparty": "Viktor Haldane",
+      "amount": -51309.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "PA88 8058 ****",
+  "bank": "",
+  "period_start": "2014-04-30",
+  "period_end": "2014-05-07",
+  "header_currency": "USD",
+  "opening_balance": 79584.0,
+  "closing_balance": 85285.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,42 @@
+{
+  "doc_type": "power_of_attorney",
+  "entities": [
+    {
+      "name": "Stonehaven Group Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Group Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Viktor Haldane",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Willowmere Group Inc.",
+      "target": "Stonehaven Group Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Viktor Haldane",
+      "target": "Stonehaven Group Inc.",
+      "role": "attorney"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

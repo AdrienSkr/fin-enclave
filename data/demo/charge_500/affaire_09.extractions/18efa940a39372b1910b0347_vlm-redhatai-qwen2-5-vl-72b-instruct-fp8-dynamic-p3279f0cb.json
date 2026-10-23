@@ -1,0 +1,42 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Glenbrook Ventures S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Group Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Helena Fujimoto",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Willowmere Group Inc.",
+      "target": "Glenbrook Ventures S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Helena Fujimoto",
+      "target": "Glenbrook Ventures S.A.",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

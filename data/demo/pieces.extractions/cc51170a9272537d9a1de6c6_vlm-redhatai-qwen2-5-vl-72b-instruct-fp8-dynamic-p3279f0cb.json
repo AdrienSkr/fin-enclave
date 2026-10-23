@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Summit Printing Inc",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pinewood Telecom Ltd",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Summit Printing Inc",
+  "statement_lines": [
+    {
+      "date": "2014-04-04",
+      "counterparty": "Pinewood Telecom Ltd",
+      "amount": -3480.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

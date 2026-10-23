@@ -1,0 +1,108 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Amberfield Management Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Sofia Brandt",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Amberfield Management Limited",
+  "statement_lines": [
+    {
+      "date": "2014-04-30",
+      "counterparty": "Marco Fiore",
+      "amount": -9650.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-30",
+      "counterparty": "Sofia Brandt",
+      "amount": -9175.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-30",
+      "counterparty": "Lena Hartmann",
+      "amount": -9175.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-01",
+      "counterparty": "Tomas Vidal",
+      "amount": -9875.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-01",
+      "counterparty": "Daniel Moreau",
+      "amount": -9400.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-01",
+      "counterparty": "Irene Kowalski",
+      "amount": -9325.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": "2014-04-30",
+  "period_end": "2014-05-04",
+  "header_currency": "USD",
+  "opening_balance": 75111.0,
+  "closing_balance": 18511.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

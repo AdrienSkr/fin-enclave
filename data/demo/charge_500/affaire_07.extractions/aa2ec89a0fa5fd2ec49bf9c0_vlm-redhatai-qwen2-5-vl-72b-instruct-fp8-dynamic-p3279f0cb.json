@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Amberfield Partners Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Management Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Investments S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Cobalt Trading Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Julian Fujimoto",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Mistvale Management Corp.",
+      "target": "Amberfield Partners Ltd.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Seaglass Investments S.A.",
+      "target": "Amberfield Partners Ltd.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Cobalt Trading Inc.",
+      "target": "Amberfield Partners Ltd.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Julian Fujimoto",
+      "target": "Amberfield Partners Ltd.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

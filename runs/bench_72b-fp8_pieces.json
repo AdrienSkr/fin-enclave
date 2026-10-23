@@ -1,53 +1,53 @@
 {
-  "timestamp": "2026-10-21T07:48:43.720529+00:00",
+  "timestamp": "2026-10-22T20:33:39.232025+00:00",
   "profile": "72b-fp8",
   "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
   "mode": "single",
   "dossier": "data/demo/pieces",
   "n_pieces": 50,
   "hardware": {
-    "available": false,
-    "samples_count": 1054,
-    "peak_vram_mb": 0.0,
-    "avg_vram_mb": 0.0,
-    "peak_power_w": 0.0,
-    "avg_power_w": 0.0,
-    "peak_temp_c": 0.0,
-    "avg_temp_c": 0.0,
-    "memory_total_mb": 0.0,
-    "vram_used_mb_before": 0.0,
-    "vram_used_mb_after": 0.0,
-    "power_w": 0.0,
-    "temperature_c": 0.0
+    "available": true,
+    "samples_count": 1230,
+    "peak_vram_mb": 90844.1,
+    "avg_vram_mb": 90436.2,
+    "peak_power_w": 90.4,
+    "avg_power_w": 43.4,
+    "peak_temp_c": 83.0,
+    "avg_temp_c": 69.8,
+    "memory_total_mb": 124552.0,
+    "vram_used_mb_before": 88759.3,
+    "vram_used_mb_after": 90579.6,
+    "power_w": 90.4,
+    "temperature_c": 83.0
   },
-  "peak_vram_mb": 0.0,
-  "avg_power_w": 0.0,
-  "peak_temp_c": 0.0,
+  "peak_vram_mb": 90844.1,
+  "avg_power_w": 43.4,
+  "peak_temp_c": 83.0,
   "performance": {
-    "total_time_s": 1111.47,
-    "extraction_time_s": 1111.38,
-    "latency_s_per_piece": 22.228,
-    "throughput_pieces_per_min": 2.7,
-    "graph_detection_ms": 63.0
+    "total_time_s": 1297.65,
+    "extraction_time_s": 1297.53,
+    "latency_s_per_piece": 25.951,
+    "throughput_pieces_per_min": 2.3,
+    "graph_detection_ms": 109.0
   },
   "accuracy": {
     "entities": {
       "precision": 1.0,
-      "recall": 0.7007,
-      "f1": 0.824
+      "recall": 1.0,
+      "f1": 1.0
     },
     "relations": {
       "precision": 1.0,
-      "recall": 0.9,
-      "f1": 0.9474
+      "recall": 1.0,
+      "f1": 1.0
     },
     "transfers": {
       "precision": 1.0,
-      "recall": 0.0,
-      "f1": 0.0
+      "recall": 1.0,
+      "f1": 1.0
     },
-    "circuit_found": false,
-    "smurfing_found": false,
+    "circuit_found": true,
+    "smurfing_found": true,
     "hidden_beneficiary_found": true
   }
 }

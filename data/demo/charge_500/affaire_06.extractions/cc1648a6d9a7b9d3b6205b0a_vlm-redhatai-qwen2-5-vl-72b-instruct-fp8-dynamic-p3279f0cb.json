@@ -1,0 +1,42 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Glenbrook Holdings Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Capital Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Uma Pavlov",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Amberfield Capital Corp.",
+      "target": "Glenbrook Holdings Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Uma Pavlov",
+      "target": "Glenbrook Holdings Corp.",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

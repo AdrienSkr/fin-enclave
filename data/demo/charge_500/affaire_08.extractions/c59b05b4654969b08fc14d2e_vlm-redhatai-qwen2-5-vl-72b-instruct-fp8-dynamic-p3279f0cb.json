@@ -1,0 +1,42 @@
+{
+  "doc_type": "power_of_attorney",
+  "entities": [
+    {
+      "name": "Northwind Enterprises S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ashcroft Trading S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Viktor Haldane",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Ashcroft Trading S.A.",
+      "target": "Northwind Enterprises S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Viktor Haldane",
+      "target": "Northwind Enterprises S.A.",
+      "role": "attorney"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

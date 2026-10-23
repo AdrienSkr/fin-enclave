@@ -1,0 +1,33 @@
+{
+  "doc_type": "certificate_of_incorporation",
+  "entities": [
+    {
+      "name": "Northwind Investments Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Maple Register Agents Ltd.",
+      "kind": "Intermediaire"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Maple Register Agents Ltd.",
+      "target": "Northwind Investments Ltd.",
+      "role": "intermediary"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

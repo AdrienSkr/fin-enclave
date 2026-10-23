@@ -1,0 +1,42 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Amberfield Management Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Management Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Adrian Bergstrom",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Mistvale Management Corp.",
+      "target": "Amberfield Management Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Adrian Bergstrom",
+      "target": "Amberfield Management Corp.",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

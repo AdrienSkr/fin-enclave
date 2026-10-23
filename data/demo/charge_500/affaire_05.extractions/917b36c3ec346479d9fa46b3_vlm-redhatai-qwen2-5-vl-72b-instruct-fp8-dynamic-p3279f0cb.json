@@ -1,0 +1,108 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Fairhaven Investments Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Nadia Petrova",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Fairhaven Investments Limited",
+  "statement_lines": [
+    {
+      "date": "2014-06-07",
+      "counterparty": "Nadia Petrova",
+      "amount": -9450.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-06-07",
+      "counterparty": "Pablo Serrano",
+      "amount": -9175.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-06-07",
+      "counterparty": "Marco Fiore",
+      "amount": -9150.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-06-08",
+      "counterparty": "Daniel Moreau",
+      "amount": -9475.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-06-08",
+      "counterparty": "Tomas Vidal",
+      "amount": -9375.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-06-08",
+      "counterparty": "Lena Hartmann",
+      "amount": -9750.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "PA77 6289 ****",
+  "bank": "",
+  "period_start": "2014-06-07",
+  "period_end": "2014-06-11",
+  "header_currency": "USD",
+  "opening_balance": 70053.0,
+  "closing_balance": 13678.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Oakridge Partners Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Copperfield Trading Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Brightwater Holdings S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Brightwater Trading S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Holdings Ltd.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Copperfield Trading Limited",
+      "target": "Oakridge Partners Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Brightwater Holdings S.A.",
+      "target": "Oakridge Partners Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Brightwater Trading S.A.",
+      "target": "Oakridge Partners Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Amberfield Holdings Ltd.",
+      "target": "Oakridge Partners Inc.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

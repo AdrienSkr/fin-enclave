@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Ashcroft Investments Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Group Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Ventures Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Glenbrook Group S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Owen Pavlov",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Willowmere Group Inc.",
+      "target": "Ashcroft Investments Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Amberfield Ventures Limited",
+      "target": "Ashcroft Investments Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Glenbrook Group S.A.",
+      "target": "Ashcroft Investments Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Owen Pavlov",
+      "target": "Ashcroft Investments Inc.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

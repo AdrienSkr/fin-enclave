@@ -1,0 +1,42 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Brightwater Investments Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Management Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Yara Castille",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Mistvale Management Corp.",
+      "target": "Brightwater Investments Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Yara Castille",
+      "target": "Brightwater Investments Inc.",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

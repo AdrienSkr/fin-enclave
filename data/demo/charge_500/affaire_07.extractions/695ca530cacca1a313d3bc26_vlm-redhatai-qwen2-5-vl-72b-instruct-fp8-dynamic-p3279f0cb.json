@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Oakridge Enterprises S.A.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Oskar Lindqvist",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Oakridge Enterprises S.A.",
+  "statement_lines": [
+    {
+      "date": "2014-03-07",
+      "counterparty": "Oskar Lindqvist",
+      "amount": -407247.66,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

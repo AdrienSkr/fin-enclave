@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Oakridge Management Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ironwood Management Corp.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Oakridge Management Inc.",
+  "statement_lines": [
+    {
+      "date": "2014-05-25",
+      "counterparty": "Ironwood Management Corp.",
+      "amount": -1797432.31,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

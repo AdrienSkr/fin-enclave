@@ -1,8 +1,8 @@
 # Rapport d'investigation : dossier de pièces
 
 - **Dossier** : `data/demo/pieces` (50 pièces, 0 en échec)
-- **Lecture des pièces** : `vlm-qwen-qwen2-5-vl-72b-instruct-p3279f0cb`
-- **Généré le** : 2026-10-20 22:14 UTC, en local
+- **Lecture des pièces** : `vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb`
+- **Généré le** : 2026-10-23 02:02 UTC, en local
 - **Méthode** : les liens et les anomalies sont trouvés par des algorithmes déterministes (résolution de noms, Tarjan, Johnson, Brandes) ; le modèle de langage ne fait que lire les pièces et, en option, rédiger les notes. Chaque fait renvoie à ses pièces.
 
 > **Données.** Les sociétés, dirigeants et intermédiaires proviennent d'un vrai réseau des Panama Papers (base ICIJ Offshore Leaks, licence ODbL). Les virements, relevés, procurations et le bénéficiaire caché sont **simulés** pour la démonstration (la base ICIJ ne contient aucun montant). Aucun fait n'est imputé aux sociétés réelles citées.
@@ -78,10 +78,10 @@
 | :--- | :--- | :--- | :--- | :--- |
 | Amberfield Management Corp. | Willowmere Trading S.A. (actionnaire)<br>Mistvale Enterprises Ltd. (actionnaire)<br>Helena Morales (actionnaire) | — | Coral Fiduciary Services Ltd. | [PIECE-0017](../../demo/pieces/PIECE-0017.jpg), [PIECE-0028](../../demo/pieces/PIECE-0028.png) |
 | Brightwater Group Corp. | Willowmere Trading S.A. (actionnaire)<br>Mistvale Enterprises Ltd. (actionnaire)<br>Oakridge Management Ltd. (actionnaire)<br>Thornfield Assets Ltd. (actionnaire) | — | Coral Fiduciary Services Ltd. | [PIECE-0029](../../demo/pieces/PIECE-0029.pdf), [PIECE-0035](../../demo/pieces/PIECE-0035.png) |
-| Copperfield Investments Corp. | Willowmere Trading S.A. (actionnaire)<br>Mateo Pavlov (bénéficiaire effectif) | — | Coral Fiduciary Services Ltd. | [PIECE-0012](../../demo/pieces/PIECE-0012.pdf), [PIECE-0039](../../demo/pieces/PIECE-0039.png) |
-| Ironwood Trading S.A. | Willowmere Trading S.A. (actionnaire) | — | Coral Fiduciary Services Ltd. | [PIECE-0003](../../demo/pieces/PIECE-0003.jpg), [PIECE-0005](../../demo/pieces/PIECE-0005.jpg) |
+| Copperfield Investments Corp. | Willowmere Trading S.A. (actionnaire)<br>Mateo Pavlov (bénéficiaire effectif) | — | Coral Fiduciary Services Ltd. | [PIECE-0012](../../demo/pieces/PIECE-0012.pdf), [PIECE-0019](../../demo/pieces/PIECE-0019.png), [PIECE-0039](../../demo/pieces/PIECE-0039.png) |
+| Ironwood Trading S.A. | Willowmere Trading S.A. (actionnaire) | — | Coral Fiduciary Services Ltd. | [PIECE-0003](../../demo/pieces/PIECE-0003.jpg), [PIECE-0005](../../demo/pieces/PIECE-0005.jpg), [PIECE-0033](../../demo/pieces/PIECE-0033.png) |
 | Mistvale Assets S.A. | Willowmere Trading S.A. (actionnaire) | — | Coral Fiduciary Services Ltd. | [PIECE-0042](../../demo/pieces/PIECE-0042.png), [PIECE-0043](../../demo/pieces/PIECE-0043.png) |
-| Northwind Group S.A. | Willowmere Trading S.A. (actionnaire)<br>Priya Ibarra (bénéficiaire effectif) | Oskar Lindqvist | Coral Fiduciary Services Ltd. | [PIECE-0026](../../demo/pieces/PIECE-0026.pdf), [PIECE-0031](../../demo/pieces/PIECE-0031.pdf), [PIECE-0040](../../demo/pieces/PIECE-0040.jpg) |
+| Northwind Group S.A. | Willowmere Trading S.A. (actionnaire)<br>Priya Ibarra (bénéficiaire effectif) | Oskar Lindqvist | Coral Fiduciary Services Ltd. | [PIECE-0015](../../demo/pieces/PIECE-0015.jpg), [PIECE-0026](../../demo/pieces/PIECE-0026.pdf), [PIECE-0031](../../demo/pieces/PIECE-0031.pdf), [PIECE-0040](../../demo/pieces/PIECE-0040.jpg) |
 | Oakridge Partners Corp. | Willowmere Trading S.A. (actionnaire)<br>Mistvale Enterprises Ltd. (actionnaire)<br>Ashcroft Assets S.A. (actionnaire)<br>Nora Morales (actionnaire) | — | Coral Fiduciary Services Ltd. | [PIECE-0034](../../demo/pieces/PIECE-0034.png), [PIECE-0036](../../demo/pieces/PIECE-0036.png) |
 | Oakridge Ventures Inc. | Willowmere Trading S.A. (actionnaire) | — | Coral Fiduciary Services Ltd. | [PIECE-0023](../../demo/pieces/PIECE-0023.jpg), [PIECE-0025](../../demo/pieces/PIECE-0025.png) |
 | Silverpine Assets Corp. | Willowmere Trading S.A. (actionnaire) | — | Coral Fiduciary Services Ltd. | [PIECE-0010](../../demo/pieces/PIECE-0010.png), [PIECE-0032](../../demo/pieces/PIECE-0032.pdf) |
@@ -104,7 +104,7 @@
 
 Seuil du profil de prête-nom : au moins 4 sociétés au titre de mandats (les rôles de bénéficiaire effectif déclaré ne comptent pas).
 
-Sommet le plus central du graphe (Brandes) : **Oskar Lindqvist** (intermédiarité 0.0054).
+Sommet le plus central du graphe (Brandes) : **Copperfield Investments Corp.** (intermédiarité 0.0052).
 
 ### 3.3. Destination des fonds
 
@@ -127,6 +127,8 @@ Bilan net cumulé sur 23 virements (8 238 505 USD au total).
 
 | Société d'un constat | Chaîne de détention | Personne physique | Pièces |
 | :--- | :--- | :--- | :--- |
+| Copperfield Investments Corp. | Copperfield Investments Corp. → Mateo Pavlov | Mateo Pavlov | [PIECE-0012](../../demo/pieces/PIECE-0012.pdf) |
+| Copperfield Investments Corp. | Copperfield Investments Corp. → Willowmere Trading S.A. | *non atteinte (chaîne interrompue)* | [PIECE-0012](../../demo/pieces/PIECE-0012.pdf) |
 | Northwind Group S.A. | Northwind Group S.A. → Priya Ibarra | Priya Ibarra | [PIECE-0031](../../demo/pieces/PIECE-0031.pdf) |
 | Northwind Group S.A. | Northwind Group S.A. → Willowmere Trading S.A. | *non atteinte (chaîne interrompue)* | [PIECE-0026](../../demo/pieces/PIECE-0026.pdf), [PIECE-0031](../../demo/pieces/PIECE-0031.pdf) |
 | Thornfield Capital Ltd. | Thornfield Capital Ltd. → Vincent Holmgren | Vincent Holmgren | [PIECE-0009](../../demo/pieces/PIECE-0009.jpg) |
@@ -138,21 +140,21 @@ Score explicable sur 100 : montant en jeu dans les constats (max 40), typologies
 
 | Rang | Entité | Score | Décomposition | Typologies |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Thornfield Capital Limited | **63.56** | amount 39.18 + typologies 10 + centrality 9.38 + findings 5 | cycle |
-| 2 | Stonehaven Investments S.A. | **60** | amount 40 + typologies 10 + centrality 5 + findings 5 | cycle |
-| 3 | Brightwater Group Corp. | **59.58** | amount 38.96 + typologies 10 + centrality 5.62 + findings 5 | cycle |
-| 4 | Willowmere Capital Corp. | **59.39** | amount 38.14 + typologies 10 + centrality 6.25 + findings 5 | cycle |
-| 5 | Oskar Lindqvist | **28.91** | amount 3.91 + typologies 10 + centrality 15 | contrôleur caché |
-| 6 | Northwind Group S.A. | **28.68** | amount 0.56 + typologies 10 + centrality 13.12 + findings 5 | fractionnement |
-| 7 | Daniel Moreau | **15.61** | amount 0.19 + typologies 10 + centrality 0.42 + findings 5 | fractionnement |
-| 8 | Irene Kowalski | **15.61** | amount 0.19 + typologies 10 + centrality 0.42 + findings 5 | fractionnement |
-| 9 | Lena Hartmann | **15.61** | amount 0.19 + typologies 10 + centrality 0.42 + findings 5 | fractionnement |
-| 10 | Marco Fiore | **15.61** | amount 0.19 + typologies 10 + centrality 0.42 + findings 5 | fractionnement |
+| 1 | Thornfield Capital Limited | **64.89** | amount 39.18 + typologies 10 + centrality 10.71 + findings 5 | cycle |
+| 2 | Stonehaven Investments S.A. | **60.71** | amount 40 + typologies 10 + centrality 5.71 + findings 5 | cycle |
+| 3 | Brightwater Group Corp. | **60.39** | amount 38.96 + typologies 10 + centrality 6.43 + findings 5 | cycle |
+| 4 | Willowmere Capital Corp. | **60.28** | amount 38.14 + typologies 10 + centrality 7.14 + findings 5 | cycle |
+| 5 | Copperfield Investments Corp. | **30.58** | amount 0.58 + typologies 10 + centrality 15 + findings 5 | fractionnement |
+| 6 | Northwind Group S.A. | **29.85** | amount 0.56 + typologies 10 + centrality 14.29 + findings 5 | fractionnement |
+| 7 | Oskar Lindqvist | **26.77** | amount 3.91 + typologies 10 + centrality 12.86 | contrôleur caché |
+| 8 | Daniel Moreau | **15.9** | amount 0.19 + typologies 10 + centrality 0.71 + findings 5 | fractionnement |
+| 9 | Irene Kowalski | **15.9** | amount 0.19 + typologies 10 + centrality 0.71 + findings 5 | fractionnement |
+| 10 | Lena Hartmann | **15.9** | amount 0.19 + typologies 10 + centrality 0.71 + findings 5 | fractionnement |
 
 | Rang | Constat | Score | Décomposition | Montant |
 | ---: | :--- | ---: | :--- | ---: |
-| 1 | Circuit fermé 1 | **82.5** | amount 60 + centrality 12.5 + entities 10 | 7 719 838 USD |
-| 2 | Fractionnement 1 | **38.38** | amount 0.88 + centrality 17.5 + entities 20 | 112 931 USD |
+| 1 | Circuit fermé 1 | **84.29** | amount 60 + centrality 14.29 + entities 10 | 7 719 838 USD |
+| 2 | Fractionnement 1 | **40.88** | amount 0.88 + centrality 20 + entities 20 | 112 931 USD |
 
 ## 4. À valider par l'enquêteur
 
@@ -217,7 +219,7 @@ Score explicable sur 100 : montant en jeu dans les constats (max 40), typologies
 | PIECE-0008 | [PIECE-0008.pdf](../../demo/pieces/PIECE-0008.pdf) | certificate_of_incorporation | `f38f3ce6da98c55d…` |
 | PIECE-0009 | [PIECE-0009.jpg](../../demo/pieces/PIECE-0009.jpg) | register_of_directors | `874b56d787d889ae…` |
 | PIECE-0010 | [PIECE-0010.png](../../demo/pieces/PIECE-0010.png) | register_of_directors | `c38bf89276e43229…` |
-| PIECE-0011 | [PIECE-0011.pdf](../../demo/pieces/PIECE-0011.pdf) | other | `2f529da173953a0a…` |
+| PIECE-0011 | [PIECE-0011.pdf](../../demo/pieces/PIECE-0011.pdf) | bank_statement | `2f529da173953a0a…` |
 | PIECE-0012 | [PIECE-0012.pdf](../../demo/pieces/PIECE-0012.pdf) | register_of_directors | `3f27e5c532b644cd…` |
 | PIECE-0013 | [PIECE-0013.pdf](../../demo/pieces/PIECE-0013.pdf) | invoice | `91d6e028da2f7a08…` |
 | PIECE-0014 | [PIECE-0014.pdf](../../demo/pieces/PIECE-0014.pdf) | invoice | `336c1d6c21ec91d9…` |
@@ -227,7 +229,7 @@ Score explicable sur 100 : montant en jeu dans les constats (max 40), typologies
 | PIECE-0018 | [PIECE-0018.pdf](../../demo/pieces/PIECE-0018.pdf) | bank_statement | `dd625d95581cfbc7…` |
 | PIECE-0019 | [PIECE-0019.png](../../demo/pieces/PIECE-0019.png) | bank_statement | `16ff015f752e058b…` |
 | PIECE-0020 | [PIECE-0020.jpg](../../demo/pieces/PIECE-0020.jpg) | bank_statement | `b0ec5c60e305778c…` |
-| PIECE-0021 | [PIECE-0021.png](../../demo/pieces/PIECE-0021.png) | other | `cc51170a9272537d…` |
+| PIECE-0021 | [PIECE-0021.png](../../demo/pieces/PIECE-0021.png) | bank_statement | `cc51170a9272537d…` |
 | PIECE-0022 | [PIECE-0022.pdf](../../demo/pieces/PIECE-0022.pdf) | bank_statement | `8d4082e0b1c5a489…` |
 | PIECE-0023 | [PIECE-0023.jpg](../../demo/pieces/PIECE-0023.jpg) | register_of_directors | `fa58f336795b89cf…` |
 | PIECE-0024 | [PIECE-0024.pdf](../../demo/pieces/PIECE-0024.pdf) | bank_statement | `bb4d15dc113049d0…` |
@@ -267,9 +269,9 @@ Score explicable sur 100 : montant en jeu dans les constats (max 40), typologies
 
 ### 5.4. Métriques d'exécution et télémétrie
 
-- **Temps d'extraction / lecture** : 0.7 s
-- **Temps de construction & détection graphe** : 0.086 s
+- **Temps d'extraction / lecture** : 0.58 s
+- **Temps de construction & détection graphe** : 0.12 s
 - **Temps de qualification juridique** : 0.0 s
-- **Durée totale d'investigation** : 0.78 s
-- **Détails de l'analyse déterministe** : liaison `78.72 ms`, détection topologique `6.12 ms`, constats `0.53 ms`
+- **Durée totale d'investigation** : 0.7 s
+- **Détails de l'analyse déterministe** : liaison `115.35 ms`, détection topologique `4.22 ms`, constats `0.47 ms`
 - **Pic de mémoire vive (analyse)** : `0.24 Mo`

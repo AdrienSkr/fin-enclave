@@ -1,0 +1,42 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Oakridge Management Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Fairhaven Trading Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Uma Holmgren",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Fairhaven Trading Ltd.",
+      "target": "Oakridge Management Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Uma Holmgren",
+      "target": "Oakridge Management Inc.",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

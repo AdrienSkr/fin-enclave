@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Stonehaven Investments S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Capital Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Partners Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Silverpine Holdings Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mateo Reynaud",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Amberfield Capital Corp.",
+      "target": "Stonehaven Investments S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Oakridge Partners Ltd.",
+      "target": "Stonehaven Investments S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Silverpine Holdings Ltd.",
+      "target": "Stonehaven Investments S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Mateo Reynaud",
+      "target": "Stonehaven Investments S.A.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

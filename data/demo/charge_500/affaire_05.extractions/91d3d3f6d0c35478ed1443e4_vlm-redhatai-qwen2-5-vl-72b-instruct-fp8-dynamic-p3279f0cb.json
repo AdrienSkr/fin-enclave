@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Silverpine Ventures S.A.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Bluefin Catering Ltd",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Silverpine Ventures S.A.",
+  "statement_lines": [
+    {
+      "date": "2014-06-26",
+      "counterparty": "Bluefin Catering Ltd",
+      "amount": -4800.0,
+      "currency": "EUR",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

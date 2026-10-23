@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Seaglass Enterprises Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Trading Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Partners Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Silverpine Trading Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Willowmere Capital Ltd.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Northwind Trading Ltd.",
+      "target": "Seaglass Enterprises Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Northwind Partners Ltd.",
+      "target": "Seaglass Enterprises Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Silverpine Trading Ltd.",
+      "target": "Seaglass Enterprises Inc.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Willowmere Capital Ltd.",
+      "target": "Seaglass Enterprises Inc.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

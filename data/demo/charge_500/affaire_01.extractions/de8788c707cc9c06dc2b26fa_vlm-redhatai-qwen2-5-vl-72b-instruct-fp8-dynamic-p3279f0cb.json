@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Copperfield Ventures Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Trading Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Partners Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Copperfield Trading Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Dimitri Ibarra",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Northwind Trading Ltd.",
+      "target": "Copperfield Ventures Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Northwind Partners Ltd.",
+      "target": "Copperfield Ventures Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Copperfield Trading Ltd.",
+      "target": "Copperfield Ventures Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Dimitri Ibarra",
+      "target": "Copperfield Ventures Corp.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,42 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Seaglass Assets S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Trading Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Adrian Davenport",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Northwind Trading Corp.",
+      "target": "Seaglass Assets S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Adrian Davenport",
+      "target": "Seaglass Assets S.A.",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

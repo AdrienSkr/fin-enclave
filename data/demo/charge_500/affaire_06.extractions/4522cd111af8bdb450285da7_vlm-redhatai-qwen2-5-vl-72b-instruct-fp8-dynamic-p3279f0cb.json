@@ -1,0 +1,42 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Seaglass Partners S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Amberfield Capital Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Sigrid Keller",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Amberfield Capital Corp.",
+      "target": "Seaglass Partners S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Sigrid Keller",
+      "target": "Seaglass Partners S.A.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

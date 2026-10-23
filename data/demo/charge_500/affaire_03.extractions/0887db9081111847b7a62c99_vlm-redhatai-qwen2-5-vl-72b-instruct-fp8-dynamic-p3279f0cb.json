@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Ironwood Management Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Fairhaven Trading Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Ventures Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Seaglass Investments Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Copperfield Group S.A.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Fairhaven Trading Ltd.",
+      "target": "Ironwood Management Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Seaglass Ventures Ltd.",
+      "target": "Ironwood Management Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Seaglass Investments Limited",
+      "target": "Ironwood Management Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Copperfield Group S.A.",
+      "target": "Ironwood Management Corp.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

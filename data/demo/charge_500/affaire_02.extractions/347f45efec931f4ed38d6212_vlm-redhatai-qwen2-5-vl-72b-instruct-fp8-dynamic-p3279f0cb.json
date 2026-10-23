@@ -1,0 +1,42 @@
+{
+  "doc_type": "power_of_attorney",
+  "entities": [
+    {
+      "name": "Thornfield Assets Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ashcroft Enterprises Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Elena Marchetti",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Ashcroft Enterprises Inc.",
+      "target": "Thornfield Assets Ltd.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Elena Marchetti",
+      "target": "Thornfield Assets Ltd.",
+      "role": "attorney"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

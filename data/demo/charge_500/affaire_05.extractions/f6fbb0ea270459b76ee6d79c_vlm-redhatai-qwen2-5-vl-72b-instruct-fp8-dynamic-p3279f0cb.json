@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Oakridge Enterprises Ltd.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Stonehaven Assets Inc.",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Oakridge Enterprises Ltd.",
+  "statement_lines": [
+    {
+      "date": "2014-06-02",
+      "counterparty": "Stonehaven Assets Inc.",
+      "amount": -1822780.87,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,142 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Willowmere Trading Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Nadia Petrova",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Oskar Lindqvist",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Willowmere Trading Corp.",
+  "statement_lines": [
+    {
+      "date": null,
+      "counterparty": "Opening balance",
+      "amount": 82015.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": null,
+      "counterparty": "Daniel Moreau",
+      "amount": 9308.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": null,
+      "counterparty": "Nadia Petrova",
+      "amount": 9401.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": null,
+      "counterparty": "Lena Hartmann",
+      "amount": 8927.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": null,
+      "counterparty": "Marco Fiore",
+      "amount": 9246.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": null,
+      "counterparty": "Pablo Serrano",
+      "amount": 9588.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": null,
+      "counterparty": "Irene Kowalski",
+      "amount": 8941.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": null,
+      "counterparty": "Oskar Lindqvist",
+      "amount": -49870.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": null,
+      "counterparty": "Closing balance",
+      "amount": 87556.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "PA99 3325 ****",
+  "bank": "",
+  "period_start": "2014-07-01",
+  "period_end": "2014-07-08",
+  "header_currency": "USD",
+  "opening_balance": 82015.0,
+  "closing_balance": 87556.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Ironwood Ventures Ltd.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Stonehaven Group Ltd.",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Ironwood Ventures Ltd.",
+  "statement_lines": [
+    {
+      "date": "2014-02-24",
+      "counterparty": "Stonehaven Group Ltd.",
+      "amount": -2234718.95,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Stonehaven Investments S.A.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Brightwater Group Corp.",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Stonehaven Investments S.A.",
+  "statement_lines": [
+    {
+      "date": "2014-04-03",
+      "counterparty": "Brightwater Group Corp.",
+      "amount": -1949046.64,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

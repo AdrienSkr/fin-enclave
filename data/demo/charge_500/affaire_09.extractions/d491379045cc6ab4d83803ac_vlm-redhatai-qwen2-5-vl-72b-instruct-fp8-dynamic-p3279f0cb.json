@@ -1,0 +1,151 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Oakridge Holdings Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Sofia Brandt",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [
+    {
+      "payer": "Oakridge Holdings Limited",
+      "payee": "Pablo Serrano",
+      "amount": 9875.0,
+      "currency": "USD",
+      "date": "2014-04-28"
+    },
+    {
+      "payer": "Oakridge Holdings Limited",
+      "payee": "Sofia Brandt",
+      "amount": 9850.0,
+      "currency": "USD",
+      "date": "2014-04-28"
+    },
+    {
+      "payer": "Oakridge Holdings Limited",
+      "payee": "Lena Hartmann",
+      "amount": 9150.0,
+      "currency": "USD",
+      "date": "2014-04-28"
+    },
+    {
+      "payer": "Oakridge Holdings Limited",
+      "payee": "Daniel Moreau",
+      "amount": 9875.0,
+      "currency": "USD",
+      "date": "2014-04-29"
+    },
+    {
+      "payer": "Oakridge Holdings Limited",
+      "payee": "Tomas Vidal",
+      "amount": 9825.0,
+      "currency": "USD",
+      "date": "2014-04-29"
+    },
+    {
+      "payer": "Oakridge Holdings Limited",
+      "payee": "Irene Kowalski",
+      "amount": 9800.0,
+      "currency": "USD",
+      "date": "2014-04-29"
+    }
+  ],
+  "account_holder": "Oakridge Holdings Limited",
+  "statement_lines": [
+    {
+      "date": "2014-04-28",
+      "counterparty": "Pablo Serrano",
+      "amount": -9875.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-28",
+      "counterparty": "Sofia Brandt",
+      "amount": -9850.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-28",
+      "counterparty": "Lena Hartmann",
+      "amount": -9150.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-29",
+      "counterparty": "Daniel Moreau",
+      "amount": -9875.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-29",
+      "counterparty": "Tomas Vidal",
+      "amount": -9825.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-04-29",
+      "counterparty": "Irene Kowalski",
+      "amount": -9800.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

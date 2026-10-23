@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Glenbrook Investments Ltd.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Cobalt Investments Limited",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Glenbrook Investments Ltd.",
+  "statement_lines": [
+    {
+      "date": "2014-04-15",
+      "counterparty": "Cobalt Investments Limited",
+      "amount": -1867500.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

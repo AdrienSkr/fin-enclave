@@ -1,0 +1,128 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Stonehaven Ventures Corp.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Sofia Brandt",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Stonehaven Ventures Corp.",
+  "statement_lines": [
+    {
+      "date": "2303-03-20",
+      "counterparty": "Opening balance",
+      "amount": 85057.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2303-03-20",
+      "counterparty": "Transfer to Daniel Moreau",
+      "amount": -9200.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2303-03-20",
+      "counterparty": "Transfer to Pablo Serrano",
+      "amount": -9500.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2303-03-20",
+      "counterparty": "Transfer to Lena Hartmann",
+      "amount": -9725.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2403-03-20",
+      "counterparty": "Transfer to Tomas Vidal",
+      "amount": -9375.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2403-03-20",
+      "counterparty": "Transfer to Sofia Brandt",
+      "amount": -9325.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2403-03-20",
+      "counterparty": "Transfer to Marco Fiore",
+      "amount": -9850.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2403-03-20",
+      "counterparty": "Closing balance",
+      "amount": 28082.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

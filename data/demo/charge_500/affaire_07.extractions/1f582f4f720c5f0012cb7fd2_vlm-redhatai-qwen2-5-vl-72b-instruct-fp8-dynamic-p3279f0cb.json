@@ -1,0 +1,108 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Oakridge Management Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Sofia Brandt",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Oakridge Management Limited",
+  "statement_lines": [
+    {
+      "date": "2014-03-07",
+      "counterparty": "Sofia Brandt",
+      "amount": -9350.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-07",
+      "counterparty": "Marco Fiore",
+      "amount": -9350.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-07",
+      "counterparty": "Tomas Vidal",
+      "amount": -9625.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-08",
+      "counterparty": "Lena Hartmann",
+      "amount": -9800.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-08",
+      "counterparty": "Pablo Serrano",
+      "amount": -9300.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-08",
+      "counterparty": "Irene Kowalski",
+      "amount": -9825.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "PA70 6733 ****",
+  "bank": "",
+  "period_start": "2014-03-07",
+  "period_end": "2014-03-11",
+  "header_currency": "USD",
+  "opening_balance": 63142.0,
+  "closing_balance": 5892.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

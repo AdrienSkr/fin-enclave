@@ -1,0 +1,122 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Copperfield Assets Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Nadia Petrova",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Rafael Quintero",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Copperfield Assets Corp.",
+  "statement_lines": [
+    {
+      "date": "2014-06-09",
+      "counterparty": "Nadia Petrova",
+      "amount": 9266.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-06-09",
+      "counterparty": "Tomas Vidal",
+      "amount": 9222.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-06-10",
+      "counterparty": "Daniel Moreau",
+      "amount": 9206.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-06-10",
+      "counterparty": "Marco Fiore",
+      "amount": 8881.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-06-11",
+      "counterparty": "Pablo Serrano",
+      "amount": 8929.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-06-11",
+      "counterparty": "Lena Hartmann",
+      "amount": 9629.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-06-13",
+      "counterparty": "Rafael Quintero",
+      "amount": -49620.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "PA70 5202 ****",
+  "bank": "",
+  "period_start": "2014-06-09",
+  "period_end": "2014-06-16",
+  "header_currency": "USD",
+  "opening_balance": 67819.0,
+  "closing_balance": 73332.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

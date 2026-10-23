@@ -1,0 +1,51 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Oakridge Capital Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Copperfield Trading Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Brightwater Holdings S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Theo Bergstrom",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Copperfield Trading Limited",
+      "target": "Oakridge Capital Limited",
+      "role": "shareholder"
+    },
+    {
+      "source": "Brightwater Holdings S.A.",
+      "target": "Oakridge Capital Limited",
+      "role": "shareholder"
+    },
+    {
+      "source": "Theo Bergstrom",
+      "target": "Oakridge Capital Limited",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

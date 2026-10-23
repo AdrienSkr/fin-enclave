@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Cobalt Investments Limited",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Copperfield Management Corp.",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Cobalt Investments Limited",
+  "statement_lines": [
+    {
+      "date": "2014-04-21",
+      "counterparty": "Copperfield Management Corp.",
+      "amount": -1820706.59,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,42 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Brightwater Enterprises Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ashcroft Enterprises Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Nora Bergstrom",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Ashcroft Enterprises Inc.",
+      "target": "Brightwater Enterprises Ltd.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Nora Bergstrom",
+      "target": "Brightwater Enterprises Ltd.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

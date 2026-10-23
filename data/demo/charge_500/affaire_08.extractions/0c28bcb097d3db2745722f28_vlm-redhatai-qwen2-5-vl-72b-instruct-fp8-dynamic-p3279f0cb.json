@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Glenbrook Assets S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ashcroft Trading S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Brightwater Management Ltd.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oakridge Holdings Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Copperfield Holdings Corp.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Ashcroft Trading S.A.",
+      "target": "Glenbrook Assets S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Brightwater Management Ltd.",
+      "target": "Glenbrook Assets S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Oakridge Holdings Corp.",
+      "target": "Glenbrook Assets S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Copperfield Holdings Corp.",
+      "target": "Glenbrook Assets S.A.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

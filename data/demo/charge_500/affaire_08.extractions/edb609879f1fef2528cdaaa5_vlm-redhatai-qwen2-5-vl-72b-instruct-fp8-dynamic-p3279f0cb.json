@@ -1,0 +1,33 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Copperfield Holdings Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Ashcroft Trading S.A.",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Ashcroft Trading S.A.",
+      "target": "Copperfield Holdings Inc.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

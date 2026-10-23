@@ -1,0 +1,1416 @@
+nohup: ignoring input
+==================================================================
+FINENCLAVE : DÉMARRAGE DE LA MATRICE OFFICIELLE COMPLÈTE
+Date de début : Thu Oct 22 20:02:21 UTC 2026
+Machine : gx10-aedd (NVIDIA Grace Blackwell GB10)
+==================================================================
+
+>>> [1/4] Démarrage vLLM : 72B-FP8 nominal + PaddleOCR-VL (ensemble)...
+=== Arrêt des instances FinEnclave vLLM ===
+  Arrêt du conteneur finenclave-vllm-gx10...
+[OK] Instances vLLM arrêtées.
+=== Profil ensemble : T1=RedHatAI/Qwen2.5-VL-72B-Instruct-FP8-dynamic, T2=PaddlePaddle/PaddleOCR-VL-1.6 ===
+  Budget GPU vérifié : somme=0.7300 (cap 0.90)
+02f536e11659c52c9cf15f8f1c91789633463f2b82062185887d9ec8093501c0
+  Attente santé T1-VLM (127.0.0.1:8000, timeout ~20 min)....................................................................................................................................................................................... — OK
+5841f86bb2d9338e6889b04219211baeefe39f3139ce163227de9a5bacb06704
+  Attente santé T2-OCR (127.0.0.1:8001, timeout ~20 min)........
+[ERREUR] Le conteneur finenclave-vllm-t2 s'est arrêté (voir: docker logs finenclave-vllm-t2)
+>>> [1/4 - A] Banc 1 : 50 pièces étalon (72B-FP8 routed)...
+
+=== BANC D'ESSAI GX10 : profil 72b-fp8 (routed) ===
+Moteur : 
+routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea248
+7
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+         Résultats Mesurés — Profil 72b-fp8          
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┓
+┃ Indicateur                     ┃   Valeur Mesurée ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━┩
+│ Dossier                        │ data/demo/pieces │
+│ Pièces traitées                │               50 │
+│ Temps total pipeline           │        1297.65 s │
+│ Temps d'extraction VLM         │        1297.53 s │
+│ Latence moyenne unitaire       │  25.95 s / pièce │
+│ Débit soutenu                  │ 2.3 pièces / min │
+├────────────────────────────────┼──────────────────┤
+│ Échantillons télémétrie        │             1230 │
+│ Peak VRAM                      │        90,844 Mo │
+│ Avg VRAM                       │        90,436 Mo │
+│ Peak Power                     │           90.4 W │
+│ Avg Power                      │           43.4 W │
+│ Peak Temp                      │            83 °C │
+│ Avg Temp                       │            70 °C │
+├────────────────────────────────┼──────────────────┤
+│ Précision / Rappel Entités     │      1.00 / 1.00 │
+│ Précision / Rappel Gouvernance │      1.00 / 1.00 │
+│ Précision / Rappel Virements   │      1.00 / 1.00 │
+└────────────────────────────────┴──────────────────┘
+✓ Mesure enregistrée dans runs/bench_72b-fp8_pieces.json
+
+>>> [1/4 - B] Banc 2 : 500 pièces / 10 affaires (72B-FP8 routed)...
+
+=== BANC D'ESSAI BATCH GX10 : profil 72b-fp8 (routed) ===
+Cible batch : data/demo/charge_500 (10 affaires détectées)
+
+── [1/10] Affaire : affaire_01 ──
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+  ✓ affaire_01 : 50 pièces en 1912.11 s (1.6 pièces/min)
+── [2/10] Affaire : affaire_02 ──
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+  ✓ affaire_02 : 50 pièces en 1246.95 s (2.4 pièces/min)
+── [3/10] Affaire : affaire_03 ──
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Request timed out.
+  ✓ affaire_03 : 50 pièces en 2265.46 s (1.3 pièces/min)
+── [4/10] Affaire : affaire_04 ──
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Request timed out.
+  ✓ affaire_04 : 50 pièces en 1803.28 s (1.7 pièces/min)
+── [5/10] Affaire : affaire_05 ──
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+  ✓ affaire_05 : 50 pièces en 1566.07 s (1.9 pièces/min)
+── [6/10] Affaire : affaire_06 ──
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+  ✓ affaire_06 : 50 pièces en 1593.69 s (1.9 pièces/min)
+── [7/10] Affaire : affaire_07 ──
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+  ✓ affaire_07 : 50 pièces en 1249.47 s (2.4 pièces/min)
+── [8/10] Affaire : affaire_08 ──
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+  ✓ affaire_08 : 50 pièces en 1832.43 s (1.6 pièces/min)
+── [9/10] Affaire : affaire_09 ──
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+  ✓ affaire_09 : 50 pièces en 1587.33 s (1.9 pièces/min)
+── [10/10] Affaire : affaire_10 ──
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+TableEngine failed, falling back to VLM: Lecteur de tableaux indisponible : Connection error.
+  ✓ affaire_10 : 50 pièces en 1438.68 s (2.1 pièces/min)
+      Synthèse Batch GX10 — Profil 72b-fp8      
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┓
+┃ Indicateur                ┃   Valeur Mesurée ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━┩
+│ Affaires traitées         │               10 │
+│ Total pièces traitées     │              500 │
+│ Durée totale batch        │       16495.64 s │
+│ Temps cumulé d'extraction │       16494.13 s │
+│ Latence moyenne par pièce │  32.99 s / pièce │
+│ Débit extraction continu  │ 1.8 pièces / min │
+│ Débit global effectif     │ 1.8 pièces / min │
+├───────────────────────────┼──────────────────┤
+│ Échantillons télémétrie   │            15589 │
+│ Peak VRAM                 │        95,174 Mo │
+│ Avg VRAM                  │        93,275 Mo │
+│ Peak Power                │           96.1 W │
+│ Avg Power                 │           40.4 W │
+│ Peak Temp                 │            86 °C │
+│ Avg Temp                  │            69 °C │
+└───────────────────────────┴──────────────────┘
+                                  Détail par Affaire                                  
+┏━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Dossier    ┃ Pièces ┃ Extraction (s) ┃ Total (s) ┃ Débit (p/min) ┃ Fraudes (C/S/U) ┃
+┡━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ affaire_01 │     50 │         1912.0 │    1912.1 │           1.6 │    ✓ / ✓ / ✓    │
+│ affaire_02 │     50 │         1246.8 │    1247.0 │           2.4 │    - / ✓ / ✓    │
+│ affaire_03 │     50 │         2265.3 │    2265.5 │           1.3 │    - / - / ✓    │
+│ affaire_04 │     50 │         1803.2 │    1803.3 │           1.7 │    ✓ / - / ✓    │
+│ affaire_05 │     50 │         1565.9 │    1566.1 │           1.9 │    - / ✓ / ✓    │
+│ affaire_06 │     50 │         1593.5 │    1593.7 │           1.9 │    ✓ / ✓ / ✓    │
+│ affaire_07 │     50 │         1249.3 │    1249.5 │           2.4 │    ✓ / ✓ / ✓    │
+│ affaire_08 │     50 │         1832.3 │    1832.4 │           1.6 │    ✓ / ✓ / ✓    │
+│ affaire_09 │     50 │         1587.2 │    1587.3 │           1.9 │    ✓ / ✓ / ✓    │
+│ affaire_10 │     50 │         1438.5 │    1438.7 │           2.1 │    - / ✓ / ✓    │
+└────────────┴────────┴────────────────┴───────────┴───────────────┴─────────────────┘
+✓ Synthèse batch enregistrée dans runs/bench_72b-fp8_batch.json
+
+>>> Sauvegarde intermédiaire 72B-FP8...
+[main a0c36ba] feat(bench): matrice 72B-FP8 terminee (50 & 500 pieces)
+ 302 files changed, 12693 insertions(+), 341 deletions(-)
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/062a187865090ca9715ca687_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/07cf463646eef9288417e236_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/0bc3d721294e79069c46d644_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/0f74d4304733248ebfa43142_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/0fb6563a3af8ee21ea15a6e3_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/1199dbf6017e65539371be4c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/1d782549ecee40547f8fc912_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/1e197be97be4c9a8e939b746_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/2097a148dac2a0abb9738e08_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/2640a4791349fafd37124186_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/294c2683e83db1372f690023_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/3054d6d98f4ed5a94ade6ff6_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/39a2ece6ae749afe0a6122d2_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/483cd9619ddf89099f526d7e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/49a7d52b26c55c01d2b3ac54_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/4d91124bc82750df7accab15_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/4ec65a5b4579b3f24bb24e18_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/53ab7be4cb2ddccd5c1ed18b_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/560a6098e1a6cae1b08a1277_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/5b2165e989d62410a4108663_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/6b86b3ce12d2ad8fab98e822_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/7129aa3b53daa961b3825ca1_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/794d3ebd5ce136f61d0f66f5_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/7ecb2cfd5281049ae492e7f5_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/8d2ec980990fba29a5ad4144_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/917b36c3ec346479d9fa46b3_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/91d3d3f6d0c35478ed1443e4_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/934ff5f94b8f98ff7fcc02c3_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/950d31a4ac2795310e676c5d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/98b48d04bf82a7883baa0928_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/99c4535aa37685918eab3686_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/9ad6f46b7981b174ced43fb2_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/9c3d9159731f6eab70442c8e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/9d9960b4634c2c1ae2210a07_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/a290dff1833c4bd76b3351e0_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/baa7d6ac70a9be1a4d341f0d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/c2b16ad54d3c61b1520a88a3_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/c486869f65e6e75898f0b917_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/c9b85fa8c2ed1bb65aabc476_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/ca0c73bea2e12ebc749a9f1e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/d8bedc6c534935810981c567_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/db87dba5c1f4b5f7b31db0f0_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/e2da7c9c456752113ab9a12c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/e60e6d997f0ce272bde2d88d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/ec9e7497f28d923f81c8ae8a_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/edd7daff4a7a85e2f7119af8_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/f6fbb0ea270459b76ee6d79c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/f794e370d8577b5ca82cd80d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/f875b9ac7a8db35e247fc49a_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_05.extractions/fd50bc03ba0c4e0afd38308c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/0322ca8f3ea3f36e0a00b9ac_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/0432820c111e8a06d9d7342a_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/06e0ee39476e56e6fb9b6ad8_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/09e4a1867ef7104474947093_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/1129c346de3fe8a63f8941b6_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/24f34fbba49cf556bcc4bc2c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/2c8219aab6af72224490fcec_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/30bae03febb7e0985c85db10_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/3296e7fb5e0a259c52d0f8f7_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/383b69b225a01d87336987db_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/39feb45bd95e21a236baf938_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/3c6b2b2440000a372fdf2771_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/4522cd111af8bdb450285da7_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/4603b71cbf114d3f4df22122_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/4655770ce318d062de7ca257_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/4979350c0f4a6b29a2443be7_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/4ddb24f39a02348645ff37e4_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/5263da5d6fa16c2b44d53e1a_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/605c6d9fe243c9de4341abc1_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/63e7fbcc75197ef757acb665_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/65564ace5ee15339e09dafd0_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/703be78d6901ba5d18080d8d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/7c2fe2d152d02693762d16e5_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/88c1b877cdd16a10883f2744_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/8e8d38bf73d700bbc55d820e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/93a16746e12e9eaa3c1b1b5f_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/95195724f6f491ac44b696e7_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/9834e179ce9f25347f4d18b7_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/99c674f7d3456ad18e605c4b_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/a491703822bdb90a78dd641d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/a6bdec36ebabfaa0347ca373_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/b0dc9f00317235bbf9867418_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/b75a91d81ab36faf3059e997_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/c65206e4180f97ddcf204656_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/c6f397f323072028f3d2722b_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/c982a2d3b41ad3ebcf947a38_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/cbfb7f3c0b0bbac3afe8cd8a_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/cc1648a6d9a7b9d3b6205b0a_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/d04fc1151066268b897bc17c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/d73982e9129b7a4bfb7d74ef_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/d85c30e4f602bae9f1090611_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/d91c36b5c57229c13bfa7242_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/da1a308c6977c0e22f552dbf_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/df5dfe9784a46ceab73e023b_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/e60253bf8c2daab0887878dd_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/e8a7b824be89235a1e3d74e9_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/f41fee61e9b7c2c4b3167110_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/f678c5debc7ee0f5347b8855_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/fde66e36fba8fbbc4d22bb27_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_06.extractions/feeb32580486d5545167ddd9_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/0598badd6f3b568dea125874_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/0d6392b3ce578fffddaddd17_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/0e0fc34b35a09aafc2374387_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/12a4a9ed92b52f5942ed4768_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/15cba592863383c1bd79f4d1_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/1f582f4f720c5f0012cb7fd2_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/211a4ed1eefdc4499ae7d1a4_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/232ad3fc1a477b76699d891a_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/28fd2676639b8f4ebf63c0a0_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/2c78b1fa561445b6423a6d46_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/36c286b346cdbdb44575a180_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/374a04cc39db98a825bdb211_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/40e624a3711346cbbdff1256_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/4333bd0b18e2b04feb613f59_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/45288df60717d897f734fbbe_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/492b216c59884523e28a5742_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/5015c20ea41b3e652a459667_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/54b1b5297fd56db4f79f1d0f_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/5c424fde2ab5ade8cd820cf6_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/5cdb33b5551ad50f738a07d7_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/5d082b61907f955fe26c9bd4_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/62b659e72afadfc74ee40424_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/695ca530cacca1a313d3bc26_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/6ceaeb9871bba629197f9f99_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/7662db388321390cc2feaa84_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/77502eb8b86d192048de7e4c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/81fee6f5cd5f51dd4170f8d5_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/8ca61b44f0346a43c0455bdb_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/8ddf172eaf9e56840f515440_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/8e9428e899f558fc35079e1a_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/8ffd4619942125c7776c5569_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/910bd5269c85119b6e79529e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/9748d256d772ec852d598fbd_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/982cef609dbe3a3af190eff5_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/a58d2c9d79c76857540734ef_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/aa2ec89a0fa5fd2ec49bf9c0_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/ac8dabc4e5934567d90fcc58_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/b068a8d24ef01a39c9b3967f_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/bc9c8cbd9099b351f3ee9fa1_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/be93a8eb125cbb5190a5a4e4_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/d2636ce79ab5f0be9f1617bf_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/d40d5b56db0bc29cc0e1b334_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/d5575a5db58449ad04772192_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/e2cf3758e71ffef16696241d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/e5b816579a118f8911e3e9a8_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/ebcea17a7096ce6490cb886f_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/f42a33dc758b14f86a682040_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/f59f0a7fb69971f6ba57cd90_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/fb541e702dd87f3626c51575_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_07.extractions/fb9aaab019a845e70d568411_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/03a201c57c3ab593b9d6c70b_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/0c28bcb097d3db2745722f28_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/0c4076f6476226e8112168f5_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/10eee18609fe642b5e64aeff_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/12152b48b7a8908134f5274b_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/15e1d0e7fbc96709084db6fa_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/1864431ecf78cb6b70a3ce2b_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/191fb35f4e2d8d0ef3d1f731_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/287dff04ce63ee874e0f265b_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/28ccee71bf4e0ff92724c51b_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/420dd74e1202597ae2cfbcff_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/4c60ccc871509103b4eb84c0_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/4e2c9dcaa62b0ca9c4aabaf2_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/596066b4e41f18c18b0f25f1_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/63b9a4a0b4043c124e18584e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/66457da9e638339f21c68f7d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/67833b86d51ceab7175d70ec_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/6958b3cd8ea60601fe095a4d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/6b5bebf24ac1f867dd2a6c39_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/761e35d62836189f8b623802_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/7bcdfb85187e8a315b8e1253_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/7f305b340c5d24dffe427d23_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/80ea8f8c2372bbaf54df5061_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/82e9fa44029994da3ae9c03f_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/86997644a9500f5ef819b6da_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/89ceb9e893644c8be289b018_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/8b7c5ab67ef008cdeaf31907_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/9b2bf2c4ab48e6ff24dea78c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/b01d2e6a452254350fd498b3_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/b0afa58e7dab98f4320225a0_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/b49b40f549da43526c3cbe98_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/b8f2871dd4b73df11dcb23db_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/c59b05b4654969b08fc14d2e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/c80c31d28875b5892a86bb2a_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/d353076a3c64345ae4ae2413_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/d43972fe82280794d262e9b2_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/d47aff9e8ee7a73a335934a3_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/d4c9cdc56dcd39b34f4ff878_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/dbd79df01711d46ca2e8a6f3_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/dcc6831337d7d761e5cc640c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/e11dddf1817b521a9fecb416_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/e190a9542dfe1ebd0b9d95bb_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/e9145412ea16af7da68124ab_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/eb8698d82cf6a3e862aaf911_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/edb609879f1fef2528cdaaa5_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/eec1bd4f1c316337b3a2bf38_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/ef287717d0501387ae452c5e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/f078d75ff2a3412f73047076_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/f205f48d53684c42ec46bb33_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_08.extractions/f84074b6c775ce8afc5f3a9a_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/002e0f0420e75ff3cbc69aa9_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/016970c181f6e75ab191aecf_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/017769acdf275ed21b32abd7_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/06578f60387d3e2921791a11_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/0e5f36d840442a78f6426f67_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/0f5db51150e694be64daa9c0_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/0f8745b731f678d25258ad72_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/115560c690e2db1e198a3fc8_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/14d918ee73dd9cdd0aaf48bb_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/162d408c58609fffec65408c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/189ca9812ef729e3fd335ad6_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/18efa940a39372b1910b0347_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/1c9e1333c9440b1a6e873a70_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/1cb048f3ac58195f2c918f86_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/2db6eb39e32b94fd5082516a_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/3283fa85de5d18fcf5f9a0e9_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/37f7e0a245792933b8d17ad5_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/38db03946600698787242539_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/3a3e9b3bd341e996014a5e25_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/3bed67dc3b0de049962145eb_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/3df1494efcf92054e09829aa_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/41edc59854c2e3c4656af172_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/45a20becd3ba020f3ba4fdd4_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/4874d0644fb55986791554f2_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/4fff3130595d6f5aca6066bd_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/54f7efb7cc8f66bc78b2726f_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/59476a6568a223a919c81eea_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/671f856973c982d9c2e5bc5e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/6993c46af2044cb92d05c2e6_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/6bdee90dfa4dfbc8ead0ef0d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/7fa202e478a5532511e5c3f8_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/829e4516aec458454f1ed27d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/8328d0756122ffe897206e67_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/965b3941edfdb102708f0785_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/9b77d1ecc7b3a5df02b169a3_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/a4cc9da841de12cad6dbd171_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/b46dcf9b4b50ef7414123015_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/b5559377b246082062eb37db_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/b6b078b259559b3a2227186d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/bac0d57ceddb149cf9764387_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/cea72324186de980996bc38f_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/d491379045cc6ab4d83803ac_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/d4ff4670d6785f8376c09edc_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/dbccdca2dd699e7ea8e4c2c8_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/e292378de866f2b7d6b570b2_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/ebcd44208b53f08853e4263d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/f6b6eefa6ea77036d9a91903_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/f87b8769417110e7d24695d9_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/f8a374fc18e5f6e7aa4136d1_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_09.extractions/f8c59120393ed2a6d0573b87_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/071d52b0cd7281fc22e46326_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/08718436218a7ba865cb2e59_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/0937a485ef31e965025c0950_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/0af47f5a5f8d3ef860abc0b1_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/0c94ae40206aee6f9bd5c0d1_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/0d5f213a08fbfb3a7d19e852_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/0dcce72dd2a0f68fcce5aa14_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/113cc3a68f27a645dc89d4b7_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/14ae6f17170dc0719199d4fd_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/184d54acb6a66a5f103c1a36_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/1a003146442111fc1cb95b6e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/27c96fd7d4ec9db44474450b_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/308a6a6af4e112adc32ac14d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/36045d326dd49f6976695c24_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/4376591defa4f2ae76ca20ab_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/439d1d5f065d44642a04cd1c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/43ad0aab8a5c4731a777b11e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/4ac731ed9538cfb6f0684338_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/5d323f4588b5c095312770de_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/611b06e00ae72f2dd79a64ae_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/657c7993f2bda2041f65f7ad_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/67c6d07841f9746d97595882_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/6cc9deaf1546c5a344e972e0_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/70ea650e9e3e102c09aa3c05_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/765650ea0644c3e3a030ad8e_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/76de208de246e9f63031aae4_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/8fb17106d6c26df86c241da8_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/911c48161e29b748a56b5a68_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/9bc2dbd2bf045f1ac564d942_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/a3875ba9dcbd6088efc1686d_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/a72c2e12d715712188dfd3ae_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/a7c39254d78ab2214dcc3b2c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/abff21f04251c49f73d92330_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/b0fdaebc4476a4f720b6f170_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/b1f9625303362f78130671f1_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/bd9b3a9b7c7e981432db5f3c_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/be290f6c6237944274874752_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/c335bc465c161d0565cfbbec_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/c5cc77cbfa5cc73100ee2db8_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/c9a3a26be8a79e8e4cad4054_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/ca133a4740c7b9ffe81b27e5_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/d02138eb90d0e796380dd0d2_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/d4bab16853e758c215880a78_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/d56220192c2dd5405f76d9e4_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/dd3a4903db214e9358546a10_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/e05ae03880aae28f7fd48ad3_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/ec82ac4defc42cdd9db66009_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/f05b0b1e89748182c9207b90_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/f455cb3c6d8562209c8212d6_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+ create mode 100644 data/demo/charge_500/affaire_10.extractions/f76176b370e450702e300df6_vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb.json
+To github.com:AdrienSkr/fin-enclave.git
+   e59079e..a0c36ba  main -> main
+
+>>> [2/4] Démarrage vLLM : 72B-AWQ quantifié + PaddleOCR-VL (ensemble-awq)...
+=== Arrêt des instances FinEnclave vLLM ===
+  Arrêt du conteneur finenclave-vllm-t1...
+  Arrêt du conteneur finenclave-vllm-t2...
+[OK] Instances vLLM arrêtées.
+=== Profil ensemble : T1=Qwen/Qwen2.5-VL-72B-Instruct-AWQ, T2=PaddlePaddle/PaddleOCR-VL-1.6 ===
+  Budget GPU vérifié : somme=0.5800 (cap 0.90)
+40fc43444f11eab8a5badb18152bf491d99c4062b65a912033472cf3b5bb4a51
+  Attente santé T1-VLM (127.0.0.1:8000, timeout ~20 min)................................................................................................................................................................................................................................................................................................................................................................................................................
+[ATTENTION] T1-VLM pas prêt après 1200 s (20 min) (voir logs).
+>>> [2/4 - A] Banc 1 : 50 pièces étalon (72B-AWQ routed)...
+
+=== BANC D'ESSAI GX10 : profil 72b-awq (routed) ===
+Moteur : routed-vlm-qwen-qwen2-5-vl-72b-instruct-awq-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+          Résultats Mesurés — Profil 72b-awq           
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┓
+┃ Indicateur                     ┃     Valeur Mesurée ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━┩
+│ Dossier                        │   data/demo/pieces │
+│ Pièces traitées                │                 50 │
+│ Temps total pipeline           │            18.53 s │
+│ Temps d'extraction VLM         │            18.52 s │
+│ Latence moyenne unitaire       │     0.37 s / pièce │
+│ Débit soutenu                  │ 162.0 pièces / min │
+├────────────────────────────────┼────────────────────┤
+│ Échantillons télémétrie        │                 19 │
+│ Peak VRAM                      │          54,904 Mo │
+│ Avg VRAM                       │          54,665 Mo │
+│ Peak Power                     │             11.8 W │
+│ Avg Power                      │             11.8 W │
+│ Peak Temp                      │              45 °C │
+│ Avg Temp                       │              45 °C │
+├────────────────────────────────┼────────────────────┤
+│ Précision / Rappel Entités     │        1.00 / 0.00 │
+│ Précision / Rappel Gouvernance │        1.00 / 0.00 │
+│ Précision / Rappel Virements   │        1.00 / 0.00 │
+└────────────────────────────────┴────────────────────┘
+✓ Mesure enregistrée dans runs/bench_72b-awq_pieces.json
+
+>>> [2/4 - B] Banc 2 : 500 pièces / 10 affaires (72B-AWQ routed)...
+
+=== BANC D'ESSAI BATCH GX10 : profil 72b-awq (routed) ===
+Cible batch : data/demo/charge_500 (10 affaires détectées)
+
+── [1/10] Affaire : affaire_01 ──
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+  ✓ affaire_01 : 50 pièces en 18.67 s (160.9 pièces/min)
+── [2/10] Affaire : affaire_02 ──
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+  ✓ affaire_02 : 50 pièces en 18.70 s (160.4 pièces/min)
+── [3/10] Affaire : affaire_03 ──
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+  ✓ affaire_03 : 50 pièces en 18.29 s (164.0 pièces/min)
+── [4/10] Affaire : affaire_04 ──
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+  ✓ affaire_04 : 50 pièces en 18.39 s (163.1 pièces/min)
+── [5/10] Affaire : affaire_05 ──
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+  ✓ affaire_05 : 50 pièces en 18.45 s (162.7 pièces/min)
+── [6/10] Affaire : affaire_06 ──
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+  ✓ affaire_06 : 50 pièces en 18.61 s (161.2 pièces/min)
+── [7/10] Affaire : affaire_07 ──
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+  ✓ affaire_07 : 50 pièces en 18.32 s (163.8 pièces/min)
+── [8/10] Affaire : affaire_08 ──
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+  ✓ affaire_08 : 50 pièces en 18.27 s (164.2 pièces/min)
+── [9/10] Affaire : affaire_09 ──
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+  ✓ affaire_09 : 50 pièces en 18.33 s (163.8 pièces/min)
+── [10/10] Affaire : affaire_10 ──
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+Page non extraite : Extraction VLM invalide ou indisponible : Connection error.
+  ✓ affaire_10 : 50 pièces en 18.22 s (164.7 pièces/min)
+       Synthèse Batch GX10 — Profil 72b-awq       
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━┓
+┃ Indicateur                ┃     Valeur Mesurée ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━┩
+│ Affaires traitées         │                 10 │
+│ Total pièces traitées     │                500 │
+│ Durée totale batch        │           184.27 s │
+│ Temps cumulé d'extraction │           184.21 s │
+│ Latence moyenne par pièce │     0.37 s / pièce │
+│ Débit extraction continu  │ 162.9 pièces / min │
+│ Débit global effectif     │ 162.8 pièces / min │
+├───────────────────────────┼────────────────────┤
+│ Échantillons télémétrie   │                181 │
+│ Peak VRAM                 │          59,010 Mo │
+│ Avg VRAM                  │          57,022 Mo │
+│ Peak Power                │             11.8 W │
+│ Avg Power                 │             11.8 W │
+│ Peak Temp                 │              45 °C │
+│ Avg Temp                  │              45 °C │
+└───────────────────────────┴────────────────────┘
+                                  Détail par Affaire                                  
+┏━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Dossier    ┃ Pièces ┃ Extraction (s) ┃ Total (s) ┃ Débit (p/min) ┃ Fraudes (C/S/U) ┃
+┡━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ affaire_01 │     50 │           18.6 │      18.7 │         160.9 │    - / - / -    │
+│ affaire_02 │     50 │           18.7 │      18.7 │         160.4 │    - / - / -    │
+│ affaire_03 │     50 │           18.3 │      18.3 │         164.0 │    - / - / -    │
+│ affaire_04 │     50 │           18.4 │      18.4 │         163.1 │    - / - / -    │
+│ affaire_05 │     50 │           18.4 │      18.4 │         162.7 │    - / - / -    │
+│ affaire_06 │     50 │           18.6 │      18.6 │         161.2 │    - / - / -    │
+│ affaire_07 │     50 │           18.3 │      18.3 │         163.8 │    - / - / -    │
+│ affaire_08 │     50 │           18.3 │      18.3 │         164.2 │    - / - / -    │
+│ affaire_09 │     50 │           18.3 │      18.3 │         163.8 │    - / - / -    │
+│ affaire_10 │     50 │           18.2 │      18.2 │         164.7 │    - / - / -    │
+└────────────┴────────┴────────────────┴───────────┴───────────────┴─────────────────┘
+✓ Synthèse batch enregistrée dans runs/bench_72b-awq_batch.json
+
+>>> Sauvegarde intermédiaire 72B-AWQ...
+[main 429daa2] feat(bench): matrice 72B-AWQ terminee (50 & 500 pieces)
+ 3 files changed, 1185 insertions(+)
+ create mode 100644 runs/bench_72b-awq.json
+ create mode 100644 runs/bench_72b-awq_batch.json
+ create mode 100644 runs/bench_72b-awq_pieces.json
+To github.com:AdrienSkr/fin-enclave.git
+   a0c36ba..429daa2  main -> main
+
+>>> [3/4] Démarrage vLLM : 7B + PaddleOCR-VL (ensemble)...
+=== Arrêt des instances FinEnclave vLLM ===
+  Arrêt du conteneur finenclave-vllm-t1...
+[OK] Instances vLLM arrêtées.
+=== Profil ensemble : T1=Qwen/Qwen2.5-VL-7B-Instruct, T2=PaddlePaddle/PaddleOCR-VL-1.6 ===
+  Budget GPU vérifié : somme=0.7300 (cap 0.90)
+aa0a04f65299fc330cf1a5e99672ae27443214c06b9341a8f8f3c915f54abd61
+  Attente santé T1-VLM (127.0.0.1:8000, timeout ~20 min)..................................................... — OK
+12616a9ee98629cb5a61859bbb1e97bc1caaa982e018c66b5a99bcb0d6a3612a
+  Attente santé T2-OCR (127.0.0.1:8001, timeout ~20 min)......................................... — OK
+[OK] Profil vLLM « ensemble » lancé (localhost uniquement, air-gap).
+>>> [3/4 - A] Banc 1 : 50 pièces étalon (7B routed avec T2)...
+
+=== BANC D'ESSAI GX10 : profil 7b (routed) ===
+Moteur : routed-vlm-qwen-qwen2-5-vl-7b-instruct-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+doc_type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+doc_type
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 6287 column 707 [type=json_invalid, input_value='{\n\n\n\n\n\n\n  \n\n\n\...t-t-t-t-t-t-t-t-t-t-t-t', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 1420 column 4157 [type=json_invalid, input_value='{\n\n\n\n\n\n\n  \n\n\n\...\be\\be\\be\\be\\be\\be', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 3 column 7896 [type=json_invalid, input_value='{\n\n"````eextractedtran...t-t-t-t-t-t-t-t-t-t-t-t', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 81 column 12106 [type=json_invalid, input_value='{\n\n\n\n\n\n\n\n\n\n\n\...oc    doc    doc    doc', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 49 column 10060 [type=json_invalid, input_value='{\n\n\n\n\n\n\n\n  \n\n\...ocdocdocdocdocdocdocdoc', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 1708 column 3785 [type=json_invalid, input_value='{\n\n\n\n\n\n\n\n\n\n\n\...doc,doc,doc,doc,doc,doc', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 3 column 8497 [type=json_invalid, input_value='{\n\n"fmt stea e ste te ...steP step steP step ste', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 3 column 3404 [type=json_invalid, input_value='{\n\n"````9,9,9,9,9,9,9,...9,9,9,9,9,9,9,9,9,9,9,9', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing an object at line 3029 column 1064 [type=json_invalid, input_value='{\n\n\n\n\n  \n\n  \n  \...                       ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 3 column 13602 [type=json_invalid, input_value='{\n\n"```` stea ste ste ...ste ste ste ste ste ste', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 3 column 13604 [type=json_invalid, input_value='{\n\n"```` q stea ste st...ste ste ste ste ste ste', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 3 column 3581 [type=json_invalid, input_value='{\n\n"`tdefPExtractPextr...p,,p,,p,,p,,p,,p,,p,,p,', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing an object at line 1835 column 1790 [type=json_invalid, input_value='{\n\n\n\n\n\n\n\n\n\n\n\...                       ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 4 column 4840 [type=json_invalid, input_value='{\n\n  \n    " stea tste...( ( ( ( ( ( ( ( ( ( ( (', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a value at line 6257 column 362 [type=json_invalid, input_value='{\n\n\n\n\n\n\n  \n\n\n\...                       ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing an object at line 1760 column 1879 [type=json_invalid, input_value='{\n\n\n\n\n\n\n\n\n\n\n ...                       ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+Page non extraite : Extraction VLM invalide ou indisponible : 1 validation error for DocumentExtraction
+  Invalid JSON: EOF while parsing a string at line 4 column 3377 [type=json_invalid, input_value='{\n\n  \n    ":e, ttdef,...,,,,,,,,,,,,,,,,,,,,,,,', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+            Résultats Mesurés — Profil 7b            
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┓
+┃ Indicateur                     ┃   Valeur Mesurée ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━┩
+│ Dossier                        │ data/demo/pieces │
+│ Pièces traitées                │               50 │
+│ Temps total pipeline           │        1552.13 s │
+│ Temps d'extraction VLM         │        1552.11 s │
+│ Latence moyenne unitaire       │  31.04 s / pièce │
+│ Débit soutenu                  │ 1.9 pièces / min │
+├────────────────────────────────┼──────────────────┤
+│ Échantillons télémétrie        │             1479 │
+│ Peak VRAM                      │       101,153 Mo │
+│ Avg VRAM                       │       100,636 Mo │
+│ Peak Power                     │           84.7 W │
+│ Avg Power                      │           32.2 W │
+│ Peak Temp                      │            75 °C │
+│ Avg Temp                       │            64 °C │
+├────────────────────────────────┼──────────────────┤
+│ Précision / Rappel Entités     │      1.00 / 0.00 │
+│ Précision / Rappel Gouvernance │      1.00 / 0.00 │
+│ Précision / Rappel Virements   │      1.00 / 0.00 │
+└────────────────────────────────┴──────────────────┘
+✓ Mesure enregistrée dans runs/bench_7b_pieces.json
+
+
+>>> [4/4] Exécution du comparateur et génération des livrables (main.py)...
+╭─────────────────────────────────────────────────────────────────────────────────────╮
+│ FINENCLAVE  dossier de pièces → qui détient quoi, qui est au centre, où va l'argent │
+│ Station locale ASUS Ascent GX10 · chaque lien renvoie à sa pièce scellée (SHA-256)  │
+╰─────────────────────────────────────────────────────────────────────────────────────╯
+[1/4] Dossier data/demo/pieces : 50 pièces non triées (20 PDF scannés, 13 photos, 17 images)
+[2/4] Lecture des pièces : rejeu des lectures scellées de RedHatAI/Qwen2.5-VL-72B-Instruct-FP8-dynamic (aucun appel 
+réseau)
+  ✓ 50 pièces lues sur 50 en 0.58 s (50 depuis les extractions en cache, 0 en échec, 0 à relire)
+[3/4] Graphe : 65 entités, 61 liens dont 23 virements (8 238 505 USD) ; 6 variantes de noms fusionnées ; détection en 
+120 ms
+Qui est au centre                                           
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
+┃ Acteur                    ┃ Sociétés ┃ Profil            ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
+│ Willowmere Trading S.A.   │ 12       │ prête-nom présumé │
+│ Mistvale Enterprises Ltd. │ 3        │                   │
+│ Ashcroft Assets S.A.      │ 1        │                   │
+│ Helena Morales            │ 1        │                   │
+│ Mateo Pavlov              │ 1        │                   │
+└───────────────────────────┴──────────┴───────────────────┘
+Derrière le prête-nom : Oskar Lindqvist a une procuration sur Northwind Group S.A., Thornfield Capital Ltd. (PIECE-0004,
+PIECE-0009, PIECE-0026, PIECE-0031)
+Où va l'argent (solde net des flux attestés)                                                                      
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Acteur                      ┃          Reçu ┃        Envoyé ┃   Solde net ┃ Pièces                             ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Oskar Lindqvist             │   386 525 USD │         0 USD │ 386 525 USD │ PIECE-0015, PIECE-0024             │
+│ Stonehaven Investments S.A. │ 2 002 500 USD │ 1 950 757 USD │  51 743 USD │ PIECE-0006, PIECE-0022, PIECE-0037 │
+│ Brightwater Group Corp.     │ 1 949 047 USD │ 1 905 605 USD │  43 441 USD │ PIECE-0006, PIECE-0011, PIECE-0020 │
+│ Willowmere Capital Corp.    │ 1 899 955 USD │ 1 868 336 USD │  31 619 USD │ PIECE-0018, PIECE-0020             │
+│ Redwood Telecom Ltd         │     5 650 USD │         0 USD │   5 650 USD │ PIECE-0011                         │
+│ Northwind Group S.A.        │    55 806 USD │    50 225 USD │   5 581 USD │ PIECE-0015                         │
+└─────────────────────────────┴───────────────┴───────────────┴─────────────┴────────────────────────────────────┘
+Circuit fermé :
+  ????-??-??  Thornfield Capital Limited → Stonehaven Investments S.A.  2 002 500 USD  PIECE-0037
+  ????-??-??  Stonehaven Investments S.A. → Brightwater Group Corp.  1 949 047 USD  PIECE-0006
+  ????-??-??  Brightwater Group Corp. → Willowmere Capital Corp.  1 899 955 USD  PIECE-0020
+  ????-??-??  Willowmere Capital Corp. → Thornfield Capital Limited  1 868 336 USD  PIECE-0018
+Fractionnement : Copperfield Investments Corp. → 6 relais → Northwind Group S.A. (55 806 USD, -1 jours) PIECE-0015, 
+PIECE-0019
+  BLANCHIMENT_CYCLE_FERME — 2 002 500 USD — corroboration OCR 100%
+  FRACTIONNEMENT_SCHTROUMPFAGE — 57 125 USD — corroboration OCR 100%
+  DISSIMULATION_UBO_PRETE_NOM — 386 525 USD — corroboration OCR 100%
+Fiabilité mesurée (vérité terrain du dossier)          
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━┓
+┃ Mesure                         ┃ Précision ┃ Rappel ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━┩
+│ Entités lues                   │      1.00 │   1.00 │
+│ Liens détention / contrôle lus │      1.00 │   1.00 │
+│ Virements lus                  │      1.00 │   1.00 │
+│ Liens du graphe                │      1.00 │   1.00 │
+│ Flux du graphe                 │      1.00 │   1.00 │
+└────────────────────────────────┴───────────┴────────┘
+Scénario caché : circuit oui · fractionnement oui (6/6 relais) · bénéficiaire caché oui
+[4/4] Livrables :
+  ✓ Rapport : data/outputs/investigation/rapport.md
+  ✓ Graphe : data/outputs/investigation/graphe.html
+  ✓ Exports Neo4j / Linkurious / i2 / Gephi : noeuds.csv, aretes.csv, graphe.graphml, import.cypher
+Terminé en 0.7 s, en local.
+
+Comparaison : le même dossier relu par chaque station
+Même dossier, quatre colonnes : qui retrouve le scénario caché ?                                                        
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                          ┃               ┃                         ┃                       ┃  Référence 235B, hors   ┃
+┃                          ┃               ┃                         ┃                       ┃          GX10           ┃
+┃                          ┃ CPU, sans LLM ┃     Petit modèle 8B     ┃      GX10 : 72B       ┃ hors GX10 (ne tient pas ┃
+┃ Mesure                   ┃  tout poste   ┃ RTX 5070 / 5080 (16 Go) ┃ GX10 (128 Go unifiés) ┃       en mémoire)       ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Mémoire des poids        │       —       │      ≈ 8 Go (FP8)       │     ≈ 71 Go (FP8)     │    ≈ 120 Go (4 bits)    │
+├──────────────────────────┼───────────────┼─────────────────────────┼───────────────────────┼─────────────────────────┤
+│ Lecture des pièces (P /  │               │                         │                       │                         │
+│ R)                       │               │                         │                       │                         │
+│   Entités                │  1.00 / 0.89  │       0.99 / 1.00       │      1.00 / 1.00      │       0.86 / 1.00       │
+│   Liens détention /      │  1.00 / 0.88  │       0.98 / 1.00       │      1.00 / 1.00      │       1.00 / 1.00       │
+│ contrôle                 │               │                         │                       │                         │
+│   Virements              │  0.89 / 0.74  │       1.00 / 1.00       │      1.00 / 1.00      │       1.00 / 1.00       │
+│   Virements, devise      │  0.89 / 0.74  │       1.00 / 1.00       │      1.00 / 1.00      │       1.00 / 1.00       │
+│ exacte                   │               │                         │                       │                         │
+│   Pièces illisibles      │       0       │            0            │           0           │            0            │
+├──────────────────────────┼───────────────┼─────────────────────────┼───────────────────────┼─────────────────────────┤
+│ Constats retrouvés       │               │                         │                       │                         │
+│   Circuit fermé          │      non      │           oui           │          oui          │           oui           │
+│   Fractionnement         │      non      │           oui           │          oui          │           oui           │
+│   Bénéficiaire caché     │      oui      │           oui           │          oui          │           oui           │
+└──────────────────────────┴───────────────┴─────────────────────────┴───────────────────────┴─────────────────────────┘
+  ✓ Comparaison : data/outputs/investigation/comparaison.json
+
+>>> Arrêt propre des services vLLM...
+=== Arrêt des instances FinEnclave vLLM ===
+  Arrêt du conteneur finenclave-vllm-t1...
+  Arrêt du conteneur finenclave-vllm-t2...
+[OK] Instances vLLM arrêtées.
+>>> Push final des résultats complets vers GitHub...
+[main 05fd9a3] feat(bench): MATRICE OFFICIELLE COMPLETE ASUS GX10 (72B-FP8, 72B-AWQ, 7B, 50 & 500 pieces)
+ 10 files changed, 179 insertions(+), 69 deletions(-)
+ create mode 100644 data/demo/pieces.extractions/874b56d787d889ae1c6a8c4d_vlm-qwen-qwen2-5-vl-7b-instruct-p3279f0cb.json
+ create mode 100644 data/demo/pieces.extractions/90a6413bb3a32548c5ef8e9f_vlm-qwen-qwen2-5-vl-7b-instruct-p3279f0cb.json
+ create mode 100644 data/demo/pieces.extractions/91d6e028da2f7a08b58f0e2c_vlm-qwen-qwen2-5-vl-7b-instruct-p3279f0cb.json
+ create mode 100644 data/demo/pieces.extractions/b9dff31a5428001f40ee026a_vlm-qwen-qwen2-5-vl-7b-instruct-p3279f0cb.json
+ create mode 100644 data/demo/pieces.extractions/c60e8de14d2f87e345a032e1_vlm-qwen-qwen2-5-vl-7b-instruct-p3279f0cb.json
+ create mode 100644 data/demo/pieces.extractions/dd625d95581cfbc7fcd236cc_vlm-qwen-qwen2-5-vl-7b-instruct-p3279f0cb.json
+To github.com:AdrienSkr/fin-enclave.git
+   429daa2..05fd9a3  main -> main
+==================================================================
+MATRICE COMPLÈTE TERMINÉE AVEC SUCCÈS : Fri Oct 23 02:03:00 UTC 2026
+==================================================================

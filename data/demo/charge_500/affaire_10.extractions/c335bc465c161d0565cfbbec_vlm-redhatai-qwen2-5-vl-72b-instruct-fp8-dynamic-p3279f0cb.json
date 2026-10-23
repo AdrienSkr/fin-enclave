@@ -1,0 +1,42 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Thornfield Investments Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Northwind Trading Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Clara Fujimoto",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Northwind Trading Corp.",
+      "target": "Thornfield Investments Corp.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Clara Fujimoto",
+      "target": "Thornfield Investments Corp.",
+      "role": "beneficial_owner"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,42 @@
+{
+  "doc_type": "power_of_attorney",
+  "entities": [
+    {
+      "name": "Oakridge Enterprises S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Mistvale Management Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Oskar Lindqvist",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Mistvale Management Corp.",
+      "target": "Oakridge Enterprises S.A.",
+      "role": "shareholder"
+    },
+    {
+      "source": "Oskar Lindqvist",
+      "target": "Oakridge Enterprises S.A.",
+      "role": "attorney"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Amberfield Holdings Ltd.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Brightwater Ventures S.A.",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Amberfield Holdings Ltd.",
+  "statement_lines": [
+    {
+      "date": "2014-02-21",
+      "counterparty": "Brightwater Ventures S.A.",
+      "amount": -2276195.02,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,122 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Northwind Enterprises S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Nadia Petrova",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Viktor Haldane",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Northwind Enterprises S.A.",
+  "statement_lines": [
+    {
+      "date": "2014-03-13",
+      "counterparty": "Lena Hartmann",
+      "amount": 9352.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-13",
+      "counterparty": "Tomas Vidal",
+      "amount": 9294.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-14",
+      "counterparty": "Marco Fiore",
+      "amount": 8892.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-14",
+      "counterparty": "Nadia Petrova",
+      "amount": 9261.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-15",
+      "counterparty": "Daniel Moreau",
+      "amount": 9555.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-15",
+      "counterparty": "Pablo Serrano",
+      "amount": 8946.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-17",
+      "counterparty": "Viktor Haldane",
+      "amount": -49770.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "PA12 7724 ****",
+  "bank": "",
+  "period_start": "2014-03-13",
+  "period_end": "2014-03-20",
+  "header_currency": "USD",
+  "opening_balance": 58462.0,
+  "closing_balance": 63992.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T10:55:41.189265+00:00",
+  "timestamp": "2026-10-23T01:08:35.243784+00:00",
   "profile": "72b-fp8",
   "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
   "mode": "batch",
@@ -7,121 +7,121 @@
   "cases_count": 10,
   "total_pieces": 500,
   "hardware": {
-    "available": false,
-    "samples_count": 10543,
-    "peak_vram_mb": 0.0,
-    "avg_vram_mb": 0.0,
-    "peak_power_w": 0.0,
-    "avg_power_w": 0.0,
-    "peak_temp_c": 0.0,
-    "avg_temp_c": 0.0,
-    "memory_total_mb": 0.0,
-    "vram_used_mb_before": 0.0,
-    "vram_used_mb_after": 0.0,
-    "power_w": 0.0,
-    "temperature_c": 0.0
+    "available": true,
+    "samples_count": 15589,
+    "peak_vram_mb": 95173.9,
+    "avg_vram_mb": 93274.8,
+    "peak_power_w": 96.1,
+    "avg_power_w": 40.4,
+    "peak_temp_c": 86.0,
+    "avg_temp_c": 69.3,
+    "memory_total_mb": 124552.0,
+    "vram_used_mb_before": 90432.1,
+    "vram_used_mb_after": 94648.5,
+    "power_w": 96.1,
+    "temperature_c": 86.0
   },
-  "peak_vram_mb": 0.0,
-  "avg_power_w": 0.0,
-  "peak_temp_c": 0.0,
+  "peak_vram_mb": 95173.9,
+  "avg_power_w": 40.4,
+  "peak_temp_c": 86.0,
   "performance": {
-    "total_time_s": 11216.88,
-    "total_extraction_time_s": 11215.83,
-    "latency_s_per_piece": 22.432,
-    "throughput_pieces_per_min": 2.7,
-    "effective_throughput_pieces_per_min": 2.7
+    "total_time_s": 16495.64,
+    "total_extraction_time_s": 16494.13,
+    "latency_s_per_piece": 32.988,
+    "throughput_pieces_per_min": 1.8,
+    "effective_throughput_pieces_per_min": 1.8
   },
   "cases": [
     {
-      "timestamp": "2026-10-21T08:10:50.407821+00:00",
+      "timestamp": "2026-10-22T21:05:31.741021+00:00",
       "profile": "72b-fp8",
       "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
       "mode": "single",
       "dossier": "data/demo/charge_500/affaire_01",
       "n_pieces": 50,
       "hardware": {
-        "available": false,
-        "samples_count": 1254,
-        "peak_vram_mb": 0.0,
-        "avg_vram_mb": 0.0,
-        "peak_power_w": 0.0,
-        "avg_power_w": 0.0,
-        "peak_temp_c": 0.0,
-        "avg_temp_c": 0.0,
-        "memory_total_mb": 0.0,
-        "vram_used_mb_before": 0.0,
-        "vram_used_mb_after": 0.0,
-        "power_w": 0.0,
-        "temperature_c": 0.0
+        "available": true,
+        "samples_count": 1810,
+        "peak_vram_mb": 91589.6,
+        "avg_vram_mb": 91182.0,
+        "peak_power_w": 90.2,
+        "avg_power_w": 40.9,
+        "peak_temp_c": 85.0,
+        "avg_temp_c": 69.6,
+        "memory_total_mb": 124552.0,
+        "vram_used_mb_before": 90432.1,
+        "vram_used_mb_after": 91266.7,
+        "power_w": 90.2,
+        "temperature_c": 85.0
       },
-      "peak_vram_mb": 0.0,
-      "avg_power_w": 0.0,
-      "peak_temp_c": 0.0,
+      "peak_vram_mb": 91589.6,
+      "avg_power_w": 40.9,
+      "peak_temp_c": 85.0,
       "performance": {
-        "total_time_s": 1326.1,
-        "extraction_time_s": 1326.01,
-        "latency_s_per_piece": 26.52,
-        "throughput_pieces_per_min": 2.3,
-        "graph_detection_ms": 83.0
+        "total_time_s": 1912.11,
+        "extraction_time_s": 1911.98,
+        "latency_s_per_piece": 38.24,
+        "throughput_pieces_per_min": 1.6,
+        "graph_detection_ms": 126.0
       },
       "accuracy": {
         "entities": {
           "precision": 1.0,
-          "recall": 0.6423,
-          "f1": 0.7822
+          "recall": 1.0,
+          "f1": 1.0
         },
         "relations": {
           "precision": 1.0,
-          "recall": 0.725,
-          "f1": 0.8406
+          "recall": 1.0,
+          "f1": 1.0
         },
         "transfers": {
           "precision": 1.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "recall": 1.0,
+          "f1": 1.0
         },
-        "circuit_found": false,
-        "smurfing_found": false,
+        "circuit_found": true,
+        "smurfing_found": true,
         "hidden_beneficiary_found": true
       }
     },
     {
-      "timestamp": "2026-10-21T08:29:35.124336+00:00",
+      "timestamp": "2026-10-22T21:26:18.710790+00:00",
       "profile": "72b-fp8",
       "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
       "mode": "single",
       "dossier": "data/demo/charge_500/affaire_02",
       "n_pieces": 50,
       "hardware": {
-        "available": false,
-        "samples_count": 2310,
-        "peak_vram_mb": 0.0,
-        "avg_vram_mb": 0.0,
-        "peak_power_w": 0.0,
-        "avg_power_w": 0.0,
-        "peak_temp_c": 0.0,
-        "avg_temp_c": 0.0,
-        "memory_total_mb": 0.0,
-        "vram_used_mb_before": 0.0,
-        "vram_used_mb_after": 0.0,
-        "power_w": 0.0,
-        "temperature_c": 0.0
+        "available": true,
+        "samples_count": 2993,
+        "peak_vram_mb": 92301.2,
+        "avg_vram_mb": 91357.4,
+        "peak_power_w": 90.3,
+        "avg_power_w": 41.9,
+        "peak_temp_c": 85.0,
+        "avg_temp_c": 70.0,
+        "memory_total_mb": 124552.0,
+        "vram_used_mb_before": 90432.1,
+        "vram_used_mb_after": 91746.7,
+        "power_w": 90.3,
+        "temperature_c": 85.0
       },
-      "peak_vram_mb": 0.0,
-      "avg_power_w": 0.0,
-      "peak_temp_c": 0.0,
+      "peak_vram_mb": 92301.2,
+      "avg_power_w": 41.9,
+      "peak_temp_c": 85.0,
       "performance": {
-        "total_time_s": 1124.71,
-        "extraction_time_s": 1124.59,
-        "latency_s_per_piece": 22.492,
-        "throughput_pieces_per_min": 2.7,
-        "graph_detection_ms": 111.0
+        "total_time_s": 1246.95,
+        "extraction_time_s": 1246.81,
+        "latency_s_per_piece": 24.936,
+        "throughput_pieces_per_min": 2.4,
+        "graph_detection_ms": 136.0
       },
       "accuracy": {
         "entities": {
           "precision": 1.0,
-          "recall": 0.7445,
-          "f1": 0.8536
+          "recall": 1.0,
+          "f1": 1.0
         },
         "relations": {
           "precision": 1.0,
@@ -130,51 +130,51 @@
         },
         "transfers": {
           "precision": 1.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "recall": 1.0,
+          "f1": 1.0
         },
         "circuit_found": false,
-        "smurfing_found": false,
+        "smurfing_found": true,
         "hidden_beneficiary_found": true
       }
     },
     {
-      "timestamp": "2026-10-21T08:49:39.169921+00:00",
+      "timestamp": "2026-10-22T22:04:04.182232+00:00",
       "profile": "72b-fp8",
       "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
       "mode": "single",
       "dossier": "data/demo/charge_500/affaire_03",
       "n_pieces": 50,
       "hardware": {
-        "available": false,
-        "samples_count": 3440,
-        "peak_vram_mb": 0.0,
-        "avg_vram_mb": 0.0,
-        "peak_power_w": 0.0,
-        "avg_power_w": 0.0,
-        "peak_temp_c": 0.0,
-        "avg_temp_c": 0.0,
-        "memory_total_mb": 0.0,
-        "vram_used_mb_before": 0.0,
-        "vram_used_mb_after": 0.0,
-        "power_w": 0.0,
-        "temperature_c": 0.0
+        "available": true,
+        "samples_count": 5136,
+        "peak_vram_mb": 92561.9,
+        "avg_vram_mb": 91724.0,
+        "peak_power_w": 90.3,
+        "avg_power_w": 41.1,
+        "peak_temp_c": 85.0,
+        "avg_temp_c": 69.6,
+        "memory_total_mb": 124552.0,
+        "vram_used_mb_before": 90432.1,
+        "vram_used_mb_after": 92305.5,
+        "power_w": 90.3,
+        "temperature_c": 85.0
       },
-      "peak_vram_mb": 0.0,
-      "avg_power_w": 0.0,
-      "peak_temp_c": 0.0,
+      "peak_vram_mb": 92561.9,
+      "avg_power_w": 41.1,
+      "peak_temp_c": 85.0,
       "performance": {
-        "total_time_s": 1204.04,
-        "extraction_time_s": 1203.93,
-        "latency_s_per_piece": 24.079,
-        "throughput_pieces_per_min": 2.5,
-        "graph_detection_ms": 104.0
+        "total_time_s": 2265.46,
+        "extraction_time_s": 2265.31,
+        "latency_s_per_piece": 45.306,
+        "throughput_pieces_per_min": 1.3,
+        "graph_detection_ms": 152.0
       },
       "accuracy": {
         "entities": {
           "precision": 1.0,
-          "recall": 0.7372,
-          "f1": 0.8487
+          "recall": 0.9489,
+          "f1": 0.9738
         },
         "relations": {
           "precision": 1.0,
@@ -183,8 +183,8 @@
         },
         "transfers": {
           "precision": 1.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "recall": 0.7391,
+          "f1": 0.85
         },
         "circuit_found": false,
         "smurfing_found": false,
@@ -192,42 +192,42 @@
       }
     },
     {
-      "timestamp": "2026-10-21T09:04:11.355464+00:00",
+      "timestamp": "2026-10-22T22:34:07.494319+00:00",
       "profile": "72b-fp8",
       "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
       "mode": "single",
       "dossier": "data/demo/charge_500/affaire_04",
       "n_pieces": 50,
       "hardware": {
-        "available": false,
-        "samples_count": 4261,
-        "peak_vram_mb": 0.0,
-        "avg_vram_mb": 0.0,
-        "peak_power_w": 0.0,
-        "avg_power_w": 0.0,
-        "peak_temp_c": 0.0,
-        "avg_temp_c": 0.0,
-        "memory_total_mb": 0.0,
-        "vram_used_mb_before": 0.0,
-        "vram_used_mb_after": 0.0,
-        "power_w": 0.0,
-        "temperature_c": 0.0
+        "available": true,
+        "samples_count": 6844,
+        "peak_vram_mb": 93089.5,
+        "avg_vram_mb": 91981.4,
+        "peak_power_w": 90.6,
+        "avg_power_w": 41.2,
+        "peak_temp_c": 85.0,
+        "avg_temp_c": 69.6,
+        "memory_total_mb": 124552.0,
+        "vram_used_mb_before": 90432.1,
+        "vram_used_mb_after": 92761.6,
+        "power_w": 90.6,
+        "temperature_c": 85.0
       },
-      "peak_vram_mb": 0.0,
-      "avg_power_w": 0.0,
-      "peak_temp_c": 0.0,
+      "peak_vram_mb": 93089.5,
+      "avg_power_w": 41.2,
+      "peak_temp_c": 85.0,
       "performance": {
-        "total_time_s": 872.16,
-        "extraction_time_s": 872.08,
-        "latency_s_per_piece": 17.442,
-        "throughput_pieces_per_min": 3.4,
-        "graph_detection_ms": 80.0
+        "total_time_s": 1803.28,
+        "extraction_time_s": 1803.16,
+        "latency_s_per_piece": 36.063,
+        "throughput_pieces_per_min": 1.7,
+        "graph_detection_ms": 120.0
       },
       "accuracy": {
         "entities": {
           "precision": 1.0,
-          "recall": 0.7445,
-          "f1": 0.8536
+          "recall": 0.9489,
+          "f1": 0.9738
         },
         "relations": {
           "precision": 1.0,
@@ -236,51 +236,51 @@
         },
         "transfers": {
           "precision": 1.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "recall": 0.7391,
+          "f1": 0.85
         },
-        "circuit_found": false,
+        "circuit_found": true,
         "smurfing_found": false,
         "hidden_beneficiary_found": true
       }
     },
     {
-      "timestamp": "2026-10-21T09:23:32.985951+00:00",
+      "timestamp": "2026-10-22T23:00:13.570811+00:00",
       "profile": "72b-fp8",
       "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
       "mode": "single",
       "dossier": "data/demo/charge_500/affaire_05",
       "n_pieces": 50,
       "hardware": {
-        "available": false,
-        "samples_count": 5352,
-        "peak_vram_mb": 0.0,
-        "avg_vram_mb": 0.0,
-        "peak_power_w": 0.0,
-        "avg_power_w": 0.0,
-        "peak_temp_c": 0.0,
-        "avg_temp_c": 0.0,
-        "memory_total_mb": 0.0,
-        "vram_used_mb_before": 0.0,
-        "vram_used_mb_after": 0.0,
-        "power_w": 0.0,
-        "temperature_c": 0.0
+        "available": true,
+        "samples_count": 8329,
+        "peak_vram_mb": 93993.1,
+        "avg_vram_mb": 92272.7,
+        "peak_power_w": 90.6,
+        "avg_power_w": 41.3,
+        "peak_temp_c": 85.0,
+        "avg_temp_c": 69.6,
+        "memory_total_mb": 124552.0,
+        "vram_used_mb_before": 90432.1,
+        "vram_used_mb_after": 93747.7,
+        "power_w": 90.6,
+        "temperature_c": 85.0
       },
-      "peak_vram_mb": 0.0,
-      "avg_power_w": 0.0,
-      "peak_temp_c": 0.0,
+      "peak_vram_mb": 93993.1,
+      "avg_power_w": 41.3,
+      "peak_temp_c": 85.0,
       "performance": {
-        "total_time_s": 1161.62,
-        "extraction_time_s": 1161.54,
-        "latency_s_per_piece": 23.231,
-        "throughput_pieces_per_min": 2.6,
-        "graph_detection_ms": 80.0
+        "total_time_s": 1566.07,
+        "extraction_time_s": 1565.94,
+        "latency_s_per_piece": 31.319,
+        "throughput_pieces_per_min": 1.9,
+        "graph_detection_ms": 128.0
       },
       "accuracy": {
         "entities": {
           "precision": 1.0,
-          "recall": 0.7445,
-          "f1": 0.8536
+          "recall": 1.0,
+          "f1": 1.0
         },
         "relations": {
           "precision": 1.0,
@@ -289,51 +289,51 @@
         },
         "transfers": {
           "precision": 1.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "recall": 1.0,
+          "f1": 1.0
         },
         "circuit_found": false,
-        "smurfing_found": false,
+        "smurfing_found": true,
         "hidden_beneficiary_found": true
       }
     },
     {
-      "timestamp": "2026-10-21T09:42:44.578863+00:00",
+      "timestamp": "2026-10-22T23:26:47.271054+00:00",
       "profile": "72b-fp8",
       "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
       "mode": "single",
       "dossier": "data/demo/charge_500/affaire_06",
       "n_pieces": 50,
       "hardware": {
-        "available": false,
-        "samples_count": 6433,
-        "peak_vram_mb": 0.0,
-        "avg_vram_mb": 0.0,
-        "peak_power_w": 0.0,
-        "avg_power_w": 0.0,
-        "peak_temp_c": 0.0,
-        "avg_temp_c": 0.0,
-        "memory_total_mb": 0.0,
-        "vram_used_mb_before": 0.0,
-        "vram_used_mb_after": 0.0,
-        "power_w": 0.0,
-        "temperature_c": 0.0
+        "available": true,
+        "samples_count": 9838,
+        "peak_vram_mb": 94294.9,
+        "avg_vram_mb": 92526.7,
+        "peak_power_w": 90.6,
+        "avg_power_w": 41.4,
+        "peak_temp_c": 85.0,
+        "avg_temp_c": 69.7,
+        "memory_total_mb": 124552.0,
+        "vram_used_mb_before": 90432.1,
+        "vram_used_mb_after": 93811.9,
+        "power_w": 90.6,
+        "temperature_c": 85.0
       },
-      "peak_vram_mb": 0.0,
-      "avg_power_w": 0.0,
-      "peak_temp_c": 0.0,
+      "peak_vram_mb": 94294.9,
+      "avg_power_w": 41.4,
+      "peak_temp_c": 85.0,
       "performance": {
-        "total_time_s": 1151.59,
-        "extraction_time_s": 1151.48,
-        "latency_s_per_piece": 23.03,
-        "throughput_pieces_per_min": 2.6,
-        "graph_detection_ms": 101.0
+        "total_time_s": 1593.69,
+        "extraction_time_s": 1593.55,
+        "latency_s_per_piece": 31.871,
+        "throughput_pieces_per_min": 1.9,
+        "graph_detection_ms": 145.0
       },
       "accuracy": {
         "entities": {
           "precision": 1.0,
-          "recall": 0.7445,
-          "f1": 0.8536
+          "recall": 1.0,
+          "f1": 1.0
         },
         "relations": {
           "precision": 1.0,
@@ -342,51 +342,51 @@
         },
         "transfers": {
           "precision": 1.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "recall": 1.0,
+          "f1": 1.0
         },
-        "circuit_found": false,
-        "smurfing_found": false,
+        "circuit_found": true,
+        "smurfing_found": true,
         "hidden_beneficiary_found": true
       }
     },
     {
-      "timestamp": "2026-10-21T09:57:06.289445+00:00",
+      "timestamp": "2026-10-22T23:47:36.767680+00:00",
       "profile": "72b-fp8",
       "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
       "mode": "single",
       "dossier": "data/demo/charge_500/affaire_07",
       "n_pieces": 50,
       "hardware": {
-        "available": false,
-        "samples_count": 7245,
-        "peak_vram_mb": 0.0,
-        "avg_vram_mb": 0.0,
-        "peak_power_w": 0.0,
-        "avg_power_w": 0.0,
-        "peak_temp_c": 0.0,
-        "avg_temp_c": 0.0,
-        "memory_total_mb": 0.0,
-        "vram_used_mb_before": 0.0,
-        "vram_used_mb_after": 0.0,
-        "power_w": 0.0,
-        "temperature_c": 0.0
+        "available": true,
+        "samples_count": 11023,
+        "peak_vram_mb": 94577.6,
+        "avg_vram_mb": 92708.6,
+        "peak_power_w": 90.8,
+        "avg_power_w": 41.7,
+        "peak_temp_c": 85.0,
+        "avg_temp_c": 69.7,
+        "memory_total_mb": 124552.0,
+        "vram_used_mb_before": 90432.1,
+        "vram_used_mb_after": 94255.8,
+        "power_w": 90.8,
+        "temperature_c": 85.0
       },
-      "peak_vram_mb": 0.0,
-      "avg_power_w": 0.0,
-      "peak_temp_c": 0.0,
+      "peak_vram_mb": 94577.6,
+      "avg_power_w": 41.7,
+      "peak_temp_c": 85.0,
       "performance": {
-        "total_time_s": 861.7,
-        "extraction_time_s": 861.63,
-        "latency_s_per_piece": 17.233,
-        "throughput_pieces_per_min": 3.5,
-        "graph_detection_ms": 73.0
+        "total_time_s": 1249.47,
+        "extraction_time_s": 1249.35,
+        "latency_s_per_piece": 24.987,
+        "throughput_pieces_per_min": 2.4,
+        "graph_detection_ms": 116.0
       },
       "accuracy": {
         "entities": {
           "precision": 1.0,
-          "recall": 0.7445,
-          "f1": 0.8536
+          "recall": 1.0,
+          "f1": 1.0
         },
         "relations": {
           "precision": 1.0,
@@ -395,51 +395,51 @@
         },
         "transfers": {
           "precision": 1.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "recall": 1.0,
+          "f1": 1.0
         },
-        "circuit_found": false,
-        "smurfing_found": false,
+        "circuit_found": true,
+        "smurfing_found": true,
         "hidden_beneficiary_found": true
       }
     },
     {
-      "timestamp": "2026-10-21T10:17:37.592523+00:00",
+      "timestamp": "2026-10-23T00:18:09.202643+00:00",
       "profile": "72b-fp8",
       "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
       "mode": "single",
       "dossier": "data/demo/charge_500/affaire_08",
       "n_pieces": 50,
       "hardware": {
-        "available": false,
-        "samples_count": 8400,
-        "peak_vram_mb": 0.0,
-        "avg_vram_mb": 0.0,
-        "peak_power_w": 0.0,
-        "avg_power_w": 0.0,
-        "peak_temp_c": 0.0,
-        "avg_temp_c": 0.0,
-        "memory_total_mb": 0.0,
-        "vram_used_mb_before": 0.0,
-        "vram_used_mb_after": 0.0,
-        "power_w": 0.0,
-        "temperature_c": 0.0
+        "available": true,
+        "samples_count": 12744,
+        "peak_vram_mb": 95149.1,
+        "avg_vram_mb": 92960.9,
+        "peak_power_w": 96.1,
+        "avg_power_w": 41.0,
+        "peak_temp_c": 86.0,
+        "avg_temp_c": 69.5,
+        "memory_total_mb": 124552.0,
+        "vram_used_mb_before": 90432.1,
+        "vram_used_mb_after": 94167.6,
+        "power_w": 96.1,
+        "temperature_c": 86.0
       },
-      "peak_vram_mb": 0.0,
-      "avg_power_w": 0.0,
-      "peak_temp_c": 0.0,
+      "peak_vram_mb": 95149.1,
+      "avg_power_w": 41.0,
+      "peak_temp_c": 86.0,
       "performance": {
-        "total_time_s": 1231.27,
-        "extraction_time_s": 1231.2,
-        "latency_s_per_piece": 24.624,
-        "throughput_pieces_per_min": 2.4,
-        "graph_detection_ms": 78.0
+        "total_time_s": 1832.43,
+        "extraction_time_s": 1832.31,
+        "latency_s_per_piece": 36.646,
+        "throughput_pieces_per_min": 1.6,
+        "graph_detection_ms": 120.0
       },
       "accuracy": {
         "entities": {
           "precision": 1.0,
-          "recall": 0.7445,
-          "f1": 0.8536
+          "recall": 1.0,
+          "f1": 1.0
         },
         "relations": {
           "precision": 1.0,
@@ -448,51 +448,51 @@
         },
         "transfers": {
           "precision": 1.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "recall": 1.0,
+          "f1": 1.0
         },
-        "circuit_found": false,
-        "smurfing_found": false,
+        "circuit_found": true,
+        "smurfing_found": true,
         "hidden_beneficiary_found": true
       }
     },
     {
-      "timestamp": "2026-10-21T10:38:09.062417+00:00",
+      "timestamp": "2026-10-23T00:44:36.556244+00:00",
       "profile": "72b-fp8",
       "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
       "mode": "single",
       "dossier": "data/demo/charge_500/affaire_09",
       "n_pieces": 50,
       "hardware": {
-        "available": false,
-        "samples_count": 9555,
-        "peak_vram_mb": 0.0,
-        "avg_vram_mb": 0.0,
-        "peak_power_w": 0.0,
-        "avg_power_w": 0.0,
-        "peak_temp_c": 0.0,
-        "avg_temp_c": 0.0,
-        "memory_total_mb": 0.0,
-        "vram_used_mb_before": 0.0,
-        "vram_used_mb_after": 0.0,
-        "power_w": 0.0,
-        "temperature_c": 0.0
+        "available": true,
+        "samples_count": 14235,
+        "peak_vram_mb": 95149.1,
+        "avg_vram_mb": 93129.2,
+        "peak_power_w": 96.1,
+        "avg_power_w": 40.6,
+        "peak_temp_c": 86.0,
+        "avg_temp_c": 69.3,
+        "memory_total_mb": 124552.0,
+        "vram_used_mb_before": 90432.1,
+        "vram_used_mb_after": 94826.3,
+        "power_w": 96.1,
+        "temperature_c": 86.0
       },
-      "peak_vram_mb": 0.0,
-      "avg_power_w": 0.0,
-      "peak_temp_c": 0.0,
+      "peak_vram_mb": 95149.1,
+      "avg_power_w": 40.6,
+      "peak_temp_c": 86.0,
       "performance": {
-        "total_time_s": 1231.46,
-        "extraction_time_s": 1231.36,
-        "latency_s_per_piece": 24.627,
-        "throughput_pieces_per_min": 2.4,
-        "graph_detection_ms": 94.0
+        "total_time_s": 1587.33,
+        "extraction_time_s": 1587.19,
+        "latency_s_per_piece": 31.744,
+        "throughput_pieces_per_min": 1.9,
+        "graph_detection_ms": 136.0
       },
       "accuracy": {
         "entities": {
           "precision": 1.0,
-          "recall": 0.7445,
-          "f1": 0.8536
+          "recall": 1.0,
+          "f1": 1.0
         },
         "relations": {
           "precision": 1.0,
@@ -501,51 +501,51 @@
         },
         "transfers": {
           "precision": 1.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "recall": 1.0,
+          "f1": 1.0
         },
-        "circuit_found": false,
-        "smurfing_found": false,
+        "circuit_found": true,
+        "smurfing_found": true,
         "hidden_beneficiary_found": true
       }
     },
     {
-      "timestamp": "2026-10-21T10:55:41.182438+00:00",
+      "timestamp": "2026-10-23T01:08:35.240370+00:00",
       "profile": "72b-fp8",
       "engine": "routed-vlm-redhatai-qwen2-5-vl-72b-instruct-fp8-dynamic-p3279f0cb+table-paddlepaddle-paddleocr-vl-1-6-pa0ea2487",
       "mode": "single",
       "dossier": "data/demo/charge_500/affaire_10",
       "n_pieces": 50,
       "hardware": {
-        "available": false,
-        "samples_count": 10543,
-        "peak_vram_mb": 0.0,
-        "avg_vram_mb": 0.0,
-        "peak_power_w": 0.0,
-        "avg_power_w": 0.0,
-        "peak_temp_c": 0.0,
-        "avg_temp_c": 0.0,
-        "memory_total_mb": 0.0,
-        "vram_used_mb_before": 0.0,
-        "vram_used_mb_after": 0.0,
-        "power_w": 0.0,
-        "temperature_c": 0.0
+        "available": true,
+        "samples_count": 15589,
+        "peak_vram_mb": 95173.9,
+        "avg_vram_mb": 93274.8,
+        "peak_power_w": 96.1,
+        "avg_power_w": 40.4,
+        "peak_temp_c": 86.0,
+        "avg_temp_c": 69.3,
+        "memory_total_mb": 124552.0,
+        "vram_used_mb_before": 90432.1,
+        "vram_used_mb_after": 94648.5,
+        "power_w": 96.1,
+        "temperature_c": 86.0
       },
-      "peak_vram_mb": 0.0,
-      "avg_power_w": 0.0,
-      "peak_temp_c": 0.0,
+      "peak_vram_mb": 95173.9,
+      "avg_power_w": 40.4,
+      "peak_temp_c": 86.0,
       "performance": {
-        "total_time_s": 1052.09,
-        "extraction_time_s": 1052.01,
-        "latency_s_per_piece": 21.04,
-        "throughput_pieces_per_min": 2.9,
-        "graph_detection_ms": 79.0
+        "total_time_s": 1438.68,
+        "extraction_time_s": 1438.53,
+        "latency_s_per_piece": 28.771,
+        "throughput_pieces_per_min": 2.1,
+        "graph_detection_ms": 146.0
       },
       "accuracy": {
         "entities": {
           "precision": 1.0,
-          "recall": 0.7445,
-          "f1": 0.8536
+          "recall": 1.0,
+          "f1": 1.0
         },
         "relations": {
           "precision": 1.0,
@@ -554,11 +554,11 @@
         },
         "transfers": {
           "precision": 1.0,
-          "recall": 0.0,
-          "f1": 0.0
+          "recall": 1.0,
+          "f1": 1.0
         },
         "circuit_found": false,
-        "smurfing_found": false,
+        "smurfing_found": true,
         "hidden_beneficiary_found": true
       }
     }

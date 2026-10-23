@@ -1,0 +1,33 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Thornfield Partners Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Copperfield Trading Limited",
+      "kind": "Societe"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Copperfield Trading Limited",
+      "target": "Thornfield Partners Corp.",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

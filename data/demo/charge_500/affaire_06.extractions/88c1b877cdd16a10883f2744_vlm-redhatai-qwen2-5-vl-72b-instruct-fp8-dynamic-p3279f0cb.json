@@ -1,0 +1,122 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Willowmere Management Corp.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Daniel Moreau",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Sofia Brandt",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Rafael Quintero",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Willowmere Management Corp.",
+  "statement_lines": [
+    {
+      "date": "2014-05-02",
+      "counterparty": "Marco Fiore",
+      "amount": 9421.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-02",
+      "counterparty": "Daniel Moreau",
+      "amount": 9211.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-03",
+      "counterparty": "Tomas Vidal",
+      "amount": 9711.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-03",
+      "counterparty": "Lena Hartmann",
+      "amount": 9072.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-04",
+      "counterparty": "Sofia Brandt",
+      "amount": 8919.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-04",
+      "counterparty": "Irene Kowalski",
+      "amount": 9216.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-05-06",
+      "counterparty": "Rafael Quintero",
+      "amount": -49995.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": "2014-05-02",
+  "period_end": "2014-05-09",
+  "header_currency": "USD",
+  "opening_balance": 43510.0,
+  "closing_balance": 49065.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

@@ -1,0 +1,128 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Cobalt Ventures Inc.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Irene Kowalski",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Marco Fiore",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Tomas Vidal",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Lena Hartmann",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Pablo Serrano",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Nadia Petrova",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Cobalt Ventures Inc.",
+  "statement_lines": [
+    {
+      "date": null,
+      "counterparty": "Opening balance",
+      "amount": 61822.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-22",
+      "counterparty": "Irene Kowalski",
+      "amount": -9650.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-22",
+      "counterparty": "Marco Fiore",
+      "amount": -9300.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-22",
+      "counterparty": "Tomas Vidal",
+      "amount": -9300.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-23",
+      "counterparty": "Lena Hartmann",
+      "amount": -9600.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-23",
+      "counterparty": "Pablo Serrano",
+      "amount": -9275.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": "2014-03-23",
+      "counterparty": "Nadia Petrova",
+      "amount": -9200.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    },
+    {
+      "date": null,
+      "counterparty": "Closing balance",
+      "amount": 5497.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "PA75 3099 ****",
+  "bank": "",
+  "period_start": "2014-03-22",
+  "period_end": "2014-03-26",
+  "header_currency": "USD",
+  "opening_balance": 61822.0,
+  "closing_balance": 5497.0,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

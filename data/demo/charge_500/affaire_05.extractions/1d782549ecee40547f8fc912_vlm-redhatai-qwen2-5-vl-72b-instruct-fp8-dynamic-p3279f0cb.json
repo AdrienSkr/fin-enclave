@@ -1,0 +1,60 @@
+{
+  "doc_type": "register_of_directors",
+  "entities": [
+    {
+      "name": "Thornfield Assets Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Copperfield Trading Limited",
+      "kind": "Societe"
+    },
+    {
+      "name": "Brightwater Holdings S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Stonehaven Partners S.A.",
+      "kind": "Societe"
+    },
+    {
+      "name": "Clara Fujimoto",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [
+    {
+      "source": "Copperfield Trading Limited",
+      "target": "Thornfield Assets Limited",
+      "role": "shareholder"
+    },
+    {
+      "source": "Brightwater Holdings S.A.",
+      "target": "Thornfield Assets Limited",
+      "role": "shareholder"
+    },
+    {
+      "source": "Stonehaven Partners S.A.",
+      "target": "Thornfield Assets Limited",
+      "role": "shareholder"
+    },
+    {
+      "source": "Clara Fujimoto",
+      "target": "Thornfield Assets Limited",
+      "role": "shareholder"
+    }
+  ],
+  "transfers": [],
+  "account_holder": "",
+  "statement_lines": [],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}

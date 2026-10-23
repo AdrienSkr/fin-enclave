@@ -1,0 +1,38 @@
+{
+  "doc_type": "bank_statement",
+  "entities": [
+    {
+      "name": "Mistvale Holdings Corp.",
+      "kind": "PersonnePhysique"
+    },
+    {
+      "name": "Redwood Telecom Ltd",
+      "kind": "PersonnePhysique"
+    }
+  ],
+  "relations": [],
+  "transfers": [],
+  "account_holder": "Mistvale Holdings Corp.",
+  "statement_lines": [
+    {
+      "date": "2014-03-09",
+      "counterparty": "Redwood Telecom Ltd",
+      "amount": -6360.0,
+      "currency": "USD",
+      "balance": null,
+      "description": "",
+      "repair": "",
+      "suspect": ""
+    }
+  ],
+  "account_iban": "",
+  "bank": "",
+  "period_start": null,
+  "period_end": null,
+  "header_currency": "",
+  "opening_balance": null,
+  "closing_balance": null,
+  "balance_reconciled": null,
+  "balance_note": "",
+  "raw_output": ""
+}
